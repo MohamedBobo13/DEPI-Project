@@ -19,8 +19,8 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         [ForeignKey("Course")]
         public int CourseId { get; set; }
         public Course Course { get; set; }
-        public List<Question> Questions { get; set; }
-        public List<ExamResult> ExamResults { get; set; }
+        public ICollection<Question> Questions { get; set; } = new HashSet<Question>();
+        public ICollection<ExamResult> ExamResults { get; set; } = new HashSet<ExamResult>();
 
 
     }

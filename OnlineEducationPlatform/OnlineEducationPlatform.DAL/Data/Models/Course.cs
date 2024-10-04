@@ -18,11 +18,11 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         [ForeignKey("Instructor")]
         public int InstructorId { get; set; }
         public User Instructor { get; set; }
-        public List<Lecture> Lectures { get; set; }
-        public List<Enrollment> Enrollments { get; set; }
-        public List<Quiz> Quizzes { get; set; }
+        public ICollection<Lecture> Lectures { get; set; } = new HashSet<Lecture>();
+        public ICollection<Enrollment> Enrollments { get; set; } = new HashSet<Enrollment>();
+        public ICollection<Quiz> Quizzes { get; set; } = new HashSet<Quiz>();
 
-        public Exam Exam { get; set; }
+        public ICollection<Exam> Exams { get; set; } = new HashSet<Exam>();
 
     }
 }

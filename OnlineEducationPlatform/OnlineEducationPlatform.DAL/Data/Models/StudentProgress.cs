@@ -15,9 +15,13 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public DateTime LastUpdated { get; set; }
         [ForeignKey("Enrollment")]
         public int EnrollmentId { get; set; }
+        [ForeignKey("Course")]
+
+        public int CourseId { get; set; }
+        public Course Course { get; set; }
         public Enrollment Enrollment { get; set; }
-        public List<Lecture> Lectures { get; set; }
-        public List<QuizResult> QuizResults { get; set; }
+        public ICollection<QuizResult> QuizResults { get; set; }=new HashSet<QuizResult>();
+        public ICollection<ExamResult> ExamResults { get; set; }=new HashSet<ExamResult>();
 
 
 

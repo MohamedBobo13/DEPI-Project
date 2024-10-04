@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace OnlineEducationPlatform.DAL.Migrations
 {
     /// <inheritdoc />
-    public partial class CreateDB : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -132,37 +132,22 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     OverallProgress = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     LastUpdated = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    EnrollmentId = table.Column<int>(type: "int", nullable: false)
+                    EnrollmentId = table.Column<int>(type: "int", nullable: false),
+                    CourseId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_StudentProgress", x => x.Id);
                     table.ForeignKey(
+                        name: "FK_StudentProgress_Course_CourseId",
+                        column: x => x.CourseId,
+                        principalTable: "Course",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.NoAction);
+                    table.ForeignKey(
                         name: "FK_StudentProgress_Enrollment_EnrollmentId",
                         column: x => x.EnrollmentId,
                         principalTable: "Enrollment",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "ExamResult",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Score = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    TotalMarks = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    IsPassed = table.Column<bool>(type: "bit", nullable: false),
-                    ExamId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ExamResult", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_ExamResult_Exam_ExamId",
-                        column: x => x.ExamId,
-                        principalTable: "Exam",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.NoAction);
                 });
@@ -239,27 +224,31 @@ namespace OnlineEducationPlatform.DAL.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "LectureStudentProgress",
+                name: "ExamResult",
                 columns: table => new
                 {
-                    LecturesId = table.Column<int>(type: "int", nullable: false),
-                    StudentProgressesId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Score = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    TotalMarks = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    IsPassed = table.Column<bool>(type: "bit", nullable: false),
+                    ExamId = table.Column<int>(type: "int", nullable: false),
+                    StudentProgressId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_LectureStudentProgress", x => new { x.LecturesId, x.StudentProgressesId });
+                    table.PrimaryKey("PK_ExamResult", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_LectureStudentProgress_Lecture_LecturesId",
-                        column: x => x.LecturesId,
-                        principalTable: "Lecture",
+                        name: "FK_ExamResult_Exam_ExamId",
+                        column: x => x.ExamId,
+                        principalTable: "Exam",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.NoAction);
                     table.ForeignKey(
-                        name: "FK_LectureStudentProgress_StudentProgress_StudentProgressesId",
-                        column: x => x.StudentProgressesId,
+                        name: "FK_ExamResult_StudentProgress_StudentProgressId",
+                        column: x => x.StudentProgressId,
                         principalTable: "StudentProgress",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -271,8 +260,8 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     Content = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Marks = table.Column<int>(type: "int", nullable: false),
                     QuestionType = table.Column<int>(type: "int", nullable: false),
-                    QuizId = table.Column<int>(type: "int", nullable: false),
-                    ExamId = table.Column<int>(type: "int", nullable: false)
+                    QuizId = table.Column<int>(type: "int", nullable: true),
+                    ExamId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -281,14 +270,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         name: "FK_Question_Exam_ExamId",
                         column: x => x.ExamId,
                         principalTable: "Exam",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Question_Quiz_QuizId",
                         column: x => x.QuizId,
                         principalTable: "Quiz",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.NoAction);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -413,8 +400,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Exam_CourseId",
                 table: "Exam",
-                column: "CourseId",
-                unique: true);
+                column: "CourseId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_ExamResult_ExamId",
@@ -422,14 +408,14 @@ namespace OnlineEducationPlatform.DAL.Migrations
                 column: "ExamId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_ExamResult_StudentProgressId",
+                table: "ExamResult",
+                column: "StudentProgressId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Lecture_CourseId",
                 table: "Lecture",
                 column: "CourseId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_LectureStudentProgress_StudentProgressesId",
-                table: "LectureStudentProgress",
-                column: "StudentProgressesId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_PdfFile_LectureId",
@@ -467,6 +453,11 @@ namespace OnlineEducationPlatform.DAL.Migrations
                 column: "StudentProgressId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_StudentProgress_CourseId",
+                table: "StudentProgress",
+                column: "CourseId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_StudentProgress_EnrollmentId",
                 table: "StudentProgress",
                 column: "EnrollmentId",
@@ -486,9 +477,6 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
             migrationBuilder.DropTable(
                 name: "ExamResult");
-
-            migrationBuilder.DropTable(
-                name: "LectureStudentProgress");
 
             migrationBuilder.DropTable(
                 name: "PdfFile");

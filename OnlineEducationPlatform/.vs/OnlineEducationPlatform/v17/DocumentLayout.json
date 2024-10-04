@@ -1,29 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DEPI Project\\OnlineEducationPlatform\\",
+  "WorkspaceRootPath": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\migrations\\20241004205354_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\migrations\\20241004205354_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\lecture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\studentprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\studentprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\answerresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\answerresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\examresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\examresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\pdffile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\pdffile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\quiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.api\\onlineeducationplatform.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\onlineeducationplatform.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.bll\\onlineeducationplatform.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\onlineeducationplatform.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\dbhelper\\educationplatformcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\dbhelper\\educationplatformcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\onlineeducationplatform.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\onlineeducationplatform.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\videorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\videorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repositories\\videorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\studentprogressrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\studentprogressrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repositories\\studentprogressrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\quizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\quizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repositories\\quizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\depi-project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repositories\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,85 +114,332 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\User.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\User.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\User.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Program.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Program.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T17:13:10.926Z",
+              "WhenOpened": "2024-10-04T20:57:47.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VideoRepo.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAAA6AAAAAAAAAA==",
+              "Title": "20241004205354_init.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Migrations\\20241004205354_init.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Migrations\\20241004205354_init.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Migrations\\20241004205354_init.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Migrations\\20241004205354_init.cs",
+              "ViewState": "AQIAAGgBAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:47:55.206Z",
+              "WhenOpened": "2024-10-04T20:53:54.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:46:19.764Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\appsettings.json",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\appsettings.json",
+              "RelativeToolTip": "OnlineEducationPlatform.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-04T20:51:29.671Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentProgressRepo.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\Enrollment.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Enrollment.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\Enrollment.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:44:51.112Z",
+              "WhenOpened": "2024-10-03T19:52:42.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\Course.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Course.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\Course.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T19:44:34.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnswerResult.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\AnswerResult.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\AnswerResult.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\AnswerResult.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\AnswerResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:35:25.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Answer.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\Answer.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Answer.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\Answer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:35:12.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentProgress.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\StudentProgress.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\StudentProgress.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\StudentProgress.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\StudentProgress.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T19:52:28.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "QuizResultRepo.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "Title": "Exam.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Exam.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\Exam.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Exam.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\Exam.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:43:17.254Z",
+              "WhenOpened": "2024-10-03T20:00:07.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "ExamResult.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\ExamResult.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\ExamResult.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\ExamResult.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\ExamResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:00:28.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lecture.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Lecture.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\Lecture.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Lecture.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\Lecture.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T19:51:00.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PdfFile.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\PdfFile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\PdfFile.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\PdfFile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\PdfFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:35:43.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\Question.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Question.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\Question.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABgAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:00:43.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Quiz.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Quiz.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\Quiz.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Quiz.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\Quiz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T19:54:30.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuizResult.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\QuizResult.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\QuizResult.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\QuizResult.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\QuizResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T19:53:51.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\User.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\User.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T17:13:10.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Video.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Video.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\Video.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Video.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\Video.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:37:40.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OnlineEducationPlatform.Api",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj",
+              "RelativeToolTip": "OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-03T19:43:38.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OnlineEducationPlatform.BLL.csproj",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-04T20:28:36.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EducationPlatformContext.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T19:43:48.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OnlineEducationPlatform.DAL.csproj",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-03T19:43:42.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VideoRepo.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:47:55.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:46:19.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StudentProgressRepo.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:44:51.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "QuizResultRepo.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T16:43:17.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "QuizRepo.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizRepo.cs",
+              "DocumentMoniker": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizRepo.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\QuizRepo.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizRepo.cs",
+              "ToolTip": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizRepo.cs",
               "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\QuizRepo.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwBYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:42:07.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T16:42:07.691Z"
             }
           ]
         }

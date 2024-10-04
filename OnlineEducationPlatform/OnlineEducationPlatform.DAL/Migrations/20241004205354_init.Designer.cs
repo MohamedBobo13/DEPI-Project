@@ -12,8 +12,8 @@ using OnlineEducationPlatform.DAL.Data.DbHelper;
 namespace OnlineEducationPlatform.DAL.Migrations
 {
     [DbContext(typeof(EducationPlatformContext))]
-    [Migration("20240930165553_CreateDB")]
-    partial class CreateDB
+    [Migration("20241004205354_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,21 +24,6 @@ namespace OnlineEducationPlatform.DAL.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("LectureStudentProgress", b =>
-                {
-                    b.Property<int>("LecturesId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StudentProgressesId")
-                        .HasColumnType("int");
-
-                    b.HasKey("LecturesId", "StudentProgressesId");
-
-                    b.HasIndex("StudentProgressesId");
-
-                    b.ToTable("LectureStudentProgress");
-                });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Answer", b =>
                 {
@@ -190,8 +175,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CourseId")
-                        .IsUnique();
+                    b.HasIndex("CourseId");
 
                     b.ToTable("Exam");
                 });
@@ -213,12 +197,17 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<decimal>("Score")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int?>("StudentProgressId")
+                        .HasColumnType("int");
+
                     b.Property<decimal>("TotalMarks")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("ExamId");
+
+                    b.HasIndex("StudentProgressId");
 
                     b.ToTable("ExamResult");
                 });
@@ -286,7 +275,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ExamId")
+                    b.Property<int?>("ExamId")
                         .HasColumnType("int");
 
                     b.Property<int>("Marks")
@@ -295,7 +284,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<int>("QuestionType")
                         .HasColumnType("int");
 
-                    b.Property<int>("QuizId")
+                    b.Property<int?>("QuizId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -377,6 +366,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
                     b.Property<int>("EnrollmentId")
                         .HasColumnType("int");
 
@@ -387,6 +379,8 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
 
                     b.HasIndex("EnrollmentId")
                         .IsUnique();
@@ -449,21 +443,6 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("LectureId");
 
                     b.ToTable("Video");
-                });
-
-            modelBuilder.Entity("LectureStudentProgress", b =>
-                {
-                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Lecture", null)
-                        .WithMany()
-                        .HasForeignKey("LecturesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", null)
-                        .WithMany()
-                        .HasForeignKey("StudentProgressesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Answer", b =>
@@ -537,8 +516,8 @@ namespace OnlineEducationPlatform.DAL.Migrations
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Exam", b =>
                 {
                     b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Course", "Course")
-                        .WithOne("Exam")
-                        .HasForeignKey("OnlineEducationPlatform.DAL.Data.Models.Exam", "CourseId")
+                        .WithMany("Exams")
+                        .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -552,6 +531,10 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .HasForeignKey("ExamId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", null)
+                        .WithMany("ExamResults")
+                        .HasForeignKey("StudentProgressId");
 
                     b.Navigation("Exam");
                 });
@@ -582,15 +565,11 @@ namespace OnlineEducationPlatform.DAL.Migrations
                 {
                     b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Exam", "Exam")
                         .WithMany("Questions")
-                        .HasForeignKey("ExamId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ExamId");
 
                     b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Quiz", "Quiz")
                         .WithMany("Questions")
-                        .HasForeignKey("QuizId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("QuizId");
 
                     b.Navigation("Exam");
 
@@ -637,11 +616,19 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", b =>
                 {
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Course", "Course")
+                        .WithMany()
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Enrollment", "Enrollment")
                         .WithOne("StudentProgress")
                         .HasForeignKey("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", "EnrollmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Course");
 
                     b.Navigation("Enrollment");
                 });
@@ -666,8 +653,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
                 {
                     b.Navigation("Enrollments");
 
-                    b.Navigation("Exam")
-                        .IsRequired();
+                    b.Navigation("Exams");
 
                     b.Navigation("Lectures");
 
@@ -712,6 +698,8 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", b =>
                 {
+                    b.Navigation("ExamResults");
+
                     b.Navigation("QuizResults");
                 });
 

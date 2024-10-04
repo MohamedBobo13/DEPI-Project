@@ -10,4 +10,10 @@
     <ProjectReference Include="..\OnlineEducationPlatform.DAL\OnlineEducationPlatform.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+    <Folder Include="Manager\" />
+    <Folder Include="AutoMapper\" />
+  </ItemGroup>
+
 </Project>

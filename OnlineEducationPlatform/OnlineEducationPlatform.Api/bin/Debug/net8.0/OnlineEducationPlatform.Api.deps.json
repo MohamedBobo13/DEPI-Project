@@ -904,10 +904,7 @@
           "OnlineEducationPlatform.DAL": "1.0.0"
         },
         "runtime": {
-          "OnlineEducationPlatform.BLL.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "OnlineEducationPlatform.BLL.dll": {}
         }
       },
       "OnlineEducationPlatform.DAL/1.0.0": {
@@ -916,10 +913,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {
-          "OnlineEducationPlatform.DAL.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "OnlineEducationPlatform.DAL.dll": {}
         }
       }
     }

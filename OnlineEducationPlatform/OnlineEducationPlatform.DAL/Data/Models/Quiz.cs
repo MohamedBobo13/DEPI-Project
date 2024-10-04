@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Xml;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections;
 
 namespace OnlineEducationPlatform.DAL.Data.Models
 {
@@ -21,8 +22,8 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public int CourseId { get; set; }
         public Lecture Lecture { get; set; }
         public Course Course { get; set; }
-        public List<QuizResult> QuizResults { get; set; }
-        public List<Question> Questions { get; set; }
+        public ICollection<QuizResult> QuizResults { get; set; } = new HashSet<QuizResult>();
+        public ICollection<Question> Questions { get; set; } = new HashSet<Question>();
 
 
     }

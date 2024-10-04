@@ -19,10 +19,9 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         [ForeignKey("Course")]
         public int CourseId { get; set; }
         public Course Course { get; set; }
-        public List<Quiz> Quizzes { get; set; }
-        public List<StudentProgress> StudentProgresses { get; set; }
-        public List<PdfFile> PdfFiles { get; set; }
-        public List<Video> Videos { get; set; }
+        public ICollection<Quiz> Quizzes { get; set; } = new HashSet<Quiz>();
+        public ICollection<PdfFile> PdfFiles { get; set; } = new HashSet<PdfFile>();
+        public ICollection<Video> Videos { get; set; } = new HashSet<Video>();
 
 
     }
