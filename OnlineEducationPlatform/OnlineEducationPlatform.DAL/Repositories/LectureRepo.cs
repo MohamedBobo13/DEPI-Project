@@ -25,20 +25,31 @@ namespace OnlineEducationPlatform.DAL.Repositories
 
         public Lecture GetById(int id)
         {
-            return _context.Lecture.Find(id);
+            var lecModel = _context.Lecture.Find(id);
+            if (lecModel != null)
+            {
+                return lecModel;
+            }
+            return null;
         }
         public void Add(Lecture lecture)
         {
             _context.Add(lecture);
+            SaveChange();
         }
 
         public void Delete(Lecture lecture)
         {
-            _context.Remove(lecture);
+            var lecModel = _context.Lecture.Find(lecture.Id);
+            if (lecModel != null)
+            {
+                _context.Lecture.Remove(lecModel);
+                SaveChange();
+            }
         }
         public void Update(Lecture lecture)
         {
-
+            SaveChange();
         }
         public void SaveChange()
         {
