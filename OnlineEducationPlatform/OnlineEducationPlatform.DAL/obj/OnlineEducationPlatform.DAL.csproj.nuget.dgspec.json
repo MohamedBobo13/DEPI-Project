@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {}
+    "D:\\Depi project\\DEPI-Project2\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {}
   },
   "projects": {
-    "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
+    "D:\\Depi project\\DEPI-Project2\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+        "projectUniqueName": "D:\\Depi project\\DEPI-Project2\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
         "projectName": "OnlineEducationPlatform.DAL",
-        "projectPath": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+        "projectPath": "D:\\Depi project\\DEPI-Project2\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
         "packagesPath": "C:\\Users\\G5\\.nuget\\packages\\",
-        "outputPath": "D:\\Depi project\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\obj\\",
+        "outputPath": "D:\\Depi project\\DEPI-Project2\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"

@@ -16,8 +16,8 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public DateTime CreatedDate { get; set; }
         public int TotalHours { get; set; }
         [ForeignKey("Instructor")]
-        public int InstructorId { get; set; }
-        public User Instructor { get; set; }
+        public string InstructorId { get; set; }
+        public Instructor Instructor { get; set; }
         public ICollection<Lecture> Lectures { get; set; } = new HashSet<Lecture>();
         public ICollection<Enrollment> Enrollments { get; set; } = new HashSet<Enrollment>();
         public ICollection<Quiz> Quizzes { get; set; } = new HashSet<Quiz>();

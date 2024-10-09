@@ -1,6 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using OnlineEducationPlatform.DAL.Data.DbHelper;
+using OnlineEducationPlatform.DAL.Repositories;
 
 namespace OnlineEducationPlatform.Api
 {
@@ -21,7 +22,7 @@ namespace OnlineEducationPlatform.Api
                 options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
             }
             );
-
+            builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericClass<>) );
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

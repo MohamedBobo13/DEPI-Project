@@ -14,12 +14,12 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public string StudentAnswer { get; set; }
         public decimal MarksAwarded { get; set; }
         [ForeignKey("Student")]
-        public int StudentId { get; set; }
+        public string StudentId { get; set; }
         [ForeignKey("Question")]
         public int QuestionId { get; set; }
         [ForeignKey("Answer")]
         public int AnswerId { get; set; }
-        public User Student { get; set; }
+        public Student Student { get; set; }
         public Question Question { get; set; }
         public Answer Answer { get; set; }
     }

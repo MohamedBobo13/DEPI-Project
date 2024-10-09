@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using OnlineEducationPlatform.DAL.Data.Models;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.DAL.Data.DbHelper
 {
-    public class EducationPlatformContext : DbContext
+    public class EducationPlatformContext : IdentityDbContext<User>
     {
         public EducationPlatformContext(DbContextOptions<EducationPlatformContext> options) : base(options) { }
         
@@ -24,8 +25,16 @@ namespace OnlineEducationPlatform.DAL.Data.DbHelper
         public DbSet<Quiz> Quiz { get; set; }
         public DbSet<StudentProgress> StudentProgress { get; set; }
         public DbSet<User> User { get; set; }
+        public DbSet<Student> Student { get; set; }
+        public DbSet<Instructor> Instructor { get; set; }
+
+
+
+
+
         public DbSet<Video> Video { get; set; }
         public DbSet<QuizResult> QuizResult { get; set; }
 
+
     }
-}
+} 

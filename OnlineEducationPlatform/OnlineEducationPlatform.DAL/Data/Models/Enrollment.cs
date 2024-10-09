@@ -16,17 +16,17 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public DateTime EnrollmentDate { get; set; }
         public EnrollmentStatus Status { get; set; }
         [ForeignKey("Student")]
-        public int StudentId { get; set; }
+        public string StudentId { get; set; }
         [ForeignKey("Course")]
         public int CourseId { get; set; }
-        public User Student { get; set; }
+        public Student Student { get; set; }
         public Course Course { get; set; }
         public StudentProgress StudentProgress { get; set; }
     }
 }
 public enum EnrollmentStatus
 {
-    Active,
-    Completed,
-    Withdrawn
+    enrolled,
+    inprogress,
+    completed
 }
