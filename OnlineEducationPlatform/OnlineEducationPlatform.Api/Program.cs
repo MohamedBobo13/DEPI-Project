@@ -1,5 +1,5 @@
-
 using Microsoft.EntityFrameworkCore;
+using OnlineEducationPlatform.BLL.AutoMapper;
 using OnlineEducationPlatform.DAL.Data.DbHelper;
 
 namespace OnlineEducationPlatform.Api
@@ -21,6 +21,10 @@ namespace OnlineEducationPlatform.Api
                 options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
             }
             );
+            builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerResultMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new QuestionMappingProfile()));
+
 
             var app = builder.Build();
 

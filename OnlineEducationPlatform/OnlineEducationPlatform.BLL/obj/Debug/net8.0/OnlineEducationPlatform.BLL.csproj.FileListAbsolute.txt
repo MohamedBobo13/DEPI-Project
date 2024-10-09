@@ -13,3 +13,4 @@ D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\ne
 D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll
 D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
 D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll
+D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.sourcelink.json

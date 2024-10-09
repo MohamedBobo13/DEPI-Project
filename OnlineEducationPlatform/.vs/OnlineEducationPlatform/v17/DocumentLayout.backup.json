@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\DEPI Project\\OnlineEducationPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\migrations\\20240930165553_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\migrations\\20240930165553_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\videorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repositories\\videorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\answermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repositories\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\iquestionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\iquestionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\studentprogressrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repositories\\studentprogressrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\ianswerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\ianswerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\quizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repositories\\quizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.dal\\repositories\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repositories\\quizrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\depi project\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\ianswermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\ianswermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240930165553_CreateDB.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Migrations\\20240930165553_CreateDB.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Migrations\\20240930165553_CreateDB.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Migrations\\20240930165553_CreateDB.cs*",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Migrations\\20240930165553_CreateDB.cs*",
-              "ViewState": "AgIAACsAAAAAAAAAAADwvzUAAAApAAAAAAAAAA==",
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\Question.cs",
+              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Question.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\Question.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wBYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:55:53.83Z",
+              "WhenOpened": "2024-10-09T05:03:58.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VideoRepo.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\VideoRepo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBcAAAA6AAAAAAAAAA==",
+              "Title": "AnswerManager.cs",
+              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\AnswerManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\AnswerManager.cs",
+              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\AnswerManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\AnswerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:47:55.206Z",
+              "WhenOpened": "2024-10-09T05:01:47.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserRepo.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\UserRepo.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Title": "IQuestionManager.cs",
+              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\IQuestionManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\IQuestionManager.cs",
+              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\IQuestionManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\IQuestionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:46:19.764Z",
+              "WhenOpened": "2024-10-09T05:00:53.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StudentProgressRepo.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\StudentProgressRepo.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "IAnswerResultManager.cs",
+              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\IAnswerResultManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\IAnswerResultManager.cs",
+              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\IAnswerResultManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\IAnswerResultManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:44:51.112Z",
+              "WhenOpened": "2024-10-09T05:00:21.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "QuizResultRepo.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\QuizResultRepo.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "Title": "IAnswerManager.cs",
+              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\IAnswerManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\IAnswerManager.cs",
+              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\IAnswerManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\IAnswerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:43:17.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QuizRepo.cs",
-              "DocumentMoniker": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repositories\\QuizRepo.cs",
-              "ToolTip": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repositories\\QuizRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repositories\\QuizRepo.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:42:07.691Z",
+              "WhenOpened": "2024-10-09T04:59:29.933Z",
               "EditorCaption": ""
             }
           ]

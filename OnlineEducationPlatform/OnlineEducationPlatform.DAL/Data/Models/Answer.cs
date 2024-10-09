@@ -16,7 +16,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         [ForeignKey("Question")]
         public int QuestionId { get; set; }
         public Question Question { get; set; }
-        public List<AnswerResult> AnswerResults { get; set; }
+        public ICollection<AnswerResult> AnswerResults { get; set; } = new HashSet<AnswerResult>();
     }
 }
 

@@ -12,3 +12,4 @@ D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\ne
 D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
 D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.genruntimeconfig.cache
 D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\ref\OnlineEducationPlatform.DAL.dll
+D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.sourcelink.json
