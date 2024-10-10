@@ -16,9 +16,9 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public int Marks { get; set; }
         public QuestionType QuestionType { get; set; }
         [ForeignKey("Quiz")]
-        public int QuizId { get; set; }
+        public int? QuizId { get; set; }
         [ForeignKey("Exam")]
-        public int ExamId { get; set; }
+        public int? ExamId { get; set; }
         public Exam Exam { get; set; }
         public Quiz Quiz { get; set; }
         public ICollection<Answer> Answers { get; set; } = new HashSet<Answer>();

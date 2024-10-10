@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using OnlineEducationPlatform.BLL.AutoMapper;
+using OnlineEducationPlatform.BLL.Manager;
 using OnlineEducationPlatform.DAL.Data.DbHelper;
+using OnlineEducationPlatform.DAL.Repositories;
 
 namespace OnlineEducationPlatform.Api
 {
@@ -24,6 +26,13 @@ namespace OnlineEducationPlatform.Api
             builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerResultMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new QuestionMappingProfile()));
+
+            builder.Services.AddScoped<IAnswerRepo, AnswerRepo>();
+            builder.Services.AddScoped<IAnswerResultRepo, AnswerResultRepo>();
+            builder.Services.AddScoped<IQuestionRepo, QuestionRepo>();
+            builder.Services.AddScoped<IAnswerManager, AnswerManager>();
+            builder.Services.AddScoped<IAnswerResultManager, AnswerResultManager>();
+            builder.Services.AddScoped<IQuestionManager, QuestionManager>();
 
 
             var app = builder.Build();

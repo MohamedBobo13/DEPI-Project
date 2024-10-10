@@ -1,1 +1,239 @@
-[]
+[
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswerResultsController",
+    "Method": "GetAll",
+    "RelativePath": "api/AnswerResults",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswerResultsController",
+    "Method": "Add",
+    "RelativePath": "api/AnswerResults",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "answerResultAddDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.AnswerResultAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswerResultsController",
+    "Method": "Delete",
+    "RelativePath": "api/AnswerResults",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswerResultsController",
+    "Method": "GetById",
+    "RelativePath": "api/AnswerResults/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswerResultsController",
+    "Method": "Update",
+    "RelativePath": "api/AnswerResults/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "answerResultUpdateDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.AnswerResultUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Answers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswersController",
+    "Method": "Add",
+    "RelativePath": "api/Answers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "answerAddDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.AnswerAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswersController",
+    "Method": "Delete",
+    "RelativePath": "api/Answers",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswersController",
+    "Method": "GetById",
+    "RelativePath": "api/Answers/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswersController",
+    "Method": "Update",
+    "RelativePath": "api/Answers/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "answerUpdateDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.AnswerUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "Add",
+    "RelativePath": "api/Questions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionAddDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.QuestionAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "Delete",
+    "RelativePath": "api/Questions",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "GetById",
+    "RelativePath": "api/Questions/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "Update",
+    "RelativePath": "api/Questions/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionUpdateDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.QuestionUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
