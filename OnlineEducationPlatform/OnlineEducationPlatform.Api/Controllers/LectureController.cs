@@ -32,7 +32,7 @@ namespace OnlineEducationPlatform.Api.Controllers
         public IActionResult RemoveLecture(int id)
         {
             _lectureManager.Delete(id);
-            return StatusCode(204);
+            return Ok();    
         }
         [HttpPost]
         public IActionResult AddLecture(LectureAddDto lectureAddDto)
@@ -44,7 +44,7 @@ namespace OnlineEducationPlatform.Api.Controllers
         public IActionResult UpdateLecture(LectureUpdateDto lectureUpdateDto)
         {
             _lectureManager.Update(lectureUpdateDto);
-            return StatusCode(204);
+            return Ok();
         }
     }
 }

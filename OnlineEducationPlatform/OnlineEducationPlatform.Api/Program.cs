@@ -26,10 +26,16 @@ namespace OnlineEducationPlatform.Api
             );
             builder.Services.AddAutoMapper(map => map.AddProfile(new LectureMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new PdfFileMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new VedioMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new CourseMappingProfile()));
             builder.Services.AddScoped<ILectureRepo, LectureRepo>();
             builder.Services.AddScoped<ILectureManager, LectureManager>();
             builder.Services.AddScoped<IPdfFileRepo, PdfFileRepo>();
             builder.Services.AddScoped<IPdfFileManager, PdfFileManager>();
+            builder.Services.AddScoped<IVedioRepo, VedioRepo>();
+            builder.Services.AddScoped<IVedioManager, VedioManager>();
+            builder.Services.AddScoped<ICourseRepo, CourseRepo>();
+            builder.Services.AddScoped<ICourseManager, CourseManager>();
 
             var app = builder.Build();
 
