@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.DAL.Data.DbHelper
 {
-    public class EducationPlatformContext : IdentityDbContext<User>
+    public class EducationPlatformContext : IdentityDbContext<ApplicationUser>
     {
         public EducationPlatformContext(DbContextOptions<EducationPlatformContext> options) : base(options) { }
         
@@ -23,8 +23,8 @@ namespace OnlineEducationPlatform.DAL.Data.DbHelper
         public DbSet<PdfFile> PdfFile { get; set; }
         public DbSet<Question> Question { get; set; }
         public DbSet<Quiz> Quiz { get; set; }
-        public DbSet<StudentProgress> StudentProgress { get; set; }
-        public DbSet<User> User { get; set; }
+        
+        public DbSet<ApplicationUser> User { get; set; }
         public DbSet<Student> Student { get; set; }
         public DbSet<Instructor> Instructor { get; set; }
 

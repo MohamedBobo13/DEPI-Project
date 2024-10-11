@@ -26,6 +26,8 @@ namespace OnlineEducationPlatform.Api
             );
             builder.Services.AddScoped<Irepo, repo>();
             builder.Services.AddScoped<IenrollmentManager, EnrollmentManager>();
+            builder.Services.AddScoped<IQuizResultManager, QuizResultManager>();
+
 
 
             // builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericClass<>) );

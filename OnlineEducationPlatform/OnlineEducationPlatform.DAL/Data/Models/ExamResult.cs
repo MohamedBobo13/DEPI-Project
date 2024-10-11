@@ -16,7 +16,12 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public bool IsPassed { get; set; }
         [ForeignKey("Exam")]
         public int ExamId { get; set; }
+        [ForeignKey("Student")]
+
+        public string StudentId { get; set; }
+
         public Exam Exam { get; set; }
+        public Student student { get; set; }
 
     }
 }

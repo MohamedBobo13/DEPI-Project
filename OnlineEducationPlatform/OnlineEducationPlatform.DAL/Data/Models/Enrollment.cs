@@ -21,7 +21,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public int CourseId { get; set; }
         public Student Student { get; set; }
         public Course Course { get; set; }
-        public StudentProgress StudentProgress { get; set; }
+    
     }
 }
 public enum EnrollmentStatus

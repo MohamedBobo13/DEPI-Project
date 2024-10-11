@@ -216,6 +216,86 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.ToTable("AnswerResult");
                 });
 
+            modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.ApplicationUser", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(21)
+                        .HasColumnType("nvarchar(21)");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<int>("UserType")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasDiscriminator().HasValue("ApplicationUser");
+
+                    b.UseTphMappingStrategy();
+                });
+
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Course", b =>
                 {
                     b.Property<int>("Id")
@@ -330,8 +410,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<decimal>("Score")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("StudentProgressId")
-                        .HasColumnType("int");
+                    b.Property<string>("StudentId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<decimal>("TotalMarks")
                         .HasColumnType("decimal(18,2)");
@@ -340,7 +421,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("ExamId");
 
-                    b.HasIndex("StudentProgressId");
+                    b.HasIndex("StudentId");
 
                     b.ToTable("ExamResult");
                 });
@@ -476,8 +557,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<decimal>("Score")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("StudentProgressId")
-                        .HasColumnType("int");
+                    b.Property<string>("StudentId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<decimal>("TotalMarks")
                         .HasColumnType("decimal(18,2)");
@@ -486,127 +568,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("QuizId");
 
-                    b.HasIndex("StudentProgressId");
+                    b.HasIndex("StudentId");
 
                     b.ToTable("QuizResult");
-                });
-
-            modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CourseId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("EnrollmentId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("LastUpdated")
-                        .HasColumnType("datetime2");
-
-                    b.Property<decimal>("OverallProgress")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CourseId");
-
-                    b.HasIndex("EnrollmentId")
-                        .IsUnique();
-
-                    b.ToTable("StudentProgress");
-                });
-
-            modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.User", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("AccessFailedCount")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .IsConcurrencyToken()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasMaxLength(13)
-                        .HasColumnType("nvarchar(13)");
-
-                    b.Property<string>("Email")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<bool>("EmailConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("LockoutEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTimeOffset?>("LockoutEnd")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("NormalizedEmail")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("NormalizedUserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("PasswordHash")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("PhoneNumberConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("SecurityStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("TwoFactorEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("Type")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NormalizedEmail")
-                        .HasDatabaseName("EmailIndex");
-
-                    b.HasIndex("NormalizedUserName")
-                        .IsUnique()
-                        .HasDatabaseName("UserNameIndex")
-                        .HasFilter("[NormalizedUserName] IS NOT NULL");
-
-                    b.ToTable("AspNetUsers", (string)null);
-
-                    b.HasDiscriminator().HasValue("User");
-
-                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Video", b =>
@@ -637,17 +601,14 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Instructor", b =>
                 {
-                    b.HasBaseType("OnlineEducationPlatform.DAL.Data.Models.User");
-
-                    b.Property<bool>("isapproved")
-                        .HasColumnType("bit");
+                    b.HasBaseType("OnlineEducationPlatform.DAL.Data.Models.ApplicationUser");
 
                     b.HasDiscriminator().HasValue("Instructor");
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Student", b =>
                 {
-                    b.HasBaseType("OnlineEducationPlatform.DAL.Data.Models.User");
+                    b.HasBaseType("OnlineEducationPlatform.DAL.Data.Models.ApplicationUser");
 
                     b.HasDiscriminator().HasValue("Student");
                 });
@@ -663,7 +624,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.User", null)
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -672,7 +633,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.User", null)
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -687,7 +648,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.User", null)
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -696,7 +657,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.User", null)
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -790,11 +751,15 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", null)
-                        .WithMany("ExamResults")
-                        .HasForeignKey("StudentProgressId");
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Student", "student")
+                        .WithMany("examResults")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Exam");
+
+                    b.Navigation("student");
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Lecture", b =>
@@ -861,34 +826,15 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", "StudentProgress")
-                        .WithMany("QuizResults")
-                        .HasForeignKey("StudentProgressId")
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Student", "student")
+                        .WithMany("quizResults")
+                        .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Quiz");
 
-                    b.Navigation("StudentProgress");
-                });
-
-            modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", b =>
-                {
-                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Course", "Course")
-                        .WithMany()
-                        .HasForeignKey("CourseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Enrollment", "Enrollment")
-                        .WithOne("StudentProgress")
-                        .HasForeignKey("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", "EnrollmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Course");
-
-                    b.Navigation("Enrollment");
+                    b.Navigation("student");
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Video", b =>
@@ -916,12 +862,6 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Navigation("Lectures");
 
                     b.Navigation("Quizzes");
-                });
-
-            modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Enrollment", b =>
-                {
-                    b.Navigation("StudentProgress")
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Exam", b =>
@@ -954,13 +894,6 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Navigation("QuizResults");
                 });
 
-            modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", b =>
-                {
-                    b.Navigation("ExamResults");
-
-                    b.Navigation("QuizResults");
-                });
-
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Instructor", b =>
                 {
                     b.Navigation("Courses");
@@ -971,6 +904,10 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Navigation("AnswerResults");
 
                     b.Navigation("Enrollments");
+
+                    b.Navigation("examResults");
+
+                    b.Navigation("quizResults");
                 });
 #pragma warning restore 612, 618
         }

@@ -20,10 +20,7 @@ namespace OnlineEducationPlatform.DAL.Repo
         
 
        
-        // Get all enrollments
-     
-
-        // Get enrollment by ID
+        
      
 
         // Get enrollments by student ID
@@ -51,15 +48,12 @@ namespace OnlineEducationPlatform.DAL.Repo
            // await _context.SaveChangesAsync();
         }
 
-        // Update enrollment
-      
-
-        // Delete enrollment
+        
      
 
         public async Task<bool> StudentExistsAsync(string studentId)
         {
-            return await _context.User.AnyAsync(U=>U.Id == studentId && U.Type==UserType.Student);
+            return await _context.User.AnyAsync(U=>U.Id == studentId && U.UserType==TypeUser.Student);
         }
 
         public async Task<bool> CourseExistsAsync(int CourseId)
@@ -93,5 +87,24 @@ namespace OnlineEducationPlatform.DAL.Repo
 
         }
 
+        public async Task<QuizResult> GetQuizResultForStudentAsync(string studentId, int quizId)
+        {
+
+            return  await _context.QuizResult
+                .FirstOrDefaultAsync(qr => qr.StudentId == studentId && qr.QuizId == quizId);
+           
+            
+        }
+        public async Task<bool> quizExistsAsync(int QuizId)
+        {
+            return await _context.Quiz.AnyAsync(c => c.Id == QuizId);
+        }
+        public async Task<bool> quizresultExistsAsync(string studentId, int quizid)
+        {
+            return await _context.QuizResult
+                .AnyAsync(e => e.StudentId == studentId && e.QuizId == quizid);
+        }
+
+        
     }
 }

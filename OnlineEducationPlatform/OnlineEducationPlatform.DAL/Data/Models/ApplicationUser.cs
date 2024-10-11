@@ -11,42 +11,42 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OnlineEducationPlatform.DAL.Data.Models
 {
-    public class User :IdentityUser
+    public class ApplicationUser :IdentityUser
     {
 
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+       
 
-        public UserType Type { get; set; }
+        public TypeUser UserType { get; set; }
         public DateTime CreatedDate { get; set; }
        
      
     }
 
-    public class Student : User
+    public class Student : ApplicationUser
     {
         public ICollection<Enrollment> Enrollments { get; set; } = new HashSet<Enrollment>();
         public ICollection<AnswerResult> AnswerResults { get; set; } = new HashSet<AnswerResult>();
 
+        public ICollection<QuizResult> quizResults { get; set; } = new HashSet<QuizResult>();
+        public ICollection<ExamResult> examResults { get; set; } = new HashSet<ExamResult>();
 
 
 
 
     }
-    public class Instructor : User
+    public class Instructor : ApplicationUser
     {
-        public bool isapproved { get; set; } = false; 
-            
+       
             
         public ICollection<Course> Courses { get; set; } = new HashSet<Course>();
 
 
     }
-
+    public class Admin : ApplicationUser { }
 
 }
 
-public enum UserType
+public enum TypeUser
 {
     Admin=1,
     Instructor=2,

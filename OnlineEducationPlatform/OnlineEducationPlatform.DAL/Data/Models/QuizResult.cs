@@ -15,9 +15,12 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public decimal TotalMarks { get; set; }
         [ForeignKey("Quiz")]
         public int QuizId { get; set; }
-        [ForeignKey("StudentProgress")]
-        public int StudentProgressId { get; set; }
-        public StudentProgress StudentProgress { get; set; }
+        [ForeignKey("Student")]
+
+        public string StudentId { get; set; }
+
+        public Student student { get; set; }
+
         public Quiz Quiz { get; set; }
     }
 }

@@ -56,3 +56,18 @@ D:\Pull amr branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug
 D:\Pull amr branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
 D:\Pull amr branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.genruntimeconfig.cache
 D:\Pull amr branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\ref\OnlineEducationPlatform.DAL.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.deps.json
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.runtimeconfig.json
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.csproj.AssemblyReference.cache
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.AssemblyInfoInputs.cache
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.AssemblyInfo.cs
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.csproj.CoreCompileInputs.cache
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.sourcelink.json
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\refint\OnlineEducationPlatform.DAL.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.genruntimeconfig.cache
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\ref\OnlineEducationPlatform.DAL.dll

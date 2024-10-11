@@ -60,3 +60,19 @@ D:\Pull amr branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug
 D:\Pull amr branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll
 D:\Pull amr branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
 D:\Pull amr branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.deps.json
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.AssemblyReference.cache
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfoInputs.cache
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfo.cs
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.CoreCompileInputs.cache
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.sourcelink.json
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEd.3B35E1B4.Up2Date
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll

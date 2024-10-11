@@ -21,7 +21,14 @@ namespace OnlineEducationPlatform.DAL.Repo
         Task<bool> CourseExistsAsync(int CourseId);
         Task<bool> EnrollmentExistsAsync(string studentId, int courseId);
         Task<bool> CompleteAsync();
-      
+
+
+        Task<bool> quizresultExistsAsync(string studentId, int quizid);
+
+        Task<bool> quizExistsAsync(int quizId);
+        Task<QuizResult> GetQuizResultForStudentAsync(string studentId, int quizId);
+
+
 
 
     }
