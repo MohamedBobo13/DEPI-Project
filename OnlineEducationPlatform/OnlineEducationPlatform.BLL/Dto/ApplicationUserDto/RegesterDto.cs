@@ -33,4 +33,5 @@ namespace OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto
 
 
     }
+    
 }

@@ -719,3 +719,4 @@ D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.genruntimeconfig.cache
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\ref\OnlineEducationPlatform.Api.dll
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
