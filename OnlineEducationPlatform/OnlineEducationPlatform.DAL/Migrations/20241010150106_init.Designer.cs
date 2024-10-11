@@ -12,7 +12,7 @@ using OnlineEducationPlatform.DAL.Data.DbHelper;
 namespace OnlineEducationPlatform.DAL.Migrations
 {
     [DbContext(typeof(EducationPlatformContext))]
-    [Migration("20241005205905_init")]
+    [Migration("20241010150106_init")]
     partial class init
     {
         /// <inheritdoc />

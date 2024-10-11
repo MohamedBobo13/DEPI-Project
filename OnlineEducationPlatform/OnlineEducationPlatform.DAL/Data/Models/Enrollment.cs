@@ -13,7 +13,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
     public class Enrollment
     {
         public int Id { get; set; }
-        public DateTime EnrollmentDate { get; set; }
+        public DateTime EnrollmentDate { get; set; }= DateTime.Now;
         public EnrollmentStatus Status { get; set; }
         [ForeignKey("Student")]
         public string StudentId { get; set; }
@@ -26,7 +26,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
 }
 public enum EnrollmentStatus
 {
-    enrolled,
-    inprogress,
-    completed
+    Enrolled,
+    Inprogress,
+    Completed
 }
