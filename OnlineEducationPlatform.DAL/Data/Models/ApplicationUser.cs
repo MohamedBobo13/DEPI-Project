@@ -27,8 +27,8 @@ namespace OnlineEducationPlatform.DAL.Data.Models
     }
     public class Instructor : ApplicationUser
     {
-      
-       public ICollection<Course> Courses { get; set; } = new HashSet<Course>();
+        public bool IsApproved { get; set; } = false;
+        public ICollection<Course> Courses { get; set; } = new HashSet<Course>();
 
     }
     public class Admin : ApplicationUser { }

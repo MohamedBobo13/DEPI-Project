@@ -16,6 +16,7 @@ namespace OnlineEducationPlatform.DAL.Data.DbHelper
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<Student> students { get; set; }
         public DbSet<Instructor> instructors { get; set; }
+        public DbSet<Admin> Admins { get; set; }
         public DbSet<Answer> Answer { get; set; }
         public DbSet<AnswerResult> AnswerResult { get; set; }
         public DbSet<Course> Course { get; set; }

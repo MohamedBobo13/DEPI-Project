@@ -28,40 +28,44 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             this.configuration=configuration;
         }
 
-        public async Task<AuthModel> Register(RegesterDto regesterDto)
+        public async Task<AuthModel> AdminRegister(RegesterAdminDto regesterAdminDto)
         {
-            //make sure email amd name is not in db
 
-            if (await UserManager.FindByEmailAsync(regesterDto.Email) is not null)
+            if (await UserManager.FindByEmailAsync(regesterAdminDto.Email) is not null)
             {
                 return new AuthModel { message = "Email is already registered!" };
             }
-            if (await UserManager.FindByNameAsync(regesterDto.UserName) is not null)
+            if (await UserManager.FindByNameAsync(regesterAdminDto.UserName) is not null)
             {
                 return new AuthModel { message = "Name is already registered!" };
             }
-
+            
             ApplicationUser user=null;
 
-            if (regesterDto.UserType == TypeUser.Student)
+            if (regesterAdminDto.UserType == TypeUser.Student)
             {
                 user = new Student();
             }
-            else if (regesterDto.UserType == TypeUser.Instructor)
+            else if (regesterAdminDto.UserType == TypeUser.Instructor)
             {
                 user = new Instructor();
             }
-            else if(regesterDto.UserType == TypeUser.Admin)
+            else if(regesterAdminDto.UserType == TypeUser.Admin)
             {
-                user =new Admin();
+                
+                user = new Admin();
+            }
+            else
+            {
+                return new AuthModel { message = "Please Enter Your Role Correct!" };
             }
 
-            user.Email = regesterDto.Email;
-            user.UserName =regesterDto.UserName;
-            user.PhoneNumber=regesterDto.PhoneNumber;
-            user.UserType=regesterDto.UserType;
+            user.Email = regesterAdminDto.Email;
+            user.UserName =regesterAdminDto.UserName;
+            user.PhoneNumber=regesterAdminDto.PhoneNumber;
+            user.UserType=regesterAdminDto.UserType;
 
-            IdentityResult identityResult = await UserManager.CreateAsync(user, regesterDto.Password);//save in db and hashing password
+            IdentityResult identityResult = await UserManager.CreateAsync(user, regesterAdminDto.Password);//save in db and hashing password
 
             if (!identityResult.Succeeded)
             {
@@ -74,11 +78,11 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             }
 
             var JwtSecurityToken = await CreateJwtToken(user);
-            if (regesterDto.UserType == TypeUser.Student)
+            if (regesterAdminDto.UserType == TypeUser.Student)
             {
                 await UserManager.AddToRoleAsync(user, "STUDENT"); ;
             }
-            else if (regesterDto.UserType == TypeUser.Instructor)
+            else if (regesterAdminDto.UserType == TypeUser.Instructor)
             {
                 await UserManager.AddToRoleAsync(user, "INSTRUCTOR"); ;
             }
@@ -91,11 +95,66 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             {
                 Email=user.Email,
                 ExpairationDate=JwtSecurityToken.ValidTo,
-                IsAuthenticated=true,//if has creation in db
+                IsAuthenticated=true,
                 Token=new JwtSecurityTokenHandler().WriteToken(JwtSecurityToken),
                 UserName=user.UserName,
                 
             };
+        }
+        public async Task<AuthModel> StudentRegister(RegesterStudentDto regesterStudentDto)
+        {
+            if (await UserManager.FindByEmailAsync(regesterStudentDto.Email) is not null)
+            {
+                return new AuthModel { message = "Email is already registered!" };
+            }
+            if (await UserManager.FindByNameAsync(regesterStudentDto.UserName) is not null)
+            {
+                return new AuthModel { message = "Name is already registered!" };
+            }
+            //if (regesterDto.UserType==TypeUser.Admin)
+            //{
+            //    return new AuthModel { message="Action denied: The super admin has not authorized the creation of an admin account!" };
+            //}
+            //if (regesterDto.UserType == TypeUser.Instructor)
+            //{
+            //    return new AuthModel { message="Action denied: The super admin has not authorized the creation of an instructor account!" };
+            //}
+
+
+
+            ApplicationUser user = new Student();
+            user.Email = regesterStudentDto.Email;
+            user.UserName =regesterStudentDto.UserName;
+            user.PhoneNumber=regesterStudentDto.PhoneNumber;
+
+            IdentityResult identityResult = await UserManager.CreateAsync(user, regesterStudentDto.Password);//save in db and hashing password
+
+            if (!identityResult.Succeeded)
+            {
+                var Errors = string.Empty;
+                foreach (var error in identityResult.Errors)
+                {
+                    Errors+=$"{error.Description},";
+                }
+                return new AuthModel { message = Errors };
+            }
+
+            var JwtSecurityToken = await CreateJwtToken(user);
+            //if (regesterDto.UserType == TypeUser.Student)
+            //{
+            //    await UserManager.AddToRoleAsync(user, "STUDENT"); ;
+            //}
+            
+
+            return new AuthModel
+            {
+                Email=user.Email,
+                ExpairationDate=JwtSecurityToken.ValidTo,
+                IsAuthenticated=true,
+                Token=new JwtSecurityTokenHandler().WriteToken(JwtSecurityToken),
+                UserName=user.UserName,
+            };
+
         }
 
 
@@ -124,7 +183,9 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             return auth;
 
         }
-       
+
+        
+
         private async Task<JwtSecurityToken> CreateJwtToken(ApplicationUser user)
         {
             var UserClaims = await UserManager.GetClaimsAsync(user);

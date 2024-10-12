@@ -42,10 +42,10 @@ namespace OnlineEducationPlatform.DAL.Repositories
                 _dbSet.Remove(entity);
             }
         }
-       
+
         public void Update(T entity)
         {
-           
+
         }
 
         public void SaveChange()
@@ -53,6 +53,6 @@ namespace OnlineEducationPlatform.DAL.Repositories
             _Context.SaveChanges();
         }
 
-       
+
     }
 }

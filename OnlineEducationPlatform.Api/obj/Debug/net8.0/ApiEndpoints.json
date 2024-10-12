@@ -17,15 +17,31 @@
   },
   {
     "ContainingType": "OnlineEducationPlatform.Api.Controllers.AccountsController",
-    "Method": "Register",
-    "RelativePath": "api/Accounts/Register",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/Accounts/Register-Admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regesterAdminDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto.RegesterAdminDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AccountsController",
+    "Method": "RegisterStudent",
+    "RelativePath": "api/Accounts/Register-Student",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "regesterDto",
-        "Type": "OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto.RegesterDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto.RegesterStudentDto",
         "IsRequired": true
       }
     ],

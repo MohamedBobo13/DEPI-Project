@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto
 {
-    public class RegesterDto
+    public class RegesterStudentDto
     {
         [Required, StringLength(50)]
         public string UserName { get; set; }
@@ -26,11 +26,10 @@ namespace OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto
         [DataType(DataType.Password)]
 
         public string ConfirmPassword { get; set; }
-        public TypeUser UserType { get; set; }
-
-
-
-
+    }
+    public class RegesterAdminDto:RegesterStudentDto
+    {
+        public TypeUser UserType { get; set; } = TypeUser.Student;
 
     }
 }

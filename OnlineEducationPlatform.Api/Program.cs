@@ -65,9 +65,9 @@ namespace OnlineEducationPlatform.Api
 
 
             builder.Services.AddScoped<IAccountManger, AccountManger>();
-           
+
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-           
+
 
 
 

@@ -31,9 +31,26 @@ namespace OnlineEducationPlatform.Api.Controllers
             }
             return Ok(result);
         }
+        [Authorize]
+        [HttpPost("Register-Admin")]
+        public async Task<IActionResult> RegisterAdmin([FromBody] RegesterAdminDto regesterAdminDto)
+        {
+            //model is good and correct 
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
-        [HttpPost("Register")]
-        public async Task<IActionResult> Register([FromBody]RegesterDto regesterDto)
+            var result = await AccountManger.AdminRegister(regesterAdminDto);
+            if (result.IsAuthenticated==false)
+            {
+                return BadRequest(result.message);
+            }
+            return Ok(result);
+        }
+
+        [HttpPost("Register-Student")]
+        public async Task<IActionResult> RegisterStudent([FromBody]RegesterStudentDto regesterDto)
         {
             //model is good and correct 
             if(!ModelState.IsValid)
@@ -41,7 +58,7 @@ namespace OnlineEducationPlatform.Api.Controllers
                 return BadRequest(ModelState);
             }
 
-            var result = await AccountManger.Register(regesterDto);
+            var result = await AccountManger.StudentRegister(regesterDto);
             if(result.IsAuthenticated==false)
             {
                 return BadRequest(result.message );

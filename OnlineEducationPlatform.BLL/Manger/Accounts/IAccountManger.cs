@@ -11,10 +11,9 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
     public interface IAccountManger
     {
         Task<AuthModel> Login(LoginDto loginDto);
-        Task<AuthModel> Register(RegesterDto regesterDto);
-        
-        
-        
+        Task<AuthModel> AdminRegister(RegesterAdminDto regesterAdminDto);
+        Task<AuthModel> StudentRegister(RegesterStudentDto regesterStudentDto);
+
 
     }
 }
