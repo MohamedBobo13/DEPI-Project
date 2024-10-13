@@ -1,4 +1,5 @@
 ﻿using Azure;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OnlineEducationPlatform.BLL.Dto;
@@ -18,7 +19,8 @@ namespace OnlineEducationPlatform.Api.Controller
         {
             _enrollmentmanager = enrollmentmanager;
         }
-        [HttpPost]
+        [HttpPost("AddEnrollment")]
+        [Authorize(Roles ="Admin")]
         public async Task<ActionResult<ServiceResponse<EnrollmentDtowWithStatusanddDate>>> CreateEnrollment([FromBody] EnrollmentDto enrollmentDto)
         {
 
@@ -37,7 +39,8 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
-        [HttpDelete]
+        [HttpDelete("DeleteEnrollment")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ServiceResponse<bool>>> DeleteEnrollment([FromBody] EnrollmentDto enrollmentDto)
         {
 
@@ -57,6 +60,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
         }
         [HttpGet("GetAllByCourseId/{CourseId}")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ServiceResponse<EnrollmentDtoForRetriveAllEnrollmentsInCourse>>> GetAllEnrollmentsByCourseId(int CourseId)
         {
             var response = await _enrollmentmanager.GetEnrollmentsByCourseIdAsync(CourseId);

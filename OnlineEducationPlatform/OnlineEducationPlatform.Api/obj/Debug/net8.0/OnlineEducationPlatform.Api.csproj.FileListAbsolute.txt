@@ -582,6 +582,7 @@ D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Azure.Core.dll
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Azure.Identity.dll
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Humanizer.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -702,6 +703,7 @@ D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.AssemblyInfoInputs.cache
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.AssemblyInfo.cs
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.csproj.CoreCompileInputs.cache
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.sourcelink.json
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\staticwebassets.build.json
@@ -718,5 +720,15 @@ D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.pdb
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.genruntimeconfig.cache
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\ref\OnlineEducationPlatform.Api.dll
-D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.MvcApplicationPartsAssemblyInfo.cs
-D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.Graph.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.Graph.Core.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Validators.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.Kiota.Abstractions.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.Kiota.Authentication.Azure.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.Kiota.Http.HttpClientLibrary.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.Kiota.Serialization.Form.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.Kiota.Serialization.Json.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.Kiota.Serialization.Multipart.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Microsoft.Kiota.Serialization.Text.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\Std.UriTemplate.dll
+D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\System.ClientModel.dll
