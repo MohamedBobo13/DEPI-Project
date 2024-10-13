@@ -12,6 +12,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
     {
         public int Id { get; set; }
         public string Title { get; set; }
+        public bool IsDeleted { get; set; }
         public int DurationMinutes { get; set; }
         public int TotalMarks { get; set; }
         public int PassingMarks { get; set; }

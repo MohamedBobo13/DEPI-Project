@@ -11,7 +11,7 @@ namespace OnlineEducationPlatform.BLL.Manager
 {
     public interface IQuizResultManager
     {
-        Task<ServiceResponse<QuizResult>> GetQuizResultAsync(string studentid,int quizid );
+        Task<ServiceResponse<QuizResult>> GetQuizResultAsync(string studentid, int quizid);
 
     }
 }

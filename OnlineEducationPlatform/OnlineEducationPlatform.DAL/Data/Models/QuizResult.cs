@@ -11,6 +11,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
     public class QuizResult
     {
         public int Id { get; set; }
+        public bool IsDeleted { get; set; }
         public decimal Score { get; set; }
         public decimal TotalMarks { get; set; }
         [ForeignKey("Quiz")]

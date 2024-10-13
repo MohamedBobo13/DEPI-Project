@@ -1,7 +1,8 @@
 ﻿using OnlineEducationPlatform.BLL.Dto;
 using OnlineEducationPlatform.BLL.handleresponse;
 using OnlineEducationPlatform.DAL.Data.Models;
-using OnlineEducationPlatform.DAL.Repo;
+using OnlineEducationPlatform.DAL.Repo.EnrollmentRepo;
+using OnlineEducationPlatform.DAL.Repo.QuizRepo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,16 +11,16 @@ using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Manager
 {
-    public class QuizResultManager:IQuizResultManager
+    public class QuizResultManager : IQuizResultManager
     {
-        private readonly Irepo _quizresult;
+        private readonly IQuizResultRepo _quizresult;
 
-        public QuizResultManager(Irepo irepo)
+        public QuizResultManager(IQuizResultRepo irepo)
         {
             _quizresult = irepo;
         }
 
-        public async Task<ServiceResponse<QuizResult>> GetQuizResultAsync( string studentid,int quizid)
+        public async Task<ServiceResponse<QuizResult>> GetQuizResultAsync(string studentid, int quizid)
         {
 
             var quizres = new QuizResult

@@ -13,6 +13,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
     public class Enrollment
     {
         public int Id { get; set; }
+        public bool IsDeleted { get; set; }
         public DateTime EnrollmentDate { get; set; }= DateTime.Now;
         public EnrollmentStatus Status { get; set; }
         [ForeignKey("Student")]

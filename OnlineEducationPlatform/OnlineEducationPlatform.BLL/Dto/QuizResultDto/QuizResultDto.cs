@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.Dto
+namespace OnlineEducationPlatform.BLL.Dto.QuizResultDto
 {
     public class QuizResultDto
     {

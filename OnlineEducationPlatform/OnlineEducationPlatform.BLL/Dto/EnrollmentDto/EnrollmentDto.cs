@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.Dto
+namespace OnlineEducationPlatform.BLL.Dto.EnrollmentDto
 {
     public class EnrollmentDto
     {
-      //  public int EnrollmentId { get; set; }
+        //  public int EnrollmentId { get; set; }
         public string StudentId { get; set; }
         public int CourseId { get; set; }
-      //  public DateTime EnrollmentDate { get; set; }= DateTime.Now;
+        //  public DateTime EnrollmentDate { get; set; }= DateTime.Now;
         //public EnrollmentStatus Status { get; set; }
     }
     public class EnrollmentDtowWithStatusanddDate : EnrollmentDto
@@ -19,10 +19,10 @@ namespace OnlineEducationPlatform.BLL.Dto
         public string? Status { get; set; }
         public DateTime? EnrollmentDate { get; set; } = DateTime.Now;
     }
-    public class EnrollmentDtoForRetriveAllEnrollmentsInCourse:EnrollmentDto
+    public class EnrollmentDtoForRetriveAllEnrollmentsInCourse : EnrollmentDto
     {
         public int EnrollmentId { get; set; }
-        public DateTime? EnrollmentDate { get;set; }
+        public DateTime? EnrollmentDate { get; set; }
         public string? status { get; set; }
 
 

@@ -14,6 +14,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime CreatedDate { get; set; }
+        public bool IsDeleted { get; set; }
         public int TotalHours { get; set; }
         [ForeignKey("Instructor")]
         public string InstructorId { get; set; }

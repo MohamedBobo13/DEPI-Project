@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xLOOLXOSsHs=",
+  "dgSpecHash": "unTZkxO0k1U=",
   "success": true,
   "projectFilePath": "D:\\My Branch\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\G5\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\G5\\.nuget\\packages\\azure.core\\1.43.0\\azure.core.1.43.0.nupkg.sha512",
     "C:\\Users\\G5\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\G5\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.8\\microsoft.aspnetcore.cryptography.internal.8.0.8.nupkg.sha512",

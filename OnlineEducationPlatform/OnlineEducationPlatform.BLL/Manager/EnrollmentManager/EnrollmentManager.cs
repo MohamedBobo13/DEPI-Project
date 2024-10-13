@@ -1,22 +1,22 @@
 ﻿using Azure;
 using Microsoft.EntityFrameworkCore;
-using OnlineEducationPlatform.BLL.Dto;
+using OnlineEducationPlatform.BLL.Dto.EnrollmentDto;
 using OnlineEducationPlatform.BLL.handleresponse;
 using OnlineEducationPlatform.DAL.Data.Models;
-using OnlineEducationPlatform.DAL.Repo;
+using OnlineEducationPlatform.DAL.Repo.EnrollmentRepo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.Manager
+namespace OnlineEducationPlatform.BLL.Manager.EnrollmentManager
 {
     public class EnrollmentManager : IenrollmentManager
     {
-        private readonly Irepo _enrollmentRepository;
+        private readonly IEnrollmentRepo _enrollmentRepository;
 
-        public EnrollmentManager(Irepo repo)
+        public EnrollmentManager(IEnrollmentRepo repo)
         {
             _enrollmentRepository = repo;
         }
@@ -40,7 +40,7 @@ namespace OnlineEducationPlatform.BLL.Manager
                 response.Success = false;
 
                 return response;
-              //  throw new KeyNotFoundException($"Student with ID {enrollment.StudentId} not found.");
+                //  throw new KeyNotFoundException($"Student with ID {enrollment.StudentId} not found.");
             }
             var Course = await _enrollmentRepository.CourseExistsAsync(enrollment.CourseId);
             if (Course == false)
@@ -64,21 +64,21 @@ namespace OnlineEducationPlatform.BLL.Manager
             enrollment.EnrollmentDate = DateTime.Now;
             enrollment.Status = EnrollmentStatus.Enrolled;
             await _enrollmentRepository.AddAsync(enrollment);
-           var saveresult= await _enrollmentRepository.CompleteAsync();
+            var saveresult = await _enrollmentRepository.CompleteAsync();
             if (saveresult)
             {
-                response.Data =new EnrollmentDtowWithStatusanddDate
-                { 
+                response.Data = new EnrollmentDtowWithStatusanddDate
+                {
                     StudentId = enrollment.StudentId,
                     CourseId = enrollment.CourseId,
-                EnrollmentDate = enrollment.EnrollmentDate,
-                Status = EnrollmentStatus.Enrolled.ToString(),
-                } ;
-              
+                    EnrollmentDate = enrollment.EnrollmentDate,
+                    Status = EnrollmentStatus.Enrolled.ToString(),
+                };
+
                 response.Message = "Enrollment added successfully.";
-                
+
                 response.Success = true;
-          
+
 
             }
             return response;
@@ -112,7 +112,7 @@ namespace OnlineEducationPlatform.BLL.Manager
                 }
                 else
                 {
-                  
+
                     response.Data = enrollments.Select(e => new EnrollmentDtoForRetriveAllEnrollmentsInCourse
                     {
                         EnrollmentId = e.Id,
@@ -127,7 +127,8 @@ namespace OnlineEducationPlatform.BLL.Manager
 
                 }
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 response.Success = false;
                 response.Message = $"An error occurred: {ex.Message}";
 
@@ -141,43 +142,44 @@ namespace OnlineEducationPlatform.BLL.Manager
             try
             {
                 var Studentexist = await _enrollmentRepository.StudentExistsAsync(studentId);
-            if (Studentexist == false)
-            {
-                response.Message = $"Student with ID {studentId} does not exist.";
-                response.Success = false;
-                response.Data = null;
-
-                return response;
-
-            }
-            var enrollments = await _enrollmentRepository.GetByStudentIdAsync(studentId);
-            if (enrollments.Any() == false || enrollments == null)
-            {
-                response.Message = $"Student with ID {studentId} does not have any Enrollments.";
-                response.Success = false;
-                response.Data = null;
-
-                return response;
-
-            }
-            else
-            {
-
-                response.Data = enrollments.Select(e => new EnrollmentDtoForRetriveAllEnrollmentsInCourse
+                if (Studentexist == false)
                 {
-                    EnrollmentId = e.Id,
-                    StudentId = e.StudentId,
-                    CourseId = e.CourseId,
-                    status = e.Status.ToString(),
-                    EnrollmentDate = e.EnrollmentDate
-                }).ToList();
-                response.Message = $"There Are Enrollments For The Student.";
-                response.Success = true;
-                return response;
+                    response.Message = $"Student with ID {studentId} does not exist.";
+                    response.Success = false;
+                    response.Data = null;
 
+                    return response;
+
+                }
+                var enrollments = await _enrollmentRepository.GetByStudentIdAsync(studentId);
+                if (enrollments.Any() == false || enrollments == null)
+                {
+                    response.Message = $"Student with ID {studentId} does not have any Enrollments.";
+                    response.Success = false;
+                    response.Data = null;
+
+                    return response;
+
+                }
+                else
+                {
+
+                    response.Data = enrollments.Select(e => new EnrollmentDtoForRetriveAllEnrollmentsInCourse
+                    {
+                        EnrollmentId = e.Id,
+                        StudentId = e.StudentId,
+                        CourseId = e.CourseId,
+                        status = e.Status.ToString(),
+                        EnrollmentDate = e.EnrollmentDate
+                    }).ToList();
+                    response.Message = $"There Are Enrollments For The Student.";
+                    response.Success = true;
+                    return response;
+
+                }
             }
-        }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 response.Success = false;
                 response.Message = $"An error occurred: {ex.Message}";
 
@@ -193,7 +195,7 @@ namespace OnlineEducationPlatform.BLL.Manager
                 CourseId = enrollmentDto.CourseId,
 
             };
-    
+
             var response = new ServiceResponse<bool>();
             var student = await _enrollmentRepository.StudentExistsAsync(enrollment.StudentId);
             if (student == false)
@@ -224,27 +226,27 @@ namespace OnlineEducationPlatform.BLL.Manager
                 // throw new InvalidOperationException($"Student {enrollment.StudentId} is already enrolled in course {enrollment.CourseId}.");
             }
 
-            var saveresult=  await _enrollmentRepository.RemoveAsync(enrollment.StudentId,enrollment.CourseId);
-        
+            var saveresult = await _enrollmentRepository.RemoveAsync(enrollment.StudentId, enrollment.CourseId);
+
             if (saveresult)
             {
-               response.Data=true;
+                response.Data = true;
 
                 response.Message = "Student UnEnrolled successfully.";
-               
+
                 response.Success = true;
-              
+
 
             }
             return response;
 
 
         }
-       
 
 
 
-     
+
+
 
 
     }

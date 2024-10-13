@@ -7,28 +7,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.DAL.Repo
+namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
 {
-    public class repo:Irepo
+    public class EnrollmentRepo : IEnrollmentRepo
     {
         private readonly EducationPlatformContext _context;
 
-        public repo(EducationPlatformContext Context)
+        public EnrollmentRepo(EducationPlatformContext Context)
         {
             _context = Context;
         }
-        
 
-       
-        
-     
+
+
+
+
 
         // Get enrollments by student ID
         public async Task<IEnumerable<Enrollment>> GetByStudentIdAsync(string studentId)
         {
             return await _context.Enrollment
                 .Where(e => e.StudentId == studentId)
-                
+
                 .ToListAsync();
         }
 
@@ -37,7 +37,7 @@ namespace OnlineEducationPlatform.DAL.Repo
         {
             return await _context.Enrollment
                 .Where(e => e.CourseId == courseId)
-                
+
                 .ToListAsync();
         }
 
@@ -45,33 +45,33 @@ namespace OnlineEducationPlatform.DAL.Repo
         public async Task AddAsync(Enrollment enrollment)
         {
             await _context.Enrollment.AddAsync(enrollment);
-           // await _context.SaveChangesAsync();
+            // await _context.SaveChangesAsync();
         }
 
-        
-     
+
+
 
         public async Task<bool> StudentExistsAsync(string studentId)
         {
-            return await _context.User.AnyAsync(U=>U.Id == studentId && U.UserType==TypeUser.Student);
+            return await _context.User.AnyAsync(U => U.Id == studentId && U.UserType == TypeUser.Student);
         }
 
         public async Task<bool> CourseExistsAsync(int CourseId)
         {
-            return await _context.Course.AnyAsync(c=>c.Id==CourseId);
+            return await _context.Course.AnyAsync(c => c.Id == CourseId);
         }
         public async Task<bool> EnrollmentExistsAsync(string studentId, int courseId)
         {
             return await _context.Enrollment
                 .AnyAsync(e => e.StudentId == studentId && e.CourseId == courseId);
         }
-      
+
         public async Task<bool> CompleteAsync()
         {
-             return await _context.SaveChangesAsync()>0;
+            return await _context.SaveChangesAsync() > 0;
         }
 
-        public async Task<bool> RemoveAsync(string StudentId,int CourseId)
+        public async Task<bool> RemoveAsync(string StudentId, int CourseId)
         {
 
             var enrollment = await _context.Enrollment
@@ -87,24 +87,7 @@ namespace OnlineEducationPlatform.DAL.Repo
 
         }
 
-        public async Task<QuizResult> GetQuizResultForStudentAsync(string studentId, int quizId)
-        {
+       
 
-            return  await _context.QuizResult
-                .FirstOrDefaultAsync(qr => qr.StudentId == studentId && qr.QuizId == quizId);
-           
-            
-        }
-        public async Task<bool> quizExistsAsync(int QuizId)
-        {
-            return await _context.Quiz.AnyAsync(c => c.Id == QuizId);
-        }
-        public async Task<bool> quizresultExistsAsync(string studentId, int quizid)
-        {
-            return await _context.QuizResult
-                .AnyAsync(e => e.StudentId == studentId && e.QuizId == quizid);
-        }
-
-        
     }
 }

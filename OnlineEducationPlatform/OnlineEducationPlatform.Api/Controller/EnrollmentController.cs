@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using OnlineEducationPlatform.BLL.Dto;
+using OnlineEducationPlatform.BLL.Dto.EnrollmentDto;
 using OnlineEducationPlatform.BLL.handleresponse;
-using OnlineEducationPlatform.BLL.Manager;
+using OnlineEducationPlatform.BLL.Manager.EnrollmentManager;
 using OnlineEducationPlatform.DAL.Data.Models;
 
 namespace OnlineEducationPlatform.Api.Controller

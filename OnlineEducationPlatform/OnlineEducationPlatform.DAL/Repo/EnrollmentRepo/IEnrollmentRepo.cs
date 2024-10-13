@@ -6,16 +6,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.DAL.Repo
+namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
 {
-    public interface Irepo
+    public interface IEnrollmentRepo
     {
-        
-      
+
+
         Task<IEnumerable<Enrollment>> GetByStudentIdAsync(string studentId);
         Task<IEnumerable<Enrollment>> GetByCourseIdAsync(int courseId);
         Task AddAsync(Enrollment enrollment);
-     
+
         Task<bool> RemoveAsync(string studentId, int courseId);
         Task<bool> StudentExistsAsync(string studentId);
         Task<bool> CourseExistsAsync(int CourseId);
@@ -23,10 +23,7 @@ namespace OnlineEducationPlatform.DAL.Repo
         Task<bool> CompleteAsync();
 
 
-        Task<bool> quizresultExistsAsync(string studentId, int quizid);
-
-        Task<bool> quizExistsAsync(int quizId);
-        Task<QuizResult> GetQuizResultForStudentAsync(string studentId, int quizId);
+      
 
 
 

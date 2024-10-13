@@ -1,0 +1,50 @@
+﻿using Microsoft.EntityFrameworkCore;
+using OnlineEducationPlatform.DAL.Data.DbHelper;
+using OnlineEducationPlatform.DAL.Data.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Numerics;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OnlineEducationPlatform.DAL.Repositories
+{
+    public class AnswerRepo : IAnswerRepo
+    {
+        private readonly EducationPlatformContext _context;
+
+        public AnswerRepo(EducationPlatformContext context)
+        {
+            _context = context;
+        }
+
+        public IEnumerable<Answer> GetAll()
+        {
+            return _context.Answer.AsNoTracking().ToList();
+        }
+
+        public Answer GetById(int id)
+        {
+            return _context.Answer.Find(id);
+        }
+        public void Add(Answer answer)
+        {
+             _context.Add(answer);
+        }
+
+        public void Delete(Answer answer)
+        {
+            answer.IsDeleted= true;
+            _context.Update(answer);
+        }
+        public void Update(Answer answer)
+        {
+            _context.Update(answer);
+        }
+        public void SaveChange()
+        {
+            _context.SaveChanges();
+        }
+    }
+}

@@ -1,14 +1,19 @@
 
 using Microsoft.EntityFrameworkCore;
-using OnlineEducationPlatform.BLL.Manager;
 using OnlineEducationPlatform.DAL.Data.DbHelper;
-using OnlineEducationPlatform.DAL.Repo;
 using OnlineEducationPlatform.DAL;
 using OnlineEducationPlatform.DAL.Data.Models;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using OnlineEducationPlatform.BLL.Manager.AccountManager;
 using OnlineEducationPlatform.BLL.Manger.Accounts;
+using OnlineEducationPlatform.DAL.Repo.EnrollmentRepo;
+using OnlineEducationPlatform.DAL.Repo.QuizRepo;
+using OnlineEducationPlatform.BLL.Manager.EnrollmentManager;
+using OnlineEducationPlatform.BLL.Manager;
+using OnlineEducationPlatform.DAL.Repo.QuestionRepo;
+using OnlineEducationPlatform.DAL.Repositories;
+using OnlineEducationPlatform.BLL.AutoMapper;
 
 namespace OnlineEducationPlatform.Api
 {
@@ -60,12 +65,29 @@ namespace OnlineEducationPlatform.Api
                 options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
             }
             );
-            builder.Services.AddScoped<Irepo, repo>();
+
+            
+            builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerResultMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new QuestionMappingProfile()));
+            builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
+           builder.Services.AddScoped<IEnrollmentRepo,EnrollmentRepo>();
             builder.Services.AddScoped<IenrollmentManager, EnrollmentManager>();
+
+            builder.Services.AddScoped<IQuizResultRepo, QuizResultRepo>();
             builder.Services.AddScoped<IQuizResultManager, QuizResultManager>();
+
+
             builder.Services.AddScoped<IAccountManger, AccountManger>();
 
+            builder.Services.AddScoped<IAnswerRepo, AnswerRepo>();
+            builder.Services.AddScoped<IAnswerManager, AnswerManager>();
 
+            builder.Services.AddScoped<IAnswerResultRepo, AnswerResultRepo>();
+            builder.Services.AddScoped<IAnswerResultManager, AnswerResultManager>();
+
+            builder.Services.AddScoped<IQuestionRepo, QuestionRepo>();
+            builder.Services.AddScoped<IQuestionManager, QuestionManager>();
 
 
             // builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericClass<>) );
@@ -79,6 +101,7 @@ namespace OnlineEducationPlatform.Api
             }
 
             app.UseHttpsRedirection();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

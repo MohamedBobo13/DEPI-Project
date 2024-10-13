@@ -14,8 +14,8 @@ namespace OnlineEducationPlatform.DAL.Data.Models
     public class ApplicationUser :IdentityUser
     {
 
-       
 
+        public bool IsDeleted { get; set; }
         public TypeUser UserType { get; set; }
         public DateTime CreatedDate { get; set; }
        
@@ -39,10 +39,10 @@ namespace OnlineEducationPlatform.DAL.Data.Models
        
             
         public ICollection<Course> Courses { get; set; } = new HashSet<Course>();
-
+     
 
     }
-    public class Admin : ApplicationUser { }
+    public class Admin : ApplicationUser { public bool IsDeleted { get; set; } }
 
 }
 

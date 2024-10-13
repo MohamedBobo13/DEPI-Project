@@ -12,6 +12,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
     {
         public int Id { get; set; }
         public string Url { get; set; }
+        public bool IsDeleted { get; set; }
         public string Title { get; set; }
         [ForeignKey("Lecture")]
         public int LectureId { get; set; }

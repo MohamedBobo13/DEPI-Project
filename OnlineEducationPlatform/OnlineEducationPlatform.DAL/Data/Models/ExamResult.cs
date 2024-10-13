@@ -13,6 +13,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public int Id { get; set; }
         public decimal Score { get; set; }
         public decimal TotalMarks { get; set; }
+        public bool IsDeleted { get; set; }
         public bool IsPassed { get; set; }
         [ForeignKey("Exam")]
         public int ExamId { get; set; }

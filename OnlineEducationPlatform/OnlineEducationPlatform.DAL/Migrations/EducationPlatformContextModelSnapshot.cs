@@ -170,6 +170,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<bool>("IsCorrect")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int>("QuestionId")
                         .HasColumnType("int");
 
@@ -178,6 +181,24 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("QuestionId");
 
                     b.ToTable("Answer");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AnswerText = "A variable is a container for storing data values.",
+                            IsCorrect = true,
+                            IsDeleted = false,
+                            QuestionId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AnswerText = "A variable is a type of function.",
+                            IsCorrect = false,
+                            IsDeleted = false,
+                            QuestionId = 2
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.AnswerResult", b =>
@@ -190,6 +211,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.Property<int>("AnswerId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<decimal>("MarksAwarded")
                         .HasColumnType("decimal(18,2)");
@@ -214,6 +238,18 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("StudentId");
 
                     b.ToTable("AnswerResult");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AnswerId = 1,
+                            IsDeleted = false,
+                            MarksAwarded = 2m,
+                            QuestionId = 1,
+                            StudentAnswer = "A variable is a container for storing data values.",
+                            StudentId = "8"
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.ApplicationUser", b =>
@@ -241,6 +277,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .HasColumnType("nvarchar(256)");
 
                     b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<bool>("LockoutEnabled")
@@ -294,6 +333,76 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasDiscriminator().HasValue("ApplicationUser");
 
                     b.UseTphMappingStrategy();
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "5",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "77f761b3-f1b4-4bb4-9c8a-7357fbfe9a11",
+                            CreatedDate = new DateTime(2024, 10, 13, 6, 30, 15, 957, DateTimeKind.Local).AddTicks(1083),
+                            Email = "john@platform.com",
+                            EmailConfirmed = false,
+                            IsDeleted = false,
+                            LockoutEnabled = false,
+                            PasswordHash = "hashedpassword456",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "13d9a6b8-b025-468a-b74d-9342939ce7fa",
+                            TwoFactorEnabled = false,
+                            UserName = "Instructor John",
+                            UserType = 2
+                        },
+                        new
+                        {
+                            Id = "6",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "cc03e602-236b-49cd-8e0d-567b8053c714",
+                            CreatedDate = new DateTime(2024, 10, 13, 6, 30, 15, 957, DateTimeKind.Local).AddTicks(1134),
+                            Email = "john@platform.com",
+                            EmailConfirmed = false,
+                            IsDeleted = false,
+                            LockoutEnabled = false,
+                            PasswordHash = "hashedpassword478",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "b80ab58d-d4ce-4a69-af2c-f5f8a4ed61d1",
+                            TwoFactorEnabled = false,
+                            UserName = "student John",
+                            UserType = 3
+                        },
+                        new
+                        {
+                            Id = "8",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "57bf22bf-42e9-4b88-9ad1-18f8c93416b0",
+                            CreatedDate = new DateTime(2024, 10, 13, 6, 30, 15, 957, DateTimeKind.Local).AddTicks(1142),
+                            Email = "sarah@platform.com",
+                            EmailConfirmed = false,
+                            IsDeleted = false,
+                            LockoutEnabled = false,
+                            PasswordHash = "hashedpassword123",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "d733a59d-d686-49f1-a6bb-e94f2c27e913",
+                            TwoFactorEnabled = false,
+                            UserName = "student Sarah",
+                            UserType = 3
+                        },
+                        new
+                        {
+                            Id = "9",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "57f43f43-cdcb-477e-b87e-79e37fac34e6",
+                            CreatedDate = new DateTime(2024, 10, 13, 6, 30, 15, 957, DateTimeKind.Local).AddTicks(1148),
+                            Email = "sarah@platform.com",
+                            EmailConfirmed = false,
+                            IsDeleted = false,
+                            LockoutEnabled = false,
+                            PasswordHash = "hashedpassword321",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "432882ee-6922-4b28-bd45-58be4bd0686f",
+                            TwoFactorEnabled = false,
+                            UserName = "Instructor Sarah",
+                            UserType = 3
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Course", b =>
@@ -315,6 +424,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -327,6 +439,18 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("InstructorId");
 
                     b.ToTable("Course");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 3,
+                            CreatedDate = new DateTime(2024, 10, 13, 6, 30, 15, 957, DateTimeKind.Local).AddTicks(1432),
+                            Description = "A beginner-level course on programming",
+                            InstructorId = "5",
+                            IsDeleted = false,
+                            Title = "Introduction to Programming",
+                            TotalHours = 40
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Enrollment", b =>
@@ -343,6 +467,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<DateTime>("EnrollmentDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
@@ -357,6 +484,17 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("StudentId");
 
                     b.ToTable("Enrollment");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 6,
+                            CourseId = 3,
+                            EnrollmentDate = new DateTime(2024, 10, 13, 6, 30, 15, 957, DateTimeKind.Local).AddTicks(1485),
+                            IsDeleted = false,
+                            Status = 0,
+                            StudentId = "8"
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Exam", b =>
@@ -372,6 +510,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.Property<int>("DurationMinutes")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<int>("PassingMarks")
                         .HasColumnType("int");
@@ -391,6 +532,19 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("CourseId");
 
                     b.ToTable("Exam");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 2,
+                            CourseId = 3,
+                            DurationMinutes = 120,
+                            IsDeleted = false,
+                            PassingMarks = 50,
+                            Title = "Final Exam - Introduction to Programming",
+                            TotalMarks = 100,
+                            TotalQuestions = 20
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.ExamResult", b =>
@@ -403,6 +557,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.Property<int>("ExamId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<bool>("IsPassed")
                         .HasColumnType("bit");
@@ -424,6 +581,18 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("StudentId");
 
                     b.ToTable("ExamResult");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ExamId = 1,
+                            IsDeleted = false,
+                            IsPassed = true,
+                            Score = 85m,
+                            StudentId = "8",
+                            TotalMarks = 100m
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Lecture", b =>
@@ -437,6 +606,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int>("Order")
                         .HasColumnType("int");
 
@@ -449,6 +621,16 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("CourseId");
 
                     b.ToTable("Lecture");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 2,
+                            CourseId = 3,
+                            IsDeleted = false,
+                            Order = 1,
+                            Title = "Introduction to Variables"
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.PdfFile", b =>
@@ -458,6 +640,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<int>("LectureId")
                         .HasColumnType("int");
@@ -475,6 +660,16 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("LectureId");
 
                     b.ToTable("PdfFile");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            IsDeleted = false,
+                            LectureId = 2,
+                            Title = "Introduction to Variables",
+                            Url = "http://example.com/intro-to-variables.pdf"
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Question", b =>
@@ -492,6 +687,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<int?>("ExamId")
                         .HasColumnType("int");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int>("Marks")
                         .HasColumnType("int");
 
@@ -508,6 +706,26 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("QuizId");
 
                     b.ToTable("Question");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Content = "What is a variable?",
+                            IsDeleted = false,
+                            Marks = 2,
+                            QuestionType = 0,
+                            QuizId = 2
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Content = "Explain the concept of loops in programming.",
+                            ExamId = 2,
+                            IsDeleted = false,
+                            Marks = 5,
+                            QuestionType = 0
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Quiz", b =>
@@ -520,6 +738,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<int>("LectureId")
                         .HasColumnType("int");
@@ -541,6 +762,18 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("LectureId");
 
                     b.ToTable("Quiz");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 3,
+                            CourseId = 3,
+                            IsDeleted = false,
+                            LectureId = 2,
+                            Title = "Quiz 1 - Variables",
+                            TotalMarks = 10,
+                            TotalQuestions = 5
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.QuizResult", b =>
@@ -550,6 +783,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<int>("QuizId")
                         .HasColumnType("int");
@@ -571,6 +807,17 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("StudentId");
 
                     b.ToTable("QuizResult");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            IsDeleted = false,
+                            QuizId = 3,
+                            Score = 8m,
+                            StudentId = "8",
+                            TotalMarks = 10m
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Video", b =>
@@ -580,6 +827,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<int>("LectureId")
                         .HasColumnType("int");
@@ -597,6 +847,16 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("LectureId");
 
                     b.ToTable("Video");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            IsDeleted = false,
+                            LectureId = 2,
+                            Title = "Introduction to Variables",
+                            Url = "http://example.com/intro-to-variables.mp4"
+                        });
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Instructor", b =>
