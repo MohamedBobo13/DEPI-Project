@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {}
+    "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {}
   },
   "projects": {
-    "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
+    "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
         "projectName": "OnlineEducationPlatform.DAL",
-        "projectPath": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
-        "packagesPath": "C:\\Users\\Everest\\.nuget\\packages\\",
-        "outputPath": "D:\\DEPI Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\obj\\",
+        "projectPath": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+        "packagesPath": "C:\\Users\\nour_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Everest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nour_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,10 +46,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.8, )"

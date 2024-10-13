@@ -20,7 +20,6 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public int CourseId { get; set; }
         public Course Course { get; set; }
         public List<Quiz> Quizzes { get; set; }
-        public List<StudentProgress> StudentProgresses { get; set; }
         public List<PdfFile> PdfFiles { get; set; }
         public List<Video> Videos { get; set; }
 
