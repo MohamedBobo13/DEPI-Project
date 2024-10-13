@@ -9,10 +9,14 @@
       "OnlineEducationPlatform.BLL/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.BLL/bin/Debug/net8.0/OnlineEducationPlatform.BLL.deps.json
+          "OnlineEducationPlatform.DAL": "1.0.0"
+=======
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
           "Microsoft.IdentityModel.Tokens": "8.1.1",
           "OnlineEducationPlatform.DAL": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "8.1.1"
+>>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.BLL/bin/Debug/net8.0/OnlineEducationPlatform.BLL.deps.json
         },
         "runtime": {
           "OnlineEducationPlatform.BLL.dll": {}
@@ -20,7 +24,11 @@
       },
       "AutoMapper/13.0.1": {
         "dependencies": {
+<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.BLL/bin/Debug/net8.0/OnlineEducationPlatform.BLL.deps.json
+          "Microsoft.Extensions.Options": "8.0.0"
+=======
           "Microsoft.Extensions.Options": "8.0.2"
+>>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.BLL/bin/Debug/net8.0/OnlineEducationPlatform.BLL.deps.json
         },
         "runtime": {
           "lib/net6.0/AutoMapper.dll": {
@@ -583,8 +591,11 @@
       },
       "OnlineEducationPlatform.DAL/1.0.0": {
         "dependencies": {
+<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.BLL/bin/Debug/net8.0/OnlineEducationPlatform.BLL.deps.json
+=======
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore": "8.0.8",
+>>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.BLL/bin/Debug/net8.0/OnlineEducationPlatform.BLL.deps.json
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {

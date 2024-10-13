@@ -16,6 +16,14 @@ namespace OnlineEducationPlatform.DAL.Data.Models
 
         [ForeignKey("Enrollment")]
         public int EnrollmentId { get; set; }
+<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.DAL/Data/Models/StudentProgress.cs
+        [ForeignKey("Course")]
+        public int CourseId { get; set; }
+        public Course Course{ get; set; }
+        public Enrollment Enrollment { get; set; }
+        public List<QuizResult> QuizResults { get; set; }
+        public List<ExamResult> ExamResults { get; set; }
+=======
 
         [ForeignKey("Course")]
         public int CourseId { get; set; }
@@ -23,6 +31,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public Enrollment Enrollment { get; set; }
         public ICollection<QuizResult> QuizResults { get; set; } = new HashSet<QuizResult>();
         public ICollection<ExamResult> ExamResults { get; set; } = new HashSet<ExamResult>();
+>>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.DAL/Data/Models/StudentProgress.cs
 
 
 

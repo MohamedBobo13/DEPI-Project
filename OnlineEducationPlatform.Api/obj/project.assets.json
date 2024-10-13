@@ -1661,10 +1661,14 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
+<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.Api/obj/project.assets.json
+          "OnlineEducationPlatform.DAL": "1.0.0"
+=======
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
           "Microsoft.IdentityModel.Tokens": "8.1.1",
           "OnlineEducationPlatform.DAL": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "8.1.1"
+>>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.Api/obj/project.assets.json
         },
         "compile": {
           "bin/placeholder/OnlineEducationPlatform.BLL.dll": {}
@@ -1677,8 +1681,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.Api/obj/project.assets.json
+=======
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore": "8.0.8",
+>>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.Api/obj/project.assets.json
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "compile": {
@@ -4500,24 +4507,40 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.Api/obj/project.assets.json
+    "C:\\Users\\nour_\\.nuget\\packages\\": {}
+=======
     "C:\\Users\\Nada\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.Api/obj/project.assets.json
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.Api/obj/project.assets.json
+      "projectUniqueName": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj",
+      "projectName": "OnlineEducationPlatform.Api",
+      "projectPath": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj",
+      "packagesPath": "C:\\Users\\nour_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj",
       "projectName": "OnlineEducationPlatform.Api",
       "projectPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj",
       "packagesPath": "C:\\Users\\Nada\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.Api\\obj\\",
+>>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.Api/obj/project.assets.json
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.Api/obj/project.assets.json
+        "C:\\Users\\nour_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
         "C:\\Users\\Nada\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.Api/obj/project.assets.json
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4532,8 +4555,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.Api/obj/project.assets.json
+            "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
+              "projectPath": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj"
+=======
             "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
               "projectPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj"
+>>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.Api/obj/project.assets.json
             }
           }
         }

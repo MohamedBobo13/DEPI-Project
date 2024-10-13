@@ -8,8 +8,11 @@
     ".NETCoreApp,Version=v8.0": {
       "OnlineEducationPlatform.DAL/1.0.0": {
         "dependencies": {
+<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.DAL/bin/Debug/net8.0/OnlineEducationPlatform.DAL.deps.json
+=======
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore": "8.0.8",
+>>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.DAL/bin/Debug/net8.0/OnlineEducationPlatform.DAL.deps.json
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.8"
         },
