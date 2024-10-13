@@ -29,14 +29,19 @@ namespace OnlineEducationPlatform.DAL.Repositories
             var courseModel = _context.Course.Find(id);
             if (courseModel != null)
             {
-                _context.Course.Remove(courseModel);
+                courseModel.IsDeleted = true;
                 SaveChanges();
             };
         }
 
         public IEnumerable<Course> GetAll()
         {
-            return _context.Course.AsNoTracking().ToList();
+            var courses= _context.Course.AsNoTracking().Where(C=>C.IsDeleted==false).ToList();
+            if (courses == null)
+            {
+                return null;
+            }
+            return courses;
         }
 
         public Course GetById(int id)

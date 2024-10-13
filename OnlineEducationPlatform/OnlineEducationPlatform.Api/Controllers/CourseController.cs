@@ -10,37 +10,54 @@ namespace OnlineEducationPlatform.Api.Controllers
     public class CourseController : ControllerBase
     {
         private readonly ICourseManager _courseManager;
+      
 
         public CourseController(ICourseManager courseManager)
         {
             _courseManager = courseManager;
+           
         }
         [HttpGet]
-        public IActionResult GetAllCourses()
+        //Instructor and Student can get all Courses
+        public ActionResult GetAllCourses()
         {
-            return Ok(_courseManager.GetAll());
+            var AllCourses = _courseManager.GetAll();
+            if (AllCourses != null)
+            {
+                return Ok(AllCourses);
+            }
+            return NotFound();
         }
+      
         [HttpGet("{id:int}")]
-
-        public IActionResult GetById(int id)
+        //Instructor and Student can get course
+        public ActionResult GetById(int id)
         {
-            return Ok(_courseManager.GetById(id));
+            var course= _courseManager.GetById(id);
+            if (course != null)
+            {
+                return Ok(course);
+            }
+            return NotFound();
         }
 
         [HttpDelete("{id:int}")]
-        public IActionResult RemoveCourse(int id)
+        //Instructor only can delete course
+        public ActionResult RemoveCourse(int id)
         {
             _courseManager.Delete(id);
             return Ok();
         }
         [HttpPost]
-        public IActionResult AddCourse(CourseAddDto courseAddDto)
+        //Instructor only can add course
+        public ActionResult AddCourse(CourseAddDto courseAddDto)
         {
             _courseManager.Add(courseAddDto);
             return Created();
         }
         [HttpPut]
-        public IActionResult UpdateCourse(CourseUpdateDto courseUpdateDto)
+        //Insturctor only can update course
+        public ActionResult UpdateCourse(CourseUpdateDto courseUpdateDto)
         {
             _courseManager.Update(courseUpdateDto);
             return Ok();

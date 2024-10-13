@@ -20,7 +20,7 @@ namespace OnlineEducationPlatform.DAL.Repositories
 
         public IEnumerable<PdfFile> GetAll()
         {
-            return _context.PdfFile.AsNoTracking().ToList();
+            return _context.PdfFile.AsNoTracking().Where(P=>P.IsDeleted==false).ToList();
         }
 
         public PdfFile GetById(int id)
@@ -41,8 +41,11 @@ namespace OnlineEducationPlatform.DAL.Repositories
         public void Delete(int id)
         {
             var file= _context.PdfFile.Find(id);
-            _context.Remove(file);
-            SaveChange();
+            if (file != null)
+            {
+                file.IsDeleted = true;
+                SaveChange();
+            }
         }
         public void Update(PdfFile pdfFile)
         {

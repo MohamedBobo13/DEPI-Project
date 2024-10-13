@@ -17,33 +17,47 @@ namespace OnlineEducationPlatform.Api.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllPDF()
+        //Instructor and Student can get all PdfFiles
+        public ActionResult GetAllPDF()
         {
-            return Ok(_pdfFileManager.GetAll());
+            var AllFiles=_pdfFileManager.GetAll();
+            if (AllFiles != null)
+            {
+                return Ok(AllFiles);
+            }
+            return NotFound();
         }
 
         [HttpGet("{id:int}")]
-        public IActionResult GetPDF(int id)
+        //Instructor and Student can get PdfFile
+        public ActionResult GetPDF(int id)
         {
-            return Ok(_pdfFileManager.GetById(id));
+            var PdfFile=_pdfFileManager.GetById(id);
+            if (PdfFile != null)
+            {
+                return Ok(PdfFile);
+            }
+            return NotFound();
         }
 
         [HttpPost]
-        public IActionResult AddPDF(PdfFileAddDto pdfFileAddDto)
+        // Instructor only can be add PdfFile
+        public ActionResult AddPDF(PdfFileAddDto pdfFileAddDto)
         {
             _pdfFileManager.Add(pdfFileAddDto);
             return Created();
         }
         [HttpPut]
-
-        public IActionResult UpdatePDF(PdfFileUpdateDto pdfFileUpdateDto)
+        // Instructor only can be update PdfFile
+        public ActionResult UpdatePDF(PdfFileUpdateDto pdfFileUpdateDto)
         {
             _pdfFileManager.Update(pdfFileUpdateDto);
             return Ok();
         }
 
         [HttpDelete("{id:int}")]
-        public IActionResult DeletePDF(int id)
+        // Instructor only can be delete PdfFile
+        public ActionResult DeletePDF(int id)
         {
             _pdfFileManager.Delete(id);
             return Ok();

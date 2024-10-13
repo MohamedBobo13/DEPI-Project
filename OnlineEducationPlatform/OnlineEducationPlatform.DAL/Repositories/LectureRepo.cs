@@ -20,7 +20,7 @@ namespace OnlineEducationPlatform.DAL.Repositories
 
         public IEnumerable<Lecture> GetAll()
         {
-            return _context.Lecture.AsNoTracking().ToList();
+            return _context.Lecture.AsNoTracking().Where(L=>L.IsDeleted==false).ToList();
         }
 
         public Lecture GetById(int id)
@@ -43,7 +43,7 @@ namespace OnlineEducationPlatform.DAL.Repositories
             var lecModel = _context.Lecture.Find(id);
             if (lecModel != null)
             {
-                _context.Lecture.Remove(lecModel);
+                lecModel.IsDeleted = true;
                 SaveChange();
             }
         }

@@ -17,33 +17,48 @@ namespace OnlineEducationPlatform.Api.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAllVedios()
+        //Insturctor and Student can be get All Vedios
+        public ActionResult GetAllVedios()
         {
-            return Ok(_vedioManager.GetAll());
+            var AllVedios=_vedioManager.GetAll();
+            if (AllVedios != null)
+            {
+                return Ok(AllVedios);
+            }
+            return NotFound();
         }
 
         [HttpGet("{id:int}")]
-        public IActionResult GetVedio(int id)
+        //Insturctor and Student can be get Vedio
+        public ActionResult GetVedio(int id)
         {
-            return Ok(_vedioManager.GetById(id));
+            var vedio=_vedioManager.GetById(id);
+            if (vedio != null)
+            {
+                return Ok(vedio);
+            }
+            return NotFound();
         }
 
         [HttpPost]
-        public IActionResult AddVedio(VedioAddDto vedioAddDto)
+        //Instructor can only Add vedio
+        public ActionResult AddVedio(VedioAddDto vedioAddDto)
         {
             _vedioManager.Add(vedioAddDto);
             return Created();
         }
 
         [HttpDelete("{id:int}")]
-        public IActionResult DeleteVedio(int id)
+        //Instructor can only delete Vedio
+        public ActionResult DeleteVedio(int id)
         {
             _vedioManager.Delete(id);
             return Ok();
         }
 
         [HttpPut]
-        public IActionResult UpdateVedio (VedioUpdateDto vedioUpdate)
+        // Instructor can only update vedio
+        public ActionResult UpdateVedio (VedioUpdateDto vedioUpdate)
         {
             _vedioManager.Update(vedioUpdate);
             return Ok();

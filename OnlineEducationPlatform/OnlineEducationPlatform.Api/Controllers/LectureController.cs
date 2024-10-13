@@ -17,31 +17,45 @@ namespace OnlineEducationPlatform.Api.Controllers
             _lectureManager = lectureManager;
         }
         [HttpGet]
-        public IActionResult GetAllLectuers()
+        // Instrutor and Student can get All Lecture
+        public ActionResult GetAllLectuers()
         {
-            return Ok(_lectureManager.GetAll());
+            var AllLectures=_lectureManager.GetAll();
+            if (AllLectures != null)
+            {
+                return Ok(AllLectures);
+            }
+            return NotFound();
         }
         [HttpGet("{id:int}")]
-
-        public IActionResult GetById(int id)
+        //Instructor and Student can get lecture
+        public ActionResult GetById(int id)
         {
-            return Ok(_lectureManager.GetById(id));
+            var lecture= _lectureManager.GetById(id);
+            if (lecture != null)
+            {
+                return Ok(lecture);
+            }
+            return NotFound();
         }
 
         [HttpDelete("{id:int}")]
-        public IActionResult RemoveLecture(int id)
+        //Instructor only can delete lecture
+        public ActionResult RemoveLecture(int id)
         {
             _lectureManager.Delete(id);
             return Ok();    
         }
         [HttpPost]
-        public IActionResult AddLecture(LectureAddDto lectureAddDto)
+        //Instructor only can add lecture
+        public ActionResult AddLecture(LectureAddDto lectureAddDto)
         {
             _lectureManager.Add(lectureAddDto);
             return Created();
         }
         [HttpPut]
-        public IActionResult UpdateLecture(LectureUpdateDto lectureUpdateDto)
+        //Instructor only can update lecture
+        public ActionResult UpdateLecture(LectureUpdateDto lectureUpdateDto)
         {
             _lectureManager.Update(lectureUpdateDto);
             return Ok();

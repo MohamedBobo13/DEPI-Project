@@ -20,7 +20,7 @@ namespace OnlineEducationPlatform.DAL.Repositories
 
         public IEnumerable<Video> GetAll()
         {
-            return _context.Video.AsNoTracking().ToList();
+            return _context.Video.AsNoTracking().Where(V=>V.IsDeleted==false).ToList();
         }
 
         public Video GetById(int id)
@@ -41,8 +41,11 @@ namespace OnlineEducationPlatform.DAL.Repositories
         public void Delete(int id)
         {
             var vedio = _context.Video.Find(id);
-            _context.Remove(vedio);
-            SaveChange();
+            if (vedio!= null)
+            {
+                vedio.IsDeleted = true;
+                SaveChange();
+            }
         }
         public void Update(Video video)
         {

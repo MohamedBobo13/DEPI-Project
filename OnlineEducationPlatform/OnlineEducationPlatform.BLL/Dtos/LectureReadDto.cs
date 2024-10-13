@@ -13,11 +13,11 @@ namespace OnlineEducationPlatform.BLL.Dtos
         //public int Id { get; set; }
         public string Title { get; set; }
         public int Order { get; set; }
-        [ForeignKey("Course")]
+        //[ForeignKey("Course")]
         //public int CourseId { get; set; }
-        public Course Course { get; set; }
-        public ICollection<Quiz> Quizzes { get; set; } = new HashSet<Quiz>();
-        public ICollection<PdfFile> PdfFiles { get; set; } = new HashSet<PdfFile>();
-        public ICollection<Video> Videos { get; set; } = new HashSet<Video>();
+        //public Course Course { get; set; }
+        //public ICollection<Quiz> Quizzes { get; set; } = new HashSet<Quiz>();
+        //public ICollection<PdfFile> PdfFiles { get; set; } = new HashSet<PdfFile>();
+        //public ICollection<Video> Videos { get; set; } = new HashSet<Video>();
     }
 }
