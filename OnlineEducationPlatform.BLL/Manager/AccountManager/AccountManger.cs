@@ -1,21 +1,15 @@
-﻿
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using OnlineEducationPlatform.BLL.Dto.ApplicationUserDto;
 using OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto;
 using OnlineEducationPlatform.BLL.Manager.AccountManager;
 using OnlineEducationPlatform.DAL.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Data;
+using OnlineQuiz.BLL.Managers.Accounts;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OnlineEducationPlatform.BLL.Manger.Accounts
 {
@@ -23,14 +17,17 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
     {
         private readonly UserManager<ApplicationUser> UserManager;//make sure if user send in db or not
         private readonly IConfiguration configuration;
+        private readonly IEmailService _emailService;
 
-        public AccountManger(UserManager<ApplicationUser> userManager, IConfiguration configuration)//inject =>to use it
+        public AccountManger(UserManager<ApplicationUser> userManager, IConfiguration configuration, IEmailService emailService)//inject =>to use it
         {
             UserManager = userManager;
             this.configuration = configuration;
+            _emailService = emailService;
+
         }
 
-        public async Task<AuthModel> AdminRegister(RegesterAdminDto regesterAdminDto)
+        public async Task<AuthModel> AdminRegister(RegesterAdminDto regesterAdminDto,IUrlHelper urlHelper)
         {
 
             if (await UserManager.FindByEmailAsync(regesterAdminDto.Email) is not null)
@@ -55,7 +52,7 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             else if (regesterAdminDto.UserType == TypeUser.Admin)
             {
 
-                user = new Admin();
+                user = new DAL.Data.Models.Admin();
             }
             else
             {
@@ -68,6 +65,33 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             user.UserType = regesterAdminDto.UserType;
 
             IdentityResult identityResult = await UserManager.CreateAsync(user, regesterAdminDto.Password);//save in db and hashing password
+            if (identityResult.Succeeded)
+            {
+                //  #region VerifyEmail
+                // Generate the email confirmation token
+                var emailConfirmationToken = await UserManager.GenerateEmailConfirmationTokenAsync(user);
+
+                //  Generate the email confirmation link using UrlHelper
+                var confirmationLink = urlHelper.Action("ConfirmEmail", "Accounts",
+                    new { userId = user.Id, token = emailConfirmationToken }, "https");
+
+                // Send  confirmation link  
+                var confirmationEmailBody = $"Hello {user.UserName},\n\n" +
+                                            "Thank you for joining our community at [ Online Eduaction Platform ] !\n\n" +
+                                            "To activate your account, please verify your email by clicking the link below :\n\n" +
+                                           $"{confirmationLink}\n\n" +
+                                            "If you did not sign up for this account, no action is required on your part.\n\n" +
+                                            "We’re excited to have you with us!\n\n" +
+                                            " Best wishes,\n" +
+                                            " [Online Education Platform Team]\n" +
+                                            " Contact us: +201015868707 \n ";
+
+                var res = await _emailService.SendEmailAsync(user.Email, "Confirm Your Email Address", confirmationEmailBody);
+
+
+
+
+            }
 
             if (!identityResult.Succeeded)
             {
@@ -104,7 +128,7 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
 
             };
         }
-        public async Task<AuthModel> StudentRegister(RegesterStudentDto regesterStudentDto)
+        public async Task<AuthModel> StudentRegister(RegesterStudentDto regesterStudentDto, IUrlHelper urlHelper)
         {
             if (await UserManager.FindByEmailAsync(regesterStudentDto.Email) is not null)
             {
@@ -132,6 +156,45 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             //
             user.UserType = TypeUser.Student;
             IdentityResult identityResult = await UserManager.CreateAsync(user, regesterStudentDto.Password);//save in db and hashing password
+
+            if (identityResult.Succeeded)
+            {
+                //  #region VerifyEmail
+                // Generate the email confirmation token
+                var emailConfirmationToken = await UserManager.GenerateEmailConfirmationTokenAsync(user);
+
+                //  Generate the email confirmation link using UrlHelper
+                var confirmationLink = urlHelper.Action("ConfirmEmail", "Accounts",
+                    new { userId = user.Id, token = emailConfirmationToken }, "https");
+
+                // Send  confirmation link  
+                //var confirmationEmailBody = $"Hello {user.UserName},\n\n" +
+                //                            "Thank you for joining our community at [ Online Eduaction Platform ] !\n\n" +
+                //                            "To activate your account, please verify your email by clicking the link below :\n\n" +
+                //                           $"{confirmationLink}\n\n" +
+                //                            "If you did not sign up for this account, no action is required on your part.\n\n" +
+                //                            "We’re excited to have you with us!\n\n" +
+                //                            " Best wishes,\n" +
+                //                            " [Online Education Platform Team]\n" +
+                //                            " Contact us: +201015868707 \n ";
+
+                var confirmationEmailBody = $"Dear {user.UserName},\n\n" +
+                             "Thank you for registering with us!\n\n" +
+                             "To complete your registration, please confirm your email address by clicking the link below:\n" +
+                             $"{confirmationLink}\n\n" +
+                             "If you did not create an account, please ignore this email.\n\n" +
+                             "Best regards,\n" +
+                             "[Online Educaton Platform]\n" +
+                             "[+20 101 586 8707]";
+
+                var res = await _emailService.SendEmailAsync(user.Email, "Confirm Your Email Address", confirmationEmailBody);
+
+
+
+
+            }
+
+
 
             if (!identityResult.Succeeded)
             {
@@ -169,7 +232,17 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             AuthModel auth = new AuthModel();
 
             var User = await UserManager.FindByEmailAsync(loginDto.Email);
-            if (User == null || !await UserManager.CheckPasswordAsync(User, loginDto.Password))
+            if (User == null || !await UserManager.IsEmailConfirmedAsync(User))
+            {
+                auth.Errors.Add(User == null ? "Email not found. Please make sure the email is correct." :
+                                  "Email not confirmed. Please check your inbox.");
+                return auth;
+
+            }
+
+
+
+                if (User == null || !await UserManager.CheckPasswordAsync(User, loginDto.Password))
             {
                 auth.message = "Email or Password is incorrect";
                 return auth;

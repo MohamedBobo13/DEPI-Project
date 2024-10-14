@@ -1,17 +1,15 @@
-﻿using OnlineEducationPlatform.BLL.Dto.ApplicationUserDto;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Routing;
+using OnlineEducationPlatform.BLL.Dto.ApplicationUserDto;
 using OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Manager.AccountManager
 {
     public interface IAccountManger
     {
         Task<AuthModel> Login(LoginDto loginDto);
-        Task<AuthModel> AdminRegister(RegesterAdminDto regesterAdminDto);
-        Task<AuthModel> StudentRegister(RegesterStudentDto regesterStudentDto);
+        Task<AuthModel> AdminRegister(RegesterAdminDto regesterAdminDto, IUrlHelper urlHelper);
+        Task<AuthModel> StudentRegister(RegesterStudentDto regesterStudentDto, IUrlHelper urlHelper);
     }
 }

@@ -14,6 +14,8 @@ using OnlineEducationPlatform.BLL.Manager;
 using OnlineEducationPlatform.DAL.Repo.QuestionRepo;
 using OnlineEducationPlatform.DAL.Repositories;
 using OnlineEducationPlatform.BLL.AutoMapper;
+using OnlineQuiz.BLL.Managers.Accounts;
+using Microsoft.AspNetCore.Identity;
 
 namespace OnlineEducationPlatform.Api
 {
@@ -29,7 +31,11 @@ namespace OnlineEducationPlatform.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            builder.Services.AddDbContext<EducationPlatformContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
+            }
+          );
             builder.Services.AddIdentity<ApplicationUser, Microsoft.AspNetCore.Identity.IdentityRole>(Options =>
             {
                 Options.Password.RequireNonAlphanumeric = false;
@@ -38,11 +44,12 @@ namespace OnlineEducationPlatform.Api
                 // Options.Password.RequiredLength=15;
 
 
-            }).AddEntityFrameworkStores<EducationPlatformContext>();
+            }).AddEntityFrameworkStores<EducationPlatformContext>().AddDefaultTokenProviders();
             builder.Services.AddAuthentication(Options =>
             {
                 Options.DefaultAuthenticateScheme = "JWT";//make sure token is true
-                Options.DefaultChallengeScheme = "JWT";//return 401 => unauthorized or 403 => forbeden
+                Options.DefaultChallengeScheme = "JWT";
+                Options.DefaultScheme = "JWT";//return 401 => unauthorized or 403 => forbeden
             }).AddJwtBearer("JWT", Options =>
             {
                 //secrete key
@@ -55,18 +62,23 @@ namespace OnlineEducationPlatform.Api
                 {
                     IssuerSigningKey = securityKey,
                     //false mean anyone can send and eny one can take
-                    ValidateIssuer = false,//take token(backend)//make token
-                    ValidateAudience = false//send token(frontend)//use token
+                    ValidateIssuer = true,//take token(backend)//make token
+                    ValidateAudience = true//send token(frontend)//use token
                 };
             });
 
-            builder.Services.AddDbContext<EducationPlatformContext>(options =>
-            {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
-            }
-            );
+            builder.Services.AddHttpContextAccessor();
 
-            
+            //        builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+            //.AddDefaultTokenProviders()
+            //.AddEntityFrameworkStores<EducationPlatformContext>();
+            //builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+            //.AddDefaultTokenProviders()
+            //.AddEntityFrameworkStores<EducationPlatformContext>();
+
+
+
+
             builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerResultMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new QuestionMappingProfile()));
@@ -90,7 +102,7 @@ namespace OnlineEducationPlatform.Api
 
             builder.Services.AddScoped<IQuestionRepo, QuestionRepo>();
             builder.Services.AddScoped<IQuestionManager, QuestionManager>();
-
+            builder.Services.AddScoped<IEmailService, EmailService>();
 
             // builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericClass<>) );
             var app = builder.Build();

@@ -12,6 +12,10 @@ namespace OnlineEducationPlatform.DAL.Data.DbHelper
     public class EducationPlatformContext : IdentityDbContext<ApplicationUser>
     {
         public EducationPlatformContext(DbContextOptions<EducationPlatformContext> options) : base(options) { }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

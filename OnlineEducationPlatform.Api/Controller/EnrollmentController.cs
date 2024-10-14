@@ -1,13 +1,7 @@
-﻿using Azure;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Graph.Models;
-using Microsoft.Graph.Models.TermStore;
+﻿using Microsoft.AspNetCore.Mvc;
 using OnlineEducationPlatform.BLL.Dto.EnrollmentDto;
 using OnlineEducationPlatform.BLL.handleresponse;
 using OnlineEducationPlatform.BLL.Manager.EnrollmentManager;
-using OnlineEducationPlatform.DAL.Data.Models;
 
 namespace OnlineEducationPlatform.Api.Controller
 {

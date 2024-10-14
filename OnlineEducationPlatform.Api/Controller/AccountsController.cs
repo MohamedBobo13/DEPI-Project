@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Routing;
 using OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto;
 using OnlineEducationPlatform.BLL.Manager.AccountManager;
 using OnlineEducationPlatform.BLL.Manger.Accounts;
@@ -12,9 +13,11 @@ namespace OnlineEducationPlatform.Api.Controllers
     public class AccountsController : ControllerBase
     {
         private readonly IAccountManger AccountManger;
-        public AccountsController(IAccountManger accountManger)
+        private readonly IUrlHelperFactory _urlHelperFactory;
+        public AccountsController(IAccountManger accountManger, IUrlHelperFactory urlHelperFactory)
         {
             AccountManger=accountManger;
+            _urlHelperFactory=urlHelperFactory;
         }
 
         [HttpPost("Login")]
@@ -42,8 +45,8 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return BadRequest(ModelState);
             }
-
-            var result = await AccountManger.AdminRegister(regesterDto);
+            var urlHelper = Url;
+            var result = await AccountManger.AdminRegister(regesterDto,urlHelper);
 
             if(result.IsAuthenticated==false)
             {
@@ -60,8 +63,9 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return BadRequest(ModelState);
             }
+            var urlHelper = Url;
 
-            var result = await AccountManger.StudentRegister(regesterDto);
+            var result = await AccountManger.StudentRegister(regesterDto,urlHelper);
             if (result.IsAuthenticated == false)
             {
                 return BadRequest(result.message);

@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OnlineEducationPlatform.BLL.Dto.ApplicationUserDto
+﻿namespace OnlineEducationPlatform.BLL.Dto.ApplicationUserDto
 {
     public class AuthModel
     {
+        public List<string> Errors { get; set; }
         public string message { get; set; }
         public bool IsAuthenticated { get; set; }
         public string UserName { get; set; }
