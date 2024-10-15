@@ -18,7 +18,7 @@ namespace OnlineEducationPlatform.BLL.Manager.EnrollmentManager
         Task<ServiceResponse<List<EnrollmentDtoForRetriveAllEnrollmentsInCourse>>> GetEnrollmentsByStudentIdAsync(string studentId);
         Task<ServiceResponse<List<EnrollmentDtoForRetriveAllEnrollmentsInCourse>>> GetAllEnrollments();
         Task<ServiceResponse<List<EnrollmentDtowWithStatusanddDate>>> GetAllSoftDeletedEnrollmentsAsync();
-
+        Task<ServiceResponse<bool>> updateenrollmentbyid(updateenrollmentdto updateenrollmentdto);
 
 
     }

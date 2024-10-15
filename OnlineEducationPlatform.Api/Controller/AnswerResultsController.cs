@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OnlineEducationPlatform.BLL.Dtos;
-using OnlineEducationPlatform.BLL.Manager;
+using OnlineEducationPlatform.BLL.Manager.Answerresultmanager;
 using OnlineEducationPlatform.DAL.Data.Models;
 
 namespace OnlineEducationPlatform.Api.Controllers

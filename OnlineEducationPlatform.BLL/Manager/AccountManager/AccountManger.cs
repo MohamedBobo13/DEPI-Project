@@ -11,6 +11,7 @@ using OnlineQuiz.BLL.Managers.Accounts;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Web;
 
 namespace OnlineEducationPlatform.BLL.Manger.Accounts
 {
@@ -28,7 +29,7 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
 
         }
 
-        public async Task<AuthModel> AdminRegister(RegesterAdminDto regesterAdminDto,IUrlHelper urlHelper)
+        public async Task<AuthModel> AdminRegister(RegesterAdminDto regesterAdminDto)
         {
 
             if (await UserManager.FindByEmailAsync(regesterAdminDto.Email) is not null)
@@ -66,33 +67,7 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             user.UserType = regesterAdminDto.UserType;
 
             IdentityResult identityResult = await UserManager.CreateAsync(user, regesterAdminDto.Password);//save in db and hashing password
-            if (identityResult.Succeeded)
-            {
-                //  #region VerifyEmail
-                // Generate the email confirmation token
-                var emailConfirmationToken = await UserManager.GenerateEmailConfirmationTokenAsync(user);
-
-                //  Generate the email confirmation link using UrlHelper
-                var confirmationLink = urlHelper.Action("ConfirmEmail", "Accounts",
-                    new { userId = user.Id, token = emailConfirmationToken }, "https");
-
-                // Send  confirmation link  
-                var confirmationEmailBody = $"Hello {user.UserName},\n\n" +
-                                            "Thank you for joining our community at [ Online Eduaction Platform ] !\n\n" +
-                                            "To activate your account, please verify your email by clicking the link below :\n\n" +
-                                           $"{confirmationLink}\n\n" +
-                                            "If you did not sign up for this account, no action is required on your part.\n\n" +
-                                            "We’re excited to have you with us!\n\n" +
-                                            " Best wishes,\n" +
-                                            " [Online Education Platform Team]\n" +
-                                            " Contact us: +201015868707 \n ";
-
-                var res = await _emailService.SendEmailAsync(user.Email, "Confirm Your Email Address", confirmationEmailBody);
-
-
-
-
-            }
+          
 
             if (!identityResult.Succeeded)
             {
@@ -169,24 +144,24 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
                     new { userId = user.Id, token = emailConfirmationToken }, "https");
 
                 // Send  confirmation link  
-                //var confirmationEmailBody = $"Hello {user.UserName},\n\n" +
-                //                            "Thank you for joining our community at [ Online Eduaction Platform ] !\n\n" +
-                //                            "To activate your account, please verify your email by clicking the link below :\n\n" +
-                //                           $"{confirmationLink}\n\n" +
-                //                            "If you did not sign up for this account, no action is required on your part.\n\n" +
-                //                            "We’re excited to have you with us!\n\n" +
-                //                            " Best wishes,\n" +
-                //                            " [Online Education Platform Team]\n" +
-                //                            " Contact us: +201015868707 \n ";
+                var confirmationEmailBody = $"Hello {user.UserName},\n\n" +
+                                            "Thank you for joining our community at [ Online Eduaction Platform ] !\n\n" +
+                                            "To activate your account, please verify your email by clicking the link below :\n\n" +
+                                           $"{confirmationLink}\n\n" +
+                                            "If you did not sign up for this account, no action is required on your part.\n\n" +
+                                            "We’re excited to have you with us!\n\n" +
+                                            " Best wishes,\n" +
+                                            " [Online Education Platform Team]\n" +
+                                            " Contact us: +20 101 586 8707 \n ";
 
-                var confirmationEmailBody = $"Dear {user.UserName},\n\n" +
-                             "Thank you for registering with us!\n\n" +
-                             "To complete your registration, please confirm your email address by clicking the link below:\n" +
-                             $"{confirmationLink}\n\n" +
-                             "If you did not create an account, please ignore this email.\n\n" +
-                             "Best regards,\n" +
-                             "[Online Educaton Platform]\n" +
-                             "[+20 101 586 8707]";
+                //var confirmationEmailBody = $"Dear {user.UserName},\n\n" +
+                //             "Thank you for registering with us!\n\n" +
+                //             "To complete your registration, please confirm your email address by clicking the link below:\n" +
+                //             $"{confirmationLink}\n\n" +
+                //             "If you did not create an account, please ignore this email.\n\n" +
+                //             "Best regards,\n" +
+                //             "[Online Educaton Platform]\n" +
+                //             "[+20 101 586 8707]";
 
                 var res = await _emailService.SendEmailAsync(user.Email, "Confirm Your Email Address", confirmationEmailBody);
 
@@ -328,6 +303,77 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             response.Errors.Add("Email confirmation failed."); ;
             return response;
 
+        }
+        public async Task<GeneralRespnose> ForgotPassword(ForgotPasswordDto forgotPasswordDto, IUrlHelper urlHelper)
+        {
+            var response = new GeneralRespnose();
+            var user = await UserManager.FindByEmailAsync(forgotPasswordDto.Email);
+            if (user == null)
+            {
+                response.Errors.Add("Email not found. Please make sure the email is correct.");
+                return (response);
+            }
+
+            #region ResetPaswword
+
+            //  reset password token
+            var token = await UserManager.GeneratePasswordResetTokenAsync(user);
+
+            //  password reset link
+            //   var resetLink = urlHelper.Action("ResetPassword", "Accounts",
+            //      new { token, email = user.Email }, "https");
+            //var resetLink = urlHelper.Action("ConfirmEmail", "Accounts",
+            //     new { email = user.Email,id=user.Id, token }, "https");
+            var resetLink = urlHelper.Action("ResetPassword", "Accounts",
+             new { token, email = user.Email }, "https");
+            // Send email
+            var resetEmailBody =  $"Hello {user.UserName},\n\n" +
+                                            "Thank you for joining our community at [ Online Eduaction Platform ] !\n\n" +
+                                            "To activate your account, please verify your email by clicking the link below :\n\n" +
+                                           $"{resetLink}\n\n" +
+                                            "If you did not sign up for this account, no action is required on your part.\n\n" +
+                                            "We’re excited to have you with us!\n\n" +
+                                            " Best wishes,\n" +
+                                            " [Online Education Platform Team]\n" +
+                                            " Contact us: +20 101 586 8707 \n ";
+
+            var result = await _emailService.SendEmailAsync(user.Email, "Reset Your Password", resetEmailBody);
+
+
+            if (result.successed)
+            {
+                response.successed = result.successed;
+                return response;
+            }
+
+            response.Errors.AddRange(result.Errors);
+            return response;
+            #endregion
+        }
+
+        public async Task<GeneralRespnose> ResetPassword(ResetPasswordDto resetPasswordDto)
+        {
+            var response = new GeneralRespnose();
+            if (resetPasswordDto.NewPassword != resetPasswordDto.ConfirmedNewPassword)
+            {
+                response.Errors.Add("New password and confirmation password do not match.");
+                return response;
+            }
+            var user = await UserManager.FindByEmailAsync(resetPasswordDto.Email);
+            if (user == null)
+            {
+                response.Errors.Add("Email not found. Please make sure the email is correct.");
+                return response;
+            }
+            var decodedToken = HttpUtility.UrlDecode(resetPasswordDto.Token);
+            var resetpaswword = await UserManager.ResetPasswordAsync(user, decodedToken, resetPasswordDto.NewPassword);
+            if (resetpaswword.Succeeded)
+            {
+                response.successed = resetpaswword.Succeeded;
+                return response;
+            }
+            response.Errors = resetpaswword.Errors.Select(e => e.Description).ToList();
+            return response;
         }
 
 

@@ -11,7 +11,9 @@ namespace OnlineEducationPlatform.BLL.Manager.AccountManager
     {
         Task<AuthModel> Login(LoginDto loginDto);
         Task<GeneralRespnose> ConfirmEmail(string userId, string token);
-        Task<AuthModel> AdminRegister(RegesterAdminDto regesterAdminDto, IUrlHelper urlHelper);
+        Task<GeneralRespnose> ForgotPassword(ForgotPasswordDto forgotPasswordDto, IUrlHelper urlHelper);
+        Task<GeneralRespnose> ResetPassword(ResetPasswordDto resetPasswordDto);
+        Task<AuthModel> AdminRegister(RegesterAdminDto regesterAdminDto);
         Task<AuthModel> StudentRegister(RegesterStudentDto regesterStudentDto, IUrlHelper urlHelper);
     }
 }

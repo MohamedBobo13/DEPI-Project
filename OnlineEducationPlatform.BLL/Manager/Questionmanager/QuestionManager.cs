@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.Manager
+namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
 {
     public class QuestionManager : IQuestionManager
     {
@@ -57,11 +57,11 @@ namespace OnlineEducationPlatform.BLL.Manager
                 _questionRepo.SaveChange();
                 return true;
 
-            }    
+            }
             return false;
             //_questionRepo.Add(_mapper.Map<Question>(questionExamAddDto));
 
-           // _questionRepo.SaveChange();
+            // _questionRepo.SaveChange();
         }
         public void Update(QuestionUpdateDto questionUpdateDto)
         {

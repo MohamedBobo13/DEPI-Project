@@ -364,7 +364,7 @@ namespace OnlineEducationPlatform.BLL.Manager.EnrollmentManager
 
                 if (enrollment == null)
                 {
-                    response.Success = true;
+                    response.Success = false;
                     response.Message = "Failed to Hard Delete enrollment because it is not existed !!";
                     return response;
                 }
@@ -424,7 +424,7 @@ namespace OnlineEducationPlatform.BLL.Manager.EnrollmentManager
                 }
                 if (enrollment == null)
                 {
-                    response.Success = true;
+                    response.Success = false;
                     response.Message = "Failed to delete enrollment because it is not existed !!";
                     return response;
                 }
@@ -471,7 +471,7 @@ namespace OnlineEducationPlatform.BLL.Manager.EnrollmentManager
                     //  await _enrollmentRepository.UpdateEnrollmentAsync(enrollment);
                     response.Data = true;
 
-                    response.Message = "Student UnEnrolled successfully.";
+                    response.Message = "Enrollment Soft deleted successfully.";
 
                     response.Success = true;
 
@@ -487,7 +487,98 @@ namespace OnlineEducationPlatform.BLL.Manager.EnrollmentManager
 
 
         }
+        public async Task<ServiceResponse<bool>> updateenrollmentbyid(updateenrollmentdto updateenrollmentdto)
+        {
+            var response = new ServiceResponse<bool>();
+            try
+            {
+                var getenollment = await _enrollmentRepository.GetEnrollmentByIdIgnoreSoftDeleteAsync(updateenrollmentdto.Id);
+                if (getenollment == null)
+                {
+                    response.Success = false;
+                    response.Message = $"Enrollment with Id {updateenrollmentdto.Id} not existed";
+                    return response;
+                }
+                var softdeletedenollment = await _enrollmentRepository.IsEnrollmentSoftDeletedAsyncbyid(updateenrollmentdto.Id);
+                if (softdeletedenollment == true)
+                {
+                    response.Success = false;
+                    response.Message = $"Enrollment with Id {updateenrollmentdto.Id} is soft deleted";
+                    return response;
+                }
+                var Studentexist = await _enrollmentRepository.StudentExistsAsync(updateenrollmentdto.StudentId);
+                if (Studentexist == false)
+                {
+                    response.Message = $"Student with ID {updateenrollmentdto.StudentId} does not exist.";
+                    response.Success = false;
+                    
 
-       
+                    return response;
+
+                }
+                var isstudentsoftdeleted = await _enrollmentRepository.IsStudentSoftDeletedAsync(updateenrollmentdto.StudentId);
+                if (isstudentsoftdeleted == true)
+                {
+                    response.Message = $"Student with ID {updateenrollmentdto.StudentId} is soft deleted .";
+                    response.Success = false;
+                    
+                    return response;
+                }
+                var Courseexists = await _enrollmentRepository.CourseExistsAsync(updateenrollmentdto.CourseId);
+                if (Courseexists == false)
+                {
+                    response.Message = $"Course with ID {updateenrollmentdto.CourseId} does not exist.";
+                    response.Success = false;
+                    
+
+                    return response;
+
+                }
+
+                var issoftdeletedcourse = await _enrollmentRepository.IsCourseSoftDeletedAsync(updateenrollmentdto.CourseId);
+                if (issoftdeletedcourse == true)
+                {
+                    response.Message = $"Course with ID {updateenrollmentdto.CourseId} is soft deleted .";
+                    response.Success = false;
+                   
+                    return response;
+                }
+                var existingEnrollments = await _enrollmentRepository.EnrollmentExistsAsync(updateenrollmentdto.StudentId, updateenrollmentdto.CourseId);
+                if (existingEnrollments == true)
+                {
+                   
+                    response.Message = $"Failed to save enrollment because Student with ID {updateenrollmentdto.StudentId} in  Course with ID {updateenrollmentdto.CourseId} already enrolled.";
+                    response.Success = false;
+                    return response;
+                    // throw new InvalidOperationException($"Student {enrollment.StudentId} is already enrolled in course {enrollment.CourseId}.");
+                }
+                getenollment.Id = updateenrollmentdto.Id;
+
+                getenollment.StudentId = updateenrollmentdto.StudentId;
+                getenollment.CourseId = updateenrollmentdto.CourseId;
+                getenollment.Status = updateenrollmentdto.Status;
+                getenollment.EnrollmentDate = updateenrollmentdto.EnrollmentDate;
+
+
+                await _enrollmentRepository.UpdateEnrollmentAsync(getenollment);
+                response.Success = true;
+                response.Message = "Enrollment Updated Successfully";
+                //if (saveresult == true)
+                //{
+                //    response.Success = true;
+                //    response.Message = "Enrollment Updated Successfully";
+                //    return response;
+                //}
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = $"An error occurred: {ex.Message}";
+            }
+            return response;
+        }
+
+
+
     }
 }

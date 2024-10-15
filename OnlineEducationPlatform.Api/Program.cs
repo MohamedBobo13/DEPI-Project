@@ -10,12 +10,15 @@ using OnlineEducationPlatform.BLL.Manger.Accounts;
 using OnlineEducationPlatform.DAL.Repo.EnrollmentRepo;
 using OnlineEducationPlatform.DAL.Repo.QuizRepo;
 using OnlineEducationPlatform.BLL.Manager.EnrollmentManager;
-using OnlineEducationPlatform.BLL.Manager;
 using OnlineEducationPlatform.DAL.Repo.QuestionRepo;
 using OnlineEducationPlatform.DAL.Repositories;
 using OnlineEducationPlatform.BLL.AutoMapper;
 using OnlineQuiz.BLL.Managers.Accounts;
 using Microsoft.AspNetCore.Identity;
+using OnlineEducationPlatform.BLL.Manager.quizresultmanager;
+using OnlineEducationPlatform.BLL.Manager.Answermanager;
+using OnlineEducationPlatform.BLL.Manager.Answerresultmanager;
+using OnlineEducationPlatform.BLL.Manager.Questionmanager;
 
 namespace OnlineEducationPlatform.Api
 {
@@ -78,6 +81,7 @@ namespace OnlineEducationPlatform.Api
 
 
 
+            builder.Services.AddAutoMapper(map => map.AddProfile(new QuizResultMappingProfile()));
 
             builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerResultMappingProfile()));

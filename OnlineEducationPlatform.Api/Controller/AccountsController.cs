@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto;
 using OnlineEducationPlatform.BLL.Manager.AccountManager;
 using OnlineEducationPlatform.BLL.Manger.Accounts;
+using OnlineQuiz.BLL.Dtos.Accounts;
 
 namespace OnlineEducationPlatform.Api.Controllers
 {
@@ -31,9 +32,10 @@ namespace OnlineEducationPlatform.Api.Controllers
             var result = await AccountManger.Login(logindto);
             if (result.IsAuthenticated==false)
             {
-                return BadRequest(result.message);
+                return BadRequest(result.message = "  Email has not been confirmed. Please check your inbox !!\" :\r\n ");
+                                                  
             }
-            return Ok(result);
+            return Ok(result.message = "Login Successful");
         }
         [HttpGet("ConfirmEmail")]
         public async Task<IActionResult> ConfirmEmail(string userId, string token)
@@ -62,8 +64,8 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return BadRequest(ModelState);
             }
-            var urlHelper = Url;
-            var result = await AccountManger.AdminRegister(regesterDto,urlHelper);
+            
+            var result = await AccountManger.AdminRegister(regesterDto);
 
             if(result.IsAuthenticated==false)
             {
@@ -87,8 +89,40 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return BadRequest(result.message);
             }
-            return Ok(result);
+            return Ok(result.message= "Student has been registered successfully");
+        }
+        [HttpPost("ForgotPassword")]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordDto forgotPasswordDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new { Errors = "Invalid input data" });
+            }
+
+            var UrlHepler = Url;
+            var result = await AccountManger.ForgotPassword(forgotPasswordDto, UrlHepler);
+            if (result.successed)
+            {
+                return Ok(new { message = "Password reset email sent successfully. Please check your inbox." });
+            }
+            return BadRequest(result.Errors);
         }
 
+        [HttpPost("ResetPassword")]
+        public async Task<IActionResult> ResetPassword(ResetPasswordDto resetPasswordDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new { Errors = "Invalid input data" });
+            }
+
+            var UrlHepler = Url;
+            var result = await AccountManger.ResetPassword(resetPasswordDto);
+            if (result.successed)
+            {
+                return Ok(new { message = "Your password has been reset successfully." });
+            }
+            return BadRequest(result.Errors);
+        }
     }
 }

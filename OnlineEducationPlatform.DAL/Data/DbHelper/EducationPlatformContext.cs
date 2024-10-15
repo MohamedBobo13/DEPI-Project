@@ -31,9 +31,14 @@ namespace OnlineEducationPlatform.DAL.Data.DbHelper
                   .HasQueryFilter(a => !a.IsDeleted);
             modelBuilder.Entity<Course>()
                   .HasQueryFilter(a => !a.IsDeleted);
+            modelBuilder.Entity<QuizResult>()
+                .HasQueryFilter(a => !a.IsDeleted);
             modelBuilder.Entity<Enrollment>()
         .HasIndex(e => new { e.StudentId, e.CourseId })
         .IsUnique();
+            modelBuilder.Entity<QuizResult>()
+     .HasIndex(e => new { e.StudentId, e.QuizId })
+     .IsUnique();
             //            modelBuilder.Entity<ApplicationUser>().HasData(
             //           new ApplicationUser
             //           {

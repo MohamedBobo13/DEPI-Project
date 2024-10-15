@@ -10,6 +10,7 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
 {
     public interface IEnrollmentRepo
     {
+        Task<bool> EnrollmentExistsAsyncbyid(int id);
         Task<bool> StudentHasEnrollmentsAsync(string studentid);
         Task<bool> AreAllenrollmentsSoftDeletedAsyncforstudent(string studentId);
         Task<bool> AreAllEnrollmentsSoftDeletedAsync();
@@ -17,7 +18,7 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
         Task<bool> IsEnrollmentSoftDeletedAsync(string studentId, int courseId);
         Task<bool> IsStudentSoftDeletedAsync(string studentId);
         Task<bool> IsCourseSoftDeletedAsync(int CourseId);
-
+        Task<Enrollment> GetEnrollmentByIdIgnoreSoftDeleteAsync(int enrollmentId);
 
         Task<IEnumerable<Enrollment>> GetByStudentIdAsync(string studentId);
         Task<IEnumerable<Enrollment>> GetByCourseIdAsync(int courseId);
@@ -38,6 +39,9 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
         Task<List<Enrollment>> GetAllEnrollmentsAsync();
 
         Task<List<Enrollment>> GetAllSoftDeletedEnrollmentsAsync();
+        Task<bool> IsEnrollmentSoftDeletedAsyncbyid(int enrollmentid);
+        Task UpdateEnrollmentAsync(Enrollment enrollment);
+      
 
 
     }

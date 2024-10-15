@@ -68,25 +68,33 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
                                  .IgnoreQueryFilters().Where(e => e.IsDeleted)
                                  .ToListAsync();
         }
-        public async Task< bool> IsEnrollmentSoftDeletedAsync(string studentId, int courseId)
+        public async Task<bool> IsEnrollmentSoftDeletedAsync(string studentId, int courseId)
         {
             return _context.Enrollment
                            .IgnoreQueryFilters() // This tells EF to include soft-deleted records
                            .Any(e => e.StudentId == studentId
                                   && e.CourseId == courseId
-                                  && e.IsDeleted==true);
+                                  && e.IsDeleted == true);
+        }
+        public async Task<bool> IsEnrollmentSoftDeletedAsyncbyid(int enrollmentid)
+        {
+            return _context.Enrollment
+                           .IgnoreQueryFilters() // This tells EF to include soft-deleted records
+                           .Any(e => e.Id == enrollmentid
+
+                                  && e.IsDeleted == true);
         }
         public async Task<bool> IsStudentSoftDeletedAsync(string studentId)
         {
             //return _context.Enrollment
             //              .IgnoreQueryFilters() // This tells EF to include soft-deleted records
             //              .Any(e => e.StudentId == studentId
-                                 
+
             //                     && e.IsDeleted==true);
             return await _context.Users
                          .IgnoreQueryFilters()  // Include soft-deleted records
                          .AnyAsync(u => u.Id == studentId
-                         && u.IsDeleted==true
+                         && u.IsDeleted == true
                                      && u.UserType == TypeUser.Student);
 
         }
@@ -96,7 +104,7 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
                           .IgnoreQueryFilters() // This tells EF to include soft-deleted records
                           .Any(e => e.Id == CourseId
 
-                                 && e.IsDeleted==true);
+                                 && e.IsDeleted == true);
 
 
         }
@@ -135,8 +143,8 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
         public async Task<bool> StudentExistsAsync(string studentId)
         {
             return await _context.User.IgnoreQueryFilters().AnyAsync(U => U.Id == studentId && U.UserType == TypeUser.Student);
-           // bool exists = await _context.Users
-                           //      .AnyAsync(u => u.UserId == studentId && u.Role == UserRole.Student);
+            // bool exists = await _context.Users
+            //      .AnyAsync(u => u.UserId == studentId && u.Role == UserRole.Student);
         }
 
         public async Task<bool> CourseExistsAsync(int CourseId)
@@ -148,10 +156,20 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
             return await _context.Enrollment.IgnoreQueryFilters()
                 .AnyAsync(e => e.StudentId == studentId && e.CourseId == courseId);
         }
-
+        public async Task<bool> EnrollmentExistsAsyncbyid(int id)
+        {
+            return await _context.Enrollment.IgnoreQueryFilters()
+                .AnyAsync(e => e.Id == id);
+        }
         public async Task<bool> CompleteAsync()
         {
             return await _context.SaveChangesAsync() > 0;
+        }
+        public async Task<Enrollment> GetEnrollmentByIdIgnoreSoftDeleteAsync(int enrollmentId)
+        {
+            return await _context.Enrollment
+                .IgnoreQueryFilters() // This bypasses the global filter that excludes soft-deleted records
+                .FirstOrDefaultAsync(e => e.Id == enrollmentId);
         }
 
         //public async Task<bool> RemoveAsync(string StudentId, int CourseId)
@@ -172,11 +190,11 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
 
         public async Task<bool> RemoveAsync(string StudentId, int CourseId)
         {
-                var enrollment = await _context.Enrollment
-            .FirstOrDefaultAsync(e => e.StudentId == StudentId && e.CourseId == CourseId);
+            var enrollment = await _context.Enrollment
+        .FirstOrDefaultAsync(e => e.StudentId == StudentId && e.CourseId == CourseId);
             if (enrollment != null)
             {
-                enrollment.IsDeleted= true;
+                enrollment.IsDeleted = true;
                 await _context.SaveChangesAsync();
                 return true;
 
@@ -190,10 +208,10 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
                                  .IgnoreQueryFilters() // Disable query filters
                                  .FirstOrDefaultAsync(e => e.StudentId == studentId && e.CourseId == courseId);
         }
-       public async  Task<Enrollment> GetEnrollmentByStudentAndCourseAsyncwithnosoftdeleted(string studentId, int courseId)
+        public async Task<Enrollment> GetEnrollmentByStudentAndCourseAsyncwithnosoftdeleted(string studentId, int courseId)
         {
             return await _context.Enrollment
-                                
+
                                  .FirstOrDefaultAsync(e => e.StudentId == studentId && e.CourseId == courseId);
 
 
@@ -209,6 +227,13 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
         //    _context.Enrollment.Update(enrollment);
         //    await _context.SaveChangesAsync();
         //}
+        public async Task UpdateEnrollmentAsync(Enrollment enrollment)
+        {
+            _context.Enrollment.Update(enrollment);
+            await _context.SaveChangesAsync();
+            
+
+        }
 
     }
 }

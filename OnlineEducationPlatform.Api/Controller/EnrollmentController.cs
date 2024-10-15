@@ -39,6 +39,29 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
+        [HttpPut("UpdateEnrollment/{Id}")]
+
+        public async Task<ActionResult<ServiceResponse<bool>>> updateEnrollment(int Id,updateenrollmentdto updateenrollmentdto)
+        {
+            if (Id != updateenrollmentdto.Id) { return BadRequest(new {message ="Id is not identical"}); }
+
+            var serviceResponse = await _enrollmentmanager.updateenrollmentbyid(updateenrollmentdto);
+           
+            if (serviceResponse.Success)
+            {
+                return Ok(serviceResponse.Message);
+            }
+
+            else
+            {
+
+
+                return BadRequest(serviceResponse.Message);
+
+            }
+
+        }
+
         [HttpGet("GetAllSoftDeletedEnrollments")]
 
         public async Task<ActionResult<ServiceResponse<EnrollmentDtowWithStatusanddDate>>> GetAllSoftDeletedEnrollments()
@@ -95,19 +118,19 @@ namespace OnlineEducationPlatform.Api.Controller
             var response = await _enrollmentmanager.UnenrollFromCourseByStudentAndCourseIdAsync(StudentId,CourseId);
             if (response.Success)
             {
-                return Ok(response);
+                return Ok(response.Message);
             }
             else
             {
 
 
-                return BadRequest(response);
+                return BadRequest(response.Message);
 
             }
 
 
         }
-        [HttpDelete("HardDelete/{studentId}/{courseId}")]
+        [HttpDelete("HardDeleteEnrollment/{studentId}/{courseId}")]
         //  [Authorize(Roles = "Admin")]
 
         public async Task<ActionResult<ServiceResponse<bool>>> HardDeleteEnrollment( string studentId, int courseId)
@@ -121,7 +144,7 @@ namespace OnlineEducationPlatform.Api.Controller
             
             else
             {
-                return BadRequest(response);
+                return BadRequest(response.Message);
             }
 
 

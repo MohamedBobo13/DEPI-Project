@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.Manager
+namespace OnlineEducationPlatform.BLL.Manager.Answerresultmanager
 {
     public interface IAnswerResultManager
     {

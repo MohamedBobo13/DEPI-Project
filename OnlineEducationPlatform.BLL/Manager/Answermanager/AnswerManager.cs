@@ -9,14 +9,14 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.Manager
+namespace OnlineEducationPlatform.BLL.Manager.Answermanager
 {
     public class AnswerManager : IAnswerManager
     {
         private readonly IAnswerRepo _answerRepo;
         private readonly IMapper _mapper;
 
-        public AnswerManager(IAnswerRepo answerRepo,IMapper mapper)
+        public AnswerManager(IAnswerRepo answerRepo, IMapper mapper)
         {
             _answerRepo = answerRepo;
             _mapper = mapper;
