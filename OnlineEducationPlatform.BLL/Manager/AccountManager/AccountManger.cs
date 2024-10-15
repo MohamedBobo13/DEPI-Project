@@ -6,6 +6,7 @@ using OnlineEducationPlatform.BLL.Dto.ApplicationUserDto;
 using OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto;
 using OnlineEducationPlatform.BLL.Manager.AccountManager;
 using OnlineEducationPlatform.DAL.Data.Models;
+using OnlineQuiz.BLL.Dtos.Accounts;
 using OnlineQuiz.BLL.Managers.Accounts;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -300,6 +301,35 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             return jwtSecurityToken;
 
         }
+
+        public async Task<GeneralRespnose> ConfirmEmail(string userId, string token)
+        {
+            GeneralRespnose response = new GeneralRespnose();
+            if (string.IsNullOrWhiteSpace(userId) || string.IsNullOrWhiteSpace(token))
+            {
+                response.Errors.Add("UserId and Token are required.");
+                return response;
+            }
+
+            var user = await UserManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                response.Errors.Add("User not found.");
+                return response;
+            }
+
+            var result = await UserManager.ConfirmEmailAsync(user, token);
+            if (result.Succeeded)
+            {
+                response.successed = true;
+                return response;
+
+            }
+            response.Errors.Add("Email confirmation failed."); ;
+            return response;
+
+        }
+
 
 
     }

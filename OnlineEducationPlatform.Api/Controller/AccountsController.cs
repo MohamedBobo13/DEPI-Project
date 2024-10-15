@@ -35,8 +35,25 @@ namespace OnlineEducationPlatform.Api.Controllers
             }
             return Ok(result);
         }
-       //[Authorize(Roles ="Admin")]
-         [HttpPost("RegisterAdmin")]
+        [HttpGet("ConfirmEmail")]
+        public async Task<IActionResult> ConfirmEmail(string userId, string token)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new { Errors = "Invalid input data" });
+            }
+            var responce = await AccountManger.ConfirmEmail(userId, token);
+            if (responce.successed)
+
+            {
+                return Ok(new { message = "Email confirmed successfully" });
+            }
+            return BadRequest(responce.Errors);
+        }
+
+
+        //[Authorize(Roles ="Admin")]
+        [HttpPost("RegisterAdmin")]
         //[HttpPost]
         public async Task<IActionResult> Register([FromBody] RegesterAdminDto regesterDto)
         {
