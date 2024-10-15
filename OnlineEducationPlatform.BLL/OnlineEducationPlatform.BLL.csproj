@@ -7,8 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AutoMapper\Answer auto map\**" />
+    <Compile Remove="AutoMapper\Answerresultmap\**" />
+    <Compile Remove="AutoMapper\quesionmap\**" />
     <Compile Remove="Dtos\**" />
+    <EmbeddedResource Remove="AutoMapper\Answer auto map\**" />
+    <EmbeddedResource Remove="AutoMapper\Answerresultmap\**" />
+    <EmbeddedResource Remove="AutoMapper\quesionmap\**" />
     <EmbeddedResource Remove="Dtos\**" />
+    <None Remove="AutoMapper\Answer auto map\**" />
+    <None Remove="AutoMapper\Answerresultmap\**" />
+    <None Remove="AutoMapper\quesionmap\**" />
     <None Remove="Dtos\**" />
   </ItemGroup>
 
@@ -22,12 +31,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.1.1" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.1.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="AutoMapper\Answer auto map\" />
-    <Folder Include="AutoMapper\Answerresultmap\" />
-    <Folder Include="AutoMapper\quesionmap\" />
   </ItemGroup>
 
 </Project>

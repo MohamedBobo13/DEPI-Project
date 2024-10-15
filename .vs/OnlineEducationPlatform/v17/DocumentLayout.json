@@ -3,36 +3,180 @@
   "WorkspaceRootPath": "D:\\new project depi\\OnlineEducationPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.api\\controller\\quizresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\controller\\quizresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\quizresultmanager\\quizresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\quizresultmanager\\quizresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.api\\controller\\lecturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\controller\\lecturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\dto\\quizresultsdto\\quizresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\quizresultsdto\\quizresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\accountmanager\\accountmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\accountmanager\\accountmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\answermanager\\ianswermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answermanager\\ianswermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\answermanager\\answermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answermanager\\answermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\answerresultmanager\\ianswerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answerresultmanager\\ianswerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\answerresultmanager\\answerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answerresultmanager\\answerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\coursemanager\\icoursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\coursemanager\\icoursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\coursemanager\\coursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\coursemanager\\coursemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\enrollmentmanager\\ienrollmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\enrollmentmanager\\ienrollmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\enrollmentmanager\\enrollmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\enrollmentmanager\\enrollmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.api\\controller\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\controller\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\lecturemanager\\lecturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\lecturemanager\\lecturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\lecturemanager\\ilecturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\lecturemanager\\ilecturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\pdfmanager\\ipdffilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\pdfmanager\\ipdffilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\pdfmanager\\pdffilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\pdfmanager\\pdffilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\questionmanager\\questionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\questionmanager\\questionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\questionmanager\\iquestionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\questionmanager\\iquestionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\quizresultmanager\\iquizresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\quizresultmanager\\iquizresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\quizresultmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\quizresultmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\quizresultmanager\\quizresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\quizresultmanager\\quizresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\videomanager\\vediomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\videomanager\\vediomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\videomanager\\ivediomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\videomanager\\ivediomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\courseautomapper\\coursemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\courseautomapper\\coursemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\dbhelper\\educationplatformcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\dbhelper\\educationplatformcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\courserepo\\courserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\courserepo\\courserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\questionrepo\\questionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\questionrepo\\questionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\quizresultrepo\\quizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\quizresultrepo\\quizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\lecturerepo\\lecturerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\lecturerepo\\lecturerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\videorepo\\ivediorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\videorepo\\ivediorepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\lecturerepo\\ilecturerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\lecturerepo\\ilecturerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\pdfrepo\\ipdffilerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\pdfrepo\\ipdffilerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\courserepo\\icourserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\courserepo\\icourserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\questionrepo\\iquestionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\questionrepo\\iquestionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\pdfrepo\\pdffilerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\pdfrepo\\pdffilerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\videoautomapper\\vediomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\videoautomapper\\vediomappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\pdfautomapper\\pdffilemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\pdfautomapper\\pdffilemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\lectureautomapper\\lecturemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\lectureautomapper\\lecturemappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\dto\\lecturedto\\lecturereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\lecturedto\\lecturereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\dto\\coursedto\\courseupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\coursedto\\courseupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\dto\\coursedto\\courseadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\coursedto\\courseadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\dto\\coursedto\\coursereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\coursedto\\coursereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.api\\controller\\quizresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\controller\\quizresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\dto\\quizresultsdto\\quizresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\quizresultsdto\\quizresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.api\\controller\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\controller\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\quizresultautomapper\\quizresultmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\quizresultautomapper\\quizresultmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\quizresultrepo\\iquizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +185,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\enrollmentrepo\\enrollmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\enrollmentrepo\\enrollmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\enrollmentmanager\\ienrollmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\enrollmentmanager\\ienrollmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\enrollmentrepo\\ienrollmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,40 +203,12 @@
       "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\enrollmentdto\\updateenrollmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\questionrepo\\iquestionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\questionrepo\\iquestionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\dbhelper\\educationplatformcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\dbhelper\\educationplatformcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\enrollmentmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\enrollmentmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\enrollmnentautomapper\\enrollmentmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\enrollmnentautomapper\\enrollmentmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\data\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\quizresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\questionmanager\\iquestionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\questionmanager\\iquestionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\questionmanager\\questionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\questionmanager\\questionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\answermanager\\answermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answermanager\\answermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\answermanager\\ianswermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answermanager\\ianswermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\migrations\\20241012211618_seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,10 +242,6 @@
       "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\questiondto\\questionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\accountmanager\\accountmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\accountmanager\\accountmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\accountmanager\\iaccountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\accountmanager\\iaccountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -161,8 +269,8 @@
       "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\applicationuserdto\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\answermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\answermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\answerautomapper\\answermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\answerautomapper\\answermappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -193,24 +301,16 @@
       "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\applicationuserdto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.dal\\repo\\questionrepo\\questionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\questionrepo\\questionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.api\\controller\\answerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\controller\\answerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\manager\\answerresultmanager\\ianswerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answerresultmanager\\ianswerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\dto\\questiondto\\questionexamadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\questiondto\\questionexamadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\answerresultmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\answerresultmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\new project depi\\onlineeducationplatform\\onlineeducationplatform.bll\\automapper\\answerresultautomapper\\answerresultmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\answerresultautomapper\\answerresultmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -220,11 +320,232 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LectureController.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Controller\\LectureController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Controller\\LectureController.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Controller\\LectureController.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.Api\\Controller\\LectureController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:52:48.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnswerResultManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:52:07.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IenrollmentManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T02:19:07.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IAnswerResultManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:22:00.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnswerManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T03:24:13.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAnswerManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:07:56.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Program.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Program.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.Api\\Program.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAowCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T02:36:38.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountManger.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\AccountManager\\AccountManger.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\AccountManager\\AccountManger.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\AccountManager\\AccountManger.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\AccountManager\\AccountManger.cs",
+              "ViewState": "AQIAADgBAAAAAAAAAAAAwEcBAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:12:45.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnrollmentManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
+              "ViewState": "AQIAAAYBAAAAAAAAAAAuwG4BAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T02:19:41.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LectureManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\LectureManager\\LectureManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\LectureManager\\LectureManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\LectureManager\\LectureManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\LectureManager\\LectureManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:48:25.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ILectureManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\LectureManager\\ILectureManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\LectureManager\\ILectureManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\LectureManager\\ILectureManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\LectureManager\\ILectureManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:34:21.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPdfFileManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\PdfManager\\IPdfFileManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\PdfManager\\IPdfFileManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\PdfManager\\IPdfFileManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\PdfManager\\IPdfFileManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:34:21.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\CourseManager\\CourseManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\CourseManager\\CourseManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\CourseManager\\CourseManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\CourseManager\\CourseManager.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:34:19.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICourseManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\CourseManager\\ICourseManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\CourseManager\\ICourseManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\CourseManager\\ICourseManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\CourseManager\\ICourseManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:34:20.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PdfFileManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\PdfManager\\PdfFileManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\PdfManager\\PdfFileManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\PdfManager\\PdfFileManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\PdfManager\\PdfFileManager.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:37:43.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QuestionManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\QuestionManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\QuestionManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\QuestionManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\QuestionManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T02:23:12.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IQuestionManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T02:23:09.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "IQuizResultManager.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\IQuizResultManager.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\IQuizResultManager.cs",
@@ -232,24 +553,298 @@
               "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\IQuizResultManager.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T10:07:36.513Z"
+              "WhenOpened": "2024-10-15T10:07:36.513Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "QuizResultManager.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\QuizResultManager.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\QuizResultManager.cs",
               "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\QuizResultManager.cs",
               "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\QuizResultManager.cs",
-              "ViewState": "AQIAADgBAAAAAAAAAAAqwEABAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEABAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T10:07:34.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 19,
+              "Title": "VedioManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\VideoManager\\VedioManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\VideoManager\\VedioManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\VideoManager\\VedioManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\VideoManager\\VedioManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:50:43.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IVedioManager.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\VideoManager\\IVedioManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\VideoManager\\IVedioManager.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\VideoManager\\IVedioManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\VideoManager\\IVedioManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:50:42.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EducationPlatformContext.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T00:58:16.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CourseRepo.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\CourseRepo\\CourseRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\CourseRepo\\CourseRepo.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\CourseRepo\\CourseRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\CourseRepo\\CourseRepo.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:30:40.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "QuestionRepo.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvzwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:07:36.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "QuizResultRepo.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAqwH8AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T10:13:42.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LectureRepo.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\LectureRepo\\LectureRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\LectureRepo\\LectureRepo.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\LectureRepo\\LectureRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\LectureRepo\\LectureRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:38:57.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IVedioRepo.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\VideoRepo\\IVedioRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\VideoRepo\\IVedioRepo.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\VideoRepo\\IVedioRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\VideoRepo\\IVedioRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:38:56.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CourseMappingProfile.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\CourseAutoMapper\\CourseMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\CourseAutoMapper\\CourseMappingProfile.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\CourseAutoMapper\\CourseMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\CourseAutoMapper\\CourseMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:32:46.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ILectureRepo.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\LectureRepo\\ILectureRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\LectureRepo\\ILectureRepo.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\LectureRepo\\ILectureRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\LectureRepo\\ILectureRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:38:54.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IPdfFileRepo.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\PdfRepo\\IPdfFileRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\PdfRepo\\IPdfFileRepo.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\PdfRepo\\IPdfFileRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\PdfRepo\\IPdfFileRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:38:07.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ICourseRepo.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\CourseRepo\\ICourseRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\CourseRepo\\ICourseRepo.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\CourseRepo\\ICourseRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\CourseRepo\\ICourseRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:38:48.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PdfFileRepo.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\PdfRepo\\PdfFileRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\PdfRepo\\PdfFileRepo.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\PdfRepo\\PdfFileRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\PdfRepo\\PdfFileRepo.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:38:07.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IQuestionRepo.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\IQuestionRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\IQuestionRepo.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\IQuestionRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\IQuestionRepo.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:10:05.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VedioMappingProfile.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\VideoAutoMapper\\VedioMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\VideoAutoMapper\\VedioMappingProfile.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\VideoAutoMapper\\VedioMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\VideoAutoMapper\\VedioMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:32:51.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PdfFileMappingProfile.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\PdfAutoMapper\\PdfFileMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\PdfAutoMapper\\PdfFileMappingProfile.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\PdfAutoMapper\\PdfFileMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\PdfAutoMapper\\PdfFileMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:32:50.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LectureMappingProfile.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\LectureAutoMapper\\LectureMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\LectureAutoMapper\\LectureMappingProfile.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\LectureAutoMapper\\LectureMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\LectureAutoMapper\\LectureMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:32:49.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LectureReadDto.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\LectureDto\\LectureReadDto.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\LectureDto\\LectureReadDto.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\LectureDto\\LectureReadDto.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Dto\\LectureDto\\LectureReadDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:32:40.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CourseUpdateDto.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseUpdateDto.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseUpdateDto.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseUpdateDto.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseUpdateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:32:40.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CourseAddDto.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseAddDto.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseAddDto.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseAddDto.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseAddDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:32:39.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CourseReadDto.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseReadDto.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseReadDto.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseReadDto.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Dto\\CourseDto\\CourseReadDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:32:37.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "QuizResultController.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Controller\\QuizResultController.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Controller\\QuizResultController.cs",
@@ -262,31 +857,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 43,
               "Title": "QuizResultMappingProfile.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\QuizResultMappingProfile.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\QuizResultMappingProfile.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\QuizResultMappingProfile.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\QuizResultMappingProfile.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\QuizResultAutoMapper\\QuizResultMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\QuizResultAutoMapper\\QuizResultMappingProfile.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\QuizResultAutoMapper\\QuizResultMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\QuizResultAutoMapper\\QuizResultMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T10:15:56.809Z"
+              "WhenOpened": "2024-10-15T10:15:56.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnrollmentManager.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
-              "ViewState": "AQIAAGgBAAAAAAAAAAAAwG4BAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:19:41.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 42,
               "Title": "EnrollmentController.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Controller\\EnrollmentController.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Controller\\EnrollmentController.cs",
@@ -298,31 +882,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 41,
               "Title": "QuizResultDto.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\Quizresultsdto\\QuizResultDto.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\Quizresultsdto\\QuizResultDto.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\Quizresultsdto\\QuizResultDto.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Dto\\Quizresultsdto\\QuizResultDto.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\QuizResultsDto\\QuizResultDto.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\QuizResultsDto\\QuizResultDto.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\QuizResultsDto\\QuizResultDto.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Dto\\QuizResultsDto\\QuizResultDto.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAgwBMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T10:10:53.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "QuizResultRepo.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAqwH8AAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T10:13:42.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 44,
               "Title": "IQuizResultRepo.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\IQuizResultRepo.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\IQuizResultRepo.cs",
@@ -334,7 +906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 45,
               "Title": "EnrollmentRepo.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\EnrollmentRepo.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\EnrollmentRepo.cs",
@@ -346,19 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IenrollmentManager.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAABwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:19:07.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 46,
               "Title": "IEnrollmentRepo.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\IEnrollmentRepo.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\IEnrollmentRepo.cs",
@@ -370,7 +930,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 47,
               "Title": "EnrollmentDto.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\EnrollmentDto\\EnrollmentDto.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\EnrollmentDto\\EnrollmentDto.cs",
@@ -382,19 +942,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 48,
               "Title": "updatequizresultdto.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\Quizresultsdto\\updatequizresultdto.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\Quizresultsdto\\updatequizresultdto.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\Quizresultsdto\\updatequizresultdto.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Dto\\Quizresultsdto\\updatequizresultdto.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\QuizResultsDto\\updatequizresultdto.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\QuizResultsDto\\updatequizresultdto.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\QuizResultsDto\\updatequizresultdto.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Dto\\QuizResultsDto\\updatequizresultdto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T11:24:19.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 49,
               "Title": "updateenrollmentdto.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\EnrollmentDto\\updateenrollmentdto.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\EnrollmentDto\\updateenrollmentdto.cs",
@@ -406,55 +966,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IQuestionRepo.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\IQuestionRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\IQuestionRepo.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\IQuestionRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\IQuestionRepo.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T05:10:05.878Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Program.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Program.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Program.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.Api\\Program.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAnwFkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:36:38.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EducationPlatformContext.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\DbHelper\\EducationPlatformContext.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAArwCcAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T00:58:16.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 50,
               "Title": "EnrollmentMappingProfile.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\EnrollmentMappingProfile.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\EnrollmentMappingProfile.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\EnrollmentMappingProfile.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\EnrollmentMappingProfile.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\EnrollmnentAutoMapper\\EnrollmentMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\EnrollmnentAutoMapper\\EnrollmentMappingProfile.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\EnrollmnentAutoMapper\\EnrollmentMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\EnrollmnentAutoMapper\\EnrollmentMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:21:26.537Z"
+              "WhenOpened": "2024-10-14T02:21:26.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 51,
               "Title": "QuizResult.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\QuizResult.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\QuizResult.cs",
@@ -466,55 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IQuestionManager.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAwA0AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:23:09.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "QuestionManager.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\QuestionManager.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\QuestionManager.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\QuestionManager.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\QuestionManager.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAqwEQAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:23:12.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AnswerManager.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T03:24:13.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IAnswerManager.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T10:07:56.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 53,
               "Title": "EducationPlatformContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Migrations\\EducationPlatformContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Migrations\\EducationPlatformContextModelSnapshot.cs",
@@ -526,7 +1003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 56,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Controller\\AccountsController.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Controller\\AccountsController.cs",
@@ -538,7 +1015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 52,
               "Title": "20241012211618_SeedData.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Migrations\\20241012211618_SeedData.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Migrations\\20241012211618_SeedData.cs",
@@ -550,7 +1027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 54,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\Enrollment.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\Enrollment.cs",
@@ -562,7 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 55,
               "Title": "EnrollmentController.cs",
               "DocumentMoniker": "C:\\Users\\G5\\AppData\\Local\\SourceServer\\193a5134824fcdd8066ee5752d7b565f66b031caac0e6be1f7a579bcf66def96\\OnlineEducationPlatform.Api\\Controller\\EnrollmentController.cs",
               "ToolTip": "C:\\Users\\G5\\AppData\\Local\\SourceServer\\193a5134824fcdd8066ee5752d7b565f66b031caac0e6be1f7a579bcf66def96\\OnlineEducationPlatform.Api\\Controller\\EnrollmentController.cs [Read Only]",
@@ -573,7 +1050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 57,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\AccountManager\\IEmailService.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\AccountManager\\IEmailService.cs",
@@ -585,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 58,
               "Title": "QuestionsController.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Controller\\QuestionsController.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Controller\\QuestionsController.cs",
@@ -597,7 +1074,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 59,
               "Title": "QuestionUpdateDto.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\QuestionDto\\QuestionUpdateDto.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\QuestionDto\\QuestionUpdateDto.cs",
@@ -609,19 +1086,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "AccountManger.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\AccountManager\\AccountManger.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\AccountManager\\AccountManger.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\AccountManager\\AccountManger.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\AccountManager\\AccountManger.cs",
-              "ViewState": "AQIAADgBAAAAAAAAAAAAwEcBAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T11:12:45.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 60,
               "Title": "IaccountManager.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\AccountManager\\IaccountManager.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\AccountManager\\IaccountManager.cs",
@@ -633,7 +1098,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 64,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Data\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\ApplicationUser.cs",
@@ -645,7 +1110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 62,
               "Title": "ResetPasswordDto.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\ResetPasswordDto.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\ResetPasswordDto.cs",
@@ -657,7 +1122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 65,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "C:\\Users\\G5\\AppData\\Local\\SourceServer\\bd4694ce76d6d063eb97153ffb949cab4d18a4db61baf0b749752fc496ec9930\\OnlineEducationPlatform.Api\\Controller\\AccountsController.cs",
               "ToolTip": "C:\\Users\\G5\\AppData\\Local\\SourceServer\\bd4694ce76d6d063eb97153ffb949cab4d18a4db61baf0b749752fc496ec9930\\OnlineEducationPlatform.Api\\Controller\\AccountsController.cs [Read Only]",
@@ -668,7 +1133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 61,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\AccountManager\\EmailService.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\AccountManager\\EmailService.cs",
@@ -680,7 +1145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 63,
               "Title": "GeneralRespnose.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\GeneralRespnose.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\GeneralRespnose.cs",
@@ -692,7 +1157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 66,
               "Title": "AuthModel.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\AuthModel.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\AuthModel.cs",
@@ -704,19 +1169,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 67,
               "Title": "AnswerMappingProfile.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\AnswerMappingProfile.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\AnswerMappingProfile.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\AnswerMappingProfile.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\AnswerMappingProfile.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\AnswerAutoMapper\\AnswerMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\AnswerAutoMapper\\AnswerMappingProfile.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\AnswerAutoMapper\\AnswerMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\AnswerAutoMapper\\AnswerMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T00:47:20.622Z"
+              "WhenOpened": "2024-10-15T00:47:20.622Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 69,
               "Title": "OnlineEducationPlatform.BLL.csproj",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
@@ -724,11 +1190,12 @@
               "RelativeToolTip": "OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T11:31:27.582Z"
+              "WhenOpened": "2024-10-14T11:31:27.582Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 68,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\appsettings.json",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\appsettings.json",
@@ -740,7 +1207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 71,
               "Title": "OnlineEducationPlatform.DAL.csproj",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
@@ -748,11 +1215,12 @@
               "RelativeToolTip": "OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T05:50:09.287Z"
+              "WhenOpened": "2024-10-14T05:50:09.287Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 70,
               "Title": "AnswerResultsController.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Controller\\AnswerResultsController.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Controller\\AnswerResultsController.cs",
@@ -764,7 +1232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 73,
               "Title": "Registerstudentdtorespose.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\Registerstudentdtorespose.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\Registerstudentdtorespose.cs",
@@ -776,7 +1244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 72,
               "Title": "RegesterDto.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\RegesterDto.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\RegesterDto.cs",
@@ -788,7 +1256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 74,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\LoginDto.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\ApplicationUserDto\\LoginDto.cs",
@@ -800,19 +1268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "QuestionRepo.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAIBQwDwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T05:07:36.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 76,
               "Title": "QuestionExamAddDto.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Dto\\QuestionDto\\QuestionExamAddDto.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\QuestionDto\\QuestionExamAddDto.cs",
@@ -824,19 +1280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "IAnswerResultManager.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T05:22:00.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 75,
               "Title": "AnswersController.cs",
               "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.Api\\Controller\\AnswersController.cs",
               "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Controller\\AnswersController.cs",
@@ -848,15 +1292,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 77,
               "Title": "AnswerResultMappingProfile.cs",
-              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\AnswerResultMappingProfile.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\AnswerResultMappingProfile.cs",
-              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\AnswerResultMappingProfile.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\AnswerResultMappingProfile.cs",
+              "DocumentMoniker": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\AnswerResultAutoMapper\\AnswerResultMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\AnswerResultAutoMapper\\AnswerResultMappingProfile.cs",
+              "ToolTip": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\AutoMapper\\AnswerResultAutoMapper\\AnswerResultMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\AnswerResultAutoMapper\\AnswerResultMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T02:21:32.057Z"
+              "WhenOpened": "2024-10-14T02:21:32.057Z",
+              "EditorCaption": ""
             }
           ]
         }

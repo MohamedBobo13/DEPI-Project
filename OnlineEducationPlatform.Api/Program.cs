@@ -1,7 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
 using OnlineEducationPlatform.DAL.Data.DbHelper;
-using OnlineEducationPlatform.DAL;
 using OnlineEducationPlatform.DAL.Data.Models;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -19,6 +18,21 @@ using OnlineEducationPlatform.BLL.Manager.quizresultmanager;
 using OnlineEducationPlatform.BLL.Manager.Answermanager;
 using OnlineEducationPlatform.BLL.Manager.Answerresultmanager;
 using OnlineEducationPlatform.BLL.Manager.Questionmanager;
+using OnlineEducationPlatform.BLL.Manager;
+using OnlineEducationPlatform.BLL.Manager.CourseManager;
+using OnlineEducationPlatform.BLL.Manager.LectureManager;
+using OnlineEducationPlatform.BLL.Manager.VideoManager;
+using OnlineEducationPlatform.DAL.Repo.CourseRepo;
+using OnlineEducationPlatform.DAL.Repo.LectureRepo;
+using OnlineEducationPlatform.DAL.Repo.VideoRepo;
+using OnlineEducationPlatform.BLL.AutoMapper.LectureAutoMapper;
+using OnlineEducationPlatform.BLL.AutoMapper.CourseAutoMapper;
+using OnlineEducationPlatform.BLL.AutoMapper.VideoAutoMapper;
+using OnlineEducationPlatform.BLL.AutoMapper.QuizResultAutoMapper;
+using OnlineEducationPlatform.BLL.AutoMapper.AnswerAutoMapper;
+using OnlineEducationPlatform.BLL.AutoMapper.AnswerResultAutoMapper;
+using OnlineEducationPlatform.BLL.AutoMapper.QuesionAutoMapper;
+using OnlineEducationPlatform.BLL.AutoMapper.EnrollmnentAutoMapper;
 
 namespace OnlineEducationPlatform.Api
 {
@@ -80,7 +94,10 @@ namespace OnlineEducationPlatform.Api
             //.AddEntityFrameworkStores<EducationPlatformContext>();
 
 
-
+            builder.Services.AddAutoMapper(map => map.AddProfile(new LectureMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new PdfFileMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new VedioMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new CourseMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new QuizResultMappingProfile()));
 
             builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerMappingProfile()));
@@ -107,7 +124,14 @@ namespace OnlineEducationPlatform.Api
             builder.Services.AddScoped<IQuestionRepo, QuestionRepo>();
             builder.Services.AddScoped<IQuestionManager, QuestionManager>();
             builder.Services.AddScoped<IEmailService, EmailService>();
-
+            builder.Services.AddScoped<ILectureRepo, LectureRepo>();
+            builder.Services.AddScoped<ILectureManager, LectureManager>();
+            builder.Services.AddScoped<IPdfFileRepo, PdfFileRepo>();
+            builder.Services.AddScoped<IPdfFileManager, PdfFileManager>();
+            builder.Services.AddScoped<IVedioRepo, VedioRepo>();
+            builder.Services.AddScoped<IVedioManager, VedioManager>();
+            builder.Services.AddScoped<ICourseRepo, CourseRepo>();
+            builder.Services.AddScoped<ICourseManager, CourseManager>();
             // builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericClass<>) );
             var app = builder.Build();
 

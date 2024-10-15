@@ -733,14 +733,6 @@ D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.pdb
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.genruntimeconfig.cache
 D:\My Branch\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\ref\OnlineEducationPlatform.Api.dll
-D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.csproj.AssemblyReference.cache
-D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.GeneratedMSBuildEditorConfig.editorconfig
-D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.AssemblyInfoInputs.cache
-D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.AssemblyInfo.cs
-D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.csproj.CoreCompileInputs.cache
-D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.MvcApplicationPartsAssemblyInfo.cs
-D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.MvcApplicationPartsAssemblyInfo.cache
-D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.sourcelink.json
 D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\appsettings.Development.json
 D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\appsettings.json
 D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\OnlineEducationPlatform.Api.exe
@@ -872,6 +864,14 @@ D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debu
 D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
 D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
 D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.csproj.AssemblyReference.cache
+D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.AssemblyInfoInputs.cache
+D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.AssemblyInfo.cs
+D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.csproj.CoreCompileInputs.cache
+D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.sourcelink.json
 D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\staticwebassets.build.json
 D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\staticwebassets.development.json
 D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\obj\Debug\net8.0\staticwebassets\msbuild.OnlineEducationPlatform.Api.Microsoft.AspNetCore.StaticWebAssets.props

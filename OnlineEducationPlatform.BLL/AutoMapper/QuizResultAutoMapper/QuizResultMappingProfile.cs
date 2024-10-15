@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.AutoMapper
+namespace OnlineEducationPlatform.BLL.AutoMapper.QuizResultAutoMapper
 {
-    public class QuizResultMappingProfile:Profile
+    public class QuizResultMappingProfile : Profile
     {
         public QuizResultMappingProfile()
         {
             CreateMap<QuizResult, quizresultreaddto>().ReverseMap();
-          
+
             CreateMap<QuizResult, quizresultwithoutiddto>().ReverseMap();
 
         }

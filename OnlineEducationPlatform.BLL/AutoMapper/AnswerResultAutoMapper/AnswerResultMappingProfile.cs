@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.AutoMapper
+namespace OnlineEducationPlatform.BLL.AutoMapper.AnswerResultAutoMapper
 {
     public class AnswerResultMappingProfile : Profile
     {

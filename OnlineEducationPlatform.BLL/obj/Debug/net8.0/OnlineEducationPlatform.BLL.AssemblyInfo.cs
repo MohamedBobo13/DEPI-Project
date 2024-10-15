@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineEducationPlatform.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+817ed6a1ef95ee64224360ffd5c44bd392c11e9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc32db2437a736b289c6316535026f468e937649")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineEducationPlatform.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineEducationPlatform.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

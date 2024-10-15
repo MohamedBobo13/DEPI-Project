@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.AutoMapper
+namespace OnlineEducationPlatform.BLL.AutoMapper.EnrollmnentAutoMapper
 {
-    public class EnrollmentMappingProfile: Profile
+    public class EnrollmentMappingProfile : Profile
     {
         public EnrollmentMappingProfile()
         {
