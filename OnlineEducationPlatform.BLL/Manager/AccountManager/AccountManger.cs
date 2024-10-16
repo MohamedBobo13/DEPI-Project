@@ -95,13 +95,13 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
 
             return new AuthModel
             {
-                Email = user.Email,
-                ExpairationDate = JwtSecurityToken.ValidTo,
+               Email = user.Email,
+              ExpairationDate = JwtSecurityToken.ValidTo,
                 IsAuthenticated = true,
                 Token = new JwtSecurityTokenHandler().WriteToken(JwtSecurityToken),
                 UserName = user.UserName,
-                Type=user.UserType.ToString(),
-
+               Type=user.UserType.ToString(),
+              message=$"{user.UserType.ToString()} has been registered"
             };
         }
         public async Task<AuthModel> StudentRegister(RegesterStudentDto regesterStudentDto, IUrlHelper urlHelper)

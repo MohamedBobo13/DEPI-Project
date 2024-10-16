@@ -13,7 +13,7 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
         Task<bool> EnrollmentExistsAsyncbyid(int id);
         Task<bool> StudentHasEnrollmentsAsync(string studentid);
         Task<bool> AreAllenrollmentsSoftDeletedAsyncforstudent(string studentId);
-        Task<bool> AreAllEnrollmentsSoftDeletedAsync();
+        Task<bool> AreAllEnrollmentsSoftDeletedAsyncforcourse(int courseid);
         Task<bool> CourseHasEnrollmentsAsync(int courseId);
         Task<bool> IsEnrollmentSoftDeletedAsync(string studentId, int courseId);
         Task<bool> IsStudentSoftDeletedAsync(string studentId);

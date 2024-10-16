@@ -21,6 +21,13 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
         Task<ServiceResponse<List<quizresultwithoutiddto>>> GetAllSoftDeletedQuizresultsAsync();
 
         Task<ServiceResponse<bool>> HardDeleteEQuizresulttByStudentAndquizsync(string studentId, int quizid);
+       Task<ServiceResponse<quizresultwithoutiddto>> CreateQuizresultAsync(quizresultwithoutiddto quizresultwithoutiddto);
+
+       Task<ServiceResponse<List<quizresultreaddto>>> GetStudentresultssByStudentIdAsync(string studentId);
+        Task<ServiceResponse<List<quizresultreaddto>>> GetstudentresultsByQuizIdAsync(int QuizId);
+        
+
+
 
     }
 }

@@ -33,9 +33,9 @@ namespace OnlineEducationPlatform.DAL.Repo.EnrollmentRepo
 
 
         }
-        public async Task<bool> AreAllEnrollmentsSoftDeletedAsync()
+        public async Task<bool> AreAllEnrollmentsSoftDeletedAsyncforcourse(int courseid)
         {
-            return await _context.Enrollment.IgnoreQueryFilters()
+            return await _context.Enrollment.IgnoreQueryFilters().Where(e=>e.CourseId==courseid)
                        .AllAsync(e => e.IsDeleted);
 
         }

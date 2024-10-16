@@ -25,6 +25,98 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
             _quizresult = irepo;
             _mapper = mapper;
         }
+        public async Task<ServiceResponse<quizresultwithoutiddto>> CreateQuizresultAsync(quizresultwithoutiddto quizresltadddto)
+        {
+            var quizresult = new QuizResult
+            {
+                StudentId = quizresltadddto.studentId,
+                QuizId = quizresltadddto.QuizId,
+
+            };
+
+            var response = new ServiceResponse<quizresultwithoutiddto>();
+
+            var student = await _quizresult.StudentExistsAsync(quizresult.StudentId);
+            if (student == false)
+            {
+                response.Data = null;
+                response.Message = $"Failed to save Quiz result because Student with ID {quizresult.StudentId} not found..";
+                response.Success = false;
+
+                return response;
+                //  throw new KeyNotFoundException($"Student with ID {enrollment.StudentId} not found.");
+            }
+            var softdeletedstudent = await _quizresult.IsStudentSoftDeletedAsync(quizresult.StudentId);
+            if (softdeletedstudent == true)
+            {
+
+                response.Data = null;
+                response.Message = $"Failed to save Quiz result because Student with  Id {quizresult.StudentId} already exist but it is soft deleted.";
+                response.Success = false;
+                return response;
+            }
+            var quiz = await _quizresult.quizExistsAsync(quizresult.QuizId);
+            if (quiz == false)
+            {
+                response.Data = null;
+                response.Message = $"Failed to save Quiz result because Quiz with ID {quizresult.QuizId} not found..";
+                response.Success = false;
+                return response;
+                //throw new KeyNotFoundException($"Student with ID {enrollment.CourseId} not found.");
+            }
+            var softdeeletdquiz = await _quizresult.IsQuizSoftDeletedAsync(quizresult.QuizId);
+            if (softdeeletdquiz == true)
+            {
+
+                response.Data = null;
+                response.Message = $"Failed to save Quiz result because Quiz with  Id {quizresult.QuizId} already exist but it is soft deleted.";
+                response.Success = false;
+                return response;
+            }
+            var existingquizresult = await _quizresult.quizresultExistsAsync(quizresult.StudentId, quizresult.QuizId);
+            if (existingquizresult == true)
+            {
+                response.Data = null;
+                response.Message = $"Failed to save Quiz result because Student with ID {quizresult.StudentId} in  Quiz with ID {quizresult.QuizId} already Exist.";
+                response.Success = false;
+                return response;
+                // throw new InvalidOperationException($"Student {enrollment.StudentId} is already enrolled in course {enrollment.CourseId}.");
+            }
+            var softdeletedquizresult = await _quizresult.IsQuizResultSoftDeletedAsync(quizresult.StudentId, quizresult.QuizId);
+            if (softdeletedquizresult == true)
+            {
+                response.Data = null;
+                response.Message = $"Failed to save Quiz result because Quiz result is already exist but it is soft deleted.";
+                response.Success = false;
+                return response;
+
+
+            }
+         
+            quizresult.Score=quizresltadddto.Score;
+            quizresult.TotalMarks=quizresltadddto.TotalMarks;
+           
+            await _quizresult.AddAsync(quizresult);
+            var saveresult = await _quizresult.CompleteAsync();
+            if (saveresult)
+            {
+                response.Data = new quizresultwithoutiddto
+                {
+                    studentId = quizresult.StudentId,
+                    QuizId = quizresult.QuizId,
+                    TotalMarks = quizresult.TotalMarks,
+                    Score = quizresult.Score,
+                };
+
+                response.Message = "Quiz result added successfully.";
+
+                response.Success = true;
+
+
+            }
+            return response;
+
+        }
 
 
         public async Task<ServiceResponse<List<quizresultreaddto>>> GetAllQuizResults()
@@ -83,6 +175,15 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
                 return response;
                 //  throw new KeyNotFoundException($"Student with ID {enrollment.StudentId} not found.");
             }
+            var softdeletedstudent = await _quizresult.IsStudentSoftDeletedAsync(quizres.StudentId);
+            if (softdeletedstudent == true)
+            {
+
+                response.Data = null;
+                response.Message = $"Failed to Get Quiz result because Student with  Id {quizres.StudentId} already exist but it is soft deleted.";
+                response.Success = false;
+                return response;
+            }
             var Quiz = await _quizresult.quizExistsAsync(quizres.QuizId);
             if (Quiz == false)
             {
@@ -92,6 +193,16 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
                 return response;
                 //throw new KeyNotFoundException($"Student with ID {enrollment.CourseId} not found.");
             }
+            var softdeeletdquiz = await _quizresult.IsQuizSoftDeletedAsync(quizres.QuizId);
+            if (softdeeletdquiz == true)
+            {
+
+                response.Data = null;
+                response.Message = $"Failed to Get Quiz result because Quiz with  Id {quizres.QuizId} already exist but it is soft deleted.";
+                response.Success = false;
+                return response;
+            }
+
             var existingquizresult = await _quizresult.quizresultExistsAsync(quizres.StudentId, quizres.QuizId);
             if (existingquizresult == false)
             {
@@ -100,6 +211,16 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
                 response.Success = false;
                 return response;
                 // throw new InvalidOperationException($"Student {enrollment.StudentId} is already enrolled in course {enrollment.CourseId}.");
+            }
+            var softdeletedquizresult = await _quizresult.IsQuizResultSoftDeletedAsync(quizres.StudentId, quizres.QuizId);
+            if (softdeletedquizresult == true)
+            {
+                response.Data = null;
+                response.Message = $"Failed to Get Quiz result because Quiz result is already exist but it is soft deleted.";
+                response.Success = false;
+                return response;
+
+
             }
             else
             {
@@ -129,16 +250,16 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
 
             //};
 
-            var enrollment = await _quizresult.GetQuizResultByStudentAndQuizAsyncwithnosoftdeleted(StudentId, quizid);
+            var quizresult = await _quizresult.GetQuizResultByStudentAndQuizAsyncwithnosoftdeleted(StudentId, quizid);
 
             var response = new ServiceResponse<bool>();
             try
 
             {
 
-                var softdeletedenrollment = await _quizresult.IsQuizResultSoftDeletedAsync(StudentId, quizid);
+                var softdeletedquizresult = await _quizresult.IsQuizResultSoftDeletedAsync(StudentId, quizid);
 
-                if (softdeletedenrollment == true)
+                if (softdeletedquizresult == true)
                 {
 
                     response.Message = $"Failed to soft delete Quiz Result because Quiz Result is already soft deleted ";
@@ -147,7 +268,7 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
 
 
                 }
-                if (enrollment == null)
+                if (quizresult == null)
                 {
                     response.Success = false;
                     response.Message = "Failed to delete Quiz REsult because it is not existed !!";
@@ -155,45 +276,11 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
                 }
 
 
-
-                //var student = await _enrollmentRepository.StudentExistsAsync(enrollment.StudentId);
-                //if (student == false)
-                //{
-                //    response.Data = false;
-                //    response.Message = $"Failed to delete enrollment because Student with ID {enrollment.StudentId} not found..";
-                //    response.Success = false;
-
-                //    return response;
-                //    //  throw new KeyNotFoundException($"Student with ID {enrollment.StudentId} not found.");
-                //}
-                //var Course = await _enrollmentRepository.CourseExistsAsync(enrollment.CourseId);
-                //if (Course == false)
-                //{
-                //    response.Data = false;
-                //    response.Message = $"Failed to delete enrollment because Course with ID {enrollment.CourseId} not found..";
-                //    response.Success = false;
-                //    return response;
-                //    //throw new KeyNotFoundException($"Student with ID {enrollment.CourseId} not found.");
-                //}
-                //var existingEnrollments = await _enrollmentRepository.EnrollmentExistsAsync(enrollment.StudentId, enrollment.CourseId);
-                //if (existingEnrollments == false)
-                //{
-                //    response.Data = false;
-                //    response.Message = $"Failed to delete enrollment because it is not existed .";
-                //    response.Success = false;
-                //    return response;
-                //    // throw new InvalidOperationException($"Student {enrollment.StudentId} is already enrolled in course {enrollment.CourseId}.");
-                //}
-
-
-                var saveresult = await _quizresult.RemoveAsync(enrollment.StudentId, enrollment.QuizId);
-
-                // await _enrollmentRepository.UpdateEnrollmentAsync(enrollment);
-
-
+                var saveresult = await _quizresult.RemoveAsync(quizresult.StudentId, quizresult.QuizId);
+     
                 if (saveresult)
                 {
-                    //  await _enrollmentRepository.UpdateEnrollmentAsync(enrollment);
+                  
                     response.Data = true;
 
                     response.Message = "Student Soft deleted successfully.";
@@ -237,15 +324,7 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
                 
 
                 
-                //var existingquizresult = await _quizresult.quizresultExistsAsyncbyid(quizresultreaddto.id);
-                //if (existingquizresult == true)
-                //{
-
-                //    response.Message = $"Failed to save Quiz result because with ID {quizresultreaddto.id} already exist.";
-                //    response.Success = false;
-                //    return response;
-                //    // throw new InvalidOperationException($"Student {enrollment.StudentId} is already enrolled in course {enrollment.CourseId}.");
-                //}
+              
                 getquizresult.Id = quizresultreaddto.id;
 
               
@@ -257,12 +336,7 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
                 await _quizresult.UpdateQuizResultAsync(getquizresult);
                 response.Success = true;
                 response.Message = "Quiz result Updated Successfully";
-                //if (saveresult == true)
-                //{
-                //    response.Success = true;
-                //    response.Message = "Enrollment Updated Successfully";
-                //    return response;
-                //}
+               
             }
             catch (Exception ex)
             {
@@ -347,5 +421,171 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
             return response;
 
         }
+        public async Task<ServiceResponse<List<quizresultreaddto>>> GetStudentresultssByStudentIdAsync(string studentId)
+        {
+            var response = new ServiceResponse<List<quizresultreaddto>>();
+            try
+            {
+                var Studentexist = await _quizresult.StudentExistsAsync(studentId);
+                if (Studentexist == false)
+                {
+                    response.Message = $"Student with ID {studentId} does not exist.";
+                    response.Success = false;
+                    response.Data = null;
+
+                    return response;
+
+                }
+                var isstidentsoftdeleted = await _quizresult.IsStudentSoftDeletedAsync(studentId);
+                if (isstidentsoftdeleted == true)
+                {
+                    response.Message = $"Student with ID {studentId} is soft deleted .";
+                    response.Success = false;
+                    response.Data = null;
+                    return response;
+                }
+                var studenthasquizresult = await _quizresult.StudentHasQuizresultAsync(studentId);
+                if (studenthasquizresult == false)
+                {
+                    response.Message = $"Student with ID {studentId} has no Quiz results .";
+                    response.Success = false;
+                    response.Data = null;
+                    return response;
+
+
+                }
+
+                var allquizresultsdeleted = await _quizresult.AreAllQuizresultsSoftDeletedAsyncforstudent(studentId);
+                if (allquizresultsdeleted == true)
+                {
+                    response.Message = $"All Quiz results for Student with ID {studentId} are soft deleted.";
+                    response.Success = false;
+                    response.Data = null;
+
+                    return response;
+
+
+                }
+                var quizresults = await _quizresult.GetByStudentIdAsync(studentId);
+                if (quizresults.Any() == false || quizresults == null)
+                {
+                    response.Message = $"Student with ID {studentId} does not have any Quiz results.";
+                    response.Success = false;
+                    response.Data = null;
+
+                    return response;
+
+                }
+                else
+                {
+
+                    response.Data = quizresults.Select(e => new quizresultreaddto
+                    {
+                        id = e.Id,
+                        studentId = e.StudentId,
+                        QuizId=e.QuizId,
+                        TotalMarks=e.TotalMarks,
+                        Score=e.Score,
+                     
+                    }).ToList();
+                    response.Message = $"There Are Quiz results For The Student.";
+                    response.Success = true;
+                    return response;
+
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = $"An error occurred: {ex.Message}";
+
+            }
+            return response;
+        }
+        public async Task<ServiceResponse<List<quizresultreaddto>>> GetstudentresultsByQuizIdAsync(int QuizId)
+        {
+            var response = new ServiceResponse<List<quizresultreaddto>>();
+            try
+            {
+                var QuizExistd = await _quizresult.quizExistsAsync(QuizId);
+                if (QuizExistd == false)
+                {
+                    response.Message = $"Quiz with ID {QuizId} does not exist.";
+                    response.Success = false;
+                    response.Data = null;
+
+                    return response;
+
+                }
+
+                var issoftdeletedQuiz = await _quizresult.IsQuizSoftDeletedAsync(QuizId);
+                if (issoftdeletedQuiz == true)
+                {
+                    response.Message = $"Quiz with ID {QuizId} is soft deleted .";
+                    response.Success = false;
+                    response.Data = null;
+                    return response;
+                }
+                var quizhasquizresults = await _quizresult.QuizHasquizresultssAsync(QuizId);
+                if (quizhasquizresults == false)
+                {
+                    response.Message = $"Quiz with ID {QuizId} has no Quiz results .";
+                    response.Success = false;
+                    response.Data = null;
+                    return response;
+
+
+                }
+                var allQuizresultsdeleted = await _quizresult.AreAllQuizResultsSoftDeletedAsyncforquiz(QuizId);
+                if (allQuizresultsdeleted == true)
+                {
+                    response.Message = $"All Quiz results in Quiz  with ID {QuizId} are soft deleted.";
+                    response.Success = false;
+                    response.Data = null;
+
+                    return response;
+
+
+                }
+
+                var Quizresults = await _quizresult.GetByquizIdAsync(QuizId);
+
+                if (Quizresults.Any() == false || Quizresults == null)
+                {
+                    response.Message = $"Quiz with ID {QuizId} does not have any Quiz results.";
+                    response.Success = false;
+                    response.Data = null;
+
+                    return response;
+
+                }
+
+                else
+                {
+
+                    response.Data = Quizresults.Select(e => new quizresultreaddto
+                    {
+                        id=e.Id,
+                        studentId=e.StudentId,
+                        QuizId=e.QuizId,
+                        Score=e.Score,
+                        TotalMarks=e.TotalMarks,
+                        
+                    }).ToList();
+                    response.Message = $"There are Quiz results in the Quiz.";
+                    response.Success = true;
+                    return response;
+
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Message = $"An error occurred: {ex.Message}";
+
+            }
+            return response;
+        }
+
     }
 }

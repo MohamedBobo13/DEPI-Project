@@ -31,6 +31,15 @@ namespace OnlineEducationPlatform.DAL.Repo.QuizRepo
         Task<List<QuizResult>> GetAllSoftDeletedQuizResultstsAsync();
          Task<QuizResult> GetQuizresultByStudentAndQuizAsync(string studentId, int quizid);
         Task HardDeleteQuizResultAsync(QuizResult quizResult);
-        
+        Task<bool> CompleteAsync();
+        Task AddAsync(QuizResult quizResult);
+        Task<bool> StudentHasQuizresultAsync(string studentid);
+        Task<bool> AreAllQuizresultsSoftDeletedAsyncforstudent(string studentId);
+        Task<IEnumerable<QuizResult>> GetByStudentIdAsync(string studentId);
+        Task<bool> QuizHasquizresultssAsync(int quizid);
+        Task<bool> AreAllQuizResultsSoftDeletedAsyncforquiz(int quizid);
+
+        Task<IEnumerable<QuizResult>> GetByquizIdAsync(int quizid);
+       
     }
 }

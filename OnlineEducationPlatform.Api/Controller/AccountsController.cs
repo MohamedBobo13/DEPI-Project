@@ -71,7 +71,7 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return BadRequest(result.message );
             }
-            return Ok(result);
+            return Ok(result.message);
         }
 
         [HttpPost("RegisterStudent")]

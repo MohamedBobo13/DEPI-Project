@@ -33,6 +33,8 @@ using OnlineEducationPlatform.BLL.AutoMapper.AnswerAutoMapper;
 using OnlineEducationPlatform.BLL.AutoMapper.AnswerResultAutoMapper;
 using OnlineEducationPlatform.BLL.AutoMapper.QuesionAutoMapper;
 using OnlineEducationPlatform.BLL.AutoMapper.EnrollmnentAutoMapper;
+using OnlineEducationPlatform.BLL.AutoMapper.ExamResultMapper;
+using OnlineEducationPlatform.BLL.Manager.ExamResultmanager;
 
 namespace OnlineEducationPlatform.Api
 {
@@ -93,6 +95,7 @@ namespace OnlineEducationPlatform.Api
             //.AddDefaultTokenProviders()
             //.AddEntityFrameworkStores<EducationPlatformContext>();
 
+            builder.Services.AddAutoMapper(map => map.AddProfile(new Examresultmappingprofile()));
 
             builder.Services.AddAutoMapper(map => map.AddProfile(new LectureMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new PdfFileMappingProfile()));
@@ -111,6 +114,9 @@ namespace OnlineEducationPlatform.Api
 
             builder.Services.AddScoped<IQuizResultRepo, QuizResultRepo>();
             builder.Services.AddScoped<IQuizResultManager, QuizResultManager>();
+            builder.Services.AddScoped<IExamResultRepo, ExamResultRepo>();
+            builder.Services.AddScoped<IExamResultmanager, examresultmanager>();
+
 
 
             builder.Services.AddScoped<IAccountManger, AccountManger>();

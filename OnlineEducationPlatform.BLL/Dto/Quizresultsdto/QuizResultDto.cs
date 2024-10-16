@@ -8,8 +8,9 @@ namespace OnlineEducationPlatform.BLL.Dto.Quizresultsdto
 {
     public class QuizResultDto
     {
-        public int QuizId { get; set; }
         public string studentId { get; set; }
+
+        public int QuizId { get; set; }
 
 
     }

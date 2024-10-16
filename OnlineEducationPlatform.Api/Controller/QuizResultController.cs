@@ -20,7 +20,7 @@ namespace OnlineEducationPlatform.Api.Controller
             _quizResultManager = quizResultManager;
         }
 
-        [HttpGet("GetAllquizResults")]
+        [HttpGet("GetAllQuizResults")]
 
         public async Task<ActionResult<ServiceResponse<quizresultreaddto>>> GetAll()
         {
@@ -63,6 +63,26 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
+        [HttpPost("AddQuizResult")]
+        //   [Authorize(Roles ="Admin")]
+        public async Task<ActionResult<ServiceResponse<quizresultwithoutiddto>>> CreateQuizResult([FromBody] quizresultwithoutiddto quizresultadddto)
+        {
+
+            var response = await _quizResultManager.CreateQuizresultAsync(quizresultadddto);
+            if (response.Success)
+            {
+                return Ok(response);
+            }
+            else
+            {
+
+
+                return BadRequest(response);
+
+            }
+
+
+        }
         [HttpDelete("SoftDeleteQuizResult/{StudentId}/{QuizId}")]
         //  [Authorize(Roles = "Admin")]
 
@@ -84,6 +104,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
+
         [HttpDelete("HardDeleteQuizResult/{studentId}/{QuizId}")]
         //  [Authorize(Roles = "Admin")]
 
@@ -146,6 +167,53 @@ namespace OnlineEducationPlatform.Api.Controller
                 return BadRequest(serviceResponse.Message);
 
             }
+
+        }
+        [HttpGet("GetAllByStudentId/{StudentId}")]
+        public async Task<ActionResult<ServiceResponse<quizresultreaddto>>> GetQuizResultsByStudentIdAsync(string StudentId)
+        {
+            var response = await _quizResultManager.GetStudentresultssByStudentIdAsync(StudentId);
+
+            if (int.Parse(StudentId) <= 0)
+            {
+                return BadRequest("Invalid Student Id.");
+            }
+            if (response.Success)
+            {
+                return Ok(response);
+            }
+            else
+            {
+
+
+                return BadRequest(response.Message);
+
+            }
+
+
+        }
+        [HttpGet("GetAllByQuizId/{QuizId}")]
+        // [Authorize(Roles = "Admin")]
+        public async Task<ActionResult<ServiceResponse<quizresultreaddto>>> GetQuizResultsByquizIdAsync(int QuizId)
+        {
+            var response = await _quizResultManager.GetstudentresultsByQuizIdAsync(QuizId);
+
+            if (QuizId <= 0)
+            {
+                return BadRequest("Invalid Quiz ID.");
+            }
+            if (response.Success)
+            {
+                return Ok(response);
+            }
+            else
+            {
+
+
+                return BadRequest(response.Message);
+
+            }
+
 
         }
 

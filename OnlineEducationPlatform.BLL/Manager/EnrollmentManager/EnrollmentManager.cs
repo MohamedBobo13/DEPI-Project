@@ -220,7 +220,7 @@ namespace OnlineEducationPlatform.BLL.Manager.EnrollmentManager
 
 
                 }
-                var allenrollmentdeleted = await _enrollmentRepository.AreAllEnrollmentsSoftDeletedAsync();
+                var allenrollmentdeleted = await _enrollmentRepository.AreAllEnrollmentsSoftDeletedAsyncforcourse(courseId);
                 if (allenrollmentdeleted == true) {
                     response.Message = $"All Enrollments in Course with ID {courseId} are soft deleted.";
                     response.Success = false;

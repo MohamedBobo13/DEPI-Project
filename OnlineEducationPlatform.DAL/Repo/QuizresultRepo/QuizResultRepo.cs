@@ -32,7 +32,7 @@ namespace OnlineEducationPlatform.DAL.Repo.QuizRepo
         }
         public async Task<bool> quizExistsAsync(int QuizId)
         {
-            return await _context.Quiz.AnyAsync(c => c.Id == QuizId);
+            return await _context.Quiz.IgnoreQueryFilters().AnyAsync(c => c.Id == QuizId);
         }
         public async Task<bool> quizresultExistsAsync(string studentId, int quizid)
         {
@@ -46,7 +46,9 @@ namespace OnlineEducationPlatform.DAL.Repo.QuizRepo
         }
         public async Task<bool> StudentExistsAsync(string studentId)
         {
-            return await _context.User.AnyAsync(U => U.Id == studentId && U.UserType == TypeUser.Student);
+            //return await _context.User.AnyAsync(U => U.Id == studentId && U.UserType == TypeUser.Student);
+            return await _context.User.IgnoreQueryFilters().AnyAsync(U => U.Id == studentId && U.UserType == TypeUser.Student);
+
         }
         public async Task<QuizResult> GetQuizResultByStudentAndQuizAsyncwithnosoftdeleted(string studentId, int quizid)
         {
@@ -137,6 +139,67 @@ namespace OnlineEducationPlatform.DAL.Repo.QuizRepo
             _context.QuizResult.Remove(quizResult);
             await _context.SaveChangesAsync();
         }
+        public async Task<bool> CompleteAsync()
+        {
+            return await _context.SaveChangesAsync() > 0;
+        }
+        public async Task AddAsync(QuizResult quizResult)
+        {
+            await _context.QuizResult.AddAsync(quizResult);
+            // await _context.SaveChangesAsync();
+        }
+        public async Task<bool> StudentHasQuizresultAsync(string studentid)
+        {
+            return await _context.QuizResult.IgnoreQueryFilters()
+                        .AnyAsync(e => e.StudentId == studentid);
 
+
+        }
+        public async Task<bool> AreAllQuizresultsSoftDeletedAsyncforstudent(string studentId)
+        {
+            // Get the total count of students
+            //int totalStudents = await _context.Users.IgnoreQueryFilters()
+            //                                  .CountAsync(u => u.UserType == TypeUser.Student);
+
+            //// Get the count of students that are soft deleted
+            //int softDeletedStudents = await _context.Users.IgnoreQueryFilters()
+            //                                        .CountAsync(u => u.UserType == TypeUser.Student && u.IsDeleted);
+
+            //// Check if the total count matches the soft deleted count
+            //return totalStudents > 0 && totalStudents == softDeletedStudents;
+            return await _context.QuizResult
+        .IgnoreQueryFilters() // This ensures we are checking against all records, including soft deleted ones
+        .Where(e => e.StudentId == studentId)
+        .AllAsync(e => e.IsDeleted); // 
+        }
+        public async Task<IEnumerable<QuizResult>> GetByStudentIdAsync(string studentId)
+        {
+            return await _context.QuizResult
+                .Where(e => e.StudentId == studentId)
+
+                .ToListAsync();
+        }
+        public async Task<bool> QuizHasquizresultssAsync(int quizid)
+        {
+            return await _context.QuizResult.IgnoreQueryFilters()
+                        .AnyAsync(e => e.QuizId == quizid);
+
+
+        }
+        public async Task<bool> AreAllQuizResultsSoftDeletedAsyncforquiz(int quizid)
+        {
+            return await _context.QuizResult.IgnoreQueryFilters().
+        Where(e => e.QuizId == quizid)
+
+                       .AllAsync(e => e.IsDeleted);
+
+        }
+        public async Task<IEnumerable<QuizResult>> GetByquizIdAsync(int quizid)
+        {
+            return await _context.QuizResult
+                .Where(e => e.QuizId == quizid)
+
+                .ToListAsync();
+        }
     }
 }

@@ -104,7 +104,7 @@ namespace OnlineEducationPlatform.Api.Controller
             {
                  
                 
-                 return BadRequest(response);
+                 return BadRequest(response.Message);
                
             }
 
@@ -167,7 +167,7 @@ namespace OnlineEducationPlatform.Api.Controller
             {
 
 
-                return BadRequest(response);
+                return BadRequest(response.Message);
 
             }
 
@@ -190,7 +190,7 @@ namespace OnlineEducationPlatform.Api.Controller
             {
 
 
-                return BadRequest(response);
+                return BadRequest(response.Message);
 
             }
 
