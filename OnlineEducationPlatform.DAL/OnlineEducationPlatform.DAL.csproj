@@ -7,8 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
-=======
+
     <Compile Remove="Data\Config\**" />
     <EmbeddedResource Remove="Data\Config\**" />
     <None Remove="Data\Config\**" />
@@ -16,7 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="MailKit" Version="4.8.0" />
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
+
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
@@ -26,11 +25,5 @@
     </PackageReference>
   </ItemGroup>
 
-<<<<<<< HEAD
-  <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
 
-=======
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
 </Project>

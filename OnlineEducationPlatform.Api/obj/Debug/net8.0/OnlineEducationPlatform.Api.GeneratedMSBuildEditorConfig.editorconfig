@@ -9,19 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineEducationPlatform.Api
 build_property.RootNamespace = OnlineEducationPlatform.Api
-<<<<<<< HEAD
 build_property.ProjectDir = D:\DEPI-Project\OnlineEducationPlatform.Api\
-=======
-build_property.ProjectDir = D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api\
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = D:\DEPI-Project\OnlineEducationPlatform.Api
-=======
-build_property.MSBuildProjectDirectory = D:\new project depi\OnlineEducationPlatform\OnlineEducationPlatform.Api
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
 build_property._RazorSourceGeneratorDebug = 
