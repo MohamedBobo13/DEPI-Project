@@ -2744,24 +2744,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nada\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Everest\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+      "projectUniqueName": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
       "projectName": "OnlineEducationPlatform.BLL",
-      "projectPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
-      "packagesPath": "C:\\Users\\Nada\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.BLL\\obj\\",
+      "projectPath": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+      "packagesPath": "C:\\Users\\Everest\\.nuget\\packages\\",
+      "outputPath": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Nada\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Everest\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2776,8 +2771,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
-              "projectPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj"
+            "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
+              "projectPath": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj"
             }
           }
         }
