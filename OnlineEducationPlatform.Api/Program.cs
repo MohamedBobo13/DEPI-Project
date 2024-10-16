@@ -35,6 +35,12 @@ using OnlineEducationPlatform.BLL.AutoMapper.QuesionAutoMapper;
 using OnlineEducationPlatform.BLL.AutoMapper.EnrollmnentAutoMapper;
 using OnlineEducationPlatform.BLL.AutoMapper.ExamResultMapper;
 using OnlineEducationPlatform.BLL.Manager.ExamResultmanager;
+using OnlineEducationPlatform.BLL.AutoMapper.StudentAutoMapper;
+using OnlineEducationPlatform.DAL.Repo.StudentRepo;
+using OnlineEducationPlatform.BLL.Manager.StudentManager;
+using OnlineEducationPlatform.BLL.AutoMapper.InstructorAutoMapper;
+using OnlineEducationPlatform.DAL.Repo.InstructorRepo;
+using OnlineEducationPlatform.BLL.Manager.InstructorManager;
 
 namespace OnlineEducationPlatform.Api
 {
@@ -107,6 +113,9 @@ namespace OnlineEducationPlatform.Api
             builder.Services.AddAutoMapper(map => map.AddProfile(new AnswerResultMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new QuestionMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new EnrollmentMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new StudentMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new InstructorMappingProfile()));
+
 
             builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
            builder.Services.AddScoped<IEnrollmentRepo,EnrollmentRepo>();
@@ -116,6 +125,13 @@ namespace OnlineEducationPlatform.Api
             builder.Services.AddScoped<IQuizResultManager, QuizResultManager>();
             builder.Services.AddScoped<IExamResultRepo, ExamResultRepo>();
             builder.Services.AddScoped<IExamResultmanager, examresultmanager>();
+            builder.Services.AddScoped<IStudentRepo, StudentRepo>();
+            builder.Services.AddScoped<Istudentmanager, Stuentmanager>();
+            builder.Services.AddScoped<IInstructorRepo, InstructorRepo>();
+            builder.Services.AddScoped<IInstructorManager, instructorManager>();
+
+
+
 
 
 

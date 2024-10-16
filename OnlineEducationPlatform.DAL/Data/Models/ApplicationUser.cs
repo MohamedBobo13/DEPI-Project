@@ -33,7 +33,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
      
 
     }
-    public class Admin : ApplicationUser { public bool IsDeleted { get; set; } }
+    public class Admin : ApplicationUser {  }
 
 }
 

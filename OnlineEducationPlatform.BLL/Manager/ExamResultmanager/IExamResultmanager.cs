@@ -24,5 +24,6 @@ namespace OnlineEducationPlatform.BLL.Manager.ExamResultmanager
 
         Task<ServiceResponse<List<Examresultreaddto>>> GetStudentresultssByStudentIdAsync(string studentId);
         Task<ServiceResponse<List<Examresultreaddto>>> GetstudentresultsByExamIdAsync(int examid);
+
     }
 }

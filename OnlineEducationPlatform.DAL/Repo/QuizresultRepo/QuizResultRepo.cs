@@ -201,5 +201,11 @@ namespace OnlineEducationPlatform.DAL.Repo.QuizRepo
 
                 .ToListAsync();
         }
+        public async Task<bool> AreAllQuizResultsSoftDeletedAsync()
+        {
+            // Assuming you have a soft delete field such as `IsDeleted` or `DeletedAt`
+            return !await _context.QuizResult.AnyAsync(qr => !qr.IsDeleted);
+        }
+
     }
 }

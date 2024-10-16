@@ -40,6 +40,8 @@ namespace OnlineEducationPlatform.DAL.Repo.QuizRepo
         Task<bool> AreAllexamResultsSoftDeletedAsyncforexam(int examid);
 
         Task<IEnumerable<ExamResult>> GetByexamIdAsync(int examid);
-       
+        Task<bool> AreAllExamResultsSoftDeletedAsync();
+        
+
     }
 }

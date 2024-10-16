@@ -127,10 +127,18 @@ namespace OnlineEducationPlatform.BLL.Manager.ExamResultmanager
                 {
                     response.Message = "There Are No Exam Results yet !!";
                     response.Success = true;
-
+                    return response;
 
 
                 }
+                var allexamresultssoftdeletes = await _examresult.AreAllExamResultsSoftDeletedAsync();
+                if (allexamresultssoftdeletes == true)
+                {
+                    response.Success=false;
+                    response.Message = "All Exam Results are soft deleted";
+                    return response;
+                }
+
                 else
                 {
 

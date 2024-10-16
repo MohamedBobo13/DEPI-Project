@@ -132,11 +132,19 @@ namespace OnlineEducationPlatform.BLL.Manager.quizresultmanager
                         response.Message = "There Are No QuizResults yet !!";
                         response.Success = true;
 
-
+                    return response;
 
                     }
-                    else
-                    {
+                var allquizresultssoftdeletes = await _quizresult.AreAllQuizResultsSoftDeletedAsync ();
+                if (allquizresultssoftdeletes == true)
+                {
+                    response.Success = false;
+                    response.Message = "All Quiz Results are soft deleted";
+                    return response;
+                }
+
+                else
+                {
 
                         // Map the domain entities to DTOs
                         response.Data = _mapper.Map<List<quizresultreaddto>>(QuizResults);

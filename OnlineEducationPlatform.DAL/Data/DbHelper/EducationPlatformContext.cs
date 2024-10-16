@@ -49,6 +49,9 @@ namespace OnlineEducationPlatform.DAL.Data.DbHelper
             modelBuilder.Entity<QuizResult>()
      .HasIndex(e => new { e.StudentId, e.QuizId })
      .IsUnique();
+            modelBuilder.Entity<ExamResult>()
+ .HasIndex(e => new { e.StudentId, e.ExamId })
+ .IsUnique();
             //            modelBuilder.Entity<ApplicationUser>().HasData(
             //           new ApplicationUser
             //           {
