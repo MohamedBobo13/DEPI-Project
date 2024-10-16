@@ -1,12 +1,8 @@
 ﻿using AutoMapper;
 using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
+using OnlineEducationPlatform.DAL.Repo.AnswerResultRepo;
 using OnlineEducationPlatform.DAL.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Manager.Answerresultmanager
 {
@@ -20,38 +16,41 @@ namespace OnlineEducationPlatform.BLL.Manager.Answerresultmanager
             _answerResultRepo = answerResultRepo;
             _mapper = mapper;
         }
-        public IEnumerable<AnswerResultReadDto> GetAll()
+        public async Task<IEnumerable<AnswerResultReadDto>> GetAllAsync()
         {
-            return _mapper.Map<List<AnswerResultReadDto>>(_answerResultRepo.GetAll());
-        }
-        public AnswerResultReadDto GetById(int id)
-        {
-            return _mapper.Map<AnswerResultReadDto>(_answerResultRepo.GetById(id));
-        }
-        public void Add(AnswerResultAddDto answerResultAddDto)
-        {
-            _answerResultRepo.Add(_mapper.Map<AnswerResult>(answerResultAddDto));
-            _answerResultRepo.SaveChange();
-        }
-        public void Update(AnswerResultUpdateDto answerResultUpdateDto)
-        {
-            _answerResultRepo.Update(_mapper.Map(answerResultUpdateDto, _answerResultRepo.GetById(answerResultUpdateDto.Id)));
-            _answerResultRepo.SaveChange();
+            var answerResults = await _answerResultRepo.GetAllAsync();
+            return _mapper.Map<List<AnswerResultReadDto>>(answerResults);
         }
 
-        public void Delete(int id)
+        public async Task<AnswerResultReadDto> GetByIdAsync(int id)
         {
-            var AnswerResultModel = _answerResultRepo.GetById(id);
-            if (AnswerResultModel != null)
+            var answerResult = await _answerResultRepo.GetByIdAsync(id);
+
+            if (answerResult == null)
+                return null;
+
+            return _mapper.Map<AnswerResultReadDto>(answerResult);
+        }
+        public async Task AddAsync(AnswerResultAddDto answerResultAddDto)
+        {
+            await _answerResultRepo.AddAsync(_mapper.Map<AnswerResult>(answerResultAddDto));
+        }
+        public async Task UpdateAsync(AnswerResultUpdateDto answerResultUpdateDto)
+        {
+            var existingAnswerResult = await _answerResultRepo.GetByIdAsync(answerResultUpdateDto.Id);
+            if (existingAnswerResult == null)
             {
-                _answerResultRepo.Delete(AnswerResultModel);
-                _answerResultRepo.SaveChange();
+                return;
             }
+            _answerResultRepo.UpdateAsync(_mapper.Map(answerResultUpdateDto, existingAnswerResult));
         }
-
-        public void SaveChange()
+        public async Task DeleteAsync(int id)
         {
-            _answerResultRepo.SaveChange();
+            var AnswerModelResult = await _answerResultRepo.GetByIdAsync(id);
+            if (AnswerModelResult != null)
+            {
+                await _answerResultRepo.DeleteAsync(AnswerModelResult);
+            }
         }
     }
 }

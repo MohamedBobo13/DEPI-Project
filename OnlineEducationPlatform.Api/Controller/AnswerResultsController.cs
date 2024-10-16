@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OnlineEducationPlatform.BLL.Dtos;
+using OnlineEducationPlatform.BLL.Manager;
 using OnlineEducationPlatform.BLL.Manager.Answerresultmanager;
 using OnlineEducationPlatform.DAL.Data.Models;
 
@@ -17,37 +18,46 @@ namespace OnlineEducationPlatform.Api.Controllers
             _answerResultManager = answerResultManager;
         }
         [HttpGet]
-        public ActionResult GetAll()
+        public async Task<ActionResult> GetAll()
         {
-            return Ok(_answerResultManager.GetAll());
+            return Ok(await _answerResultManager.GetAllAsync());
         }
         [HttpGet]
         [Route("{Id}")]
-        public ActionResult GetById(int Id)
+        public async Task<ActionResult> GetById(int Id)
         {
-            return Ok(_answerResultManager.GetById(Id));
+            var answerResult = await _answerResultManager.GetByIdAsync(Id);
+            if (answerResult == null)
+            {
+                return NotFound();
+            }
+            return Ok(answerResult);
         }
         [HttpPost]
-        public ActionResult Add(AnswerResultAddDto answerResultAddDto)
+        public async Task<ActionResult> Add(AnswerResultAddDto answerResultAddDto)
         {
-            _answerResultManager.Add(answerResultAddDto);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            await _answerResultManager.AddAsync(answerResultAddDto);
             return NoContent();
         }
         [HttpPut]
         [Route("{Id}")]
-        public ActionResult Update(int Id, AnswerResultUpdateDto answerResultUpdateDto)
+        public async Task<ActionResult> Update(int Id, AnswerResultUpdateDto answerResultUpdateDto)
         {
-            if (Id != answerResultUpdateDto.Id)
+            if (Id != answerResultUpdateDto.Id || !ModelState.IsValid)
             {
                 return BadRequest();
             }
-            _answerResultManager.Update(answerResultUpdateDto);
+            await _answerResultManager.UpdateAsync(answerResultUpdateDto);
             return NoContent();
         }
         [HttpDelete]
-        public ActionResult Delete(int Id)
+        public async Task<ActionResult> Delete(int Id)
         {
-            _answerResultManager.Delete(Id);
+            await _answerResultManager.DeleteAsync(Id);
             return NoContent();
         }
     }

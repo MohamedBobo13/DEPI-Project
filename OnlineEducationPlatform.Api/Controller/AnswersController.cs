@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OnlineEducationPlatform.BLL.Dtos;
+using OnlineEducationPlatform.BLL.Manager;
 using OnlineEducationPlatform.BLL.Manager.Answermanager;
 
 namespace OnlineEducationPlatform.Api.Controllers
@@ -17,37 +18,46 @@ namespace OnlineEducationPlatform.Api.Controllers
             _answerManager = answerManager;
         }
         [HttpGet]
-        public ActionResult GetAll()
+        public async Task<ActionResult> GetAll()
         {
-            return Ok(_answerManager.GetAll());
+            return Ok(await _answerManager.GetAllAsync());
         }
         [HttpGet]
         [Route("{Id}")]
-        public ActionResult GetById(int Id)
+        public async Task<ActionResult> GetById(int Id)
         {
-            return Ok(_answerManager.GetById(Id));
+            var answer = await _answerManager.GetByIdAsync(Id);
+            if (answer == null)
+            {
+                return NotFound();
+            }
+            return Ok(answer);
         }
         [HttpPost]
-        public ActionResult Add(AnswerAddDto answerAddDto)
+        public async Task<ActionResult> Add(AnswerAddDto answerAddDto)
         {
-            _answerManager.Add(answerAddDto);
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            await _answerManager.AddAsync(answerAddDto);
             return NoContent();
         }
         [HttpPut]
         [Route("{Id}")]
-        public ActionResult Update(int Id, AnswerUpdateDto answerUpdateDto)
+        public async Task<ActionResult> Update(int Id, AnswerUpdateDto answerUpdateDto)
         {
-            if (Id != answerUpdateDto.Id)
+            if (Id != answerUpdateDto.Id || !ModelState.IsValid)
             {
                 return BadRequest();
             }
-            _answerManager.Update(answerUpdateDto);
+             await _answerManager.UpdateAsync(answerUpdateDto);
             return NoContent();
         }
         [HttpDelete]
-        public ActionResult Delete(int Id)
+        public async Task<ActionResult> Delete(int Id)
         {
-            _answerManager.Delete(Id);
+            await _answerManager.DeleteAsync(Id);
             return NoContent();
         }
     }

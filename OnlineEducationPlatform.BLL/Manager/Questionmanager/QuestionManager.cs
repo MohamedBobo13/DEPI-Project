@@ -3,11 +3,6 @@ using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
 using OnlineEducationPlatform.DAL.Repo.QuestionRepo;
 using OnlineEducationPlatform.DAL.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
 {
@@ -21,65 +16,58 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
             _questionRepo = questionRepo;
             _mapper = mapper;
         }
-        public IEnumerable<QuestionReadDto> GetAll()
+        public async Task<IEnumerable<QuestionReadDto>> GetAllAsync()
         {
-            return _mapper.Map<List<QuestionReadDto>>(_questionRepo.GetAll());
+            var questions = await _questionRepo.GetAllAsync();
+            return _mapper.Map<List<QuestionReadDto>>(questions);
         }
-        public IEnumerable<QuestionQuizReadDto> GetAllQuiz()
+
+        public async Task<IEnumerable<QuestionExamReadDto>> GetAllExamAsync()
         {
-            return _mapper.Map<List<QuestionQuizReadDto>>(_questionRepo.GetAllQuiz());
+            var questionsExam = await _questionRepo.GetAllExamAsync();
+            return _mapper.Map<List<QuestionExamReadDto>>(questionsExam);
         }
-        public IEnumerable<QuestionExamReadDto> GetAllExam()
+
+        public async Task<IEnumerable<QuestionQuizReadDto>> GetAllQuizAsync()
         {
-            return _mapper.Map<List<QuestionExamReadDto>>(_questionRepo.GetAllExam());
+            var questionsQuiz = await _questionRepo.GetAllQuizAsync();
+            return _mapper.Map<List<QuestionQuizReadDto>>(questionsQuiz);
         }
-        public QuestionReadDto GetById(int id)
+
+        public async Task<QuestionReadDto> GetByIdAsync(int id)
         {
-            return _mapper.Map<QuestionReadDto>(_questionRepo.GetById(id));
+            var question = await _questionRepo.GetByIdAsync(id);
+
+            if (question == null)
+                return null;
+
+            return _mapper.Map<QuestionReadDto>(question);
         }
-        public bool AddQuiz(QuestionQuizAddDto questionQuizAddDto)
+        public async Task AddExamAsync(QuestionExamAddDto questionExamAddDto)
         {
-            if (_questionRepo.QuizExists(questionQuizAddDto.QuizId))
+            await _questionRepo.AddAsync(_mapper.Map<Question>(questionExamAddDto));
+        }
+
+        public async Task AddQuizAsync(QuestionQuizAddDto questionQuizAddDto)
+        {
+            await _questionRepo.AddAsync(_mapper.Map<Question>(questionQuizAddDto));
+        }
+        public async Task UpdateAsync(QuestionUpdateDto questionUpdateDto)
+        {
+            var existingQuestion = await _questionRepo.GetByIdAsync(questionUpdateDto.Id);
+            if (existingQuestion == null)
             {
-
-                _questionRepo.Add(_mapper.Map<Question>(questionQuizAddDto));
-                _questionRepo.SaveChange();
-                return true;
+                return;
             }
-            return false;
+            _questionRepo.UpdateAsync(_mapper.Map(questionUpdateDto, existingQuestion));
         }
-        public bool Addexam(QuestionExamAddDto questionExamAddDto)
+        public async Task DeleteAsync(int id)
         {
-            if (_questionRepo.ExamExists(questionExamAddDto.ExamId))
+            var questionModel = await _questionRepo.GetByIdAsync(id);
+            if (questionModel != null)
             {
-                _questionRepo.Add(_mapper.Map<Question>(questionExamAddDto));
-
-                _questionRepo.SaveChange();
-                return true;
-
+                await _questionRepo.DeleteAsync(questionModel);
             }
-            return false;
-            //_questionRepo.Add(_mapper.Map<Question>(questionExamAddDto));
-
-            // _questionRepo.SaveChange();
-        }
-        public void Update(QuestionUpdateDto questionUpdateDto)
-        {
-            _questionRepo.Update(_mapper.Map(questionUpdateDto, _questionRepo.GetById(questionUpdateDto.Id)));
-            _questionRepo.SaveChange();
-        }
-        public void Delete(int id)
-        {
-            var QuestionModel = _questionRepo.GetById(id);
-            if (QuestionModel != null)
-            {
-                _questionRepo.Delete(QuestionModel);
-                _questionRepo.SaveChange();
-            }
-        }
-        public void SaveChange()
-        {
-            _questionRepo.SaveChange();
         }
 
     }

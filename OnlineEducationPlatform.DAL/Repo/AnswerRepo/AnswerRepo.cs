@@ -8,7 +8,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.DAL.Repositories
+namespace OnlineEducationPlatform.DAL.Repo.AnswerRepo
 {
     public class AnswerRepo : IAnswerRepo
     {
@@ -18,33 +18,33 @@ namespace OnlineEducationPlatform.DAL.Repositories
         {
             _context = context;
         }
-
-        public IEnumerable<Answer> GetAll()
+        public async Task<IEnumerable<Answer>> GetAllAsync()
         {
-            return _context.Answer.AsNoTracking().ToList();
+            return await _context.Answer.AsNoTracking().ToListAsync();
         }
-
-        public Answer GetById(int id)
+        public async Task<Answer> GetByIdAsnyc(int id)
         {
-            return _context.Answer.Find(id);
+            return await _context.Answer.FirstOrDefaultAsync(a => a.Id == id);
         }
-        public void Add(Answer answer)
+        public async Task AddAsync(Answer answer)
         {
-             _context.Add(answer);
+            await _context.AddAsync(answer);
+            await SaveChangeAsync();
         }
-
-        public void Delete(Answer answer)
-        {
-            answer.IsDeleted= true;
-            _context.Update(answer);
-        }
-        public void Update(Answer answer)
+        public async Task UpdateAsync(Answer answer)
         {
             _context.Update(answer);
+            await SaveChangeAsync();
         }
-        public void SaveChange()
+        public async Task DeleteAsync(Answer answer)
         {
-            _context.SaveChanges();
+            answer.IsDeleted = true;
+            _context.Update(answer);
+            await SaveChangeAsync();
+        }
+        public async Task SaveChangeAsync()
+        {
+            await _context.SaveChangesAsync();
         }
     }
 }

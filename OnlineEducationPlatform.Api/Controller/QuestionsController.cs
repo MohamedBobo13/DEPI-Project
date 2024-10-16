@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OnlineEducationPlatform.BLL.Dtos;
+using OnlineEducationPlatform.BLL.Manager;
 using OnlineEducationPlatform.BLL.Manager.Questionmanager;
-using OnlineEducationPlatform.DAL.Data.Models;
 
 namespace OnlineEducationPlatform.Api.Controllers
 {
@@ -18,73 +18,72 @@ namespace OnlineEducationPlatform.Api.Controllers
             _questionManager = questionManager;
         }
         [HttpGet]
-        public ActionResult GetAll()
+        public async Task<ActionResult> GetAllAsync()
         {
-            return Ok(_questionManager.GetAll());
+            return Ok(await _questionManager.GetAllAsync());
         }
         [HttpGet]
         [Route("Exam")]
-        public ActionResult GetAllExam()
+        public async Task<ActionResult> GetAllExamAsync()
         {
-            return Ok(_questionManager.GetAllExam());
+            return Ok(await _questionManager.GetAllExamAsync());
         }
         [HttpGet]
         [Route("Quiz")]
-        public ActionResult GetAllQuiz()
+        public async Task<ActionResult> GetAllQuizAsync()
         {
-            return Ok(_questionManager.GetAllQuiz());
+            return Ok(await _questionManager.GetAllQuizAsync());
         }
         [HttpGet]
         [Route("{Id}")]
-        public ActionResult GetById(int Id)
+        public async Task<ActionResult> GetByIdAsync(int Id)
         {
-            return Ok(_questionManager.GetById(Id));
+            var question = await _questionManager.GetByIdAsync(Id);
+            if (question == null)
+            {
+                return NotFound();
+            }
+            return Ok(question);
         }
         [HttpPost]
         [Route("Quiz")]
-        public ActionResult AddQuiz(QuestionQuizAddDto questionQuizAddDto)
+        public async Task<ActionResult> AddQuizAsync(QuestionQuizAddDto questionQuizAddDto)
         {
-            if (_questionManager.AddQuiz(questionQuizAddDto))
-            {
 
-
-                return NoContent();
-            }
-            else
+            if (!ModelState.IsValid)
             {
-                return BadRequest("Quiz Id not exist ");
+                return BadRequest(ModelState);
             }
+            await _questionManager.AddQuizAsync(questionQuizAddDto);
+            return NoContent();
         }
         [HttpPost]
         [Route("Exam")]
-        public ActionResult AddExam(QuestionExamAddDto questionExamAddDto)
+        public async Task<ActionResult> AddExamAsync(QuestionExamAddDto questionExamAddDto)
         {
 
-
-            if (_questionManager.Addexam(questionExamAddDto))
+            if (!ModelState.IsValid)
             {
-                return NoContent();
+                return BadRequest(ModelState);
             }
-            else
-            {
-              return  BadRequest("Exam Id Not Exist");    
-            }
+            await _questionManager.AddExamAsync(questionExamAddDto);
+            return NoContent();
         }
         [HttpPut]
         [Route("{Id}")]
-        public ActionResult Update(int Id, QuestionUpdateDto questionUpdateDto)
+        public async Task<ActionResult> UpdateAsync(int Id, QuestionUpdateDto questionUpdateDto)
         {
-            if (Id != questionUpdateDto.Id)
+            if (Id != questionUpdateDto.Id || !ModelState.IsValid)
             {
                 return BadRequest();
             }
-            _questionManager.Update(questionUpdateDto);
+            await _questionManager.UpdateAsync(questionUpdateDto);
             return NoContent();
         }
         [HttpDelete]
-        public ActionResult Delete(int Id)
+        public async Task<ActionResult> DeleteAsync(int Id)
         {
-            _questionManager.Delete(Id);
+            await _questionManager.DeleteAsync(Id);
             return NoContent();
         }
     }

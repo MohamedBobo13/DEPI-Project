@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.DAL.Repositories
+namespace OnlineEducationPlatform.DAL.Repo.AnswerResultRepo
 {
     public class AnswerResultRepo : IAnswerResultRepo
     {
@@ -17,34 +17,33 @@ namespace OnlineEducationPlatform.DAL.Repositories
         {
             _context = context;
         }
-
-        public IEnumerable<AnswerResult> GetAll()
+        public async Task<IEnumerable<AnswerResult>> GetAllAsync()
         {
-            return _context.AnswerResult.AsNoTracking().ToList();
+            return await _context.AnswerResult.AsNoTracking().ToListAsync();
         }
-
-        public AnswerResult GetById(int id)
+        public async Task<AnswerResult> GetByIdAsync(int id)
         {
-            return _context.AnswerResult.Find(id);
+            return await _context.AnswerResult.FirstOrDefaultAsync(a => a.Id == id);
         }
-        public void Add(AnswerResult answerResult)
+        public async Task AddAsync(AnswerResult answerResult)
         {
-            _context.Add(answerResult);
+            await _context.AddAsync(answerResult);
+            await SaveChangeAsync();
         }
-
-        public void Delete(AnswerResult answerResult)
+        public async Task UpdateAsync(AnswerResult answerResult)
+        {
+            _context.Update(answerResult);
+            await SaveChangeAsync();
+        }
+        public async Task DeleteAsync(AnswerResult answerResult)
         {
             answerResult.IsDeleted = true;
             _context.Update(answerResult);
+            await SaveChangeAsync();
         }
-        public void Update(AnswerResult answerResult)
+        public async Task SaveChangeAsync()
         {
-            _context.Update(answerResult);
-        }
-        public void SaveChange()
-        {
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
     }
 }
-

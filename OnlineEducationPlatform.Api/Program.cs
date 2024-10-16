@@ -41,6 +41,8 @@ using OnlineEducationPlatform.BLL.Manager.StudentManager;
 using OnlineEducationPlatform.BLL.AutoMapper.InstructorAutoMapper;
 using OnlineEducationPlatform.DAL.Repo.InstructorRepo;
 using OnlineEducationPlatform.BLL.Manager.InstructorManager;
+using OnlineEducationPlatform.DAL.Repo.AnswerRepo;
+using OnlineEducationPlatform.DAL.Repo.AnswerResultRepo;
 
 namespace OnlineEducationPlatform.Api
 {

@@ -1,19 +1,17 @@
 ﻿using OnlineEducationPlatform.BLL.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Manager.Answermanager
 {
     public interface IAnswerManager
     {
-        IEnumerable<AnswerReadDto> GetAll();
-        AnswerReadDto GetById(int id);
-        void Add(AnswerAddDto answerAddDto);
-        void Update(AnswerUpdateDto answerUpdateDto);
-        void Delete(int id);
-        void SaveChange();
+        Task<IEnumerable<AnswerReadDto>> GetAllAsync();
+
+        Task<AnswerReadDto> GetByIdAsync(int id);
+
+        Task AddAsync(AnswerAddDto answerAddDto);
+
+        Task UpdateAsync(AnswerUpdateDto answerUpdateDto);
+
+        Task DeleteAsync(int id);
     }
 }

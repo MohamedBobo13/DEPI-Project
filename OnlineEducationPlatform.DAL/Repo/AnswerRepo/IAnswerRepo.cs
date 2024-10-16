@@ -6,15 +6,15 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.DAL.Repositories
+namespace OnlineEducationPlatform.DAL.Repo.AnswerRepo
 {
     public interface IAnswerRepo
     {
-        IEnumerable<Answer> GetAll();
-        Answer GetById(int id);
-        void Delete(Answer answer);
-        void Update(Answer answer);
-        void Add(Answer answer);
-        void SaveChange();
+        Task<IEnumerable<Answer>> GetAllAsync();
+        Task<Answer> GetByIdAsnyc(int id);
+        Task DeleteAsync(Answer answer);
+        Task UpdateAsync(Answer answer);
+        Task AddAsync(Answer answer);
+        Task SaveChangeAsync();
     }
 }

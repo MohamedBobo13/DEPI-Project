@@ -1,14 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OnlineEducationPlatform.DAL.Data.DbHelper;
 using OnlineEducationPlatform.DAL.Data.Models;
-using OnlineEducationPlatform.DAL.Repo.QuestionRepo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.DAL.Repositories
+namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
 {
     public class QuestionRepo : IQuestionRepo
     {
@@ -18,48 +17,45 @@ namespace OnlineEducationPlatform.DAL.Repositories
         {
             _context = context;
         }
-        public IEnumerable<Question> GetAll()
+        public async Task<IEnumerable<Question>> GetAllAsync()
         {
-            return _context.Question.AsNoTracking().ToList();
-        }
-        public IEnumerable<Question> GetAllExam()
-        {
-            return _context.Question.Where(e=>e.ExamId!=null).AsNoTracking().ToList();
+            return await _context.Question.AsNoTracking().ToListAsync();
         }
 
-        public IEnumerable<Question> GetAllQuiz()
+        public async Task<IEnumerable<Question>> GetAllExamAsync()
         {
-            return _context.Question.Where(q => q.QuizId != null).AsNoTracking().ToList();
+            return await _context.Question.Where(e => e.ExamId != null).AsNoTracking().ToListAsync();
         }
-        public Question GetById(int id)
+
+        public async Task<IEnumerable<Question>> GetAllQuizAsync()
         {
-            return _context.Question.Find(id);
+            return await _context.Question.Where(e => e.QuizId != null).AsNoTracking().ToListAsync();
         }
-        public void Add(Question question)
+
+        public async Task<Question> GetByIdAsync(int id)
         {
-            _context.Add(question);
+            return await _context.Question.FirstOrDefaultAsync(a => a.Id == id);
         }
-        public void Delete(Question question)
+        public async Task AddAsync(Question question)
+        {
+            await _context.AddAsync(question);
+            await SaveChangeAsync();
+        }
+        public async Task UpdateAsync(Question question)
+        {
+            _context.Update(question);
+            await SaveChangeAsync();
+        }
+        public async Task DeleteAsync(Question question)
         {
             question.IsDeleted = true;
             _context.Update(question);
-        }
-        public void Update(Question question)
-        {
-            _context.Update(question);
-        }
-        public void SaveChange()
-        {
-            _context.SaveChanges();
+            await SaveChangeAsync();
         }
 
-        public bool ExamExists(int? examId)
+        public async Task SaveChangeAsync()
         {
-            return _context.Question.Any(e => e.ExamId == examId);
-        }
-        public bool QuizExists(int? QuizId)
-        {
-            return _context.Question.Any(e => e.QuizId == QuizId);
+            await _context.SaveChangesAsync();
         }
     }
 }

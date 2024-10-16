@@ -1,13 +1,8 @@
 ﻿using AutoMapper;
 using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
+using OnlineEducationPlatform.DAL.Repo.AnswerRepo;
 using OnlineEducationPlatform.DAL.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Manager.Answermanager
 {
@@ -21,38 +16,41 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
             _answerRepo = answerRepo;
             _mapper = mapper;
         }
-        public IEnumerable<AnswerReadDto> GetAll()
-        {
-            return _mapper.Map<List<AnswerReadDto>>(_answerRepo.GetAll());
-        }
-        public AnswerReadDto GetById(int id)
-        {
-            return _mapper.Map<AnswerReadDto>(_answerRepo.GetById(id));
-        }
-        public void Add(AnswerAddDto answerAddDto)
-        {
-            _answerRepo.Add(_mapper.Map<Answer>(answerAddDto));
-            _answerRepo.SaveChange();
-        }
-        public void Update(AnswerUpdateDto answerUpdateDto)
-        {
-            _answerRepo.Update(_mapper.Map(answerUpdateDto, _answerRepo.GetById(answerUpdateDto.Id)));
-            _answerRepo.SaveChange();
-        }
 
-        public void Delete(int id)
+        public async Task<IEnumerable<AnswerReadDto>> GetAllAsync()
         {
-            var AnswerModel = _answerRepo.GetById(id);
+            var answers = await _answerRepo.GetAllAsync();
+            return _mapper.Map<List<AnswerReadDto>>(answers);
+        }
+        public async Task<AnswerReadDto> GetByIdAsync(int id)
+        {
+            var answer = await _answerRepo.GetByIdAsnyc(id);
+
+            if (answer == null)
+                return null;
+
+            return _mapper.Map<AnswerReadDto>(answer);
+        }
+        public async Task AddAsync(AnswerAddDto answerAddDto)
+        {
+            await _answerRepo.AddAsync(_mapper.Map<Answer>(answerAddDto));
+        }
+        public async Task UpdateAsync(AnswerUpdateDto answerUpdateDto)
+        {
+            var existingAnswer = await _answerRepo.GetByIdAsnyc(answerUpdateDto.Id);
+            if (existingAnswer == null)
+            {
+                return;
+            }
+            _answerRepo.UpdateAsync(_mapper.Map(answerUpdateDto, existingAnswer));
+        }
+        public async Task DeleteAsync(int id)
+        {
+            var AnswerModel = await _answerRepo.GetByIdAsnyc(id);
             if (AnswerModel != null)
             {
-                _answerRepo.Delete(AnswerModel);
-                _answerRepo.SaveChange();
+                await _answerRepo.DeleteAsync(AnswerModel);
             }
-        }
-
-        public void SaveChange()
-        {
-            _answerRepo.SaveChange();
         }
     }
 }
