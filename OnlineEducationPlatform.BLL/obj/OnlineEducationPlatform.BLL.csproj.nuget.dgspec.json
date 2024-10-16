@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
         "packagesPath": "C:\\Users\\Nada\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.BLL\\obj\\",
+=======
+    "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {}
+  },
+  "projects": {
+    "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+        "projectName": "OnlineEducationPlatform.BLL",
+        "projectPath": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+        "packagesPath": "C:\\Users\\G5\\.nuget\\packages\\",
+        "outputPath": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\obj\\",
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Nada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\G5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +51,13 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
                 "projectPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj"
+=======
+              "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
+                "projectPath": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj"
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
               }
             }
           }
@@ -58,9 +81,19 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+<<<<<<< HEAD
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.8, )"
+=======
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
             },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
@@ -87,6 +120,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -99,12 +133,30 @@
         "projectPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
         "packagesPath": "C:\\Users\\Nada\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.DAL\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+        "projectName": "OnlineEducationPlatform.DAL",
+        "projectPath": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+        "packagesPath": "C:\\Users\\G5\\.nuget\\packages\\",
+        "outputPath": "D:\\new project depi\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\obj\\",
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Nada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\G5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -137,6 +189,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+<<<<<<< HEAD
+=======
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -172,7 +231,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
         }
       }
     }

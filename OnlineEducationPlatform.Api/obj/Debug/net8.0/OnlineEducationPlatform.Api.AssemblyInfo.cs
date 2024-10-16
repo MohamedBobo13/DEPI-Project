@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineEducationPlatform.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e20ca64f5ae8fe055a5ae3128bb8f86b5932ec8")]
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineEducationPlatform.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineEducationPlatform.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

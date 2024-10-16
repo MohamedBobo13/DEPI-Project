@@ -170,6 +170,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<bool>("IsCorrect")
                         .HasColumnType("bit");
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<int>("QuestionId")
                         .HasColumnType("int");
 
@@ -191,6 +197,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<int>("AnswerId")
                         .HasColumnType("int");
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<decimal>("MarksAwarded")
                         .HasColumnType("decimal(18,2)");
 
@@ -243,6 +255,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
@@ -315,6 +333,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -343,6 +367,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<DateTime>("EnrollmentDate")
                         .HasColumnType("datetime2");
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
@@ -354,7 +384,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("CourseId");
 
+<<<<<<< HEAD
                     b.HasIndex("StudentId");
+=======
+                    b.HasIndex("StudentId", "CourseId")
+                        .IsUnique();
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
 
                     b.ToTable("Enrollment");
                 });
@@ -373,6 +408,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<int>("DurationMinutes")
                         .HasColumnType("int");
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<int>("PassingMarks")
                         .HasColumnType("int");
 
@@ -404,14 +445,26 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<int>("ExamId")
                         .HasColumnType("int");
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<bool>("IsPassed")
                         .HasColumnType("bit");
 
                     b.Property<decimal>("Score")
                         .HasColumnType("decimal(18,2)");
 
+<<<<<<< HEAD
                     b.Property<int?>("StudentProgressId")
                         .HasColumnType("int");
+=======
+                    b.Property<string>("StudentId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
 
                     b.Property<decimal>("TotalMarks")
                         .HasColumnType("decimal(18,2)");
@@ -420,7 +473,11 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("ExamId");
 
+<<<<<<< HEAD
                     b.HasIndex("StudentProgressId");
+=======
+                    b.HasIndex("StudentId");
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
 
                     b.ToTable("ExamResult");
                 });
@@ -436,6 +493,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<int>("Order")
                         .HasColumnType("int");
 
@@ -458,6 +521,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<int>("LectureId")
                         .HasColumnType("int");
 
@@ -491,6 +560,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<int?>("ExamId")
                         .HasColumnType("int");
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<int>("Marks")
                         .HasColumnType("int");
 
@@ -520,6 +595,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<int>("LectureId")
                         .HasColumnType("int");
 
@@ -550,14 +631,26 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<int>("QuizId")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Score")
                         .HasColumnType("decimal(18,2)");
 
+<<<<<<< HEAD
                     b.Property<int>("StudentProgressId")
                         .HasColumnType("int");
+=======
+                    b.Property<string>("StudentId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
 
                     b.Property<decimal>("TotalMarks")
                         .HasColumnType("decimal(18,2)");
@@ -566,11 +659,16 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("QuizId");
 
+<<<<<<< HEAD
                     b.HasIndex("StudentProgressId");
+=======
+                    b.HasIndex("StudentId");
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
 
                     b.ToTable("QuizResult");
                 });
 
+<<<<<<< HEAD
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", b =>
                 {
                     b.Property<int>("Id")
@@ -606,6 +704,8 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.ToTable("StudentProgress");
                 });
 
+=======
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Video", b =>
                 {
                     b.Property<int>("Id")
@@ -614,6 +714,12 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Property<int>("LectureId")
                         .HasColumnType("int");
 
@@ -722,7 +828,11 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+<<<<<<< HEAD
                     b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Student", "student")
+=======
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Student", "Student")
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                         .WithMany("AnswerResults")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -732,7 +842,11 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.Navigation("Question");
 
+<<<<<<< HEAD
                     b.Navigation("student");
+=======
+                    b.Navigation("Student");
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Course", b =>
@@ -754,7 +868,11 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+<<<<<<< HEAD
                     b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Student", "student")
+=======
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Student", "Student")
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                         .WithMany("Enrollments")
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -762,7 +880,11 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.Navigation("Course");
 
+<<<<<<< HEAD
                     b.Navigation("student");
+=======
+                    b.Navigation("Student");
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Exam", b =>
@@ -784,11 +906,23 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+<<<<<<< HEAD
                     b.HasOne("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", null)
                         .WithMany("ExamResults")
                         .HasForeignKey("StudentProgressId");
 
                     b.Navigation("Exam");
+=======
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Student", "student")
+                        .WithMany("examResults")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Exam");
+
+                    b.Navigation("student");
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Lecture", b =>
@@ -855,14 +989,21 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+<<<<<<< HEAD
                     b.HasOne("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", "StudentProgress")
                         .WithMany("QuizResults")
                         .HasForeignKey("StudentProgressId")
+=======
+                    b.HasOne("OnlineEducationPlatform.DAL.Data.Models.Student", "student")
+                        .WithMany("quizResults")
+                        .HasForeignKey("StudentId")
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Quiz");
 
+<<<<<<< HEAD
                     b.Navigation("StudentProgress");
                 });
 
@@ -887,6 +1028,9 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Navigation("Course");
 
                     b.Navigation("Enrollment");
+=======
+                    b.Navigation("student");
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Video", b =>
@@ -916,12 +1060,15 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Navigation("Quizzes");
                 });
 
+<<<<<<< HEAD
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Enrollment", b =>
                 {
                     b.Navigation("StudentProgress")
                         .IsRequired();
                 });
 
+=======
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Exam", b =>
                 {
                     b.Navigation("ExamResults");
@@ -935,8 +1082,11 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.Navigation("Quizzes");
 
+<<<<<<< HEAD
                     b.Navigation("StudentProgresses");
 
+=======
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                     b.Navigation("Videos");
                 });
 
@@ -954,6 +1104,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Navigation("QuizResults");
                 });
 
+<<<<<<< HEAD
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.StudentProgress", b =>
                 {
                     b.Navigation("ExamResults");
@@ -961,6 +1112,8 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Navigation("QuizResults");
                 });
 
+=======
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Instructor", b =>
                 {
                     b.Navigation("Courses");
@@ -971,6 +1124,13 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Navigation("AnswerResults");
 
                     b.Navigation("Enrollments");
+<<<<<<< HEAD
+=======
+
+                    b.Navigation("examResults");
+
+                    b.Navigation("quizResults");
+>>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
                 });
 #pragma warning restore 612, 618
         }
