@@ -17,6 +17,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public int QuestionId { get; set; }
         public Question Question { get; set; }
         public ICollection<AnswerResult> AnswerResults { get; set; } = new HashSet<AnswerResult>();
+        public bool IsDeleted { get; internal set; }
     }
 }
 

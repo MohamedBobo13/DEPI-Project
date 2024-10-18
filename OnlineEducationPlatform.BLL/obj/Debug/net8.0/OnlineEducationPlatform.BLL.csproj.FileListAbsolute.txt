@@ -13,33 +13,35 @@ D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\ne
 D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll
 D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
 D:\DEPI Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.deps.json
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.AssemblyReference.cache
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfoInputs.cache
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfo.cs
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.CoreCompileInputs.cache
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEd.3B35E1B4.Up2Date
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.dll
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
-C:\Users\Nada\Desktop\online platform\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.deps.json
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.AssemblyReference.cache
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfoInputs.cache
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfo.cs
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.CoreCompileInputs.cache
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEd.3B35E1B4.Up2Date
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.dll
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
-C:\Users\Nada\Desktop\projectde\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.deps.json
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.AssemblyReference.cache
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfoInputs.cache
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfo.cs
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.CoreCompileInputs.cache
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.sourcelink.json
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEd.3B35E1B4.Up2Date
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.AssemblyReference.cache
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfoInputs.cache
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfo.cs
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.CoreCompileInputs.cache
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.sourcelink.json
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.deps.json
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEd.3B35E1B4.Up2Date
+C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll

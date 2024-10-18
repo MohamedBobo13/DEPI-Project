@@ -22,7 +22,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         [ForeignKey("Course")]
         public int CourseId { get; set; }
         public Course Course { get; set; }
-        public StudentProgress StudentProgress { get; set; }
+        public bool IsDeleted { get; internal set; }
     }
 }
 public enum EnrollmentStatus

@@ -1,11 +1,10 @@
-
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using OnlineEducationPlatform.BLL.Manger.Accounts;
+using OnlineEducationPlatform.BLL.Mapper;
+using OnlineEducationPlatform.BLL.Services.ExamService;
+using OnlineEducationPlatform.BLL.Services.QuizService;
 using OnlineEducationPlatform.DAL.Data.DbHelper;
-using OnlineEducationPlatform.DAL.Data.Models;
-using OnlineEducationPlatform.DAL.Repositories;
-using System.Text;
+using OnlineEducationPlatform.DAL.Repositories.ExamRepo;
+using OnlineEducationPlatform.DAL.Repositories.QuizRepo;
 
 namespace OnlineEducationPlatform.Api
 {
@@ -21,54 +20,29 @@ namespace OnlineEducationPlatform.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            //----------------------
-            builder.Services.AddIdentity<ApplicationUser, Microsoft.AspNetCore.Identity.IdentityRole>(Options =>
-            {
-                Options.Password.RequireNonAlphanumeric=false;
-                Options.Password.RequireLowercase=false;
-                Options.Password.RequireUppercase=true;
-               // Options.Password.RequiredLength=15;
 
-
-            }).AddEntityFrameworkStores<EducationPlatformContext>();
-           
-            //-----------------------------------------------------
-            //[authorize]
-            builder.Services.AddAuthentication(Options =>
-            {
-                Options.DefaultAuthenticateScheme="JWT";//make sure token is true
-                Options.DefaultChallengeScheme="JWT";//return 401 => unauthorized or 403 => forbeden
-            }).AddJwtBearer("JWT", Options =>
-            {
-                //secrete key
-                var SecretKeyString = builder.Configuration.GetValue<string>("SecratKey");
-                var SecreteKeyBytes = Encoding.ASCII.GetBytes(SecretKeyString);
-                SecurityKey securityKey = new SymmetricSecurityKey(SecreteKeyBytes);
-                //--------------------------------------------------------------
-
-                Options.TokenValidationParameters=new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
-                {
-                    IssuerSigningKey=securityKey,
-                    //false mean anyone can send and eny one can take
-                    ValidateIssuer=false,//take token(backend)//make token
-                    ValidateAudience=false//send token(frontend)//use token
-                };
-            });
-
-
-
-
+            //Registering DbContext
             builder.Services.AddDbContext<EducationPlatformContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
-            });
+            }
+            );
+            //Registering QuizRepo,Service
+            builder.Services.AddScoped<IQuizRepo, QuizRepo>();
+            builder.Services.AddScoped<IQuizService, QuizService>();
+            
+            
+            
 
+            //Registering ExamRepo,Service
+            builder.Services.AddScoped<IExamRepo, ExamRepo>();
+            builder.Services.AddScoped<IExamService, ExamService>();
 
-            builder.Services.AddScoped<IAccountManger, AccountManger>();
-           
-            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-           
+            
 
+            //Registering Auto-Mapper
+            builder.Services.AddAutoMapper(map => map.AddProfile(new QuizMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new ExamMappingProfile()));
 
 
             var app = builder.Build();
@@ -82,7 +56,6 @@ namespace OnlineEducationPlatform.Api
 
             app.UseHttpsRedirection();
 
-            app.UseAuthentication();
             app.UseAuthorization();
 
 

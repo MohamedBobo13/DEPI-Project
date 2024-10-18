@@ -23,6 +23,6 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public ICollection<Enrollment> Enrollments { get; set; } = new HashSet<Enrollment>();
         public ICollection<Quiz> Quizzes { get; set; } = new HashSet<Quiz>();
         public ICollection<Exam> Exams { get; set; } = new HashSet<Exam>();
-
+        public bool IsDeleted { get; internal set; }
     }
 }

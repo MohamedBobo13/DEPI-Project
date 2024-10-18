@@ -1,42 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.DAL/obj/OnlineEducationPlatform.DAL.csproj.nuget.dgspec.json
-    "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {}
+    "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
+    "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
         "projectName": "OnlineEducationPlatform.DAL",
-        "projectPath": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+        "projectPath": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
         "packagesPath": "C:\\Users\\nour_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\obj\\",
-=======
-    "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
-        "projectName": "OnlineEducationPlatform.DAL",
-        "projectPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
-        "packagesPath": "C:\\Users\\Nada\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nada\\Desktop\\project\\OnlineEducationPlatform.DAL\\obj\\",
->>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.DAL/obj/OnlineEducationPlatform.DAL.csproj.nuget.dgspec.json
+        "outputPath": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.DAL/obj/OnlineEducationPlatform.DAL.csproj.nuget.dgspec.json
           "C:\\Users\\nour_\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\Nada\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.DAL/obj/OnlineEducationPlatform.DAL.csproj.nuget.dgspec.json
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,26 +46,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.DAL/obj/OnlineEducationPlatform.DAL.csproj.nuget.dgspec.json
-=======
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.0, )"
             },
->>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.DAL/obj/OnlineEducationPlatform.DAL.csproj.nuget.dgspec.json
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -106,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

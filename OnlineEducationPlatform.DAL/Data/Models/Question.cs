@@ -19,12 +19,11 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public int? QuizId { get; set; }
         [ForeignKey("Exam")]
         public int? ExamId { get; set; }
+        public bool IsDeleted { get;  set; }
         public Exam Exam { get; set; }
         public Quiz Quiz { get; set; }
         public ICollection<Answer> Answers { get; set; } = new HashSet<Answer>();
         public ICollection<AnswerResult> AnswerResults { get; set; } = new HashSet<AnswerResult>();
-
-
     }
 }
 public enum QuestionType

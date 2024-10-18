@@ -26,5 +26,6 @@ namespace OnlineEducationPlatform.DAL.Data.Models
        
         public Question Question { get; set; }
         public Answer Answer { get; set; }
+        public bool IsDeleted { get; internal set; }
     }
 }

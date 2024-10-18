@@ -8,10 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineEducationPlatform.BLL
-<<<<<<< HEAD:OnlineEducationPlatform/OnlineEducationPlatform.BLL/obj/Debug/net8.0/OnlineEducationPlatform.BLL.GeneratedMSBuildEditorConfig.editorconfig
-build_property.ProjectDir = C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform\OnlineEducationPlatform.BLL\
-=======
-build_property.ProjectDir = C:\Users\Nada\Desktop\project\OnlineEducationPlatform.BLL\
->>>>>>> e75ab0b57a683d1f7861dd5ef37cdafbcd727ccb:OnlineEducationPlatform.BLL/obj/Debug/net8.0/OnlineEducationPlatform.BLL.GeneratedMSBuildEditorConfig.editorconfig
+build_property.ProjectDir = C:\Users\nour_\source\repos\DEPI-Project\OnlineEducationPlatform.BLL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

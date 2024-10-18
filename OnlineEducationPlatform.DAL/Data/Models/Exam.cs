@@ -12,10 +12,11 @@ namespace OnlineEducationPlatform.DAL.Data.Models
     {
         public int Id { get; set; }
         public string Title { get; set; }
+        public int TotalQuestions { get; set; }
         public int DurationMinutes { get; set; }
         public int TotalMarks { get; set; }
         public int PassingMarks { get; set; }
-        public int TotalQuestions { get; set; }
+        public bool IsDeleted { get; set; }
         [ForeignKey("Course")]
         public int CourseId { get; set; }
         public Course Course { get; set; }

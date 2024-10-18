@@ -16,13 +16,14 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public TypeUser UserType { get; set; }
         
         public DateTime CreatedDate { get; set; }
-
-
+        public bool IsDeleted { get; internal set; }
     }
     public class Student : ApplicationUser
     {
         public ICollection<Enrollment> Enrollments { get; set; } = new HashSet<Enrollment>();
         public ICollection<AnswerResult> AnswerResults { get; set; } = new HashSet<AnswerResult>();
+        public ICollection<QuizResult> QuizResults { get; set; } = new HashSet<QuizResult>();
+        public ICollection<ExamResult> ExamResults { get; set; } = new HashSet<ExamResult>();
 
     }
     public class Instructor : ApplicationUser
