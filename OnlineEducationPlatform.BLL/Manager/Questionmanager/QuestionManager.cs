@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using OnlineEducationPlatform.BLL.Dto.QuestionDto;
 using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
 using OnlineEducationPlatform.DAL.Repo.QuestionRepo;
@@ -52,14 +53,24 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
         {
             await _questionRepo.AddAsync(_mapper.Map<Question>(questionQuizAddDto));
         }
-        public async Task UpdateAsync(QuestionUpdateDto questionUpdateDto)
+        public async Task UpdateExamAsync(QuestionExamUpdateDto questionExamUpdateDto)
         {
-            var existingQuestion = await _questionRepo.GetByIdAsync(questionUpdateDto.Id);
-            if (existingQuestion == null)
+            var existingQuestionExam = await _questionRepo.GetByIdAsync(questionExamUpdateDto.Id);
+            if (existingQuestionExam == null)
             {
                 return;
             }
-            _questionRepo.UpdateAsync(_mapper.Map(questionUpdateDto, existingQuestion));
+            _questionRepo.UpdateAsync(_mapper.Map(questionExamUpdateDto, existingQuestionExam));
+        }
+
+        public async Task UpdateQuizAsync(QuestionQuizUpdateDto questionQuizUpdateDto)
+        {
+            var existingQuestionQuiz = await _questionRepo.GetByIdAsync(questionQuizUpdateDto.Id);
+            if (existingQuestionQuiz == null)
+            {
+                return;
+            }
+            _questionRepo.UpdateAsync(_mapper.Map(questionQuizUpdateDto, existingQuestionQuiz));
         }
         public async Task DeleteAsync(int id)
         {
@@ -70,5 +81,24 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
             }
         }
 
+        public async Task<bool> QuizIdExist(int quizId)
+        {
+            bool quizExist = await _questionRepo.QuizIdExist(quizId);
+            if (quizExist)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public async Task<bool> ExamIdExist(int examId)
+        {
+            bool examExist = await _questionRepo.ExamIdExist(examId);
+            if (examExist)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

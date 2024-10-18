@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using OnlineEducationPlatform.BLL.Dto.QuestionDto;
 using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.BLL.Manager;
 using OnlineEducationPlatform.BLL.Manager.Questionmanager;
@@ -23,18 +24,6 @@ namespace OnlineEducationPlatform.Api.Controllers
             return Ok(await _questionManager.GetAllAsync());
         }
         [HttpGet]
-        [Route("Exam")]
-        public async Task<ActionResult> GetAllExamAsync()
-        {
-            return Ok(await _questionManager.GetAllExamAsync());
-        }
-        [HttpGet]
-        [Route("Quiz")]
-        public async Task<ActionResult> GetAllQuizAsync()
-        {
-            return Ok(await _questionManager.GetAllQuizAsync());
-        }
-        [HttpGet]
         [Route("{Id}")]
         public async Task<ActionResult> GetByIdAsync(int Id)
         {
@@ -45,17 +34,11 @@ namespace OnlineEducationPlatform.Api.Controllers
             }
             return Ok(question);
         }
-        [HttpPost]
-        [Route("Quiz")]
-        public async Task<ActionResult> AddQuizAsync(QuestionQuizAddDto questionQuizAddDto)
+        [HttpGet]
+        [Route("Exam")]
+        public async Task<ActionResult> GetAllExamAsync()
         {
-
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            await _questionManager.AddQuizAsync(questionQuizAddDto);
-            return NoContent();
+            return Ok(await _questionManager.GetAllExamAsync());
         }
         [HttpPost]
         [Route("Exam")]
@@ -66,18 +49,64 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return BadRequest(ModelState);
             }
+            if (!await _questionManager.ExamIdExist(questionExamAddDto.ExamId))
+            {
+                return BadRequest("Exam Id Not Valid");
+            }
             await _questionManager.AddExamAsync(questionExamAddDto);
             return NoContent();
         }
         [HttpPut]
-        [Route("{Id}")]
-        public async Task<ActionResult> UpdateAsync(int Id, QuestionUpdateDto questionUpdateDto)
+        [Route("Exam/{Id}")]
+        public async Task<ActionResult> UpdateExamAsync(int Id, QuestionExamUpdateDto questionExamUpdateDto)
         {
-            if (Id != questionUpdateDto.Id || !ModelState.IsValid)
+            if (Id != questionExamUpdateDto.Id || !ModelState.IsValid)
             {
                 return BadRequest();
             }
-            await _questionManager.UpdateAsync(questionUpdateDto);
+            if (!await _questionManager.ExamIdExist(questionExamUpdateDto.ExamId))
+            {
+                return BadRequest("Exam Id Not Valid");
+            }
+            await _questionManager.UpdateExamAsync(questionExamUpdateDto);
+            return NoContent();
+        }
+        [HttpGet]
+        [Route("Quiz")]
+        public async Task<ActionResult> GetAllQuizAsync()
+        {
+            return Ok(await _questionManager.GetAllQuizAsync());
+        }
+        [HttpPost]
+        [Route("Quiz")]
+        public async Task<ActionResult> AddQuizAsync(QuestionQuizAddDto questionQuizAddDto)
+        {
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            if (!await _questionManager.QuizIdExist(questionQuizAddDto.QuizId))
+            {
+                return BadRequest("Quiz Id Not Valid");
+            }
+            await _questionManager.AddQuizAsync(questionQuizAddDto);
+            return NoContent();
+        }
+        
+        [HttpPut]
+        [Route("Quiz/{Id}")]
+        public async Task<ActionResult> UpdateQuizAsync(int Id, QuestionQuizUpdateDto questionQuizUpdateDto)
+        {
+            if (Id != questionQuizUpdateDto.Id || !ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            if (!await _questionManager.QuizIdExist(questionQuizUpdateDto.QuizId))
+            {
+                return BadRequest("Quiz Id Not Valid");
+            }
+            await _questionManager.UpdateQuizAsync(questionQuizUpdateDto);
             return NoContent();
         }
         [HttpDelete]

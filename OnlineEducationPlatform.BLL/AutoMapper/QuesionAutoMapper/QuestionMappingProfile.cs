@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using OnlineEducationPlatform.BLL.Dto.QuestionDto;
 using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
 using System;
@@ -14,7 +15,8 @@ namespace OnlineEducationPlatform.BLL.AutoMapper.QuesionAutoMapper
         public QuestionMappingProfile()
         {
             CreateMap<Question, QuestionReadDto>().ReverseMap();
-            CreateMap<Question, QuestionUpdateDto>().ReverseMap();
+            CreateMap<Question, QuestionExamUpdateDto>().ReverseMap();
+            CreateMap<Question, QuestionQuizUpdateDto>().ReverseMap();
             CreateMap<Question, QuestionQuizAddDto>().ReverseMap();
             CreateMap<Question, QuestionQuizReadDto>().ReverseMap();
             CreateMap<Question, QuestionExamAddDto>().ReverseMap();

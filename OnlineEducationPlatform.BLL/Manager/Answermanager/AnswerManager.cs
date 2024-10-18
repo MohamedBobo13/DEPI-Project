@@ -52,5 +52,15 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
                 await _answerRepo.DeleteAsync(AnswerModel);
             }
         }
+
+        public async Task<bool> QuestionIdExist(int questionId)
+        {
+            bool questionExist = await _answerRepo.QuestionIdExist(questionId);
+            if (questionExist)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

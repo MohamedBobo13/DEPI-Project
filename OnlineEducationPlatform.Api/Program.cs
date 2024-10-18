@@ -1,13 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
-<<<<<<< HEAD
-using Microsoft.IdentityModel.Tokens;
-using OnlineEducationPlatform.BLL.Manger.Accounts;
-using OnlineEducationPlatform.DAL.Data.DbHelper;
-using OnlineEducationPlatform.DAL.Data.Models;
-using OnlineEducationPlatform.DAL.Repositories;
-using System.Text;
-=======
+
 using OnlineEducationPlatform.DAL.Data.DbHelper;
 using OnlineEducationPlatform.DAL.Data.Models;
 using Microsoft.IdentityModel.Tokens;
@@ -51,7 +44,7 @@ using OnlineEducationPlatform.DAL.Repo.InstructorRepo;
 using OnlineEducationPlatform.BLL.Manager.InstructorManager;
 using OnlineEducationPlatform.DAL.Repo.AnswerRepo;
 using OnlineEducationPlatform.DAL.Repo.AnswerResultRepo;
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
+
 
 namespace OnlineEducationPlatform.Api
 {
@@ -67,25 +60,7 @@ namespace OnlineEducationPlatform.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-<<<<<<< HEAD
-            //----------------------
-            builder.Services.AddIdentity<ApplicationUser, Microsoft.AspNetCore.Identity.IdentityRole>(Options =>
-            {
-                Options.Password.RequireNonAlphanumeric=false;
-                Options.Password.RequireLowercase=false;
-                Options.Password.RequireUppercase=true;
-               // Options.Password.RequiredLength=15;
 
-
-            }).AddEntityFrameworkStores<EducationPlatformContext>();
-           
-            //-----------------------------------------------------
-            //[authorize]
-            builder.Services.AddAuthentication(Options =>
-            {
-                Options.DefaultAuthenticateScheme="JWT";//make sure token is true
-                Options.DefaultChallengeScheme="JWT";//return 401 => unauthorized or 403 => forbeden
-=======
             builder.Services.AddDbContext<EducationPlatformContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
@@ -105,7 +80,6 @@ namespace OnlineEducationPlatform.Api
                 Options.DefaultAuthenticateScheme = "JWT";//make sure token is true
                 Options.DefaultChallengeScheme = "JWT";
                 Options.DefaultScheme = "JWT";//return 401 => unauthorized or 403 => forbeden
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
             }).AddJwtBearer("JWT", Options =>
             {
                 //secrete key
@@ -114,33 +88,7 @@ namespace OnlineEducationPlatform.Api
                 SecurityKey securityKey = new SymmetricSecurityKey(SecreteKeyBytes);
                 //--------------------------------------------------------------
 
-<<<<<<< HEAD
-                Options.TokenValidationParameters=new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
-                {
-                    IssuerSigningKey=securityKey,
-                    //false mean anyone can send and eny one can take
-                    ValidateIssuer=false,//take token(backend)//make token
-                    ValidateAudience=false//send token(frontend)//use token
-                };
-            });
 
-
-
-
-            builder.Services.AddDbContext<EducationPlatformContext>(options =>
-            {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("cs"));
-            });
-
-
-            builder.Services.AddScoped<IAccountManger, AccountManger>();
-           
-            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-           
-
-
-
-=======
                 Options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
                 {
                     IssuerSigningKey = securityKey,
@@ -213,7 +161,6 @@ namespace OnlineEducationPlatform.Api
             builder.Services.AddScoped<ICourseRepo, CourseRepo>();
             builder.Services.AddScoped<ICourseManager, CourseManager>();
             // builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericClass<>) );
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -224,13 +171,9 @@ namespace OnlineEducationPlatform.Api
             }
 
             app.UseHttpsRedirection();
-<<<<<<< HEAD
 
             app.UseAuthentication();
-=======
-            app.UseAuthentication();
 
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
             app.UseAuthorization();
 
 

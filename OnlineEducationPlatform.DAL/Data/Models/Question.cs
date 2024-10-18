@@ -13,18 +13,17 @@ namespace OnlineEducationPlatform.DAL.Data.Models
     {
         public int Id { get; set; }
         public string Content { get; set; }
-<<<<<<< HEAD
-        public int Marks { get; set; }
-=======
         public bool IsDeleted { get; set; }
         public int Marks { get; set; }
      
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
         public QuestionType QuestionType { get; set; }
+
         [ForeignKey("Quiz")]
         public int? QuizId { get; set; }
+
         [ForeignKey("Exam")]
         public int? ExamId { get; set; }
+
         public Exam Exam { get; set; }
         public Quiz Quiz { get; set; }
         public ICollection<Answer> Answers { get; set; } = new HashSet<Answer>();
@@ -35,7 +34,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
 }
 public enum QuestionType
 {
-    Multiple_Choice,
-    True_False
+    Multiple_Choice=1,
+    True_False=2
 }
 

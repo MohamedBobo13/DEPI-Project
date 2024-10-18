@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\DEPI-Project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\depi-project\\onlineeducationplatform.api\\controller\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\controller\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\depi-project\\onlineeducationplatform.bll\\automapper\\quesionautomapper\\questionmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\quesionautomapper\\questionmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.Api\\Controller\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Controller\\QuestionsController.cs",
+              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.Api\\Controller\\QuestionsController.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.Api\\Controller\\QuestionsController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwHUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:28:41.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuestionMappingProfile.cs",
+              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\AutoMapper\\QuesionAutoMapper\\QuestionMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\QuesionAutoMapper\\QuestionMappingProfile.cs",
+              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\AutoMapper\\QuesionAutoMapper\\QuestionMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\QuesionAutoMapper\\QuestionMappingProfile.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:27:57.015Z",
+              "EditorCaption": ""
             }
           ]
         }

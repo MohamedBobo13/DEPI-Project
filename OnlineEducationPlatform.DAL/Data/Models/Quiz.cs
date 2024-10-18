@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Xml;
 using System.ComponentModel.DataAnnotations.Schema;
-<<<<<<< HEAD
-=======
+
 using System.Collections;
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
 
 namespace OnlineEducationPlatform.DAL.Data.Models
 {
@@ -19,10 +17,8 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public string Title { get; set; }
         public int TotalMarks { get; set; }
         public int TotalQuestions { get; set; }
-<<<<<<< HEAD
-=======
+
         public bool IsDeleted { get; set; }
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
         [ForeignKey("Lecture")]
         public int LectureId { get; set; }
         [ForeignKey("Course")]

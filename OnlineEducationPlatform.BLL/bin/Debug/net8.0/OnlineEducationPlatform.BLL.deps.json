@@ -9,12 +9,8 @@
       "OnlineEducationPlatform.BLL/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
-<<<<<<< HEAD
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
-=======
           "MailKit": "4.8.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
           "Microsoft.IdentityModel.Tokens": "8.1.1",
           "OnlineEducationPlatform.DAL": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "8.1.1"
@@ -68,16 +64,6 @@
           }
         }
       },
-<<<<<<< HEAD
-      "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.8": {
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
-            "assemblyVersion": "8.0.8.0",
-            "fileVersion": "8.0.824.36908"
-=======
       "BouncyCastle.Cryptography/2.4.0": {
         "runtime": {
           "lib/net6.0/BouncyCastle.Cryptography.dll": {
@@ -106,7 +92,6 @@
           "lib/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53112"
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
           }
         }
       },
@@ -163,11 +148,7 @@
           "Microsoft.Data.SqlClient.SNI.runtime": "5.1.1",
           "Microsoft.Identity.Client": "4.56.0",
           "Microsoft.IdentityModel.JsonWebTokens": "8.1.1",
-<<<<<<< HEAD
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.1.2",
-=======
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "7.0.3",
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
           "Microsoft.SqlServer.Server": "1.0.0",
           "System.Configuration.ConfigurationManager": "6.0.1",
           "System.Diagnostics.DiagnosticSource": "6.0.1",
@@ -400,27 +381,13 @@
           }
         }
       },
-<<<<<<< HEAD
-      "Microsoft.IdentityModel.Protocols/7.1.2": {
-=======
       "Microsoft.IdentityModel.Protocols/7.0.3": {
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
         "dependencies": {
           "Microsoft.IdentityModel.Logging": "8.1.1",
           "Microsoft.IdentityModel.Tokens": "8.1.1"
         },
         "runtime": {
           "lib/net8.0/Microsoft.IdentityModel.Protocols.dll": {
-<<<<<<< HEAD
-            "assemblyVersion": "7.1.2.0",
-            "fileVersion": "7.1.2.41121"
-          }
-        }
-      },
-      "Microsoft.IdentityModel.Protocols.OpenIdConnect/7.1.2": {
-        "dependencies": {
-          "Microsoft.IdentityModel.Protocols": "7.1.2",
-=======
             "assemblyVersion": "7.0.3.0",
             "fileVersion": "7.0.3.41017"
           }
@@ -429,18 +396,12 @@
       "Microsoft.IdentityModel.Protocols.OpenIdConnect/7.0.3": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols": "7.0.3",
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
           "System.IdentityModel.Tokens.Jwt": "8.1.1"
         },
         "runtime": {
           "lib/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
-<<<<<<< HEAD
-            "assemblyVersion": "7.1.2.0",
-            "fileVersion": "7.1.2.41121"
-=======
             "assemblyVersion": "7.0.3.0",
             "fileVersion": "7.0.3.41017"
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
           }
         }
       },
@@ -480,8 +441,6 @@
           }
         }
       },
-<<<<<<< HEAD
-=======
       "MimeKit/4.8.0": {
         "dependencies": {
           "BouncyCastle.Cryptography": "2.4.0",
@@ -495,7 +454,6 @@
           }
         }
       },
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
       "System.Configuration.ConfigurationManager/6.0.1": {
         "dependencies": {
           "System.Security.Cryptography.ProtectedData": "6.0.0",
@@ -538,11 +496,7 @@
           }
         }
       },
-<<<<<<< HEAD
-      "System.Formats.Asn1/5.0.0": {},
-=======
       "System.Formats.Asn1/8.0.1": {},
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
       "System.IdentityModel.Tokens.Jwt/8.1.1": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "8.1.1",
@@ -598,16 +552,12 @@
       "System.Security.AccessControl/6.0.0": {},
       "System.Security.Cryptography.Cng/5.0.0": {
         "dependencies": {
-<<<<<<< HEAD
-          "System.Formats.Asn1": "5.0.0"
-=======
           "System.Formats.Asn1": "8.0.1"
         }
       },
       "System.Security.Cryptography.Pkcs/8.0.0": {
         "dependencies": {
           "System.Formats.Asn1": "8.0.1"
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
         }
       },
       "System.Security.Cryptography.ProtectedData/6.0.0": {
@@ -672,23 +622,16 @@
       },
       "OnlineEducationPlatform.DAL/1.0.0": {
         "dependencies": {
-<<<<<<< HEAD
-=======
           "MailKit": "4.8.0",
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {
-<<<<<<< HEAD
           "OnlineEducationPlatform.DAL.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
-=======
-          "OnlineEducationPlatform.DAL.dll": {}
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
         }
       }
     }
@@ -720,14 +663,6 @@
       "path": "azure.identity/1.10.3",
       "hashPath": "azure.identity.1.10.3.nupkg.sha512"
     },
-<<<<<<< HEAD
-    "Microsoft.AspNetCore.Authentication.JwtBearer/8.0.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-J145j2LgD4kkkNkrf5DW/pKzithZRKN5EFY+KAO3SqweMyDfv4cgKgtOIsv2bhrOLGqPJixuZkZte7LfK1seYQ==",
-      "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.8",
-      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.8.nupkg.sha512"
-=======
     "BouncyCastle.Cryptography/2.4.0": {
       "type": "package",
       "serviceable": true,
@@ -748,7 +683,6 @@
       "sha512": "sha512-rwxaZYHips5M9vqxRkGfJthTx+Ws4O4yCuefn17J371jL3ouC5Ker43h2hXb5yd9BMnImE9rznT75KJHm6bMgg==",
       "path": "microsoft.aspnetcore.authentication.jwtbearer/8.0.0",
       "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512"
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
     },
     "Microsoft.AspNetCore.Cryptography.Internal/8.0.8": {
       "type": "package",
@@ -946,21 +880,6 @@
       "path": "microsoft.identitymodel.logging/8.1.1",
       "hashPath": "microsoft.identitymodel.logging.8.1.1.nupkg.sha512"
     },
-<<<<<<< HEAD
-    "Microsoft.IdentityModel.Protocols/7.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-SydLwMRFx6EHPWJ+N6+MVaoArN1Htt92b935O3RUWPY1yUF63zEjvd3lBu79eWdZUwedP8TN2I5V9T3nackvIQ==",
-      "path": "microsoft.identitymodel.protocols/7.1.2",
-      "hashPath": "microsoft.identitymodel.protocols.7.1.2.nupkg.sha512"
-    },
-    "Microsoft.IdentityModel.Protocols.OpenIdConnect/7.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-6lHQoLXhnMQ42mGrfDkzbIOR3rzKM1W1tgTeMPLgLCqwwGw0d96xFi/UiX/fYsu7d6cD5MJiL3+4HuI8VU+sVQ==",
-      "path": "microsoft.identitymodel.protocols.openidconnect/7.1.2",
-      "hashPath": "microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512"
-=======
     "Microsoft.IdentityModel.Protocols/7.0.3": {
       "type": "package",
       "serviceable": true,
@@ -974,7 +893,6 @@
       "sha512": "sha512-W97TraHApDNArLwpPcXfD+FZH7njJsfEwZE9y9BoofeXMS8H0LBBobz0VOmYmMK4mLdOKxzN7SFT3Ekg0FWI3Q==",
       "path": "microsoft.identitymodel.protocols.openidconnect/7.0.3",
       "hashPath": "microsoft.identitymodel.protocols.openidconnect.7.0.3.nupkg.sha512"
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
     },
     "Microsoft.IdentityModel.Tokens/8.1.1": {
       "type": "package",
@@ -997,8 +915,6 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
-<<<<<<< HEAD
-=======
     "MimeKit/4.8.0": {
       "type": "package",
       "serviceable": true,
@@ -1006,7 +922,6 @@
       "path": "mimekit/4.8.0",
       "hashPath": "mimekit.4.8.0.nupkg.sha512"
     },
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
     "System.Configuration.ConfigurationManager/6.0.1": {
       "type": "package",
       "serviceable": true,
@@ -1028,21 +943,12 @@
       "path": "system.drawing.common/6.0.0",
       "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
     },
-<<<<<<< HEAD
-    "System.Formats.Asn1/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-MTvUIktmemNB+El0Fgw9egyqT9AYSIk6DTJeoDSpc3GIHxHCMo8COqkWT1mptX5tZ1SlQ6HJZ0OsSvMth1c12w==",
-      "path": "system.formats.asn1/5.0.0",
-      "hashPath": "system.formats.asn1.5.0.0.nupkg.sha512"
-=======
     "System.Formats.Asn1/8.0.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-XqKba7Mm/koKSjKMfW82olQdmfbI5yqeoLV/tidRp7fbh5rmHAQ5raDI/7SU0swTzv+jgqtUGkzmFxuUg0it1A==",
       "path": "system.formats.asn1/8.0.1",
       "hashPath": "system.formats.asn1.8.0.1.nupkg.sha512"
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
     },
     "System.IdentityModel.Tokens.Jwt/8.1.1": {
       "type": "package",
@@ -1107,8 +1013,6 @@
       "path": "system.security.cryptography.cng/5.0.0",
       "hashPath": "system.security.cryptography.cng.5.0.0.nupkg.sha512"
     },
-<<<<<<< HEAD
-=======
     "System.Security.Cryptography.Pkcs/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1116,7 +1020,6 @@
       "path": "system.security.cryptography.pkcs/8.0.0",
       "hashPath": "system.security.cryptography.pkcs.8.0.0.nupkg.sha512"
     },
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
     "System.Security.Cryptography.ProtectedData/6.0.0": {
       "type": "package",
       "serviceable": true,

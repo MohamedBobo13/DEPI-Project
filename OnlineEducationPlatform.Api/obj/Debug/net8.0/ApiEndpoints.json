@@ -1,0 +1,1537 @@
+[
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AccountsController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Accounts/ConfirmEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AccountsController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Accounts/ForgotPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgotPasswordDto",
+        "Type": "OnlineQuiz.BLL.Dtos.Accounts.ForgotPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AccountsController",
+    "Method": "Login",
+    "RelativePath": "api/Accounts/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logindto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AccountsController",
+    "Method": "Register",
+    "RelativePath": "api/Accounts/RegisterAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regesterDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto.RegesterAdminDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AccountsController",
+    "Method": "RegisterStudent",
+    "RelativePath": "api/Accounts/RegisterStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "regesterDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto.RegesterStudentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AccountsController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Accounts/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resetPasswordDto",
+        "Type": "OnlineQuiz.BLL.Dtos.Accounts.ResetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswerResultsController",
+    "Method": "GetAll",
+    "RelativePath": "api/AnswerResults",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswerResultsController",
+    "Method": "Add",
+    "RelativePath": "api/AnswerResults",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "answerResultAddDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.AnswerResultAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswerResultsController",
+    "Method": "Delete",
+    "RelativePath": "api/AnswerResults",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswerResultsController",
+    "Method": "GetById",
+    "RelativePath": "api/AnswerResults/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswerResultsController",
+    "Method": "Update",
+    "RelativePath": "api/AnswerResults/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "answerResultUpdateDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.AnswerResultUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Answers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswersController",
+    "Method": "Add",
+    "RelativePath": "api/Answers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "answerAddDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.AnswerAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswersController",
+    "Method": "Delete",
+    "RelativePath": "api/Answers",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswersController",
+    "Method": "GetById",
+    "RelativePath": "api/Answers/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.AnswersController",
+    "Method": "Update",
+    "RelativePath": "api/Answers/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "answerUpdateDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.AnswerUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.CourseController",
+    "Method": "GetAllCourses",
+    "RelativePath": "api/Course",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.CourseController",
+    "Method": "AddCourse",
+    "RelativePath": "api/Course",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseAddDto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.CourseDto.CourseAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.CourseController",
+    "Method": "UpdateCourse",
+    "RelativePath": "api/Course",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseUpdateDto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.CourseDto.CourseUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.CourseController",
+    "Method": "GetById",
+    "RelativePath": "api/Course/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.CourseController",
+    "Method": "RemoveCourse",
+    "RelativePath": "api/Course/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.EnrollmentController",
+    "Method": "CreateEnrollment",
+    "RelativePath": "api/Enrollment/AddEnrollment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "enrollmentDto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.EnrollmentDto.EnrollmentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.EnrollmentDto.EnrollmentDtowWithStatusanddDate, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.EnrollmentController",
+    "Method": "GetAllEnrollmentsByCourseId",
+    "RelativePath": "api/Enrollment/GetAllByCourseId/{CourseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.EnrollmentDto.EnrollmentDtoForRetriveAllEnrollmentsInCourse, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.EnrollmentController",
+    "Method": "GetEnrollmentsByStudentIdAsync",
+    "RelativePath": "api/Enrollment/GetAllByStudentId/{StudentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.EnrollmentDto.EnrollmentDtoForRetriveAllEnrollmentsInCourse, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.EnrollmentController",
+    "Method": "GetAll",
+    "RelativePath": "api/Enrollment/GetAllEnrollments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.EnrollmentDto.EnrollmentDtoForRetriveAllEnrollmentsInCourse, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.EnrollmentController",
+    "Method": "GetAllSoftDeletedEnrollments",
+    "RelativePath": "api/Enrollment/GetAllSoftDeletedEnrollments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.EnrollmentDto.EnrollmentDtowWithStatusanddDate, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.EnrollmentController",
+    "Method": "HardDeleteEnrollment",
+    "RelativePath": "api/Enrollment/HardDeleteEnrollment/{studentId}/{courseId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.EnrollmentController",
+    "Method": "SoftDeleteEnrollment",
+    "RelativePath": "api/Enrollment/SoftDeleteEnrollment/{StudentId}/{CourseId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.EnrollmentController",
+    "Method": "updateEnrollment",
+    "RelativePath": "api/Enrollment/UpdateEnrollment/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateenrollmentdto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.EnrollmentDto.updateenrollmentdto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.ExamResultController",
+    "Method": "CreateExamResult",
+    "RelativePath": "api/ExamResult/AddExamResult",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examresultadddto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.Quizresultsdto.Examresultwithoutiddto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.Quizresultsdto.Examresultwithoutiddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.ExamResultController",
+    "Method": "GetExamResultsByquizIdAsync",
+    "RelativePath": "api/ExamResult/GetAllByExamId/{QuizId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "QuizId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.Quizresultsdto.quizresultreaddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.ExamResultController",
+    "Method": "GetExamResultsByStudentIdAsync",
+    "RelativePath": "api/ExamResult/GetAllByStudentId/{StudentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.Quizresultsdto.quizresultreaddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.ExamResultController",
+    "Method": "GetAll",
+    "RelativePath": "api/ExamResult/GetAllExamResults",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.Quizresultsdto.Examresultreaddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.ExamResultController",
+    "Method": "GetAllSoftDeletedExamresults",
+    "RelativePath": "api/ExamResult/GetAllSoftDeletedExamResults",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.Quizresultsdto.quizresultwithoutiddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.ExamResultController",
+    "Method": "GetStudentResult",
+    "RelativePath": "api/ExamResult/GetStudentResultby/{StudentId}/{ExamId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ExamId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.DAL.Data.Models.QuizResult, OnlineEducationPlatform.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.ExamResultController",
+    "Method": "HardDeleteExamresult",
+    "RelativePath": "api/ExamResult/HardDeleteExamResult/{studentId}/{ExamId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ExamId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.ExamResultController",
+    "Method": "SoftDeleteExamresult",
+    "RelativePath": "api/ExamResult/SoftDeleteExamResult/{StudentId}/{ExamId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ExamId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.ExamResultController",
+    "Method": "UpdateExamresult",
+    "RelativePath": "api/ExamResult/UpdateExamResult/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "examresultupdatedto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.ExamResultDto.updateexamresultdto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.InstructorController",
+    "Method": "GetAll",
+    "RelativePath": "api/Instructor/GetAllInstructors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.InstructorDto.InstructorReadDto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.InstructorController",
+    "Method": "GetById",
+    "RelativePath": "api/Instructor/GetAllInstructors/{InstructorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "InstructorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.StudentDto.studentreaddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.InstructorController",
+    "Method": "SodtDeleteInstructor",
+    "RelativePath": "api/Instructor/SoftDeleteInstructor/{InstructorId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "InstructorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.LectureController",
+    "Method": "GetAllLectuers",
+    "RelativePath": "api/Lecture",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.LectureController",
+    "Method": "AddLecture",
+    "RelativePath": "api/Lecture",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lectureAddDto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.LectureDto.LectureAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.LectureController",
+    "Method": "UpdateLecture",
+    "RelativePath": "api/Lecture",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lectureUpdateDto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.LectureDto.LectureUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.LectureController",
+    "Method": "GetById",
+    "RelativePath": "api/Lecture/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.LectureController",
+    "Method": "RemoveLecture",
+    "RelativePath": "api/Lecture/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.PDFFileController",
+    "Method": "GetAllPDF",
+    "RelativePath": "api/PDFFile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.PDFFileController",
+    "Method": "AddPDF",
+    "RelativePath": "api/PDFFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pdfFileAddDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.PdfFileAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.PDFFileController",
+    "Method": "UpdatePDF",
+    "RelativePath": "api/PDFFile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pdfFileUpdateDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.PdfFileUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.PDFFileController",
+    "Method": "GetPDF",
+    "RelativePath": "api/PDFFile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.PDFFileController",
+    "Method": "DeletePDF",
+    "RelativePath": "api/PDFFile/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Questions",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Questions/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "GetAllExamAsync",
+    "RelativePath": "api/Questions/Exam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "AddExamAsync",
+    "RelativePath": "api/Questions/Exam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionExamAddDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.QuestionExamAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "UpdateExamAsync",
+    "RelativePath": "api/Questions/Exam/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionExamUpdateDto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.QuestionDto.QuestionExamUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "GetAllQuizAsync",
+    "RelativePath": "api/Questions/Quiz",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "AddQuizAsync",
+    "RelativePath": "api/Questions/Quiz",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionQuizAddDto",
+        "Type": "OnlineEducationPlatform.BLL.Dtos.QuestionQuizAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "UpdateQuizAsync",
+    "RelativePath": "api/Questions/Quiz/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionQuizUpdateDto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.QuestionDto.QuestionQuizUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.QuizResultController",
+    "Method": "CreateQuizResult",
+    "RelativePath": "api/QuizResult/AddQuizResult",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quizresultadddto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.Quizresultsdto.quizresultwithoutiddto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.Quizresultsdto.quizresultwithoutiddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.QuizResultController",
+    "Method": "GetQuizResultsByquizIdAsync",
+    "RelativePath": "api/QuizResult/GetAllByQuizId/{QuizId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "QuizId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.Quizresultsdto.quizresultreaddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.QuizResultController",
+    "Method": "GetQuizResultsByStudentIdAsync",
+    "RelativePath": "api/QuizResult/GetAllByStudentId/{StudentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.Quizresultsdto.quizresultreaddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.QuizResultController",
+    "Method": "GetAll",
+    "RelativePath": "api/QuizResult/GetAllQuizResults",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.Quizresultsdto.quizresultreaddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.QuizResultController",
+    "Method": "GetAllSoftDeletedQuizresults",
+    "RelativePath": "api/QuizResult/GetAllSoftDeletedQuizResults",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.Quizresultsdto.quizresultwithoutiddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.QuizResultController",
+    "Method": "GetStudentResult",
+    "RelativePath": "api/QuizResult/GetStudentResultby/{StudentId}/{QuizId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "QuizId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.DAL.Data.Models.QuizResult, OnlineEducationPlatform.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.QuizResultController",
+    "Method": "HardDeletequizresult",
+    "RelativePath": "api/QuizResult/HardDeleteQuizResult/{studentId}/{QuizId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "QuizId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.QuizResultController",
+    "Method": "SoftDeleteQuizresult",
+    "RelativePath": "api/QuizResult/SoftDeleteQuizResult/{StudentId}/{QuizId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "QuizId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.QuizResultController",
+    "Method": "Updatequizresult",
+    "RelativePath": "api/QuizResult/UpdateQuizResult/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "quizresultreaddto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.Quizresultsdto.updatequizresultdto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.StudentController",
+    "Method": "GetAll",
+    "RelativePath": "api/Student/GetAllStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.StudentDto.studentreaddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.StudentController",
+    "Method": "GetById",
+    "RelativePath": "api/Student/GetAllStudents/{StudentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[OnlineEducationPlatform.BLL.Dto.StudentDto.studentreaddto, OnlineEducationPlatform.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controller.StudentController",
+    "Method": "SoftDeleteStudent",
+    "RelativePath": "api/Student/SoftDeleteStudent/{StudentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StudentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OnlineEducationPlatform.BLL.handleresponse.ServiceResponse\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.VedioController",
+    "Method": "GetAllVedios",
+    "RelativePath": "api/Vedio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.VedioController",
+    "Method": "AddVedio",
+    "RelativePath": "api/Vedio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vedioAddDto",
+        "Type": "OnlineEducationPlatform.BLL.Dto.VideoDto.VedioAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.VedioController",
+    "Method": "UpdateVedio",
+    "RelativePath": "api/Vedio",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vedioUpdate",
+        "Type": "OnlineEducationPlatform.BLL.Dto.VideoDto.VedioUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.VedioController",
+    "Method": "GetVedio",
+    "RelativePath": "api/Vedio/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.VedioController",
+    "Method": "DeleteVedio",
+    "RelativePath": "api/Vedio/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

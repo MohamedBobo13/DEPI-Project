@@ -1,4 +1,5 @@
-﻿using OnlineEducationPlatform.BLL.Dtos;
+﻿using OnlineEducationPlatform.BLL.Dto.QuestionDto;
+using OnlineEducationPlatform.BLL.Dtos;
 
 namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
 {
@@ -11,11 +12,19 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
         Task<IEnumerable<QuestionQuizReadDto>> GetAllQuizAsync();
 
         Task<QuestionReadDto> GetByIdAsync(int id);
+
         Task AddQuizAsync(QuestionQuizAddDto questionQuizAddDto);
 
         Task AddExamAsync(QuestionExamAddDto questionExamAddDto);
 
-        Task UpdateAsync(QuestionUpdateDto questionUpdateDto);
+        Task UpdateExamAsync(QuestionExamUpdateDto questionExamUpdateDto);
+
+        Task UpdateQuizAsync(QuestionQuizUpdateDto questionQuizUpdateDto);
+
         Task DeleteAsync(int id);
+
+        Task<bool> QuizIdExist(int quizId);
+
+        Task<bool> ExamIdExist(int examId);
     }
 }

@@ -40,6 +40,14 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return BadRequest(ModelState);
             }
+            if (!await _answerResultManager.QuestionIdExist(answerResultAddDto.QuestionId))
+            {
+                return BadRequest("Question Id Not Valid");
+            }
+            if (!await _answerResultManager.AnswerIdExist(answerResultAddDto.AnswerId))
+            {
+                return BadRequest("Answer Id Not Valid");
+            }
             await _answerResultManager.AddAsync(answerResultAddDto);
             return NoContent();
         }
@@ -50,6 +58,14 @@ namespace OnlineEducationPlatform.Api.Controllers
             if (Id != answerResultUpdateDto.Id || !ModelState.IsValid)
             {
                 return BadRequest();
+            }
+            if (!await _answerResultManager.QuestionIdExist(answerResultUpdateDto.QuestionId))
+            {
+                return BadRequest("Question Id Not Valid");
+            }
+            if (!await _answerResultManager.AnswerIdExist(answerResultUpdateDto.AnswerId))
+            {
+                return BadRequest("Answer Id Not Valid");
             }
             await _answerResultManager.UpdateAsync(answerResultUpdateDto);
             return NoContent();

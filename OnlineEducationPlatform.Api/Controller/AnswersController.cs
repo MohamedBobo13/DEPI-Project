@@ -40,6 +40,10 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return BadRequest(ModelState);
             }
+            if(!await _answerManager.QuestionIdExist(answerAddDto.QuestionId))
+            {
+                return BadRequest("Question Id Not Valid");
+            }
             await _answerManager.AddAsync(answerAddDto);
             return NoContent();
         }
@@ -51,7 +55,11 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return BadRequest();
             }
-             await _answerManager.UpdateAsync(answerUpdateDto);
+            if (!await _answerManager.QuestionIdExist(answerUpdateDto.QuestionId))
+            {
+                return BadRequest("Question Id Not Valid");
+            }
+            await _answerManager.UpdateAsync(answerUpdateDto);
             return NoContent();
         }
         [HttpDelete]

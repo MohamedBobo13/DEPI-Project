@@ -15,6 +15,8 @@ namespace OnlineEducationPlatform.DAL.Repo.AnswerResultRepo
         Task DeleteAsync(AnswerResult answerResult);
         Task UpdateAsync(AnswerResult answerResult);
         Task AddAsync(AnswerResult answerResult);
+        Task<bool> QuestionIdExist(int questionId);
+        Task<bool> AnsweerIdExist(int answerId);
         Task SaveChangeAsync();
     }
 }

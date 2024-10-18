@@ -12,12 +12,7 @@ namespace OnlineEducationPlatform.DAL.Data.DbHelper
     public class EducationPlatformContext : IdentityDbContext<ApplicationUser>
     {
         public EducationPlatformContext(DbContextOptions<EducationPlatformContext> options) : base(options) { }
-<<<<<<< HEAD
 
-        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
-        public DbSet<Student> students { get; set; }
-        public DbSet<Instructor> instructors { get; set; }
-=======
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
@@ -264,7 +259,7 @@ namespace OnlineEducationPlatform.DAL.Data.DbHelper
 
 
         }
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
+
         public DbSet<Answer> Answer { get; set; }
         public DbSet<AnswerResult> AnswerResult { get; set; }
         public DbSet<Course> Course { get; set; }
@@ -275,14 +270,7 @@ namespace OnlineEducationPlatform.DAL.Data.DbHelper
         public DbSet<PdfFile> PdfFile { get; set; }
         public DbSet<Question> Question { get; set; }
         public DbSet<Quiz> Quiz { get; set; }
-<<<<<<< HEAD
-        public DbSet<StudentProgress> StudentProgress { get; set; }
-        public DbSet<Video> Video { get; set; }
-        public DbSet<QuizResult> QuizResult { get; set; }
 
-    }
-}
-=======
         
         public DbSet<ApplicationUser> User { get; set; }
         public DbSet<Student> Student { get; set; }
@@ -298,4 +286,4 @@ namespace OnlineEducationPlatform.DAL.Data.DbHelper
 
     }
 } 
->>>>>>> 0e394ca711bfc60f522495046b571e4960f4b411
+
