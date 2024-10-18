@@ -14,6 +14,8 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
 
         Task DeleteAsync(int id);
 
+        Task<bool> IdExist(int answerId);
+
         Task<bool> QuestionIdExist(int questionId);
     }
 }

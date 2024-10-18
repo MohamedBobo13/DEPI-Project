@@ -23,6 +23,10 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
 
         Task DeleteAsync(int id);
 
+        Task<bool> IdForExam(int questionId);
+
+        Task<bool> IdForQuiz(int questionId);
+
         Task<bool> QuizIdExist(int quizId);
 
         Task<bool> ExamIdExist(int examId);

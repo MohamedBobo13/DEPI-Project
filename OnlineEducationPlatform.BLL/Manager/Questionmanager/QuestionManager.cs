@@ -80,6 +80,26 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
                 await _questionRepo.DeleteAsync(questionModel);
             }
         }
+        public async Task<bool> IdForExam(int questionId)
+        {
+            bool idForExam = await _questionRepo.IdForExam(questionId);
+            if (idForExam)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public async Task<bool> IdForQuiz(int questionId)
+        {
+
+            bool idForQuiz = await _questionRepo.IdForQuiz(questionId);
+            if (idForQuiz)
+            {
+                return true;
+            }
+            return false;
+        }
 
         public async Task<bool> QuizIdExist(int quizId)
         {
@@ -100,5 +120,6 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
             }
             return false;
         }
+
     }
 }

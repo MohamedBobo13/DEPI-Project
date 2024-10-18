@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\DEPI-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi-project\\onlineeducationplatform.dal\\repo\\answerresultrepo\\answerresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\answerresultrepo\\answerresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\depi-project\\onlineeducationplatform.bll\\dto\\answerdto\\answeradddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\dto\\answerdto\\answeradddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi-project\\onlineeducationplatform.dal\\repo\\questionrepo\\questionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\questionrepo\\questionrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\depi-project\\onlineeducationplatform.api\\controller\\answerresultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\controller\\answerresultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\depi-project\\onlineeducationplatform.bll\\manager\\answerresultmanager\\answerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answerresultmanager\\answerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\depi-project\\onlineeducationplatform.bll\\manager\\answerresultmanager\\ianswerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answerresultmanager\\ianswerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi-project\\onlineeducationplatform.dal\\repo\\answerresultrepo\\ianswerresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\answerresultrepo\\ianswerresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi-project\\onlineeducationplatform.dal\\repo\\answerresultrepo\\answerresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\answerresultrepo\\answerresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,28 +43,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AnswerResultRepo.cs",
-              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
-              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Title": "AnswerAddDto.cs",
+              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\Dto\\AnswerDto\\AnswerAddDto.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Dto\\AnswerDto\\AnswerAddDto.cs",
+              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\Dto\\AnswerDto\\AnswerAddDto.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Dto\\AnswerDto\\AnswerAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:45:42.764Z",
+              "WhenOpened": "2024-10-18T13:28:12.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "QuestionRepo.cs",
-              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
-              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\QuestionRepo\\QuestionRepo.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Title": "AnswerResultsController.cs",
+              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.Api\\Controller\\AnswerResultsController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Controller\\AnswerResultsController.cs",
+              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.Api\\Controller\\AnswerResultsController.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.Api\\Controller\\AnswerResultsController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAowD4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T08:45:14.239Z",
+              "WhenOpened": "2024-10-18T13:02:33.309Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnswerResultManager.cs",
+              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
+              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAADwv04AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:59:57.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAnswerResultManager.cs",
+              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
+              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:59:23.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnswerResultRepo.cs",
+              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
+              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwD8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:56:24.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAnswerResultRepo.cs",
+              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\IAnswerResultRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\IAnswerResultRepo.cs",
+              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\IAnswerResultRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\IAnswerResultRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:55:27.982Z"
             }
           ]
         }

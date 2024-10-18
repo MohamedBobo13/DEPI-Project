@@ -53,6 +53,16 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
             }
         }
 
+        public async Task<bool> IdExist(int answerId)
+        {
+            bool idExist = await _answerRepo.IdExist(answerId);
+            if (idExist)
+            {
+                return true;
+            }
+            return false;
+        }
+
         public async Task<bool> QuestionIdExist(int questionId)
         {
             bool questionExist = await _answerRepo.QuestionIdExist(questionId);
@@ -62,5 +72,7 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
             }
             return false;
         }
+
+        
     }
 }

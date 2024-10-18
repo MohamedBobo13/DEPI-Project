@@ -60,6 +60,10 @@ namespace OnlineEducationPlatform.Api.Controllers
         [Route("Exam/{Id}")]
         public async Task<ActionResult> UpdateExamAsync(int Id, QuestionExamUpdateDto questionExamUpdateDto)
         {
+            if (!await _questionManager.IdForExam(Id))
+            {
+                return BadRequest("Id Not Valid For Exam");
+            }
             if (Id != questionExamUpdateDto.Id || !ModelState.IsValid)
             {
                 return BadRequest();
@@ -98,6 +102,10 @@ namespace OnlineEducationPlatform.Api.Controllers
         [Route("Quiz/{Id}")]
         public async Task<ActionResult> UpdateQuizAsync(int Id, QuestionQuizUpdateDto questionQuizUpdateDto)
         {
+            if (!await _questionManager.IdForQuiz(questionQuizUpdateDto.Id))
+            {
+                return BadRequest("Id Not Valid For Quiz");
+            }
             if (Id != questionQuizUpdateDto.Id || !ModelState.IsValid)
             {
                 return BadRequest();

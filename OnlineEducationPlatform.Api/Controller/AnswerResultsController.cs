@@ -55,9 +55,17 @@ namespace OnlineEducationPlatform.Api.Controllers
         [Route("{Id}")]
         public async Task<ActionResult> Update(int Id, AnswerResultUpdateDto answerResultUpdateDto)
         {
+            if (!await _answerResultManager.IdExist(answerResultUpdateDto.Id))
+            {
+                return BadRequest("Id Not Exist");
+            }
             if (Id != answerResultUpdateDto.Id || !ModelState.IsValid)
             {
                 return BadRequest();
+            }
+            if (!await _answerResultManager.StudentIdExist(answerResultUpdateDto.StudentId))
+            {
+                return BadRequest("Student Id Not Valid");
             }
             if (!await _answerResultManager.QuestionIdExist(answerResultUpdateDto.QuestionId))
             {

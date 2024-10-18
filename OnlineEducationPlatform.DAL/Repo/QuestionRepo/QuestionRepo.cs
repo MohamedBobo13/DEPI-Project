@@ -52,6 +52,27 @@ namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
             _context.Update(question);
             await SaveChangeAsync();
         }
+
+        public async Task<bool> IdForExam(int questionId)
+        {
+            bool idforExam = await _context.Question.Where(q=>q.QuizId == null).AnyAsync(q=>q.Id == questionId);
+            if(idforExam)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public async Task<bool> IdForQuiz(int questionId)
+        {
+            bool idforQuiz = await _context.Question.Where(q => q.ExamId == null).AnyAsync(q => q.Id == questionId);
+            if (idforQuiz)
+            {
+                return true;
+            }
+            return false;
+        }
+
         public async Task<bool> QuizIdExist(int quizId)
         {
             var quizExist = await _context.Quiz.AnyAsync(q => q.Id == quizId);
@@ -71,6 +92,7 @@ namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
             }
             return false;
         }
+        
         public async Task SaveChangeAsync()
         {
             await _context.SaveChangesAsync();
