@@ -9,15 +9,11 @@ namespace OnlineEducationPlatform.BLL.Manager
 {
     public interface ICourseManager
     {
-        void Add(CourseAddDto courseAddDto);
-        IEnumerable<CourseReadDto> GetAll();
-
-        CourseReadDto GetById(int id);
-
-        void Update(CourseUpdateDto courseUpdateDto);
-
-        void Delete(int id);
-
-        void SaveChanges();
+        Task AddAsync(CourseAddDto courseAddDto);
+        Task<IEnumerable<CourseReadDto>> GetAllAsync();
+        Task<CourseReadDto> GetByIdAsync(int id);
+        Task<CourseUpdateDto> UpdateAsync(CourseUpdateDto courseUpdateDto);
+        Task<bool> DeleteAsync(int id);
+        //Task SaveChangesAsync();
     }
 }

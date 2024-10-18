@@ -18,50 +18,106 @@ namespace OnlineEducationPlatform.DAL.Repositories
             _context = context;
         }
 
-        public void Add(Course course)
+        #region old version
+        //public void Add(Course course)
+        //{
+        //    _context.Add(course);
+        //    SaveChanges();
+        //}
+
+        //public void Delete(int id)
+        //{
+        //    var courseModel = _context.Course.Find(id);
+        //    if (courseModel != null)
+        //    {
+        //        courseModel.IsDeleted = true;
+        //        SaveChanges();
+        //    };
+        //}
+
+        //public IEnumerable<Course> GetAll()
+        //{
+        //    var courses= _context.Course.AsNoTracking().Where(C=>C.IsDeleted==false).ToList();
+        //    if (courses == null)
+        //    {
+        //        return null;
+        //    }
+        //    return courses;
+        //}
+
+        //public Course GetById(int id)
+        //{
+        //    var courseModel = _context.Course.Find(id);
+        //    if (courseModel != null)
+        //    {
+        //        return courseModel;
+        //    }
+        //    return null;
+        //}
+
+        //public void SaveChanges()
+        //{
+        //    _context.SaveChanges();
+        //}
+
+        //public void Update(Course course)
+        //{
+        //    SaveChanges();
+        //}
+
+
+        //public async Task<Course> GetById(int id)
+        //{
+        //    var courseModel = await _context.Course.FindAsync(id);
+        //    // No need for an explicit null check; if not found, FindAsync will return null.
+        //    return courseModel;
+        //} 
+        #endregion
+
+        public async Task AddAsync(Course course)
         {
-            _context.Add(course);
-            SaveChanges();
+            await _context.Course.AddAsync(course);
+            SaveChangesAsync();
         }
 
-        public void Delete(int id)
+        public async Task<IEnumerable<Course>> GetAllAsync()
         {
-            var courseModel = _context.Course.Find(id);
-            if (courseModel != null)
+            var courses= await _context.Course.AsNoTracking().Where(c=>c.IsDeleted==false).ToListAsync();
+            if (courses != null)
             {
-                courseModel.IsDeleted = true;
-                SaveChanges();
-            };
-        }
-
-        public IEnumerable<Course> GetAll()
-        {
-            var courses= _context.Course.AsNoTracking().Where(C=>C.IsDeleted==false).ToList();
-            if (courses == null)
-            {
-                return null;
-            }
-            return courses;
-        }
-
-        public Course GetById(int id)
-        {
-            var courseModel = _context.Course.Find(id);
-            if (courseModel != null)
-            {
-                return courseModel;
+                return courses;
             }
             return null;
         }
 
-        public void SaveChanges()
+        public async Task<Course> GetByIdAsync(int id)
         {
-            _context.SaveChanges();
+            
+            return await _context.Course.Where(c=>c.IsDeleted==false)
+                .FirstOrDefaultAsync(c=>c.Id==id);
         }
 
-        public void Update(Course course)
+        public async Task UpdateAsync(Course course)
         {
-            SaveChanges();
+            await SaveChangesAsync();
+
+        }
+
+        public async Task<bool> DeleteAsync(int id)
+        {
+            var course= await _context.Course.FindAsync(id);
+            if (course != null)
+            {
+                course.IsDeleted = true;
+                await SaveChangesAsync();
+                return true;
+            }
+            return false;
+        }
+
+        public async Task SaveChangesAsync()
+        {
+            await _context.SaveChangesAsync();
         }
     }
 }

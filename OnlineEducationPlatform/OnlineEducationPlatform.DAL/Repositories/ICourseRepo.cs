@@ -10,11 +10,11 @@ namespace OnlineEducationPlatform.DAL.Repositories
 {
     public interface ICourseRepo
     {
-        void Add(Course course);
-        IEnumerable<Course> GetAll();
-        Course GetById(int id);
-        void Update(Course course);
-        void Delete(int id);
-        void SaveChanges();
+        Task AddAsync(Course course);
+        Task<IEnumerable<Course>> GetAllAsync();
+        Task<Course> GetByIdAsync(int id);
+        Task UpdateAsync(Course course);
+        Task<bool> DeleteAsync(int id);
+        Task SaveChangesAsync();
     }
 }
