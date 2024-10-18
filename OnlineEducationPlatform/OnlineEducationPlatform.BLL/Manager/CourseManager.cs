@@ -20,24 +20,14 @@ namespace OnlineEducationPlatform.BLL.Manager
            _courseRepo = courseRepo;
             _mapper = mapper;
         }
-        //public void Add(CourseAddDto courseAddDto)
-        //{
-        //    _courseRepo.Add(_mapper.Map<Course>(courseAddDto));
-        //    SaveChanges();
-        //}
-
+        
         public async Task AddAsync(CourseAddDto courseAddDto) /// Done 
         {
             var course = _mapper.Map<Course>(courseAddDto);
             await _courseRepo.AddAsync(course);
-            //SaveChangesAsync();
+           
         }
 
-        //public void Delete(int id)
-        //{
-        //    _courseRepo.Delete(id);
-        //    SaveChanges();
-        //}
 
         public async Task<bool> DeleteAsync(int id)
         {
@@ -55,10 +45,6 @@ namespace OnlineEducationPlatform.BLL.Manager
             return false;
         }
 
-        //public IEnumerable<CourseReadDto> GetAll()
-        //{
-        //    return _mapper.Map<List<CourseReadDto>>(_courseRepo.GetAll());
-        //}
 
         public async Task<IEnumerable<CourseReadDto>> GetAllAsync()
         {
@@ -66,19 +52,7 @@ namespace OnlineEducationPlatform.BLL.Manager
             return _mapper.Map<List<CourseReadDto>>(courses);
         }
 
-        //public async Task<CourseReadDto> GetById(int id)
-        //{
-        //    var course = await _courseRepo.GetById(id);
-
-        //    // If the course is not found, return null.
-        //    if (course == null)
-        //    {
-        //        return null;
-        //    }
-
-        //    // Map the course entity to a DTO asynchronously.
-        //    return _mapper.Map<CourseReadDto>(course);
-        //}
+        
 
         public async Task<CourseReadDto> GetByIdAsync(int id)
         {
@@ -90,45 +64,7 @@ namespace OnlineEducationPlatform.BLL.Manager
             return null;
         }
 
-        //public CourseReadDto GetById(int id)
-        //{
-        //    return _mapper.Map<CourseReadDto>(_courseRepo.GetById(id));
-        //}
-
-
-        //public void SaveChanges()
-        //{
-        //    _courseRepo.SaveChanges();
-        //}
-
-        //public async Task SaveChangesAsync()
-        //{
-        //    await _courseRepo.SaveChangesAsync();
-        //}
-
-        //public async void  Task<Update>(CourseUpdateDto courseUpdateDto)
-        //{
-        //    // Retrieve the existing course asynchronously.
-        //    var existingCourse = await _courseRepo.GetById(courseUpdateDto.Id);
-
-        //    // Check if the course exists.
-        //    if (existingCourse == null)
-        //    {
-        //        throw new KeyNotFoundException($"Course with ID {courseUpdateDto.Id} not found.");
-        //    }
-
-        //    // Map the updated values from the DTO to the existing course entity.
-        //    _mapper.Map(courseUpdateDto, existingCourse);
-
-        //    // Save changes to the database asynchronously.
-        //    await _courseRepo.SaveChanges();
-        //}
-
-        //public async void Task<SaveChanges>()
-        //{
-        //    await _courseRepo.SaveChangesAsync();
-        //}
-
+        
         public async Task<CourseUpdateDto> UpdateAsync(CourseUpdateDto courseUpdateDto)
         {
             var course = await _courseRepo.GetByIdAsync(courseUpdateDto.Id);
@@ -146,10 +82,6 @@ namespace OnlineEducationPlatform.BLL.Manager
             return null;
         }
 
-        //public void Update(CourseUpdateDto courseUpdateDto)
-        //{
-        //    _mapper.Map<CourseUpdateDto, Course>(courseUpdateDto, await _courseRepo.GetById(courseUpdateDto.Id));
-        //    SaveChanges();
-        //}
+       
     }
 }

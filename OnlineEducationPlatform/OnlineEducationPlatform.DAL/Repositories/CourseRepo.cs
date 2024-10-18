@@ -18,61 +18,6 @@ namespace OnlineEducationPlatform.DAL.Repositories
             _context = context;
         }
 
-        #region old version
-        //public void Add(Course course)
-        //{
-        //    _context.Add(course);
-        //    SaveChanges();
-        //}
-
-        //public void Delete(int id)
-        //{
-        //    var courseModel = _context.Course.Find(id);
-        //    if (courseModel != null)
-        //    {
-        //        courseModel.IsDeleted = true;
-        //        SaveChanges();
-        //    };
-        //}
-
-        //public IEnumerable<Course> GetAll()
-        //{
-        //    var courses= _context.Course.AsNoTracking().Where(C=>C.IsDeleted==false).ToList();
-        //    if (courses == null)
-        //    {
-        //        return null;
-        //    }
-        //    return courses;
-        //}
-
-        //public Course GetById(int id)
-        //{
-        //    var courseModel = _context.Course.Find(id);
-        //    if (courseModel != null)
-        //    {
-        //        return courseModel;
-        //    }
-        //    return null;
-        //}
-
-        //public void SaveChanges()
-        //{
-        //    _context.SaveChanges();
-        //}
-
-        //public void Update(Course course)
-        //{
-        //    SaveChanges();
-        //}
-
-
-        //public async Task<Course> GetById(int id)
-        //{
-        //    var courseModel = await _context.Course.FindAsync(id);
-        //    // No need for an explicit null check; if not found, FindAsync will return null.
-        //    return courseModel;
-        //} 
-        #endregion
 
         public async Task AddAsync(Course course)
         {
