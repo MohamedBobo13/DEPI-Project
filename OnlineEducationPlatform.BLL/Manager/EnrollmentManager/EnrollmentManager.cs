@@ -546,30 +546,44 @@ namespace OnlineEducationPlatform.BLL.Manager.EnrollmentManager
                 var existingEnrollments = await _enrollmentRepository.EnrollmentExistsAsync(updateenrollmentdto.StudentId, updateenrollmentdto.CourseId);
                 if (existingEnrollments == true)
                 {
-                   
-                    response.Message = $"Failed to save enrollment because Student with ID {updateenrollmentdto.StudentId} in  Course with ID {updateenrollmentdto.CourseId} already enrolled.";
-                    response.Success = false;
+
+                    //  response.Message = $"Failed to save enrollment because Student with ID {updateenrollmentdto.StudentId} in  Course with ID {updateenrollmentdto.CourseId} already enrolled.";
+                    //response.Success = false;
+                    //     return response;
+
+                    getenollment.Id = updateenrollmentdto.Id;
+
+                    getenollment.StudentId = updateenrollmentdto.StudentId;
+                    getenollment.CourseId = updateenrollmentdto.CourseId;
+                    getenollment.Status = updateenrollmentdto.Status;
+                    getenollment.EnrollmentDate = updateenrollmentdto.EnrollmentDate;
+
+
+                    await _enrollmentRepository.UpdateEnrollmentAsync(getenollment);
+                    response.Success = true;
+                    response.Message = "Enrollment Updated Successfully";
                     return response;
-                    // throw new InvalidOperationException($"Student {enrollment.StudentId} is already enrolled in course {enrollment.CourseId}.");
                 }
-                getenollment.Id = updateenrollmentdto.Id;
+                // throw new InvalidOperationException($"Student {enrollment.StudentId} is already enrolled in course {enrollment.CourseId}.");
+            }
+                //getenollment.Id = updateenrollmentdto.Id;
 
-                getenollment.StudentId = updateenrollmentdto.StudentId;
-                getenollment.CourseId = updateenrollmentdto.CourseId;
-                getenollment.Status = updateenrollmentdto.Status;
-                getenollment.EnrollmentDate = updateenrollmentdto.EnrollmentDate;
+                //getenollment.StudentId = updateenrollmentdto.StudentId;
+                //getenollment.CourseId = updateenrollmentdto.CourseId;
+                //getenollment.Status = updateenrollmentdto.Status;
+                //getenollment.EnrollmentDate = updateenrollmentdto.EnrollmentDate;
 
 
-                await _enrollmentRepository.UpdateEnrollmentAsync(getenollment);
-                response.Success = true;
-                response.Message = "Enrollment Updated Successfully";
+                //await _enrollmentRepository.UpdateEnrollmentAsync(getenollment);
+                //response.Success = true;
+                //response.Message = "Enrollment Updated Successfully";
                 //if (saveresult == true)
                 //{
                 //    response.Success = true;
                 //    response.Message = "Enrollment Updated Successfully";
                 //    return response;
                 //}
-            }
+            
             catch (Exception ex)
             {
                 response.Success = false;

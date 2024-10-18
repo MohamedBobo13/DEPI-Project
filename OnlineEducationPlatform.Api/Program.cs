@@ -43,9 +43,11 @@ using OnlineEducationPlatform.DAL.Repo.InstructorRepo;
 using OnlineEducationPlatform.BLL.Manager.InstructorManager;
 using OnlineEducationPlatform.DAL.Repo.AnswerRepo;
 using OnlineEducationPlatform.DAL.Repo.AnswerResultRepo;
-using OnlineEducationPlatform.BLL.Services.QuizService;
-using OnlineEducationPlatform.DAL.Repositories.QuizRepo;
-using OnlineEducationPlatform.BLL.Mapper;
+using OnlineEducationPlatform.BLL.Manager.QuizManager;
+using OnlineEducationPlatform.BLL.AutoMapper.QuizAutoMapper;
+using OnlineEducationPlatform.BLL.AutoMapper.ExamMappingProfile;
+using OnlineEducationPlatform.DAL.Repo.Iexamrepo;
+using OnlineEducationPlatform.BLL.Manager.ExamManager;
 
 namespace OnlineEducationPlatform.Api
 {
@@ -120,7 +122,10 @@ namespace OnlineEducationPlatform.Api
             builder.Services.AddAutoMapper(map => map.AddProfile(new EnrollmentMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new StudentMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new InstructorMappingProfile()));
-            builder.Services.AddAutoMapper(map => map.AddProfile(new QuizMappingProfile()));
+          builder.Services.AddAutoMapper(map => map.AddProfile(new QuizMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new ExamMappingProfile()));
+
+            //      builder.Services.AddAutoMapper(map => map.AddProfile(new QuizMappingProfile()));
 
 
             builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
@@ -137,7 +142,10 @@ namespace OnlineEducationPlatform.Api
             builder.Services.AddScoped<IInstructorManager, instructorManager>();
 
             builder.Services.AddScoped<IQuizRepo, QuizRepo>();
-            builder.Services.AddScoped<IQuizService, QuizService>();
+           builder.Services.AddScoped<IQuizManager, QuizManager>();
+            //builder.Services.AddScoped<IQuizManager, QuizManager>();
+            builder.Services.AddScoped<Iexamrepo, examrepo>();
+            builder.Services.AddScoped<IExamManager, ExamManager>();
 
 
 

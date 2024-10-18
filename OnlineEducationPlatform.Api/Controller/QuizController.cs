@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using OnlineEducationPlatform.BLL.Dto.TestDto;
-using OnlineEducationPlatform.BLL.Services.QuizService;
+﻿using Microsoft.AspNetCore.Mvc;
+using OnlineEducationPlatform.BLL.Dto.QuizDto;
+using OnlineEducationPlatform.BLL.Manager.QuizManager;
 using OnlineEducationPlatform.DAL.Data.Models;
 
 namespace OnlineEducationPlatform.Api.Controllers.Quiz
@@ -10,9 +9,9 @@ namespace OnlineEducationPlatform.Api.Controllers.Quiz
     [ApiController]
     public class QuizController : ControllerBase
     {
-        private readonly IQuizService _context;
+        private readonly IQuizManager _context;
 
-        public QuizController(IQuizService context)
+        public QuizController(IQuizManager context)
         {
             _context = context;
         }
@@ -44,14 +43,18 @@ namespace OnlineEducationPlatform.Api.Controllers.Quiz
         [Authorize(Roles ="Admin")]*/
         public async Task<ActionResult<QuizAddDto>> CreateQuiz(QuizAddDto quiz)
         {
-            var existQuiz = await _context.GetByIdAsync(quiz.Id);
+                var addquiz =await _context.AddAsync(quiz);
+                if (addquiz != null)
+                {
+                    return Ok("Addition Succeeded");
+                }
+                else
+                {
+                    return BadRequest("Failed to add quiz");
+
+                }
             
-            if (existQuiz is null)
-            {
-                return NotFound();
-            }
-            await _context.AddAsync(quiz);
-            return Ok("Addition Succeeded");
+            
         }
 
         [HttpPut("{id}")]/*
@@ -60,15 +63,24 @@ namespace OnlineEducationPlatform.Api.Controllers.Quiz
         {
             if (id != quiz.Id)
             {
-                return BadRequest();
+                return BadRequest("Id not Identical");
             }
-            var existQuiz = await _context.GetByIdAsync(quiz.Id);
-            if (existQuiz is null)
+           
+            var existquiz = await _context.GetByIdAsync(quiz.Id);
+            if (existquiz is null)
             {
                 return NotFound();
             }
-             await _context.UpdateAsync(quiz);
-             return Ok("Updating Succeded");
+            var updatequiz = await _context.UpdateAsync(quiz);
+            if (updatequiz != null)
+            {
+                return Ok("Updating Succeded");
+            }
+            else
+            {
+                return BadRequest("Failed to update Quiz");
+
+            }
         }
 
         [HttpDelete("{id}")]/*
