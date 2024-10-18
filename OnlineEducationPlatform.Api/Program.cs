@@ -43,6 +43,9 @@ using OnlineEducationPlatform.DAL.Repo.InstructorRepo;
 using OnlineEducationPlatform.BLL.Manager.InstructorManager;
 using OnlineEducationPlatform.DAL.Repo.AnswerRepo;
 using OnlineEducationPlatform.DAL.Repo.AnswerResultRepo;
+using OnlineEducationPlatform.BLL.Services.QuizService;
+using OnlineEducationPlatform.DAL.Repositories.QuizRepo;
+using OnlineEducationPlatform.BLL.Mapper;
 
 namespace OnlineEducationPlatform.Api
 {
@@ -117,6 +120,7 @@ namespace OnlineEducationPlatform.Api
             builder.Services.AddAutoMapper(map => map.AddProfile(new EnrollmentMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new StudentMappingProfile()));
             builder.Services.AddAutoMapper(map => map.AddProfile(new InstructorMappingProfile()));
+            builder.Services.AddAutoMapper(map => map.AddProfile(new QuizMappingProfile()));
 
 
             builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
@@ -132,7 +136,8 @@ namespace OnlineEducationPlatform.Api
             builder.Services.AddScoped<IInstructorRepo, InstructorRepo>();
             builder.Services.AddScoped<IInstructorManager, instructorManager>();
 
-
+            builder.Services.AddScoped<IQuizRepo, QuizRepo>();
+            builder.Services.AddScoped<IQuizService, QuizService>();
 
 
 
