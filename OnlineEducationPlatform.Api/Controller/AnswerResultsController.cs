@@ -40,6 +40,14 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return BadRequest(ModelState);
             }
+            if (!await _answerResultManager.QuestionIdExist(answerResultAddDto.QuestionId))
+            {
+                return BadRequest("Question Id Not Valid");
+            }
+            if (!await _answerResultManager.AnswerIdExist(answerResultAddDto.AnswerId))
+            {
+                return BadRequest("Answer Id Not Valid");
+            }
             await _answerResultManager.AddAsync(answerResultAddDto);
             return NoContent();
         }
@@ -47,9 +55,25 @@ namespace OnlineEducationPlatform.Api.Controllers
         [Route("{Id}")]
         public async Task<ActionResult> Update(int Id, AnswerResultUpdateDto answerResultUpdateDto)
         {
+            if (!await _answerResultManager.IdExist(answerResultUpdateDto.Id))
+            {
+                return BadRequest("Id Not Exist");
+            }
             if (Id != answerResultUpdateDto.Id || !ModelState.IsValid)
             {
                 return BadRequest();
+            }
+            if (!await _answerResultManager.StudentIdExist(answerResultUpdateDto.StudentId))
+            {
+                return BadRequest("Student Id Not Valid");
+            }
+            if (!await _answerResultManager.QuestionIdExist(answerResultUpdateDto.QuestionId))
+            {
+                return BadRequest("Question Id Not Valid");
+            }
+            if (!await _answerResultManager.AnswerIdExist(answerResultUpdateDto.AnswerId))
+            {
+                return BadRequest("Answer Id Not Valid");
             }
             await _answerResultManager.UpdateAsync(answerResultUpdateDto);
             return NoContent();

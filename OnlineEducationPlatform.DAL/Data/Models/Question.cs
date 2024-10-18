@@ -31,7 +31,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
 }
 public enum QuestionType
 {
-    Multiple_Choice,
-    True_False
+    Multiple_Choice=1,
+    True_False=2
 }
 

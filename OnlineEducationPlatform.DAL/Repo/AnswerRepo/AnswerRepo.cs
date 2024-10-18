@@ -42,9 +42,29 @@ namespace OnlineEducationPlatform.DAL.Repo.AnswerRepo
             _context.Update(answer);
             await SaveChangeAsync();
         }
+        public async Task<bool> IdExist(int answerId)
+        {
+            var answerIdExist = await _context.Answer.AnyAsync(a => a.Id == answerId);
+            if (answerIdExist)
+            {
+                return true;
+            }
+            return false;
+        }
+        public async Task<bool> QuestionIdExist(int questionId)
+        {
+            var questionExist = await _context.Question.AnyAsync(q=>q.Id == questionId);
+            if (questionExist)
+            {
+                return true;
+            }
+            return false;
+        }
         public async Task SaveChangeAsync()
         {
             await _context.SaveChangesAsync();
         }
+
+        
     }
 }

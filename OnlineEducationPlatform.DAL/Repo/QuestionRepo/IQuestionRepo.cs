@@ -16,6 +16,10 @@ namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
         Task DeleteAsync(Question question);
         Task UpdateAsync(Question question);
         Task AddAsync(Question question);
+        Task<bool> IdForExam(int questionId);
+        Task<bool> IdForQuiz(int questionId);
+        Task<bool> QuizIdExist(int quizId);
+        Task<bool> ExamIdExist(int examId);
         Task SaveChangeAsync();
     }
 }
