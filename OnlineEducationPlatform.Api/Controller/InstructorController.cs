@@ -19,7 +19,7 @@ namespace OnlineEducationPlatform.Api.Controller
             _instructormanager = instructormanager;
         }
 
-        [HttpGet("GetAllInstructors")]
+        [HttpGet]
 
         public async Task<ActionResult<ServiceResponse<InstructorReadDto>>> GetAll()
         {
@@ -39,8 +39,8 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
-        [HttpGet("GetAllInstructors/{InstructorId}")]
-        public async Task<ActionResult<ServiceResponse<studentreaddto>>> GetById(string InstructorId)
+        [HttpGet("{InstructorId}")]
+        public async Task<ActionResult<ServiceResponse<InstructorReadDto>>> GetById(string InstructorId)
         {
             var serviceResponse = await _instructormanager.GetInstructorbyid(InstructorId);
             if (serviceResponse.Success)
@@ -57,7 +57,7 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
-        [HttpDelete("SoftDeleteInstructor/{InstructorId}")]
+        [HttpDelete("SoftDelete/{InstructorId}")]
         //  [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ServiceResponse<bool>>> SodtDeleteInstructor(string InstructorId)
         {

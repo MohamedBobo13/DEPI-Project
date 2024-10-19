@@ -18,7 +18,7 @@ namespace OnlineEducationPlatform.Api.Controller
             _studentmanager = studentmanager;
         }
 
-        [HttpGet("GetAllStudents")]
+        [HttpGet]
 
         public async Task<ActionResult<ServiceResponse<studentreaddto>>> GetAll()
         {
@@ -38,7 +38,7 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
-        [HttpGet("GetAllStudents/{StudentId}")]
+        [HttpGet("{StudentId}")]
         public async Task<ActionResult<ServiceResponse<studentreaddto>>> GetById(string StudentId)
         {
             var serviceResponse = await _studentmanager.Getstudentbyid(StudentId);
@@ -56,7 +56,7 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
-        [HttpDelete("SoftDeleteStudent/{StudentId}")]
+        [HttpDelete("SoftDelete/{StudentId}")]
         //  [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ServiceResponse<bool>>> SoftDeleteStudent(string StudentId)
         {
