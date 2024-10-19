@@ -1,3 +1,10 @@
+D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.csproj.AssemblyReference.cache
+D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.AssemblyInfoInputs.cache
+D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.AssemblyInfo.cs
+D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.csproj.CoreCompileInputs.cache
+D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.sourcelink.json
 D:\DEPI-Project\OnlineEducationPlatform.Api\bin\Debug\net8.0\appsettings.Development.json
 D:\DEPI-Project\OnlineEducationPlatform.Api\bin\Debug\net8.0\appsettings.json
 D:\DEPI-Project\OnlineEducationPlatform.Api\bin\Debug\net8.0\OnlineEducationPlatform.Api.exe
@@ -129,14 +136,6 @@ D:\DEPI-Project\OnlineEducationPlatform.Api\bin\Debug\net8.0\OnlineEducationPlat
 D:\DEPI-Project\OnlineEducationPlatform.Api\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
 D:\DEPI-Project\OnlineEducationPlatform.Api\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
 D:\DEPI-Project\OnlineEducationPlatform.Api\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
-D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.csproj.AssemblyReference.cache
-D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.GeneratedMSBuildEditorConfig.editorconfig
-D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.AssemblyInfoInputs.cache
-D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.AssemblyInfo.cs
-D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.csproj.CoreCompileInputs.cache
-D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.MvcApplicationPartsAssemblyInfo.cs
-D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.MvcApplicationPartsAssemblyInfo.cache
-D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\OnlineEducationPlatform.Api.sourcelink.json
 D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\staticwebassets.build.json
 D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\staticwebassets.development.json
 D:\DEPI-Project\OnlineEducationPlatform.Api\obj\Debug\net8.0\staticwebassets\msbuild.OnlineEducationPlatform.Api.Microsoft.AspNetCore.StaticWebAssets.props

@@ -22,14 +22,15 @@ namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
             return await _context.Question.AsNoTracking().ToListAsync();
         }
 
-        public async Task<IEnumerable<Question>> GetAllExamAsync()
+        public async Task<IEnumerable<Question>> GetCourseExamAsync(int courseId)
         {
-            return await _context.Question.Where(e => e.ExamId != null).AsNoTracking().ToListAsync();
+            return await _context.Question.Where(q => q.QuizId == null && q.CourseId == courseId).ToListAsync();
+            
         }
 
-        public async Task<IEnumerable<Question>> GetAllQuizAsync()
+        public async Task<IEnumerable<Question>> GetCourseQuizAsync(int courseId)
         {
-            return await _context.Question.Where(e => e.QuizId != null).AsNoTracking().ToListAsync();
+            return await _context.Question.Where(q => q.ExamId == null && q.CourseId == courseId).ToListAsync();
         }
 
         public async Task<Question> GetByIdAsync(int id)
@@ -92,11 +93,22 @@ namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
             }
             return false;
         }
-        
+
+        public async Task<bool> CourseIdExist(int courseId)
+        {
+            var courseExist = await _context.Course.AnyAsync(c => c.Id == courseId);
+            if (courseExist)
+            {
+                return true;
+            }
+            return false;
+        }
+
         public async Task SaveChangeAsync()
         {
             await _context.SaveChangesAsync();
         }
 
+        
     }
 }

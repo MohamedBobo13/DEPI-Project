@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\DEPI-Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\depi-project\\onlineeducationplatform.api\\controller\\answerresultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\controller\\answerresultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\depi-project\\onlineeducationplatform.bll\\manager\\answerresultmanager\\answerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answerresultmanager\\answerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\depi-project\\onlineeducationplatform.bll\\manager\\answerresultmanager\\ianswerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answerresultmanager\\ianswerresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi-project\\onlineeducationplatform.dal\\repo\\answerresultrepo\\ianswerresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\answerresultrepo\\ianswerresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi-project\\onlineeducationplatform.dal\\repo\\answerresultrepo\\answerresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE6AD09A-09FB-4731-A960-38A1C6A18480}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\answerresultrepo\\answerresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|d:\\depi-project\\onlineeducationplatform.api\\controller\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B714FC-F29E-4FAF-A232-704C99203045}|OnlineEducationPlatform.Api\\OnlineEducationPlatform.Api.csproj|solutionrelative:onlineeducationplatform.api\\controller\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,66 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AnswerResultsController.cs",
-              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.Api\\Controller\\AnswerResultsController.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Controller\\AnswerResultsController.cs",
-              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.Api\\Controller\\AnswerResultsController.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.Api\\Controller\\AnswerResultsController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAcwD4AAAANAAAAAAAAAA==",
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.Api\\Controller\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.Api\\Controller\\QuestionsController.cs",
+              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.Api\\Controller\\QuestionsController.cs*",
+              "RelativeToolTip": "OnlineEducationPlatform.Api\\Controller\\QuestionsController.cs*",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAF8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T13:02:33.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AnswerResultManager.cs",
-              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
-              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\AnswerResultManager.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAADwv04AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:59:57.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAnswerResultManager.cs",
-              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
-              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answerresultmanager\\IAnswerResultManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:59:23.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AnswerResultRepo.cs",
-              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
-              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\AnswerResultRepo.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAwwD8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:56:24.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAnswerResultRepo.cs",
-              "DocumentMoniker": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\IAnswerResultRepo.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\IAnswerResultRepo.cs",
-              "ToolTip": "D:\\DEPI-Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\IAnswerResultRepo.cs",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\AnswerResultRepo\\IAnswerResultRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T12:55:27.982Z",
+              "WhenOpened": "2024-10-19T07:10:49.493Z",
               "EditorCaption": ""
             }
           ]

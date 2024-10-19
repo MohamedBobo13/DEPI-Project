@@ -1054,16 +1054,6 @@
   },
   {
     "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
-    "Method": "GetAllExamAsync",
-    "RelativePath": "api/Questions/Exam",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
     "Method": "AddExamAsync",
     "RelativePath": "api/Questions/Exam",
     "HttpMethod": "POST",
@@ -1073,6 +1063,22 @@
       {
         "Name": "questionExamAddDto",
         "Type": "OnlineEducationPlatform.BLL.Dtos.QuestionExamAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "GetCourseExamAsync",
+    "RelativePath": "api/Questions/Exam/{CourseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -1101,16 +1107,6 @@
   },
   {
     "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
-    "Method": "GetAllQuizAsync",
-    "RelativePath": "api/Questions/Quiz",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
     "Method": "AddQuizAsync",
     "RelativePath": "api/Questions/Quiz",
     "HttpMethod": "POST",
@@ -1120,6 +1116,22 @@
       {
         "Name": "questionQuizAddDto",
         "Type": "OnlineEducationPlatform.BLL.Dtos.QuestionQuizAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OnlineEducationPlatform.Api.Controllers.QuestionsController",
+    "Method": "GetCourseQuizAsync",
+    "RelativePath": "api/Questions/Quiz/{CourseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Dtos
 {
-    public class QuestionExamReadDto
+    public class QuestionCourseExamReadDto
     {
         public int Id { get; set; }
+        public int CourseId { get; set; }
         public string Content { get; set; }
         public int Marks { get; set; }
         public QuestionType QuestionType { get; set; }

@@ -1,5 +1,6 @@
 ﻿using OnlineEducationPlatform.BLL.Dto.QuestionDto;
 using OnlineEducationPlatform.BLL.Dtos;
+using OnlineEducationPlatform.DAL.Data.Models;
 
 namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
 {
@@ -7,9 +8,9 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
     {
         Task<IEnumerable<QuestionReadDto>> GetAllAsync();
 
-        Task<IEnumerable<QuestionExamReadDto>> GetAllExamAsync();
+        Task<IEnumerable<QuestionCourseExamReadDto>> GetCourseExamAsync(int courseId);
 
-        Task<IEnumerable<QuestionQuizReadDto>> GetAllQuizAsync();
+        Task<IEnumerable<QuestionCourseQuizReadDto>> GetCourseQuizAsync(int courseId);
 
         Task<QuestionReadDto> GetByIdAsync(int id);
 
@@ -30,5 +31,7 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
         Task<bool> QuizIdExist(int quizId);
 
         Task<bool> ExamIdExist(int examId);
+
+        Task<bool> CourseIdExist(int courseId);
     }
 }
