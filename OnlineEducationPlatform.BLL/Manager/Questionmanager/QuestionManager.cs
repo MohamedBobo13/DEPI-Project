@@ -23,17 +23,26 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
             return _mapper.Map<List<QuestionReadDto>>(questions);
         }
 
-        public async Task<IEnumerable<QuestionExamReadDto>> GetAllExamAsync()
+        public async Task<IEnumerable<QuestionCourseExamReadDto>> GetCourseExamAsync(int courseId)
         {
-            var questionsExam = await _questionRepo.GetAllExamAsync();
-            return _mapper.Map<List<QuestionExamReadDto>>(questionsExam);
+            var questionsCourseExam = await _questionRepo.GetCourseExamAsync(courseId);
+            if (questionsCourseExam == null)
+            {
+                return null;
+            }
+            return _mapper.Map<List<QuestionCourseExamReadDto>>(questionsCourseExam);
         }
 
-        public async Task<IEnumerable<QuestionQuizReadDto>> GetAllQuizAsync()
+        public async Task<IEnumerable<QuestionCourseQuizReadDto>> GetCourseQuizAsync(int courseId)
         {
-            var questionsQuiz = await _questionRepo.GetAllQuizAsync();
-            return _mapper.Map<List<QuestionQuizReadDto>>(questionsQuiz);
+            var questionsCourseQuiz = await _questionRepo.GetCourseQuizAsync(courseId);
+            if (questionsCourseQuiz == null)
+            {
+                return null;
+            }
+            return _mapper.Map<List<QuestionCourseQuizReadDto>>(questionsCourseQuiz);
         }
+
 
         public async Task<QuestionReadDto> GetByIdAsync(int id)
         {
@@ -121,5 +130,14 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
             return false;
         }
 
+        public async Task<bool> CourseIdExist(int courseId)
+        {
+            bool courseExist = await _questionRepo.CourseIdExist(courseId);
+            if (courseExist)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

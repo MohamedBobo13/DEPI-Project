@@ -18,11 +18,13 @@ namespace OnlineEducationPlatform.Api.Controllers
         {
             _questionManager = questionManager;
         }
+
         [HttpGet]
         public async Task<ActionResult> GetAllAsync()
         {
             return Ok(await _questionManager.GetAllAsync());
         }
+
         [HttpGet]
         [Route("{Id}")]
         public async Task<ActionResult> GetByIdAsync(int Id)
@@ -34,12 +36,18 @@ namespace OnlineEducationPlatform.Api.Controllers
             }
             return Ok(question);
         }
+
         [HttpGet]
-        [Route("Exam")]
-        public async Task<ActionResult> GetAllExamAsync()
+        [Route("Exam/{CourseId}")]
+        public async Task<ActionResult> GetCourseExamAsync(int CourseId)
         {
-            return Ok(await _questionManager.GetAllExamAsync());
+            if (!await _questionManager.CourseIdExist(CourseId))
+            {
+                return BadRequest("Course Id Not Valid");
+            }
+            return Ok(await _questionManager.GetCourseExamAsync(CourseId));
         }
+
         [HttpPost]
         [Route("Exam")]
         public async Task<ActionResult> AddExamAsync(QuestionExamAddDto questionExamAddDto)
@@ -49,6 +57,10 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return BadRequest(ModelState);
             }
+            if (!await _questionManager.CourseIdExist(questionExamAddDto.CourseId))
+            {
+                return BadRequest("Course Id Not Valid");
+            }
             if (!await _questionManager.ExamIdExist(questionExamAddDto.ExamId))
             {
                 return BadRequest("Exam Id Not Valid");
@@ -56,6 +68,7 @@ namespace OnlineEducationPlatform.Api.Controllers
             await _questionManager.AddExamAsync(questionExamAddDto);
             return NoContent();
         }
+
         [HttpPut]
         [Route("Exam/{Id}")]
         public async Task<ActionResult> UpdateExamAsync(int Id, QuestionExamUpdateDto questionExamUpdateDto)
@@ -75,12 +88,18 @@ namespace OnlineEducationPlatform.Api.Controllers
             await _questionManager.UpdateExamAsync(questionExamUpdateDto);
             return NoContent();
         }
+
         [HttpGet]
-        [Route("Quiz")]
-        public async Task<ActionResult> GetAllQuizAsync()
+        [Route("Quiz/{CourseId}")]
+        public async Task<ActionResult> GetCourseQuizAsync(int CourseId)
         {
-            return Ok(await _questionManager.GetAllQuizAsync());
+            if (!await _questionManager.CourseIdExist(CourseId))
+            {
+                return BadRequest("Course Id Not Valid");
+            }
+            return Ok(await _questionManager.GetCourseQuizAsync(CourseId));
         }
+
         [HttpPost]
         [Route("Quiz")]
         public async Task<ActionResult> AddQuizAsync(QuestionQuizAddDto questionQuizAddDto)
@@ -89,6 +108,10 @@ namespace OnlineEducationPlatform.Api.Controllers
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
+            }
+            if (!await _questionManager.CourseIdExist(questionQuizAddDto.CourseId))
+            {
+                return BadRequest("Course Id Not Valid");
             }
             if (!await _questionManager.QuizIdExist(questionQuizAddDto.QuizId))
             {
@@ -117,6 +140,7 @@ namespace OnlineEducationPlatform.Api.Controllers
             await _questionManager.UpdateQuizAsync(questionQuizUpdateDto);
             return NoContent();
         }
+
         [HttpDelete]
         public async Task<ActionResult> DeleteAsync(int Id)
         {

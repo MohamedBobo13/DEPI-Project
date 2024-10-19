@@ -20,7 +20,7 @@ namespace OnlineEducationPlatform.Api.Controller
             _quizResultManager = quizResultManager;
         }
 
-        [HttpGet("GetAllQuizResults")]
+        [HttpGet]
 
         public async Task<ActionResult<ServiceResponse<quizresultreaddto>>> GetAll()
         {
@@ -45,7 +45,7 @@ namespace OnlineEducationPlatform.Api.Controller
         }
 
 
-        [HttpGet("GetStudentResultby/{StudentId}/{QuizId}")]
+        [HttpGet("Getby/{StudentId}/{QuizId}")]
         public async Task<ActionResult<ServiceResponse<QuizResult>>> GetStudentResult(string StudentId ,int QuizId)
         {
 
@@ -63,7 +63,7 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
-        [HttpPost("AddQuizResult")]
+        [HttpPost]
         //   [Authorize(Roles ="Admin")]
         public async Task<ActionResult<ServiceResponse<quizresultwithoutiddto>>> CreateQuizResult([FromBody] quizresultwithoutiddto quizresultadddto)
         {
@@ -83,7 +83,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
-        [HttpDelete("SoftDeleteQuizResult/{StudentId}/{QuizId}")]
+        [HttpDelete("SoftDelete/{StudentId}/{QuizId}")]
         //  [Authorize(Roles = "Admin")]
 
         public async Task<ActionResult<ServiceResponse<bool>>> SoftDeleteQuizresult(string StudentId, int QuizId)
@@ -105,7 +105,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
         }
 
-        [HttpDelete("HardDeleteQuizResult/{studentId}/{QuizId}")]
+        [HttpDelete("HardDelete/{studentId}/{QuizId}")]
         //  [Authorize(Roles = "Admin")]
 
         public async Task<ActionResult<ServiceResponse<bool>>> HardDeletequizresult(string studentId, int QuizId)
@@ -124,7 +124,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
-        [HttpGet("GetAllSoftDeletedQuizResults")]
+        [HttpGet("GetAllSoftDeleted")]
 
         public async Task<ActionResult<ServiceResponse<quizresultwithoutiddto>>> GetAllSoftDeletedQuizresults()
         {
@@ -147,7 +147,7 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
-        [HttpPut("UpdateQuizResult/{Id}")]
+        [HttpPut("{Id}")]
 
         public async Task<ActionResult<ServiceResponse<bool>>> Updatequizresult(int Id, updatequizresultdto quizresultreaddto)
         {
@@ -169,7 +169,7 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
-        [HttpGet("GetAllByStudentId/{StudentId}")]
+        [HttpGet("GetAllBy/{StudentId}")]
         public async Task<ActionResult<ServiceResponse<quizresultreaddto>>> GetQuizResultsByStudentIdAsync(string StudentId)
         {
             var response = await _quizResultManager.GetStudentresultssByStudentIdAsync(StudentId);
@@ -192,7 +192,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
-        [HttpGet("GetAllByQuizId/{QuizId}")]
+        [HttpGet("GetAllBy/{QuizId}")]
         // [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ServiceResponse<quizresultreaddto>>> GetQuizResultsByquizIdAsync(int QuizId)
         {

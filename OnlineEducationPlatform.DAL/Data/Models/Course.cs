@@ -24,6 +24,6 @@ namespace OnlineEducationPlatform.DAL.Data.Models
         public ICollection<Quiz> Quizzes { get; set; } = new HashSet<Quiz>();
 
         public ICollection<Exam> Exams { get; set; } = new HashSet<Exam>();
-
+        public ICollection<Question> Questions { get; set; } = new HashSet<Question>();
     }
 }

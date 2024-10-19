@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Routing;
+using OnlineEducationPlatform.BLL.Dto.RoleModel;
 using OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto;
 using OnlineEducationPlatform.BLL.Manager.AccountManager;
 using OnlineEducationPlatform.BLL.Manger.Accounts;
@@ -122,6 +123,60 @@ namespace OnlineEducationPlatform.Api.Controllers
             {
                 return Ok(new { message = "Your password has been reset successfully." });
             }
+            return BadRequest(result.Errors);
+        }
+        [HttpPost("AddRoleToUser")]
+
+        public async Task<IActionResult> AddRoleAsync(AddRoleDto addRoleDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new { Errors = "Invalid input data" });
+            }
+            var result = await AccountManger.AddRoleModel(addRoleDto);
+            if (!string.IsNullOrEmpty(result))
+            {
+                return BadRequest(result);
+            }
+            return Ok(addRoleDto);//if is null => success
+
+        }
+
+        [HttpPost("createNewRole")]
+        public async Task<IActionResult> CreateRole([FromBody] CreateRole createRole)
+        {
+            if (string.IsNullOrEmpty(createRole.RoleName))
+            {
+                return BadRequest("Role name is required");
+            }
+
+            var result = await AccountManger.CreateRole(createRole);
+            //if (string.IsNullOrEmpty(result))
+            //{
+            //    return BadRequest(result);
+            //}
+            //return Ok("Role created successfully");
+            if (result.Succeeded)
+            {
+                return Ok("Role created successfully");
+            }
+            return BadRequest(result);
+        }
+
+        [HttpDelete("DeleteRole")]
+        public async Task<IActionResult> DeleteRole([FromBody] CreateRole role)
+        {
+            if (string.IsNullOrEmpty(role.RoleName))
+            {
+                return BadRequest("Role name is required");
+            }
+
+            var result = await AccountManger.DeleteRole(role);
+            if (result.Succeeded)
+            {
+                return Ok("Role deleted successfully");
+            }
+
             return BadRequest(result.Errors);
         }
     }

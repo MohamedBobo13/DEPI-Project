@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using OnlineEducationPlatform.BLL.Dto.ApplicationUserDto;
+using OnlineEducationPlatform.BLL.Dto.RoleModel;
 using OnlineEducationPlatform.BLL.Dtos.ApplicationUserDto;
 using OnlineEducationPlatform.BLL.Manager.AccountManager;
 using OnlineEducationPlatform.DAL.Data.Models;
@@ -20,12 +21,14 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
         private readonly UserManager<ApplicationUser> UserManager;//make sure if user send in db or not
         private readonly IConfiguration configuration;
         private readonly IEmailService _emailService;
+        private readonly RoleManager<IdentityRole> roleManager;
 
-        public AccountManger(UserManager<ApplicationUser> userManager, IConfiguration configuration, IEmailService emailService)//inject =>to use it
+        public AccountManger(UserManager<ApplicationUser> userManager, IConfiguration configuration, IEmailService emailService, RoleManager<IdentityRole> roleManager)//inject =>to use it
         {
             UserManager = userManager;
             this.configuration = configuration;
             _emailService = emailService;
+            this.roleManager = roleManager;
 
         }
 
@@ -375,6 +378,43 @@ namespace OnlineEducationPlatform.BLL.Manger.Accounts
             response.Errors = resetpaswword.Errors.Select(e => e.Description).ToList();
             return response;
         }
+        public async Task<string> AddRoleModel(AddRoleDto addRoleDto)
+        {
+            var User = await UserManager.FindByIdAsync(addRoleDto.Id);
+            if (User is null || !await roleManager.RoleExistsAsync(addRoleDto.RoleName))
+            {
+                return "Invalid user Id or role name";
+            }
+            if (await UserManager.IsInRoleAsync(User, addRoleDto.RoleName))
+            {
+                return "User already assigned to this role";
+            }
+            var result = await UserManager.AddToRoleAsync(User, addRoleDto.RoleName);
+
+            return result.Succeeded ? string.Empty : "Something went wrong";
+        }
+
+        public async Task<IdentityResult> CreateRole(CreateRole createRole)
+        {
+            if (await roleManager.RoleExistsAsync(createRole.RoleName))
+            {
+                return IdentityResult.Failed(new IdentityError { Description = "Role already exists" });
+            }
+            // Create a new role
+            var result = await roleManager.CreateAsync(new IdentityRole(createRole.RoleName));
+            return result;
+        }
+        public async Task<IdentityResult> DeleteRole(CreateRole createRole)
+        {
+            var role = await roleManager.FindByNameAsync(createRole.RoleName);
+            if (role == null)
+            {
+                return IdentityResult.Failed(new IdentityError { Description = "Role not found" });
+            }
+            return await roleManager.DeleteAsync(role);
+        }
+
+
 
 
 

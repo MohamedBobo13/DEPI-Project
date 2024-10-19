@@ -9,6 +9,7 @@ namespace OnlineEducationPlatform.BLL.Dtos
 {
     public class QuestionQuizAddDto
     {
+        public int CourseId { get; set; }
         public string Content { get; set; }
         public int Marks { get; set; }
         public QuestionType QuestionType { get; set; }

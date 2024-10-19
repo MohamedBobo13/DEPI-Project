@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OnlineEducationPlatform.DAL.Data.DbHelper;
 
@@ -11,9 +12,11 @@ using OnlineEducationPlatform.DAL.Data.DbHelper;
 namespace OnlineEducationPlatform.DAL.Migrations
 {
     [DbContext(typeof(EducationPlatformContext))]
-    partial class EducationPlatformContextModelSnapshot : ModelSnapshot
+    [Migration("20241019080555_coursequesionrelation")]
+    partial class coursequesionrelation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

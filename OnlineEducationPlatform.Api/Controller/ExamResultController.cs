@@ -19,7 +19,7 @@ namespace OnlineEducationPlatform.Api.Controller
             _examResultmanager = examResultmanager;
         }
 
-        [HttpGet("GetAllExamResults")]
+        [HttpGet]
 
         public async Task<ActionResult<ServiceResponse<Examresultreaddto>>> GetAll()
         {
@@ -44,7 +44,7 @@ namespace OnlineEducationPlatform.Api.Controller
         }
 
 
-        [HttpGet("GetStudentResultby/{StudentId}/{ExamId}")]
+        [HttpGet("Getby/{StudentId}/{ExamId}")]
         public async Task<ActionResult<ServiceResponse<QuizResult>>> GetStudentResult(string StudentId, int ExamId)
         {
 
@@ -62,7 +62,7 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
-        [HttpPost("AddExamResult")]
+        [HttpPost]
         //   [Authorize(Roles ="Admin")]
         public async Task<ActionResult<ServiceResponse<Examresultwithoutiddto>>> CreateExamResult([FromBody] Examresultwithoutiddto examresultadddto)
         {
@@ -82,7 +82,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
-        [HttpDelete("SoftDeleteExamResult/{StudentId}/{ExamId}")]
+        [HttpDelete("SoftDeleteby/{StudentId}/{ExamId}")]
         //  [Authorize(Roles = "Admin")]
 
         public async Task<ActionResult<ServiceResponse<bool>>> SoftDeleteExamresult(string StudentId, int ExamId)
@@ -104,7 +104,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
         }
 
-        [HttpDelete("HardDeleteExamResult/{studentId}/{ExamId}")]
+        [HttpDelete("HardDeleteby/{studentId}/{ExamId}")]
         //  [Authorize(Roles = "Admin")]
 
         public async Task<ActionResult<ServiceResponse<bool>>> HardDeleteExamresult(string studentId, int ExamId)
@@ -123,7 +123,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
-        [HttpGet("GetAllSoftDeletedExamResults")]
+        [HttpGet("GetAllSoftDeleted")]
 
         public async Task<ActionResult<ServiceResponse<quizresultwithoutiddto>>> GetAllSoftDeletedExamresults()
         {
@@ -146,7 +146,7 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
-        [HttpPut("UpdateExamResult/{Id}")]
+        [HttpPut("{Id}")]
 
         public async Task<ActionResult<ServiceResponse<bool>>> UpdateExamresult(int Id, updateexamresultdto examresultupdatedto)
         {
@@ -168,7 +168,7 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
-        [HttpGet("GetAllByStudentId/{StudentId}")]
+        [HttpGet("GetAllBy/{StudentId}")]
         public async Task<ActionResult<ServiceResponse<quizresultreaddto>>> GetExamResultsByStudentIdAsync(string StudentId)
         {
             var response = await _examResultmanager.GetStudentresultssByStudentIdAsync(StudentId);
@@ -191,13 +191,13 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
-        [HttpGet("GetAllByExamId/{QuizId}")]
+        [HttpGet("GetAllBy/{ExamId}")]
         // [Authorize(Roles = "Admin")]
-        public async Task<ActionResult<ServiceResponse<quizresultreaddto>>> GetExamResultsByquizIdAsync(int examid)
+        public async Task<ActionResult<ServiceResponse<quizresultreaddto>>> GetExamResultsByquizIdAsync(int ExamId)
         {
-            var response = await _examResultmanager.GetstudentresultsByExamIdAsync(examid);
+            var response = await _examResultmanager.GetstudentresultsByExamIdAsync(ExamId);
 
-            if (examid <= 0)
+            if (ExamId <= 0)
             {
                 return BadRequest("Invalid Exam ID.");
             }

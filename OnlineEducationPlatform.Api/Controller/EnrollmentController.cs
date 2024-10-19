@@ -16,7 +16,7 @@ namespace OnlineEducationPlatform.Api.Controller
             _enrollmentmanager = enrollmentmanager;
         }
 
-        [HttpGet("GetAllEnrollments")]
+        [HttpGet]
 
         public async Task<ActionResult<ServiceResponse<EnrollmentDtoForRetriveAllEnrollmentsInCourse>>> GetAll()
         {
@@ -39,7 +39,7 @@ namespace OnlineEducationPlatform.Api.Controller
             }
 
         }
-        [HttpPut("UpdateEnrollment/{Id}")]
+        [HttpPut("{Id}")]
 
         public async Task<ActionResult<ServiceResponse<bool>>> updateEnrollment(int Id,updateenrollmentdto updateenrollmentdto)
         {
@@ -62,7 +62,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
         }
 
-        [HttpGet("GetAllSoftDeletedEnrollments")]
+        [HttpGet("GetAllSoftDeleted")]
 
         public async Task<ActionResult<ServiceResponse<EnrollmentDtowWithStatusanddDate>>> GetAllSoftDeletedEnrollments()
         {
@@ -90,7 +90,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
 
-        [HttpPost("AddEnrollment")]
+        [HttpPost]
      //   [Authorize(Roles ="Admin")]
         public async Task<ActionResult<ServiceResponse<EnrollmentDtowWithStatusanddDate>>> CreateEnrollment([FromBody] EnrollmentDto enrollmentDto)
         {
@@ -110,7 +110,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
-        [HttpDelete("SoftDeleteEnrollment/{StudentId}/{CourseId}")]
+        [HttpDelete("SoftDelete/{StudentId}/{CourseId}")]
       //  [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ServiceResponse<bool>>> SoftDeleteEnrollment(string StudentId,int CourseId)
         {
@@ -130,7 +130,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
-        [HttpDelete("HardDeleteEnrollment/{studentId}/{courseId}")]
+        [HttpDelete("HardDelete/{studentId}/{courseId}")]
         //  [Authorize(Roles = "Admin")]
 
         public async Task<ActionResult<ServiceResponse<bool>>> HardDeleteEnrollment( string studentId, int courseId)
@@ -149,7 +149,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
-        [HttpGet("GetAllByCourseId/{CourseId}")]
+        [HttpGet("GetAllBy/{CourseId}")]
        // [Authorize(Roles = "Admin")]
         public async Task<ActionResult<ServiceResponse<EnrollmentDtoForRetriveAllEnrollmentsInCourse>>> GetAllEnrollmentsByCourseId(int CourseId)
         {
@@ -173,7 +173,7 @@ namespace OnlineEducationPlatform.Api.Controller
 
 
         }
-        [HttpGet("GetAllByStudentId/{StudentId}")]
+        [HttpGet("GetAllby/{StudentId}")]
         public async Task<ActionResult<ServiceResponse<EnrollmentDtoForRetriveAllEnrollmentsInCourse>>> GetEnrollmentsByStudentIdAsync(string StudentId)
         {
             var response = await _enrollmentmanager.GetEnrollmentsByStudentIdAsync(StudentId);
