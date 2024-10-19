@@ -17,51 +17,71 @@ namespace OnlineEducationPlatform.Api.Controllers
         }
 
         [HttpGet]
-        //Insturctor and Student can be get All Vedios
-        public ActionResult GetAllVedios()
+        //Instructor and Student can get all Vedios
+        public async Task<IActionResult> GetAllVideos()
         {
-            var AllVedios=_vedioManager.GetAll();
-            if (AllVedios != null)
+            var videos = await _vedioManager.GetAllAsync();
+            if (videos != null)
             {
-                return Ok(AllVedios);
+                return Ok(videos);
             }
             return NotFound();
         }
 
         [HttpGet("{id:int}")]
-        //Insturctor and Student can be get Vedio
-        public ActionResult GetVedio(int id)
+        public async Task<ActionResult> GetVideo(int id)
         {
-            var vedio=_vedioManager.GetById(id);
-            if (vedio != null)
+            var video = await _vedioManager.GetByIdAsync(id);
+            if (video != null)
             {
-                return Ok(vedio);
+                return Ok(video);
             }
             return NotFound();
         }
 
-        [HttpPost]
-        //Instructor can only Add vedio
-        public ActionResult AddVedio(VedioAddDto vedioAddDto)
-        {
-            _vedioManager.Add(vedioAddDto);
-            return Created();
-        }
+
 
         [HttpDelete("{id:int}")]
-        //Instructor can only delete Vedio
-        public ActionResult DeleteVedio(int id)
+        //Instructor only can delete Video
+        public async Task<ActionResult> RemoveVideo(int id)
         {
-            _vedioManager.Delete(id);
-            return Ok();
-        }
+            var video = await _vedioManager.GetByIdAsync(id);
+            if (video != null)
+            {
+                var IsDeleted = await _vedioManager.DeleteAsync(id);
+                if (IsDeleted)
+                {
+                    return Ok("Video Deleted Successfully");
+                }
+                return StatusCode(500, "An error occurred while deleting the Video.");
 
-        [HttpPut]
-        // Instructor can only update vedio
-        public ActionResult UpdateVedio (VedioUpdateDto vedioUpdate)
+            }
+            return NotFound();
+        }
+        [HttpPost]
+        //Instructor only can add Vidoe
+        public async Task<ActionResult<VedioAddDto>> AddVideo(VedioAddDto vedioAddDto)
         {
-            _vedioManager.Update(vedioUpdate);
-            return Ok();
+            var video = _vedioManager.AddAsync(vedioAddDto);
+            if (video != null)
+            {
+                return Ok("Addition Succeeded");
+
+            }
+            return BadRequest("Failed To Add Video");
+
+        }
+        [HttpPut("{id:int}")]
+        //Insturctor only can update Video
+        public async Task<ActionResult> UpdateVideo(int id, VedioUpdateDto vedioUpdateDto)
+        {
+            if (id != vedioUpdateDto.Id)
+            {
+                return BadRequest("Id is not Identical");
+            }
+            var pdf = await _vedioManager.UpdateAsync(vedioUpdateDto);
+            return Ok("Video is Updaded");
+
         }
     }
 }

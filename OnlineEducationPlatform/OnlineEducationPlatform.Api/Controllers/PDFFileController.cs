@@ -17,50 +17,71 @@ namespace OnlineEducationPlatform.Api.Controllers
         }
 
         [HttpGet]
-        //Instructor and Student can get all PdfFiles
-        public ActionResult GetAllPDF()
+        //Instructor and Student can get all Pdfs
+        public async Task<IActionResult> GetAllPdfs()
         {
-            var AllFiles=_pdfFileManager.GetAll();
-            if (AllFiles != null)
+            var pdfs = await _pdfFileManager.GetAllAsync();
+            if (pdfs != null)
             {
-                return Ok(AllFiles);
+                return Ok(pdfs);
             }
             return NotFound();
         }
 
         [HttpGet("{id:int}")]
-        //Instructor and Student can get PdfFile
-        public ActionResult GetPDF(int id)
+        public async Task<ActionResult> GetPdf(int id)
         {
-            var PdfFile=_pdfFileManager.GetById(id);
-            if (PdfFile != null)
+            var pdf = await _pdfFileManager.GetByIdAsync(id);
+            if (pdf != null)
             {
-                return Ok(PdfFile);
+                return Ok(pdf);
             }
             return NotFound();
         }
 
-        [HttpPost]
-        // Instructor only can be add PdfFile
-        public ActionResult AddPDF(PdfFileAddDto pdfFileAddDto)
-        {
-            _pdfFileManager.Add(pdfFileAddDto);
-            return Created();
-        }
-        [HttpPut]
-        // Instructor only can be update PdfFile
-        public ActionResult UpdatePDF(PdfFileUpdateDto pdfFileUpdateDto)
-        {
-            _pdfFileManager.Update(pdfFileUpdateDto);
-            return Ok();
-        }
+
 
         [HttpDelete("{id:int}")]
-        // Instructor only can be delete PdfFile
-        public ActionResult DeletePDF(int id)
+        //Instructor only can delete Pdf
+        public async Task<ActionResult> RemovePdf(int id)
         {
-            _pdfFileManager.Delete(id);
-            return Ok();
+            var pdf = await _pdfFileManager.GetByIdAsync(id);
+            if (pdf != null)
+            {
+                var IsDeleted = await _pdfFileManager.DeleteAsync(id);
+                if (IsDeleted)
+                {
+                    return Ok("Pdf Deleted Successfully");
+                }
+                return StatusCode(500, "An error occurred while deleting the Pdf.");
+
+            }
+            return NotFound();
+        }
+        [HttpPost]
+        //Instructor only can add Pdf
+        public async Task<ActionResult<PdfFileAddDto>> AddPdf(PdfFileAddDto pdfFileAddDto)
+        {
+            var pdf = _pdfFileManager.AddAsync(pdfFileAddDto);
+            if (pdf != null)
+            {
+                return Ok("Addition Succeeded");
+
+            }
+            return BadRequest("Failed To Add Pdf");
+
+        }
+        [HttpPut("{id:int}")]
+        //Insturctor only can update Pdf
+        public async Task<ActionResult> UpdatePdf(int id, PdfFileUpdateDto pdfFileUpdateDto)
+        {
+            if (id != pdfFileUpdateDto.Id)
+            {
+                return BadRequest("Id is not Identical");
+            }
+            var pdf = await _pdfFileManager.UpdateAsync(pdfFileUpdateDto);
+            return Ok("Pdf is Updaded");
+
         }
     }
 }

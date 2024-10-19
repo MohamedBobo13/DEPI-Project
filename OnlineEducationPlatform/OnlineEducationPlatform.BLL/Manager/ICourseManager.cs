@@ -14,6 +14,6 @@ namespace OnlineEducationPlatform.BLL.Manager
         Task<CourseReadDto> GetByIdAsync(int id);
         Task<CourseUpdateDto> UpdateAsync(CourseUpdateDto courseUpdateDto);
         Task<bool> DeleteAsync(int id);
-        //Task SaveChangesAsync();
+        
     }
 }

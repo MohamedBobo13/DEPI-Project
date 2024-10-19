@@ -18,42 +18,50 @@ namespace OnlineEducationPlatform.DAL.Repositories
             _context = context;
         }
 
-        public IEnumerable<PdfFile> GetAll()
+        public async Task AddAsync(PdfFile pdfFile)
         {
-            return _context.PdfFile.AsNoTracking().Where(P=>P.IsDeleted==false).ToList();
+            await _context.PdfFile.AddAsync(pdfFile);
+            SaveChangesAsync();
         }
 
-        public PdfFile GetById(int id)
+        public async Task<IEnumerable<PdfFile>> GetAllAsync()
         {
-            var PdfFile = _context.PdfFile.Find(id);
-            if (PdfFile != null)
+            var Pdfs = await _context.PdfFile.AsNoTracking().Where(p => p.IsDeleted == false).ToListAsync();
+            if (Pdfs != null)
             {
-                return PdfFile;
+                return Pdfs;
             }
             return null;
         }
-        public void Add(PdfFile pdfFile)
+
+        public async Task<PdfFile> GetByIdAsync(int id)
         {
-            _context.Add(pdfFile);
-            SaveChange();
+
+            return await _context.PdfFile.Where(p => p.IsDeleted == false)
+                .FirstOrDefaultAsync(p => p.Id == id);
         }
 
-        public void Delete(int id)
+        public async Task UpdateAsync(PdfFile pdfFile)
         {
-            var file= _context.PdfFile.Find(id);
-            if (file != null)
+            await SaveChangesAsync();
+
+        }
+
+        public async Task<bool> DeleteAsync(int id)
+        {
+            var pdfFile = await _context.PdfFile.FindAsync(id);
+            if (pdfFile != null)
             {
-                file.IsDeleted = true;
-                SaveChange();
+                pdfFile.IsDeleted = true;
+                await SaveChangesAsync();
+                return true;
             }
+            return false;
         }
-        public void Update(PdfFile pdfFile)
+
+        public async Task SaveChangesAsync()
         {
-            SaveChange();
-        }
-        public void SaveChange()
-        {
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
     }
 }

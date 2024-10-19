@@ -20,36 +20,63 @@ namespace OnlineEducationPlatform.BLL.Manager
             _lectureRepo = lectureRepo;
             _mapper = mapper;
         }
-        public void Add(LectureAddDto lectureAddDto)
+        public async Task AddAsync(LectureAddDto lectureAddDto)  
         {
-            _lectureRepo.Add(_mapper.Map<Lecture>(lectureAddDto));
-            SaveChanges();
+            var lecture = _mapper.Map<Lecture>(lectureAddDto);
+            await _lectureRepo.AddAsync(lecture);
+
         }
 
-        public void Delete(int id)
+
+        public async Task<bool> DeleteAsync(int id)
         {
-            _lectureRepo.Delete(id);
-            SaveChanges();
-        }
-        public IEnumerable<LectureReadDto> GetAll()
-        {
-            return _mapper.Map<List<LectureReadDto>>(_lectureRepo.GetAll());
+            var lecture = await _lectureRepo.GetByIdAsync(id);
+            if (lecture != null)
+            {
+                var result = await _lectureRepo.DeleteAsync(lecture.Id);
+                //SaveChangesAsync();
+                if (result == true)
+                {
+                    return true;
+                }
+                return false;
+            }
+            return false;
         }
 
-        public LectureReadDto GetById(int id)
+
+        public async Task<IEnumerable<LectureReadDto>> GetAllAsync()
         {
-            return _mapper.Map<LectureReadDto>(_lectureRepo.GetById(id));   
+            var lectures = await _lectureRepo.GetAllAsync();
+            return _mapper.Map<List<LectureReadDto>>(lectures);
         }
 
-        public void SaveChanges()
+
+
+        public async Task<LectureReadDto> GetByIdAsync(int id)
         {
-            _lectureRepo.SaveChange();
+            var lecture = await _lectureRepo.GetByIdAsync(id);
+            if (lecture != null)
+            {
+                return _mapper.Map<LectureReadDto>(lecture);
+            }
+            return null;
         }
 
-        public void Update(LectureUpdateDto lectureUpdateDto)
+
+        public async Task<LectureUpdateDto> UpdateAsync(LectureUpdateDto lectureUpdateDto)
         {
-            _mapper.Map<LectureUpdateDto, Lecture>(lectureUpdateDto, _lectureRepo.GetById(lectureUpdateDto.Id));
-            SaveChanges();
+            var lecture = await _lectureRepo.GetByIdAsync(lectureUpdateDto.Id);
+            if (lecture != null)
+            {
+                lecture.Id = lectureUpdateDto.Id;
+                lecture.Order = lectureUpdateDto.Order;
+                lecture.CourseId = lectureUpdateDto.CourseId;
+                lecture.Title = lectureUpdateDto.Title;
+
+                await _lectureRepo.UpdateAsync(lecture);
+            }
+            return null;
         }
     }
 }

@@ -20,37 +20,65 @@ namespace OnlineEducationPlatform.BLL.Manager
             _pdfFileRepo = pdfFileRepo;
             _mapper = mapper;
         }
-        public void Add(PdfFileAddDto pdfFileAddDto)
+        public async Task AddAsync(PdfFileAddDto pdfFileAddDto) /// Done 
         {
-            _pdfFileRepo.Add(_mapper.Map<PdfFile>(pdfFileAddDto));
-            SaveChanges();
+            var pdf = _mapper.Map<PdfFile>(pdfFileAddDto);
+            await _pdfFileRepo.AddAsync(pdf);
+
         }
 
-        public void Delete(int id)
+
+        public async Task<bool> DeleteAsync(int id)
         {
-            _pdfFileRepo.Delete(id);
-            SaveChanges();
-        }
-        public IEnumerable<PdfFileReadDto> GetAll()
-        {
-            return _mapper.Map<List<PdfFileReadDto>>(_pdfFileRepo.GetAll());
+            var pdf = await _pdfFileRepo.GetByIdAsync(id);
+            if (pdf != null)
+            {
+                var result = await _pdfFileRepo.DeleteAsync(pdf.Id);
+                //SaveChangesAsync();
+                if (result == true)
+                {
+                    return true;
+                }
+                return false;
+            }
+            return false;
         }
 
-        public PdfFileReadDto GetById(int id)
+
+        public async Task<IEnumerable<PdfFileReadDto>> GetAllAsync()
         {
-            return _mapper.Map<PdfFileReadDto>(_pdfFileRepo.GetById(id));
+            var pdfs = await _pdfFileRepo.GetAllAsync();
+            return _mapper.Map<List<PdfFileReadDto>>(pdfs);
         }
 
-        public void SaveChanges()
+
+
+        public async Task<PdfFileReadDto> GetByIdAsync(int id)
         {
-            _pdfFileRepo.SaveChange();
+            var pdf = await _pdfFileRepo.GetByIdAsync(id);
+            if (pdf != null)
+            {
+                return _mapper.Map<PdfFileReadDto>(pdf);
+            }
+            return null;
         }
 
-        public void Update(PdfFileUpdateDto pdfFileUpdateDto)
+
+        public async Task<PdfFileUpdateDto> UpdateAsync(PdfFileUpdateDto pdfFileUpdateDto)
         {
-            _mapper.Map<PdfFileUpdateDto, PdfFile>(pdfFileUpdateDto, _pdfFileRepo.GetById(pdfFileUpdateDto.Id));
-            SaveChanges();
+            var pdf = await _pdfFileRepo.GetByIdAsync(pdfFileUpdateDto.Id);
+            if (pdf != null)
+            {
+                pdf.Id = pdfFileUpdateDto.Id;
+                pdf.Url = pdfFileUpdateDto.Url;
+                pdf.LectureId = pdfFileUpdateDto.LectureId;
+                pdf.Title = pdfFileUpdateDto.Title;
+
+                await _pdfFileRepo.UpdateAsync(pdf);
+            }
+            return null;
         }
+
     }
 }
 

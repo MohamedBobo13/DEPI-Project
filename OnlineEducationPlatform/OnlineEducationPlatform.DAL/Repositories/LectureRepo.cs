@@ -18,42 +18,50 @@ namespace OnlineEducationPlatform.DAL.Repositories
             _context = context;
         }
 
-        public IEnumerable<Lecture> GetAll()
+        public async Task AddAsync(Lecture lecture)
         {
-            return _context.Lecture.AsNoTracking().Where(L=>L.IsDeleted==false).ToList();
+            await _context.Lecture.AddAsync(lecture);
+            SaveChangesAsync();
         }
 
-        public Lecture GetById(int id)
+        public async Task<IEnumerable<Lecture>> GetAllAsync()
         {
-            var lecModel = _context.Lecture.Find(id);
-            if (lecModel != null)
+            var lecture = await _context.Lecture.AsNoTracking().Where(l => l.IsDeleted == false).ToListAsync();
+            if (lecture != null)
             {
-                return lecModel;
+                return lecture;
             }
             return null;
         }
-        public void Add(Lecture lecture)
+
+        public async Task<Lecture> GetByIdAsync(int id)
         {
-            _context.Add(lecture);
-            SaveChange();
+
+            return await _context.Lecture.Where(l => l.IsDeleted == false)
+                .FirstOrDefaultAsync(l => l.Id == id);
         }
 
-        public void Delete(int id)
+        public async Task UpdateAsync(Lecture lecture)
         {
-            var lecModel = _context.Lecture.Find(id);
-            if (lecModel != null)
+            await SaveChangesAsync();
+
+        }
+
+        public async Task<bool> DeleteAsync(int id)
+        {
+            var lecture = await _context.Lecture.FindAsync(id);
+            if (lecture != null)
             {
-                lecModel.IsDeleted = true;
-                SaveChange();
+                lecture.IsDeleted = true;
+                await SaveChangesAsync();
+                return true;
             }
+            return false;
         }
-        public void Update(Lecture lecture)
+
+        public async Task SaveChangesAsync()
         {
-            SaveChange();
-        }
-        public void SaveChange()
-        {
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
     }
 }

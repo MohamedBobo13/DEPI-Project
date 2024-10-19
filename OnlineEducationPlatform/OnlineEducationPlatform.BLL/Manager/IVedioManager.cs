@@ -9,15 +9,11 @@ namespace OnlineEducationPlatform.BLL.Manager
 {
     public interface IVedioManager
     {
-        void Add(VedioAddDto vedioAddDto);
-        IEnumerable<VedioReadDto> GetAll();
+        Task AddAsync(VedioAddDto vedioAddDto);
+        Task<IEnumerable<VedioReadDto>> GetAllAsync();
+        Task<VedioReadDto> GetByIdAsync(int id);
+        Task<VedioUpdateDto> UpdateAsync(VedioUpdateDto vedioUpdateDto);
+        Task<bool> DeleteAsync(int id);
 
-        VedioReadDto GetById(int id);
-
-        void Update(VedioUpdateDto vedioUpdateDto);
-
-        void Delete(int id);
-
-        void SaveChanges();
     }
 }
