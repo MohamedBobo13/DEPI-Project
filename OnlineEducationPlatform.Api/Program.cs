@@ -19,12 +19,6 @@ using OnlineEducationPlatform.BLL.Manager.Answermanager;
 using OnlineEducationPlatform.BLL.Manager.Answerresultmanager;
 using OnlineEducationPlatform.BLL.Manager.Questionmanager;
 using OnlineEducationPlatform.BLL.Manager;
-using OnlineEducationPlatform.BLL.Manager.CourseManager;
-using OnlineEducationPlatform.BLL.Manager.LectureManager;
-using OnlineEducationPlatform.BLL.Manager.VideoManager;
-using OnlineEducationPlatform.DAL.Repo.CourseRepo;
-using OnlineEducationPlatform.DAL.Repo.LectureRepo;
-using OnlineEducationPlatform.DAL.Repo.VideoRepo;
 using OnlineEducationPlatform.BLL.AutoMapper.LectureAutoMapper;
 using OnlineEducationPlatform.BLL.AutoMapper.CourseAutoMapper;
 using OnlineEducationPlatform.BLL.AutoMapper.VideoAutoMapper;
@@ -51,7 +45,7 @@ using OnlineEducationPlatform.BLL.Manager.ExamManager;
 
 namespace OnlineEducationPlatform.Api
 {
-    public class Program
+	public class Program
     {
         public static void Main(string[] args)
         {

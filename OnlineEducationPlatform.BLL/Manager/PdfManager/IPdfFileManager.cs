@@ -9,16 +9,11 @@ namespace OnlineEducationPlatform.BLL.Manager
 {
     public interface IPdfFileManager
     {
-        void Add(PdfFileAddDto pdfFileAddDto);
-        IEnumerable<PdfFileReadDto> GetAll();
-
-        PdfFileReadDto GetById(int id);
-
-        void Update(PdfFileUpdateDto pdfFileUpdateDto);
-
-        void Delete(int id);
-
-        void SaveChanges();
+        Task AddAsync(PdfFileAddDto pdfFileAddDto);
+        Task<IEnumerable<PdfFileReadDto>> GetAllAsync();
+        Task<PdfFileReadDto> GetByIdAsync(int id);
+        Task<PdfFileUpdateDto> UpdateAsync(PdfFileUpdateDto pdfFileUpdateDto);
+        Task<bool> DeleteAsync(int id);
 
     }
 }

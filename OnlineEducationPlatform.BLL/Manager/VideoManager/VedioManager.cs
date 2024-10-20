@@ -1,16 +1,17 @@
 ﻿using AutoMapper;
 using OnlineEducationPlatform.BLL.Dto.VideoDto;
+using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
-using OnlineEducationPlatform.DAL.Repo.VideoRepo;
+using OnlineEducationPlatform.DAL.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.Manager.VideoManager
+namespace OnlineEducationPlatform.BLL.Manager
 {
-    public class VedioManager : IVedioManager
+    public class VedioManager:IVedioManager
     {
         private readonly IVedioRepo _vedioRepo;
         private readonly IMapper _mapper;
@@ -20,36 +21,63 @@ namespace OnlineEducationPlatform.BLL.Manager.VideoManager
             _vedioRepo = vedioRepo;
             _mapper = mapper;
         }
-        public void Add(VedioAddDto vedioAddDto)
+        public async Task AddAsync(VedioAddDto vedioAddDto) /// Done 
         {
-            _vedioRepo.Add(_mapper.Map<Video>(vedioAddDto));
-            SaveChanges();
+            var video = _mapper.Map<Video>(vedioAddDto);
+            await _vedioRepo.AddAsync(video);
+
         }
 
-        public void Delete(int id)
+
+        public async Task<bool> DeleteAsync(int id)
         {
-            _vedioRepo.Delete(id);
-            SaveChanges();
-        }
-        public IEnumerable<VedioReadDto> GetAll()
-        {
-            return _mapper.Map<List<VedioReadDto>>(_vedioRepo.GetAll());
+            var video = await _vedioRepo.GetByIdAsync(id);
+            if (video != null)
+            {
+                var result = await _vedioRepo.DeleteAsync(video.Id);
+                //SaveChangesAsync();
+                if (result == true)
+                {
+                    return true;
+                }
+                return false;
+            }
+            return false;
         }
 
-        public VedioReadDto GetById(int id)
+
+        public async Task<IEnumerable<VedioReadDto>> GetAllAsync()
         {
-            return _mapper.Map<VedioReadDto>(_vedioRepo.GetById(id));
+            var vedeos = await _vedioRepo.GetAllAsync();
+            return _mapper.Map<List<VedioReadDto>>(vedeos);
         }
 
-        public void SaveChanges()
+
+
+        public async Task<VedioReadDto> GetByIdAsync(int id)
         {
-            _vedioRepo.SaveChange();
+            var video = await _vedioRepo.GetByIdAsync(id);
+            if (video != null)
+            {
+                return _mapper.Map<VedioReadDto>(video);
+            }
+            return null;
         }
 
-        public void Update(VedioUpdateDto vedioUpdateDto)
+
+        public async Task<VedioUpdateDto> UpdateAsync(VedioUpdateDto vedioUpdateDto)
         {
-            _mapper.Map(vedioUpdateDto, _vedioRepo.GetById(vedioUpdateDto.Id));
-            SaveChanges();
+            var video = await _vedioRepo.GetByIdAsync(vedioUpdateDto.Id);
+            if (video != null)
+            {
+                video.Id = vedioUpdateDto.Id;
+                video.Url = vedioUpdateDto.Url;
+                video.LectureId = vedioUpdateDto.LectureId;
+                video.Title = vedioUpdateDto.Title;
+
+                await _vedioRepo.UpdateAsync(video);
+            }
+            return null;
         }
     }
 }

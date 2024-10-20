@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OnlineEducationPlatform.BLL.Dto.CourseDto;
-using OnlineEducationPlatform.BLL.Manager.CourseManager;
+using OnlineEducationPlatform.BLL.Dtos;
+using OnlineEducationPlatform.BLL.Manager;
 
 namespace OnlineEducationPlatform.Api.Controllers
 {
@@ -19,21 +20,20 @@ namespace OnlineEducationPlatform.Api.Controllers
         }
         [HttpGet]
         //Instructor and Student can get all Courses
-        public ActionResult GetAllCourses()
+        public async Task<IActionResult> GetAllCourses()
         {
-            var AllCourses = _courseManager.GetAll();
-            if (AllCourses != null)
+            var courses =await _courseManager.GetAllAsync();
+            if (courses != null)
             {
-                return Ok(AllCourses);
+                return Ok(courses);
             }
             return NotFound();
         }
-      
+
         [HttpGet("{id:int}")]
-        //Instructor and Student can get course
-        public ActionResult GetById(int id)
+        public async Task<ActionResult> GetCourse(int id)
         {
-            var course= _courseManager.GetById(id);
+            var course =await _courseManager.GetByIdAsync(id);
             if (course != null)
             {
                 return Ok(course);
@@ -41,26 +41,49 @@ namespace OnlineEducationPlatform.Api.Controllers
             return NotFound();
         }
 
+
+
         [HttpDelete("{id:int}")]
         //Instructor only can delete course
-        public ActionResult RemoveCourse(int id)
+        public async Task<ActionResult> RemoveCourse(int id)
         {
-            _courseManager.Delete(id);
-            return Ok();
+            var course = await _courseManager.GetByIdAsync(id);
+            if ( course != null )
+            {
+                var IsDeleted=await _courseManager.DeleteAsync(id);
+                if (IsDeleted)
+                {
+                    return Ok("Course Deleted Successfully");
+                }
+                return StatusCode(500, "An error occurred while deleting the course.");
+
+            }
+            return NotFound();
         }
         [HttpPost]
         //Instructor only can add course
-        public ActionResult AddCourse(CourseAddDto courseAddDto)
+        public async Task<ActionResult<CourseAddDto>> AddCourse(CourseAddDto courseAddDto)
         {
-            _courseManager.Add(courseAddDto);
-            return Created();
+            var course = _courseManager.AddAsync(courseAddDto);
+            if (course != null)
+            {
+                return Ok("Addition Succeeded");
+
+            }
+            return BadRequest("Failed To Add Course");
+
         }
-        [HttpPut]
+        [HttpPut("{id:int}")]
         //Insturctor only can update course
-        public ActionResult UpdateCourse(CourseUpdateDto courseUpdateDto)
+        public async Task<ActionResult> UpdateCourse(int id,CourseUpdateDto courseUpdateDto)
         {
-            _courseManager.Update(courseUpdateDto);
-            return Ok();
+            if (id != courseUpdateDto.Id)
+            {
+                return BadRequest("Id is not Identical");
+            }
+            var course=await _courseManager.UpdateAsync(courseUpdateDto);
+            return Ok("Course is Updaded");
+
         }
 
     }

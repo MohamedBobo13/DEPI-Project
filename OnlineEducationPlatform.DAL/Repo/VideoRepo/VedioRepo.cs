@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.DAL.Repo.VideoRepo
+namespace OnlineEducationPlatform.DAL.Repositories
 {
-    public class VedioRepo : IVedioRepo
+    public class VedioRepo:IVedioRepo
     {
         private readonly EducationPlatformContext _context;
 
@@ -18,42 +18,50 @@ namespace OnlineEducationPlatform.DAL.Repo.VideoRepo
             _context = context;
         }
 
-        public IEnumerable<Video> GetAll()
+        public async Task AddAsync(Video video)
         {
-            return _context.Video.AsNoTracking().Where(V => V.IsDeleted == false).ToList();
+            await _context.Video.AddAsync(video);
+            SaveChangesAsync();
         }
 
-        public Video GetById(int id)
+        public async Task<IEnumerable<Video>> GetAllAsync()
         {
-            var vedio = _context.Video.Find(id);
-            if (vedio != null)
+            var videos = await _context.Video.AsNoTracking().Where(v => v.IsDeleted == false).ToListAsync();
+            if (videos != null)
             {
-                return vedio;
+                return videos;
             }
             return null;
         }
-        public void Add(Video video)
+
+        public async Task<Video> GetByIdAsync(int id)
         {
-            _context.Add(video);
-            SaveChange();
+
+            return await _context.Video.Where(v => v.IsDeleted == false)
+                .FirstOrDefaultAsync(v => v.Id == id);
         }
 
-        public void Delete(int id)
+        public async Task UpdateAsync(Video video)
         {
-            var vedio = _context.Video.Find(id);
-            if (vedio != null)
+            await SaveChangesAsync();
+
+        }
+
+        public async Task<bool> DeleteAsync(int id)
+        {
+            var video = await _context.Video.FindAsync(id);
+            if (video != null)
             {
-                vedio.IsDeleted = true;
-                SaveChange();
+                video.IsDeleted = true;
+                await SaveChangesAsync();
+                return true;
             }
+            return false;
         }
-        public void Update(Video video)
+
+        public async Task SaveChangesAsync()
         {
-            SaveChange();
-        }
-        public void SaveChange()
-        {
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
     }
 }

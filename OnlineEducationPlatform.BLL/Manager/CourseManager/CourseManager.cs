@@ -1,56 +1,88 @@
 ﻿using AutoMapper;
 using OnlineEducationPlatform.BLL.Dto.CourseDto;
+using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
-using OnlineEducationPlatform.DAL.Repo.CourseRepo;
+using OnlineEducationPlatform.DAL.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.Manager.CourseManager
+namespace OnlineEducationPlatform.BLL.Manager
 {
     public class CourseManager : ICourseManager
     {
         private readonly ICourseRepo _courseRepo;
         private readonly IMapper _mapper;
 
-        public CourseManager(ICourseRepo courseRepo, IMapper mapper)
+        public CourseManager(ICourseRepo courseRepo,IMapper mapper)
         {
-            _courseRepo = courseRepo;
+           _courseRepo = courseRepo;
             _mapper = mapper;
         }
-        public void Add(CourseAddDto courseAddDto)
+        
+        public async Task AddAsync(CourseAddDto courseAddDto) /// Done 
         {
-            _courseRepo.Add(_mapper.Map<Course>(courseAddDto));
-            SaveChanges();
+            var course = _mapper.Map<Course>(courseAddDto);
+            await _courseRepo.AddAsync(course);
+           
         }
 
-        public void Delete(int id)
+
+        public async Task<bool> DeleteAsync(int id)
         {
-            _courseRepo.Delete(id);
-            SaveChanges();
+            var course =await _courseRepo.GetByIdAsync(id);
+            if (course != null)
+            {
+                var result= await _courseRepo.DeleteAsync(course.Id);
+                //SaveChangesAsync();
+                if (result == true)
+                {
+                    return true;
+                }
+                return false;
+            }
+            return false;
         }
 
-        public IEnumerable<CourseReadDto> GetAll()
+
+        public async Task<IEnumerable<CourseReadDto>> GetAllAsync()
         {
-            return _mapper.Map<List<CourseReadDto>>(_courseRepo.GetAll());
+            var courses =await _courseRepo.GetAllAsync();
+            return _mapper.Map<List<CourseReadDto>>(courses);
         }
 
-        public CourseReadDto GetById(int id)
+        
+
+        public async Task<CourseReadDto> GetByIdAsync(int id)
         {
-            return _mapper.Map<CourseReadDto>(_courseRepo.GetById(id));
+            var course=await _courseRepo.GetByIdAsync(id);
+            if (course != null )
+            {
+                return _mapper.Map<CourseReadDto>(course);
+            }
+            return null;
         }
 
-        public void SaveChanges()
+        
+        public async Task<CourseUpdateDto> UpdateAsync(CourseUpdateDto courseUpdateDto)
         {
-            _courseRepo.SaveChanges();
+            var course = await _courseRepo.GetByIdAsync(courseUpdateDto.Id);
+            if (course != null)
+            {
+                course.Id = courseUpdateDto.Id; 
+                course.TotalHours = courseUpdateDto.TotalHours;
+                course.CreatedDate = courseUpdateDto.CreatedDate;   
+                course.Description = courseUpdateDto.Description;
+                course.Title = courseUpdateDto.Title;
+                course.InstructorId = courseUpdateDto.InstructorId;
+
+                await _courseRepo.UpdateAsync(course);
+            }
+            return null;
         }
 
-        public void Update(CourseUpdateDto courseUpdateDto)
-        {
-            _mapper.Map(courseUpdateDto, _courseRepo.GetById(courseUpdateDto.Id));
-            SaveChanges();
-        }
+       
     }
 }

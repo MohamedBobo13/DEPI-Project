@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using OnlineEducationPlatform.BLL.Dto.LectureDto;
+using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.BLL.Manager;
 
 namespace OnlineEducationPlatform.Api.Controllers
@@ -17,21 +18,21 @@ namespace OnlineEducationPlatform.Api.Controllers
             _lectureManager = lectureManager;
         }
         [HttpGet]
-        // Instrutor and Student can get All Lecture
-        public ActionResult GetAllLectuers()
+        //Instructor and Student can get all Lectures
+        public async Task<IActionResult> GetAllLectures()
         {
-            var AllLectures=_lectureManager.GetAll();
-            if (AllLectures != null)
+            var lectures = await _lectureManager.GetAllAsync();
+            if (lectures != null)
             {
-                return Ok(AllLectures);
+                return Ok(lectures);
             }
             return NotFound();
         }
+
         [HttpGet("{id:int}")]
-        //Instructor and Student can get lecture
-        public ActionResult GetById(int id)
+        public async Task<ActionResult> GetLecture(int id)
         {
-            var lecture= _lectureManager.GetById(id);
+            var lecture = await _lectureManager.GetByIdAsync(id);
             if (lecture != null)
             {
                 return Ok(lecture);
@@ -39,26 +40,49 @@ namespace OnlineEducationPlatform.Api.Controllers
             return NotFound();
         }
 
+
+
         [HttpDelete("{id:int}")]
         //Instructor only can delete lecture
-        public ActionResult RemoveLecture(int id)
+        public async Task<ActionResult> RemoveLecture(int id)
         {
-            _lectureManager.Delete(id);
-            return Ok();    
+            var lecture = await _lectureManager.GetByIdAsync(id);
+            if (lecture != null)
+            {
+                var IsDeleted = await _lectureManager.DeleteAsync(id);
+                if (IsDeleted)
+                {
+                    return Ok("Lecture Deleted Successfully");
+                }
+                return StatusCode(500, "An error occurred while deleting the lecture.");
+
+            }
+            return NotFound();
         }
         [HttpPost]
-        //Instructor only can add lecture
-        public ActionResult AddLecture(LectureAddDto lectureAddDto)
+        //Instructor only can add Lecture
+        public async Task<ActionResult<LectureAddDto>> AddLecture(LectureAddDto lectureAddDto)
         {
-            _lectureManager.Add(lectureAddDto);
-            return Created();
+            var lecture = _lectureManager.AddAsync(lectureAddDto);
+            if (lecture != null)
+            {
+                return Ok("Addition Succeeded");
+
+            }
+            return BadRequest("Failed To Add Lecture");
+
         }
-        [HttpPut]
-        //Instructor only can update lecture
-        public ActionResult UpdateLecture(LectureUpdateDto lectureUpdateDto)
+        [HttpPut("{id:int}")]
+        //Insturctor only can update Lecture
+        public async Task<ActionResult> UpdateLecture(int id, LectureUpdateDto lectureUpdateDto)
         {
-            _lectureManager.Update(lectureUpdateDto);
-            return Ok();
+            if (id != lectureUpdateDto.Id)
+            {
+                return BadRequest("Id is not Identical");
+            }
+            var course = await _lectureManager.UpdateAsync(lectureUpdateDto);
+            return Ok("Lecture is Updaded");
+
         }
     }
 }
