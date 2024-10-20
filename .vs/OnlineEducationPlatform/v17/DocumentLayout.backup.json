@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|c:\\users\\nour_\\source\\repos\\depi-project\\onlineeducationplatform.bll\\mapper\\exammappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\mapper\\exammappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|c:\\users\\nour_\\source\\repos\\depi-project\\onlineeducationplatform.bll\\mapper\\quizmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2A29767-C717-4D52-A498-3D1AD7CF5143}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\mapper\\quizmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,53 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExamMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform.BLL\\Mapper\\ExamMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Mapper\\ExamMappingProfile.cs",
+              "ToolTip": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform.BLL\\Mapper\\ExamMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Mapper\\ExamMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:36:47.232Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "2ce05802-3142-4f1c-9a15-2ef0e8effe04",
+        "Display": 0,
+        "X": 600,
+        "Y": -49,
+        "Width": 939,
+        "Height": 724,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuizMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform.BLL\\Mapper\\QuizMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Mapper\\QuizMappingProfile.cs",
+              "ToolTip": "C:\\Users\\nour_\\source\\repos\\DEPI-Project\\OnlineEducationPlatform.BLL\\Mapper\\QuizMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Mapper\\QuizMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T12:36:46.439Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -16,7 +16,6 @@ namespace OnlineEducationPlatform.BLL.Mapper
              CreateMap<Exam, ExamAddDto>().ReverseMap();
              CreateMap<Exam, ExamReadDto>().ReverseMap();
              CreateMap<Exam, ExamUpdateDto>().ReverseMap();
-             
         }
     }
 }
