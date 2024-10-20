@@ -9,11 +9,11 @@ namespace OnlineEducationPlatform.DAL.Repositories
 {
     public interface IPdfFileRepo
     {
-        IEnumerable<PdfFile> GetAll();
-        PdfFile GetById(int id);
-        void Delete(int id);
-        void Update(PdfFile pdfFile);
-        void Add(PdfFile pdfFile);
-        void SaveChange();
+        Task AddAsync(PdfFile pdfFile);
+        Task<IEnumerable<PdfFile>> GetAllAsync();
+        Task<PdfFile> GetByIdAsync(int id);
+        Task UpdateAsync(PdfFile pdfFile);
+        Task<bool> DeleteAsync(int id);
+        Task SaveChangesAsync();
     }
 }

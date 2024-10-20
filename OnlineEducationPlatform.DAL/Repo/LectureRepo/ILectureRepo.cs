@@ -5,16 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.DAL.Repo.LectureRepo
+namespace OnlineEducationPlatform.DAL.Repositories
 {
     public interface ILectureRepo
     {
-        IEnumerable<Lecture> GetAll();
-        Lecture GetById(int id);
-        //Lecture GetByCourse(Course course);
-        void Delete(int id);
-        void Update(Lecture lecture);
-        void Add(Lecture lecture);
-        void SaveChange();
+        Task AddAsync(Lecture lecture);
+        Task<IEnumerable<Lecture>> GetAllAsync();
+        Task<Lecture> GetByIdAsync(int id);
+        Task UpdateAsync(Lecture lecture);
+        Task<bool> DeleteAsync(int id);
+        Task SaveChangesAsync();
     }
 }

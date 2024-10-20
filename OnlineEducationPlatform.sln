@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEducationPlatform", "OnlineEducationPlatform\OnlineEducationPlatform.csproj", "{112F55FA-9D7E-4B94-9991-01A14828BED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineEducationPlatform", "OnlineEducationPlatform\OnlineEducationPlatform.csproj", "{112F55FA-9D7E-4B94-9991-01A14828BED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEducationPlatform.DAL", "OnlineEducationPlatform.DAL\OnlineEducationPlatform.DAL.csproj", "{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineEducationPlatform.DAL", "OnlineEducationPlatform.DAL\OnlineEducationPlatform.DAL.csproj", "{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEducationPlatform.BLL", "OnlineEducationPlatform.BLL\OnlineEducationPlatform.BLL.csproj", "{0448BF17-8B59-4962-B255-6EF45F038433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineEducationPlatform.BLL", "OnlineEducationPlatform.BLL\OnlineEducationPlatform.BLL.csproj", "{0448BF17-8B59-4962-B255-6EF45F038433}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,16 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OnlineEducationPlatform.DAL.Data.DBHelper;
 using OnlineEducationPlatform.DAL.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.DAL.Repo.AnswerRepo
 {
-    public class AnswerRepo : IAnswerRepo
+	public class AnswerRepo : IAnswerRepo
     {
         private readonly EducationPlatformContext _context;
 
@@ -41,6 +35,24 @@ namespace OnlineEducationPlatform.DAL.Repo.AnswerRepo
             answer.IsDeleted = true;
             _context.Update(answer);
             await SaveChangeAsync();
+        }
+        public async Task<bool> IdExist(int answerId)
+        {
+            var answerIdExist = await _context.Answer.AnyAsync(a => a.Id == answerId);
+            if (answerIdExist)
+            {
+                return true;
+            }
+            return false;
+        }
+        public async Task<bool> QuestionIdExist(int questionId)
+        {
+            var questionExist = await _context.Question.AnyAsync(q=>q.Id == questionId);
+            if (questionExist)
+            {
+                return true;
+            }
+            return false;
         }
         public async Task SaveChangeAsync()
         {
