@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.Dto.QuizDto
+namespace OnlineEducationPlatform.BLL.ViewModels.QuizVm 
 {
     public class QuizUpdateVm
     {

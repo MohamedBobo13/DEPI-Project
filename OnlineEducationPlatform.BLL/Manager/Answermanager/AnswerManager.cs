@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+﻿/*using AutoMapper;
 using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.BLL.Manager.Questionmanager;
 using OnlineEducationPlatform.DAL.Data.Models;
@@ -13,7 +13,7 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
         private readonly IMapper _mapper;
         private readonly IQuestionManager _questionManager;
 
-        public AnswerManager(IAnswerRepo answerRepo, IMapper mapper,IQuestionManager questionManager)
+        public AnswerManager(IAnswerRepo answerRepo, IMapper mapper, IQuestionManager questionManager)
         {
             _answerRepo = answerRepo;
             _mapper = mapper;
@@ -31,9 +31,9 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
             }).ToList();
             return answers;
         }
-        public  AnswerReadVm GetById(int id)
+        public AnswerReadVm GetById(int id)
         {
-            var answer = _answerRepo.GetById(id, includeQuestion: true); 
+            var answer = _answerRepo.GetById(id, includeQuestion: true);
 
             if (answer == null)
                 return null;
@@ -43,29 +43,29 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
                 Id = answer.Id,
                 AnswerText = answer.AnswerText,
                 IsCorrect = answer.IsCorrect,
-                QuestionText = answer.Question.Content 
+                QuestionText = answer.Question.Content
             };
         }
-        public void  Add(AnswerAddVm answerAddVm)
+        public void Add(AnswerAddVm answerAddVm)
         {
-             _answerRepo.Add(_mapper.Map<Answer>(answerAddVm));
+            _answerRepo.Add(_mapper.Map<Answer>(answerAddVm));
         }
-        public void  Update(AnswerUpdateVm answerUpdateVM)
+        public void Update(AnswerUpdateVm answerUpdateVM)
         {
-            var existingAnswer =  _answerRepo.GetById(answerUpdateVM.Id);
+            var existingAnswer = _answerRepo.GetById(answerUpdateVM.Id);
             if (existingAnswer == null)
             {
                 return;
             }
             _answerRepo.Update(_mapper.Map(answerUpdateVM, existingAnswer));
         }
-        public void  Delete(int id)
+        public void Delete(int id)
         {
-            var AnswerModel =  _answerRepo.GetById(id);
+            var AnswerModel = _answerRepo.GetById(id);
             if (AnswerModel != null)
             {
-                 _answerRepo.Delete(AnswerModel);
+                _answerRepo.Delete(AnswerModel);
             }
         }
     }
-}
+}*/

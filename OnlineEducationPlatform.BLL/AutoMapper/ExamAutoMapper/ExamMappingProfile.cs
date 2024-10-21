@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using OnlineEducationPlatform.BLL.Dto.ExamDto;
-using OnlineEducationPlatform.BLL.Dto.QuizDto;
+using OnlineEducationPlatform.BLL.ViewModels.ExamReadVm;
+using OnlineEducationPlatform.BLL.ViewModels.ExamVm;
 using OnlineEducationPlatform.DAL.Data.Models;
 using System;
 using System.Collections.Generic;

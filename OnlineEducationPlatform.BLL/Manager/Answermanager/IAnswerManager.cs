@@ -1,4 +1,4 @@
-﻿using OnlineEducationPlatform.BLL.Dtos;
+﻿/*
 
 namespace OnlineEducationPlatform.BLL.Manager.Answermanager
 {
@@ -15,4 +15,4 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
         void Delete(int id);
 
     }
-}
+}*/

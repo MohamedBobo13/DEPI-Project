@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿/*using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using OnlineEducationPlatform.BLL.Manager.Answermanager;
@@ -12,7 +12,7 @@ namespace OnlineEducationPlatform.Controllers
         private readonly IAnswerManager _answerManager;
         private readonly IQuestionManager _questionManager;
 
-        public AnswerController(IAnswerManager answerManager,IQuestionManager questionManager)
+        public AnswerController(IAnswerManager answerManager, IQuestionManager questionManager)
         {
             _answerManager = answerManager;
             _questionManager = questionManager;
@@ -20,15 +20,15 @@ namespace OnlineEducationPlatform.Controllers
         public IActionResult Index()
         {
             var answer = _answerManager.GetAll();
-             return View(answer);
+            return View(answer);
         }
         public IActionResult Details(int id)
         {
-            var answer = _answerManager.GetById(id); 
+            var answer = _answerManager.GetById(id);
 
             if (answer == null)
             {
-                return NotFound(); 
+                return NotFound();
             }
 
             var viewModel = new AnswerDetailsVm
@@ -36,7 +36,7 @@ namespace OnlineEducationPlatform.Controllers
                 Id = answer.Id,
                 AnswerText = answer.AnswerText,
                 IsCorrect = answer.IsCorrect,
-                QuestionText = answer.QuestionText 
+                QuestionText = answer.QuestionText
             };
 
             return View(viewModel);
@@ -107,6 +107,7 @@ namespace OnlineEducationPlatform.Controllers
 
             return RedirectToAction("Index");
         }
-        
+
     }
 }
+*/

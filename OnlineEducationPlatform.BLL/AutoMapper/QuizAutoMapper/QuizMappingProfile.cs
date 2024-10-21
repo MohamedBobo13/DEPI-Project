@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
-using OnlineEducationPlatform.BLL.Dto.QuizDto;
+using OnlineEducationPlatform.BLL.QuizVm;
+using OnlineEducationPlatform.BLL.ViewModels.QuizVm;
 using OnlineEducationPlatform.DAL.Data.Models;
 using System;
 using System.Collections.Generic;

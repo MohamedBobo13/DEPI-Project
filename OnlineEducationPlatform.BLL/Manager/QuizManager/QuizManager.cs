@@ -1,13 +1,9 @@
 ﻿using AutoMapper;
-using OnlineEducationPlatform.BLL.Dto.ExamDto;
-using OnlineEducationPlatform.BLL.Dto.QuizDto;
+using OnlineEducationPlatform.BLL.QuizVm;
+using OnlineEducationPlatform.BLL.ViewModels.QuizVm;
 using OnlineEducationPlatform.DAL.Data.Models;
 using OnlineEducationPlatform.DAL.Repo.QuizRepo;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Manager.QuizManager
 {

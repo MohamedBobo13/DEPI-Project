@@ -1,5 +1,5 @@
-﻿using OnlineEducationPlatform.BLL.Dto.ExamDto;
-using OnlineEducationPlatform.BLL.Dto.QuizDto;
+﻿using OnlineEducationPlatform.BLL.ViewModels.ExamReadVm;
+using OnlineEducationPlatform.BLL.ViewModels.ExamVm;
 using System;
 using System.Collections.Generic;
 using System.Linq;

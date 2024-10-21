@@ -1,9 +1,5 @@
-﻿using OnlineEducationPlatform.BLL.Dto.QuizDto;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OnlineEducationPlatform.BLL.QuizVm;
+using OnlineEducationPlatform.BLL.ViewModels.QuizVm;
 
 namespace OnlineEducationPlatform.BLL.Manager.QuizManager
 {

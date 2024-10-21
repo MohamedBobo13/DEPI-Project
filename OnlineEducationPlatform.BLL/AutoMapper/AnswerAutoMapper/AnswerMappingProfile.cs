@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+﻿/*using AutoMapper;
 using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
 using System;
@@ -19,3 +19,4 @@ namespace OnlineEducationPlatform.BLL.AutoMapper.AnswerAutoMapper
         }
     }
 }
+*/

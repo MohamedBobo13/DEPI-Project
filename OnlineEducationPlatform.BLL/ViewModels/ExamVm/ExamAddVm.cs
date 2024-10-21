@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.Dto.ExamDto
+namespace OnlineEducationPlatform.BLL.ViewModels.ExamReadVm
 {
     public class ExamAddVm
     {

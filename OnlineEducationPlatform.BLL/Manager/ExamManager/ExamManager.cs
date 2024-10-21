@@ -1,10 +1,8 @@
 ﻿using AutoMapper;
-using Azure;
-using OnlineEducationPlatform.BLL.Dto.EnrollmentDto;
-using OnlineEducationPlatform.BLL.Dto.ExamDto;
-using OnlineEducationPlatform.BLL.Dto.QuizDto;
+using OnlineEducationPlatform.BLL.ViewModels.ExamReadVm;
+using OnlineEducationPlatform.BLL.ViewModels.ExamVm;
 using OnlineEducationPlatform.DAL.Data.Models;
-using OnlineEducationPlatform.DAL.Repo.Iexamrepo;
+using OnlineEducationPlatform.DAL.Repo.ExamRepo;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +11,12 @@ using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Manager.ExamManager
 {
-    public class ExamManager:IExamManager
+    public class ExamManager : IExamManager
     {
-        private readonly Iexamrepo _examrepo;
+        private readonly IExamRepo _examrepo;
         private readonly IMapper _mapper;
 
-        public ExamManager(Iexamrepo examrepo,IMapper mapper)
+        public ExamManager(IExamRepo examrepo,IMapper mapper)
         {
             _examrepo = examrepo;
             _mapper = mapper;

@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -22,3 +22,4 @@ namespace OnlineEducationPlatform.BLL.Dtos
         public int QuestionId { get; set; }
     }
 }
+*/
