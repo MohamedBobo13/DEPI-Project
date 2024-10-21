@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj": {}
+    "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj": {}
   },
   "projects": {
-    "D:\\Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
+    "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
         "projectName": "OnlineEducationPlatform.BLL",
-        "projectPath": "D:\\Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
-        "packagesPath": "C:\\Users\\Everest\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\OnlineEducationPlatform.BLL\\obj\\",
+        "projectPath": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+        "packagesPath": "C:\\Users\\nour_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Everest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nour_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
-                "projectPath": "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj"
+              "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
+                "projectPath": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj"
               }
             }
           }
@@ -71,21 +71,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
+    "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
         "projectName": "OnlineEducationPlatform.DAL",
-        "projectPath": "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
-        "packagesPath": "C:\\Users\\Everest\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\OnlineEducationPlatform.DAL\\obj\\",
+        "projectPath": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+        "packagesPath": "C:\\Users\\nour_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Everest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nour_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,21 +152,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj": {
+    "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
+        "projectUniqueName": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
         "projectName": "OnlineEducationPlatform",
-        "projectPath": "D:\\Project\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
-        "packagesPath": "C:\\Users\\Everest\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\OnlineEducationPlatform\\obj\\",
+        "projectPath": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
+        "packagesPath": "C:\\Users\\nour_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Everest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nour_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -181,8 +181,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
-                "projectPath": "D:\\Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj"
+              "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
+                "projectPath": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj"
               }
             }
           }
@@ -236,7 +236,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

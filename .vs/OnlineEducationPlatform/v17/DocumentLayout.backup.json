@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "D:\\Project\\",
   "Documents": [
     {
@@ -95,6 +96,10 @@
       "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\questionvm\\questionreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\nour_\\source\\repos\\MVC\\",
+  "Documents": [],
+>>>>>>> Stashed changes
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -102,6 +107,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -114,9 +120,9 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Answer\\Index.cshtml",
-              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Index.cshtml*",
-              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Index.cshtml*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBEAAAAXAAAAAAAAAA==",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Index.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-21T14:14:40.923Z",
               "EditorCaption": ""
@@ -400,6 +406,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T09:02:59.793Z"
+=======
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+>>>>>>> Stashed changes
             }
           ]
         }
