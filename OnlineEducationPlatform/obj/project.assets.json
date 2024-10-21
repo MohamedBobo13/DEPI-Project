@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.35.0": {
         "type": "package",
         "dependencies": {
@@ -1570,6 +1586,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "OnlineEducationPlatform.DAL": "1.0.0"
         },
         "compile": {
@@ -1597,6 +1614,21 @@
     }
   },
   "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
     "Azure.Core/1.35.0": {
       "sha512": "hENcx03Jyuqv05F4RBEPbxz29UrM3Nbhnr6Wl6NQpoU9BCIbL3XLentrxDCTrH54NLS11Exxi/o8MYgT/cnKFA==",
       "type": "package",
@@ -4213,19 +4245,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Everest\\.nuget\\packages\\": {}
+    "C:\\Users\\G5\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Project\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
       "projectName": "OnlineEducationPlatform",
       "projectPath": "D:\\Project\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
       "packagesPath": "C:\\Users\\Everest\\.nuget\\packages\\",
       "outputPath": "D:\\Project\\OnlineEducationPlatform\\obj\\",
+=======
+      "projectUniqueName": "D:\\bobo mvc\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
+      "projectName": "OnlineEducationPlatform",
+      "projectPath": "D:\\bobo mvc\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
+      "packagesPath": "C:\\Users\\G5\\.nuget\\packages\\",
+      "outputPath": "D:\\bobo mvc\\OnlineEducationPlatform\\obj\\",
+>>>>>>> 9849a2abf7b9edc47d32bf324d27710359a9751b
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Everest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\G5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4240,8 +4285,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
               "projectPath": "D:\\Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj"
+=======
+            "D:\\bobo mvc\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
+              "projectPath": "D:\\bobo mvc\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj"
+>>>>>>> 9849a2abf7b9edc47d32bf324d27710359a9751b
             }
           }
         }
@@ -4291,7 +4341,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

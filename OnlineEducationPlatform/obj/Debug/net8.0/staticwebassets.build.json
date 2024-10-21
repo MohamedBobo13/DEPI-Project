@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UU6Gb4oPKAglakzobxBbv4VINGOkL6P9zrVAuMB4JfE=",
+  "Hash": "/HNGJzosrSm8s4LDUM8KtXGCLyAPRa8GGdRZ4i94ODE=",
   "Source": "OnlineEducationPlatform",
   "BasePath": "_content/OnlineEducationPlatform",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "OnlineEducationPlatform\\wwwroot",
       "Source": "OnlineEducationPlatform",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineEducationPlatform.styles.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineEducationPlatform.styles.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "OnlineEducationPlatform.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineEducationPlatform.styles.css"
+      "OriginalItemSpec": "D:\\bobo mvc\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OnlineEducationPlatform.styles.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineEducationPlatform.bundle.scp.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineEducationPlatform.bundle.scp.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "OnlineEducationPlatform.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineEducationPlatform.bundle.scp.css"
+      "OriginalItemSpec": "D:\\bobo mvc\\OnlineEducationPlatform\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineEducationPlatform.bundle.scp.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\css\\site.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\css\\site.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\favicon.ico",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\favicon.ico",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\js\\site.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\js\\site.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "OnlineEducationPlatform",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\wwwroot\\",
+      "ContentRoot": "D:\\bobo mvc\\OnlineEducationPlatform\\wwwroot\\",
       "BasePath": "_content/OnlineEducationPlatform",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

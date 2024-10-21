@@ -1,15 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OnlineEducationPlatform.DAL.Data.DBHelper;
 using OnlineEducationPlatform.DAL.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.DAL.Repo.AnswerResultRepo
 {
-    public class AnswerResultRepo : IAnswerResultRepo
+	public class AnswerResultRepo : IAnswerResultRepo
     {
         private readonly EducationPlatformContext _context;
 

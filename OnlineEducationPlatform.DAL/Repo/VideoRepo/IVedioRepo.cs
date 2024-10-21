@@ -5,15 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.DAL.Repo.VideoRepo
+namespace OnlineEducationPlatform.DAL.Repositories
 {
     public interface IVedioRepo
     {
-        IEnumerable<Video> GetAll();
-        Video GetById(int id);
-        void Delete(int id);
-        void Update(Video video);
-        void Add(Video video);
-        void SaveChange();
+        Task AddAsync(Video video);
+        Task<IEnumerable<Video>> GetAllAsync();
+        Task<Video> GetByIdAsync(int id);
+        Task UpdateAsync(Video video);
+        Task<bool> DeleteAsync(int id);
+        Task SaveChangesAsync();
     }
 }
