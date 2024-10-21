@@ -9,18 +9,18 @@ namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
 {
     public interface IQuestionRepo
     {
-        Task<IEnumerable<Question>> GetAllAsync();
-        Task<IEnumerable<Question>> GetCourseExamAsync(int courseId);
-        Task<IEnumerable<Question>> GetCourseQuizAsync(int courseId);
-        Task<Question> GetByIdAsync(int id);
-        Task DeleteAsync(Question question);
-        Task UpdateAsync(Question question);
-        Task AddAsync(Question question);
-        Task<bool> IdForExam(int questionId);
-        Task<bool> IdForQuiz(int questionId);
-        Task<bool> CourseIdExist(int courseId);
-        Task<bool> QuizIdExist(int quizId);
-        Task<bool> ExamIdExist(int examId);
-        Task SaveChangeAsync();
+        IQueryable<Question> GetAll();
+        IQueryable<Question> GetCourseExam(int courseId);
+        IQueryable<Question> GetCourseQuiz(int courseId);
+        Question GetById(int id);
+        void Delete(Question question);
+        void Update(Question question);
+        void Add(Question question);
+        //Task<bool> IdForExam(int questionId);
+        //Task<bool> IdForQuiz(int questionId);
+        //Task<bool> CourseIdExist(int courseId);
+        //Task<bool> QuizIdExist(int quizId);
+        //Task<bool> ExamIdExist(int examId);
+        void SaveChange();
     }
 }

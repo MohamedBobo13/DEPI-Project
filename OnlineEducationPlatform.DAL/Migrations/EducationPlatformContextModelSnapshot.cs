@@ -180,7 +180,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("QuestionId");
 
-                    b.ToTable("Answer");
+                    b.ToTable("Answer", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.AnswerResult", b =>
@@ -219,7 +219,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("StudentId");
 
-                    b.ToTable("AnswerResult");
+                    b.ToTable("AnswerResult", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.ApplicationUser", b =>
@@ -338,7 +338,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("InstructorId");
 
-                    b.ToTable("Course");
+                    b.ToTable("Course", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Enrollment", b =>
@@ -372,7 +372,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("StudentId", "CourseId")
                         .IsUnique();
 
-                    b.ToTable("Enrollment");
+                    b.ToTable("Enrollment", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Exam", b =>
@@ -409,7 +409,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("Exam");
+                    b.ToTable("Exam", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.ExamResult", b =>
@@ -446,7 +446,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("StudentId", "ExamId")
                         .IsUnique();
 
-                    b.ToTable("ExamResult");
+                    b.ToTable("ExamResult", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Lecture", b =>
@@ -474,7 +474,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("Lecture");
+                    b.ToTable("Lecture", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.PdfFile", b =>
@@ -503,7 +503,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("LectureId");
 
-                    b.ToTable("PdfFile");
+                    b.ToTable("PdfFile", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Question", b =>
@@ -544,7 +544,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("QuizId");
 
-                    b.ToTable("Question");
+                    b.ToTable("Question", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Quiz", b =>
@@ -580,7 +580,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("LectureId");
 
-                    b.ToTable("Quiz");
+                    b.ToTable("Quiz", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.QuizResult", b =>
@@ -614,7 +614,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("StudentId", "QuizId")
                         .IsUnique();
 
-                    b.ToTable("QuizResult");
+                    b.ToTable("QuizResult", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Video", b =>
@@ -643,7 +643,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
 
                     b.HasIndex("LectureId");
 
-                    b.ToTable("Video");
+                    b.ToTable("Video", (string)null);
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Instructor", b =>

@@ -13,4 +13,5 @@ namespace OnlineEducationPlatform.BLL.Dtos
         public bool IsCorrect { get; set; }
         public int QuestionId { get; set; }
     }
+
 }

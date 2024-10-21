@@ -10,13 +10,13 @@ namespace OnlineEducationPlatform.DAL.Repo.AnswerRepo
 {
     public interface IAnswerRepo
     {
-        Task<IEnumerable<Answer>> GetAllAsync();
-        Task<Answer> GetByIdAsnyc(int id);
-        Task DeleteAsync(Answer answer);
-        Task UpdateAsync(Answer answer);
-        Task AddAsync(Answer answer);
-        Task<bool> IdExist(int answerId);
-        Task<bool> QuestionIdExist(int questionId);
-        Task SaveChangeAsync();
+        IQueryable<Answer> GetAll();
+        Answer GetById(int id, bool includeQuestion = false);
+        void Delete(Answer answer);
+        void Update(Answer answer);
+        void Add(Answer answer);
+        //Task<bool> IdExist(int answerId);
+        //Task<bool> QuestionIdExist(int questionId);
+        void SaveChange();
     }
 }

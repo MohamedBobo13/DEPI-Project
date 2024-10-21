@@ -4,18 +4,18 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
 {
     public interface IAnswerManager
     {
-        Task<IEnumerable<AnswerReadVm>> GetAllAsync();
+        List<AnswerReadVm> GetAll();
 
-        Task<AnswerReadVm> GetByIdAsync(int id);
+        AnswerReadVm GetById(int id);
 
-        Task AddAsync(AnswerAddVm answerAddVm);
+        void Add(AnswerAddVm answerAddVm);
 
-        Task UpdateAsync(AnswerUpdateVm answerUpdateVm);
+        void Update(AnswerUpdateVm answerUpdateVm);
 
-        Task DeleteAsync(int id);
+        void Delete(int id);
 
-        Task<bool> IdExist(int answerId);
+        //Task<bool> IdExist(int answerId);
 
-        Task<bool> QuestionIdExist(int questionId);
+        //Task<bool> QuestionIdExist(int questionId);
     }
 }

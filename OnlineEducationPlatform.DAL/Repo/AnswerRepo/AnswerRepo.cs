@@ -4,7 +4,7 @@ using OnlineEducationPlatform.DAL.Data.Models;
 
 namespace OnlineEducationPlatform.DAL.Repo.AnswerRepo
 {
-	public class AnswerRepo : IAnswerRepo
+    public class AnswerRepo : IAnswerRepo
     {
         private readonly EducationPlatformContext _context;
 
@@ -12,51 +12,60 @@ namespace OnlineEducationPlatform.DAL.Repo.AnswerRepo
         {
             _context = context;
         }
-        public async Task<IEnumerable<Answer>> GetAllAsync()
+        public  IQueryable<Answer> GetAll()
         {
-            return await _context.Answer.AsNoTracking().ToListAsync();
+            return  _context.Answer.AsNoTracking();
         }
-        public async Task<Answer> GetByIdAsnyc(int id)
+        public  Answer GetById(int id, bool includeQuestion = false)
         {
-            return await _context.Answer.FirstOrDefaultAsync(a => a.Id == id);
+            if (includeQuestion)
+            {
+                return _context.Answer
+                    .Include(a => a.Question) 
+                    .FirstOrDefault(a => a.Id == id);
+            }
+            else
+            {
+                return _context.Answer.Find(id);
+            }
         }
-        public async Task AddAsync(Answer answer)
+        public void  Add(Answer answer)
         {
-            await _context.AddAsync(answer);
-            await SaveChangeAsync();
+             _context.Add(answer);
+             _context.SaveChanges();
         }
-        public async Task UpdateAsync(Answer answer)
+        public void Update(Answer answer)
         {
             _context.Update(answer);
-            await SaveChangeAsync();
+            _context.SaveChanges();
         }
-        public async Task DeleteAsync(Answer answer)
+        public void  Delete(Answer answer)
         {
             answer.IsDeleted = true;
             _context.Update(answer);
-            await SaveChangeAsync();
+            _context.SaveChanges();
         }
-        public async Task<bool> IdExist(int answerId)
+        //public async Task<bool> IdExist(int answerId)
+        //{
+        //    var answerIdExist = await _context.Answer.AnyAsync(a => a.Id == answerId);
+        //    if (answerIdExist)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
+        //public async Task<bool> QuestionIdExist(int questionId)
+        //{
+        //    var questionExist = await _context.Question.AnyAsync(q=>q.Id == questionId);
+        //    if (questionExist)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
+        public void SaveChange()
         {
-            var answerIdExist = await _context.Answer.AnyAsync(a => a.Id == answerId);
-            if (answerIdExist)
-            {
-                return true;
-            }
-            return false;
-        }
-        public async Task<bool> QuestionIdExist(int questionId)
-        {
-            var questionExist = await _context.Question.AnyAsync(q=>q.Id == questionId);
-            if (questionExist)
-            {
-                return true;
-            }
-            return false;
-        }
-        public async Task SaveChangeAsync()
-        {
-            await _context.SaveChangesAsync();
+             _context.SaveChanges();
         }
 
         

@@ -17,96 +17,96 @@ namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
         {
             _context = context;
         }
-        public async Task<IEnumerable<Question>> GetAllAsync()
+        public IQueryable<Question> GetAll()
         {
-            return await _context.Question.AsNoTracking().ToListAsync();
+            return  _context.Question.AsNoTracking();
         }
 
-        public async Task<IEnumerable<Question>> GetCourseExamAsync(int courseId)
+        public IQueryable<Question> GetCourseExam(int courseId)
         {
-            return await _context.Question.Where(q => q.QuizId == null && q.CourseId == courseId).ToListAsync();
+            return  _context.Question.Where(q => q.QuizId == null && q.CourseId == courseId);
             
         }
 
-        public async Task<IEnumerable<Question>> GetCourseQuizAsync(int courseId)
+        public IQueryable<Question> GetCourseQuiz(int courseId)
         {
-            return await _context.Question.Where(q => q.ExamId == null && q.CourseId == courseId).ToListAsync();
+            return  _context.Question.Where(q => q.ExamId == null && q.CourseId == courseId);
         }
 
-        public async Task<Question> GetByIdAsync(int id)
+        public Question GetById(int id)
         {
-            return await _context.Question.FirstOrDefaultAsync(a => a.Id == id);
+            return  _context.Question.FirstOrDefault(a => a.Id == id);
         }
-        public async Task AddAsync(Question question)
+        public void Add(Question question)
         {
-            await _context.AddAsync(question);
-            await SaveChangeAsync();
+             _context.Add(question);
+            SaveChange();
         }
-        public async Task UpdateAsync(Question question)
+        public void Update(Question question)
         {
             _context.Update(question);
-            await SaveChangeAsync();
+            SaveChange();
         }
-        public async Task DeleteAsync(Question question)
+        public void Delete(Question question)
         {
             question.IsDeleted = true;
             _context.Update(question);
-            await SaveChangeAsync();
+            SaveChange();
         }
 
-        public async Task<bool> IdForExam(int questionId)
-        {
-            bool idforExam = await _context.Question.Where(q=>q.QuizId == null).AnyAsync(q=>q.Id == questionId);
-            if(idforExam)
-            {
-                return true;
-            }
-            return false;
-        }
+        //public async Task<bool> IdForExam(int questionId)
+        //{
+        //    bool idforExam = await _context.Question.Where(q=>q.QuizId == null).AnyAsync(q=>q.Id == questionId);
+        //    if(idforExam)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
-        public async Task<bool> IdForQuiz(int questionId)
-        {
-            bool idforQuiz = await _context.Question.Where(q => q.ExamId == null).AnyAsync(q => q.Id == questionId);
-            if (idforQuiz)
-            {
-                return true;
-            }
-            return false;
-        }
+        //public async Task<bool> IdForQuiz(int questionId)
+        //{
+        //    bool idforQuiz = await _context.Question.Where(q => q.ExamId == null).AnyAsync(q => q.Id == questionId);
+        //    if (idforQuiz)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
-        public async Task<bool> QuizIdExist(int quizId)
-        {
-            var quizExist = await _context.Quiz.AnyAsync(q => q.Id == quizId);
-            if (quizExist)
-            {
-                return true;
-            }
-            return false;
-        }
+        //public async Task<bool> QuizIdExist(int quizId)
+        //{
+        //    var quizExist = await _context.Quiz.AnyAsync(q => q.Id == quizId);
+        //    if (quizExist)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
-        public async Task<bool> ExamIdExist(int examId)
-        {
-            var examExist = await _context.Exam.AnyAsync(e => e.Id == examId);
-            if (examExist)
-            {
-                return true;
-            }
-            return false;
-        }
+        //public async Task<bool> ExamIdExist(int examId)
+        //{
+        //    var examExist = await _context.Exam.AnyAsync(e => e.Id == examId);
+        //    if (examExist)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
-        public async Task<bool> CourseIdExist(int courseId)
-        {
-            var courseExist = await _context.Course.AnyAsync(c => c.Id == courseId);
-            if (courseExist)
-            {
-                return true;
-            }
-            return false;
-        }
+        //public async Task<bool> CourseIdExist(int courseId)
+        //{
+        //    var courseExist = await _context.Course.AnyAsync(c => c.Id == courseId);
+        //    if (courseExist)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
-        public async Task SaveChangeAsync()
+        public void SaveChange()
         {
-            await _context.SaveChangesAsync();
+             _context.SaveChanges();
         }
 
         

@@ -8,10 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OnlineEducationPlatform.BLL
-<<<<<<< HEAD
 build_property.ProjectDir = D:\Project\OnlineEducationPlatform.BLL\
-=======
-build_property.ProjectDir = D:\bobo mvc\OnlineEducationPlatform.BLL\
->>>>>>> 9849a2abf7b9edc47d32bf324d27710359a9751b
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

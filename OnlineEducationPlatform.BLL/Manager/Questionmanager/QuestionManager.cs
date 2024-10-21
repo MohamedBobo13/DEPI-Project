@@ -17,15 +17,19 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
             _questionRepo = questionRepo;
             _mapper = mapper;
         }
-        public async Task<IEnumerable<QuestionReadVm>> GetAllAsync()
+        public List<QuestionReadVm> GetAll()
         {
-            var questions = await _questionRepo.GetAllAsync();
-            return _mapper.Map<List<QuestionReadVm>>(questions);
+            var questions =  _questionRepo.GetAll().Select(a=>new QuestionReadVm
+            {
+                Id = a.Id,
+                Content = a.Content,
+            }).ToList();
+            return questions;
         }
 
-        public async Task<IEnumerable<QuestionCourseExamReadVm>> GetCourseExamAsync(int courseId)
+        public List<QuestionCourseExamReadVm> GetCourseExam(int courseId)
         {
-            var questionsCourseExam = await _questionRepo.GetCourseExamAsync(courseId);
+            var questionsCourseExam =  _questionRepo.GetCourseExam(courseId);
             if (questionsCourseExam == null)
             {
                 return null;
@@ -33,9 +37,9 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
             return _mapper.Map<List<QuestionCourseExamReadVm>>(questionsCourseExam);
         }
 
-        public async Task<IEnumerable<QuestionCourseQuizReadVm>> GetCourseQuizAsync(int courseId)
+        public List<QuestionCourseQuizReadVm> GetCourseQuiz(int courseId)
         {
-            var questionsCourseQuiz = await _questionRepo.GetCourseQuizAsync(courseId);
+            var questionsCourseQuiz =  _questionRepo.GetCourseQuiz(courseId);
             if (questionsCourseQuiz == null)
             {
                 return null;
@@ -44,100 +48,102 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
         }
 
 
-        public async Task<QuestionReadVm> GetByIdAsync(int id)
+        public  QuestionReadVm GetById(int id)
         {
-            var question = await _questionRepo.GetByIdAsync(id);
+            var question =  _questionRepo.GetById(id);
 
             if (question == null)
                 return null;
 
             return _mapper.Map<QuestionReadVm>(question);
         }
-        public async Task AddExamAsync(QuestionExamAddVm questionExamAddDto)
+        public void AddExam(QuestionExamAddVm questionExamAddVm)
         {
-            await _questionRepo.AddAsync(_mapper.Map<Question>(questionExamAddDto));
+             _questionRepo.Add(_mapper.Map<Question>(questionExamAddVm));
         }
 
-        public async Task AddQuizAsync(QuestionQuizAddVm questionQuizAddDto)
+        public void AddQuiz(QuestionQuizAddVm questionQuizAddVm)
         {
-            await _questionRepo.AddAsync(_mapper.Map<Question>(questionQuizAddDto));
+             _questionRepo.Add(_mapper.Map<Question>(questionQuizAddVm));
         }
-        public async Task UpdateExamAsync(QuestionExamUpdateVm questionExamUpdateDto)
+        public void UpdateExam(QuestionExamUpdateVm questionExamUpdateVm)
         {
-            var existingQuestionExam = await _questionRepo.GetByIdAsync(questionExamUpdateDto.Id);
+            var existingQuestionExam =  _questionRepo.GetById(questionExamUpdateVm.Id);
             if (existingQuestionExam == null)
             {
                 return;
             }
-            _questionRepo.UpdateAsync(_mapper.Map(questionExamUpdateDto, existingQuestionExam));
+            _questionRepo.Update(_mapper.Map(questionExamUpdateVm, existingQuestionExam));
         }
 
-        public async Task UpdateQuizAsync(QuestionQuizUpdateVm questionQuizUpdateDto)
+        public void UpdateQuiz(QuestionQuizUpdateVm questionQuizUpdateVm)
         {
-            var existingQuestionQuiz = await _questionRepo.GetByIdAsync(questionQuizUpdateDto.Id);
+            var existingQuestionQuiz =  _questionRepo.GetById(questionQuizUpdateVm.Id);
             if (existingQuestionQuiz == null)
             {
                 return;
             }
-            _questionRepo.UpdateAsync(_mapper.Map(questionQuizUpdateDto, existingQuestionQuiz));
+            _questionRepo.Update(_mapper.Map(questionQuizUpdateVm, existingQuestionQuiz));
         }
-        public async Task DeleteAsync(int id)
+        public void Delete(int id)
         {
-            var questionModel = await _questionRepo.GetByIdAsync(id);
+            var questionModel =  _questionRepo.GetById(id);
             if (questionModel != null)
             {
-                await _questionRepo.DeleteAsync(questionModel);
+                 _questionRepo.Delete(questionModel);
             }
-        }
-        public async Task<bool> IdForExam(int questionId)
-        {
-            bool idForExam = await _questionRepo.IdForExam(questionId);
-            if (idForExam)
-            {
-                return true;
-            }
-            return false;
         }
 
-        public async Task<bool> IdForQuiz(int questionId)
-        {
+        
+        //public   Task<bool> IdForExam(int questionId)
+        //{
+        //    bool idForExam = await _questionRepo.IdForExam(questionId);
+        //    if (idForExam)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
-            bool idForQuiz = await _questionRepo.IdForQuiz(questionId);
-            if (idForQuiz)
-            {
-                return true;
-            }
-            return false;
-        }
+        //public   Task<bool> IdForQuiz(int questionId)
+        //{
 
-        public async Task<bool> QuizIdExist(int quizId)
-        {
-            bool quizExist = await _questionRepo.QuizIdExist(quizId);
-            if (quizExist)
-            {
-                return true;
-            }
-            return false;
-        }
+        //    bool idForQuiz = await _questionRepo.IdForQuiz(questionId);
+        //    if (idForQuiz)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
-        public async Task<bool> ExamIdExist(int examId)
-        {
-            bool examExist = await _questionRepo.ExamIdExist(examId);
-            if (examExist)
-            {
-                return true;
-            }
-            return false;
-        }
+        //public   Task<bool> QuizIdExist(int quizId)
+        //{
+        //    bool quizExist = await _questionRepo.QuizIdExist(quizId);
+        //    if (quizExist)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
-        public async Task<bool> CourseIdExist(int courseId)
-        {
-            bool courseExist = await _questionRepo.CourseIdExist(courseId);
-            if (courseExist)
-            {
-                return true;
-            }
-            return false;
-        }
+        //public   Task<bool> ExamIdExist(int examId)
+        //{
+        //    bool examExist = await _questionRepo.ExamIdExist(examId);
+        //    if (examExist)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
+
+        //public   Task<bool> CourseIdExist(int courseId)
+        //{
+        //    bool courseExist = await _questionRepo.CourseIdExist(courseId);
+        //    if (courseExist)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
     }
 }

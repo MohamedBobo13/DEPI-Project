@@ -1,7 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\controllers\\answercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\controllers\\answercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\answer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\answer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\project\\onlineeducationplatform.dal\\repo\\answerrepo\\answerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\answerrepo\\answerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\project\\onlineeducationplatform.bll\\viewmodels\\amswervm\\answerdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\amswervm\\answerdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\project\\onlineeducationplatform.bll\\manager\\answermanager\\answermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answermanager\\answermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\project\\onlineeducationplatform.dal\\repo\\answerrepo\\ianswerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\answerrepo\\ianswerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\answer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\answer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\project\\onlineeducationplatform.bll\\viewmodels\\amswervm\\answerreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\amswervm\\answerreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\project\\onlineeducationplatform.bll\\viewmodels\\questionvm\\questionreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\questionvm\\questionreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\project\\onlineeducationplatform.bll\\manager\\questionmanager\\iquestionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\questionmanager\\iquestionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +66,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowBsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T12:39:36.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T12:39:20.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Answer\\Delete.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Delete.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Delete.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T12:29:33.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T12:25:24.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAnswerRepo.cs",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\IAnswerRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\IAnswerRepo.cs",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\IAnswerRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\IAnswerRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:11:56.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnswerRepo.cs",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\AnswerRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\AnswerRepo.cs",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\AnswerRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\AnswerRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:09:17.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Details.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Answer\\Details.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Details.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T11:50:47.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnswerController.cs",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Controllers\\AnswerController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Controllers\\AnswerController.cs",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Controllers\\AnswerController.cs",
+              "RelativeToolTip": "OnlineEducationPlatform\\Controllers\\AnswerController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAqwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T08:11:57.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnswerDetailsVm.cs",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerDetailsVm.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerDetailsVm.cs",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerDetailsVm.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerDetailsVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:55:50.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Create.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Answer\\Create.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Create.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T11:39:20.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnswerManager.cs",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAApwCMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:18:38.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuestionReadVm.cs",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform.BLL\\ViewModels\\QuestionVm\\QuestionReadVm.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\ViewModels\\QuestionVm\\QuestionReadVm.cs",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform.BLL\\ViewModels\\QuestionVm\\QuestionReadVm.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\ViewModels\\QuestionVm\\QuestionReadVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:52:36.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AnswerReadVm.cs",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerReadVm.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerReadVm.cs",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerReadVm.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerReadVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:02:59.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IQuestionManager.cs",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Questionmanager\\IQuestionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T09:32:20.79Z"
             }
           ]
         }

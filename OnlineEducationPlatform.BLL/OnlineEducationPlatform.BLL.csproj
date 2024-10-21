@@ -7,13 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
-    <Compile Remove="ViewModels\**" />
-    <EmbeddedResource Remove="ViewModels\**" />
-    <None Remove="ViewModels\**" />
-=======
     <PackageReference Include="AutoMapper" Version="13.0.1" />
->>>>>>> 9849a2abf7b9edc47d32bf324d27710359a9751b
   </ItemGroup>
 
   <ItemGroup>

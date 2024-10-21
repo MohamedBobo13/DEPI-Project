@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {}
   },
   "projects": {
@@ -13,26 +12,9 @@
         "projectPath": "D:\\Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
         "packagesPath": "C:\\Users\\Everest\\.nuget\\packages\\",
         "outputPath": "D:\\Project\\OnlineEducationPlatform.BLL\\obj\\",
-=======
-    "D:\\bobo mvc\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {}
-  },
-  "projects": {
-    "D:\\bobo mvc\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\bobo mvc\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
-        "projectName": "OnlineEducationPlatform.BLL",
-        "projectPath": "D:\\bobo mvc\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
-        "packagesPath": "C:\\Users\\G5\\.nuget\\packages\\",
-        "outputPath": "D:\\bobo mvc\\OnlineEducationPlatform.BLL\\obj\\",
->>>>>>> 9849a2abf7b9edc47d32bf324d27710359a9751b
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\G5\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Everest\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,13 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
               "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
                 "projectPath": "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj"
-=======
-              "D:\\bobo mvc\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
-                "projectPath": "D:\\bobo mvc\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj"
->>>>>>> 9849a2abf7b9edc47d32bf324d27710359a9751b
               }
             }
           }
@@ -94,11 +71,10 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -107,23 +83,9 @@
         "projectPath": "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
         "packagesPath": "C:\\Users\\Everest\\.nuget\\packages\\",
         "outputPath": "D:\\Project\\OnlineEducationPlatform.DAL\\obj\\",
-=======
-    "D:\\bobo mvc\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\bobo mvc\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
-        "projectName": "OnlineEducationPlatform.DAL",
-        "projectPath": "D:\\bobo mvc\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
-        "packagesPath": "C:\\Users\\G5\\.nuget\\packages\\",
-        "outputPath": "D:\\bobo mvc\\OnlineEducationPlatform.DAL\\obj\\",
->>>>>>> 9849a2abf7b9edc47d32bf324d27710359a9751b
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\G5\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Everest\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -190,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

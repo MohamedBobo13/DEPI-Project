@@ -27,3 +27,18 @@ D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\refint\OnlineEducationP
 D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
 D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.genruntimeconfig.cache
 D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\ref\OnlineEducationPlatform.DAL.dll
+D:\Project\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.deps.json
+D:\Project\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.runtimeconfig.json
+D:\Project\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\Project\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\Project\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.csproj.AssemblyReference.cache
+D:\Project\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.AssemblyInfoInputs.cache
+D:\Project\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.AssemblyInfo.cs
+D:\Project\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.csproj.CoreCompileInputs.cache
+D:\Project\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.sourcelink.json
+D:\Project\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\Project\OnlineEducationPlatform.DAL\obj\Debug\net8.0\refint\OnlineEducationPlatform.DAL.dll
+D:\Project\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\Project\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.genruntimeconfig.cache
+D:\Project\OnlineEducationPlatform.DAL\obj\Debug\net8.0\ref\OnlineEducationPlatform.DAL.dll

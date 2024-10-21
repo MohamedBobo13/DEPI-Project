@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using OnlineEducationPlatform.BLL.Dtos;
+using OnlineEducationPlatform.BLL.Manager.Questionmanager;
 using OnlineEducationPlatform.DAL.Data.Models;
 using OnlineEducationPlatform.DAL.Repo.AnswerRepo;
 using OnlineEducationPlatform.DAL.Repositories;
@@ -10,68 +11,82 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
     {
         private readonly IAnswerRepo _answerRepo;
         private readonly IMapper _mapper;
+        private readonly IQuestionManager _questionManager;
 
-        public AnswerManager(IAnswerRepo answerRepo, IMapper mapper)
+        public AnswerManager(IAnswerRepo answerRepo, IMapper mapper,IQuestionManager questionManager)
         {
             _answerRepo = answerRepo;
             _mapper = mapper;
+            _questionManager = questionManager;
         }
 
-        public async Task<IEnumerable<AnswerReadVm>> GetAllAsync()
+        public List<AnswerReadVm> GetAll()
         {
-            var answers = await _answerRepo.GetAllAsync();
-            return _mapper.Map<List<AnswerReadVm>>(answers);
+            var answers = _answerRepo.GetAll().Select(x => new AnswerReadVm
+            {
+                Id = x.Id,
+                AnswerText = x.AnswerText,
+                IsCorrect = x.IsCorrect,
+                QuestionText = x.Question.Content
+            }).ToList();
+            return answers;
         }
-        public async Task<AnswerReadVm> GetByIdAsync(int id)
+        public  AnswerReadVm GetById(int id)
         {
-            var answer = await _answerRepo.GetByIdAsnyc(id);
+            var answer = _answerRepo.GetById(id, includeQuestion: true); 
 
             if (answer == null)
                 return null;
 
-            return _mapper.Map<AnswerReadVm>(answer);
+            return new AnswerReadVm
+            {
+                Id = answer.Id,
+                AnswerText = answer.AnswerText,
+                IsCorrect = answer.IsCorrect,
+                QuestionText = answer.Question.Content 
+            };
         }
-        public async Task AddAsync(AnswerAddVm answerAddVm)
+        public void  Add(AnswerAddVm answerAddVm)
         {
-            await _answerRepo.AddAsync(_mapper.Map<Answer>(answerAddVm));
+             _answerRepo.Add(_mapper.Map<Answer>(answerAddVm));
         }
-        public async Task UpdateAsync(AnswerUpdateVm answerUpdateDto)
+        public void  Update(AnswerUpdateVm answerUpdateVM)
         {
-            var existingAnswer = await _answerRepo.GetByIdAsnyc(answerUpdateDto.Id);
+            var existingAnswer =  _answerRepo.GetById(answerUpdateVM.Id);
             if (existingAnswer == null)
             {
                 return;
             }
-            _answerRepo.UpdateAsync(_mapper.Map(answerUpdateDto, existingAnswer));
+            _answerRepo.Update(_mapper.Map(answerUpdateVM, existingAnswer));
         }
-        public async Task DeleteAsync(int id)
+        public void  Delete(int id)
         {
-            var AnswerModel = await _answerRepo.GetByIdAsnyc(id);
+            var AnswerModel =  _answerRepo.GetById(id);
             if (AnswerModel != null)
             {
-                await _answerRepo.DeleteAsync(AnswerModel);
+                 _answerRepo.Delete(AnswerModel);
             }
         }
 
-        public async Task<bool> IdExist(int answerId)
-        {
-            bool idExist = await _answerRepo.IdExist(answerId);
-            if (idExist)
-            {
-                return true;
-            }
-            return false;
-        }
+        //public async Task<bool> IdExist(int answerId)
+        //{
+        //    bool idExist = await _answerRepo.IdExist(answerId);
+        //    if (idExist)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
-        public async Task<bool> QuestionIdExist(int questionId)
-        {
-            bool questionExist = await _answerRepo.QuestionIdExist(questionId);
-            if (questionExist)
-            {
-                return true;
-            }
-            return false;
-        }
+        //public async Task<bool> QuestionIdExist(int questionId)
+        //{
+        //    bool questionExist = await _answerRepo.QuestionIdExist(questionId);
+        //    if (questionExist)
+        //    {
+        //        return true;
+        //    }
+        //    return false;
+        //}
 
         
     }

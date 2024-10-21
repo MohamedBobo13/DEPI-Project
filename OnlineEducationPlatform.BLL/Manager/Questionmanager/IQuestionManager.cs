@@ -6,32 +6,32 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
 {
     public interface IQuestionManager
     {
-        Task<IEnumerable<QuestionReadVm>> GetAllAsync();
+        List<QuestionReadVm> GetAll();
 
-        Task<IEnumerable<QuestionCourseExamReadVm>> GetCourseExamAsync(int courseId);
+        List<QuestionCourseExamReadVm> GetCourseExam(int courseId);
 
-        Task<IEnumerable<QuestionCourseQuizReadVm>> GetCourseQuizAsync(int courseId);
+        List<QuestionCourseQuizReadVm> GetCourseQuiz(int courseId);
 
-        Task<QuestionReadVm> GetByIdAsync(int id);
+        QuestionReadVm GetById(int id);
 
-        Task AddQuizAsync(QuestionQuizAddVm questionQuizAddDto);
+        void AddQuiz(QuestionQuizAddVm questionQuizAddVm);
 
-        Task AddExamAsync(QuestionExamAddVm questionExamAddDto);
+        void AddExam(QuestionExamAddVm questionExamAddVm);
 
-        Task UpdateExamAsync(QuestionExamUpdateVm questionExamUpdateDto);
+        void UpdateExam(QuestionExamUpdateVm questionExamUpdateVm);
 
-        Task UpdateQuizAsync(QuestionQuizUpdateVm questionQuizUpdateDto);
+        void UpdateQuiz(QuestionQuizUpdateVm questionQuizUpdateVm);
 
-        Task DeleteAsync(int id);
+        void Delete(int id);
 
-        Task<bool> IdForExam(int questionId);
+        //Task<bool> IdForExam(int questionId);
 
-        Task<bool> IdForQuiz(int questionId);
+        //Task<bool> IdForQuiz(int questionId);
 
-        Task<bool> QuizIdExist(int quizId);
+        //Task<bool> QuizIdExist(int quizId);
 
-        Task<bool> ExamIdExist(int examId);
+        //Task<bool> ExamIdExist(int examId);
 
-        Task<bool> CourseIdExist(int courseId);
+        //Task<bool> CourseIdExist(int courseId);
     }
 }
