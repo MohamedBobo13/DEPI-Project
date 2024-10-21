@@ -13,7 +13,6 @@ namespace OnlineEducationPlatform.DAL.Repositories
             _context = context;
         }
 
-
         public async Task AddAsync(Course course)
         {
             await _context.Course.AddAsync(course);
