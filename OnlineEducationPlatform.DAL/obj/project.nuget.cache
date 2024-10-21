@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YuseHc0QJc8=",
+  "dgSpecHash": "ZCtWneLOorA=",
   "success": true,
-  "projectFilePath": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+  "projectFilePath": "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Everest\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Everest\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

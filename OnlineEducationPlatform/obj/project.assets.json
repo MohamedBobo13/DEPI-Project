@@ -4218,11 +4218,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
+      "projectUniqueName": "D:\\Project\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
       "projectName": "OnlineEducationPlatform",
-      "projectPath": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
+      "projectPath": "D:\\Project\\OnlineEducationPlatform\\OnlineEducationPlatform.csproj",
       "packagesPath": "C:\\Users\\Everest\\.nuget\\packages\\",
-      "outputPath": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\obj\\",
+      "outputPath": "D:\\Project\\OnlineEducationPlatform\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Everest\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4240,8 +4240,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
-              "projectPath": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj"
+            "D:\\Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj": {
+              "projectPath": "D:\\Project\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj"
             }
           }
         }

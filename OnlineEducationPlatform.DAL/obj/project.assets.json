@@ -4219,11 +4219,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+      "projectUniqueName": "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
       "projectName": "OnlineEducationPlatform.DAL",
-      "projectPath": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
+      "projectPath": "D:\\Project\\OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj",
       "packagesPath": "C:\\Users\\Everest\\.nuget\\packages\\",
-      "outputPath": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\obj\\",
+      "outputPath": "D:\\Project\\OnlineEducationPlatform.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Everest\\AppData\\Roaming\\NuGet\\NuGet.Config",
