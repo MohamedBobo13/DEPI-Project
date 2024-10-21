@@ -53,6 +53,10 @@ namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
             _context.Update(question);
             SaveChange();
         }
+        public bool IdExist(int questionId)
+        {
+            return _context.Question.Any(q => q.Id == questionId); 
+        }
 
         //public async Task<bool> IdForExam(int questionId)
         //{

@@ -16,11 +16,7 @@ namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
         void Delete(Question question);
         void Update(Question question);
         void Add(Question question);
-        //Task<bool> IdForExam(int questionId);
-        //Task<bool> IdForQuiz(int questionId);
-        //Task<bool> CourseIdExist(int courseId);
-        //Task<bool> QuizIdExist(int quizId);
-        //Task<bool> ExamIdExist(int examId);
+        bool IdExist(int questionId);
         void SaveChange();
     }
 }

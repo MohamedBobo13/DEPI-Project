@@ -93,57 +93,12 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
                  _questionRepo.Delete(questionModel);
             }
         }
+        public bool IdExist(int questionId)
+        {
+            return _questionRepo.IdExist(questionId); 
+        }
+
 
         
-        //public   Task<bool> IdForExam(int questionId)
-        //{
-        //    bool idForExam = await _questionRepo.IdForExam(questionId);
-        //    if (idForExam)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
-
-        //public   Task<bool> IdForQuiz(int questionId)
-        //{
-
-        //    bool idForQuiz = await _questionRepo.IdForQuiz(questionId);
-        //    if (idForQuiz)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
-
-        //public   Task<bool> QuizIdExist(int quizId)
-        //{
-        //    bool quizExist = await _questionRepo.QuizIdExist(quizId);
-        //    if (quizExist)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
-
-        //public   Task<bool> ExamIdExist(int examId)
-        //{
-        //    bool examExist = await _questionRepo.ExamIdExist(examId);
-        //    if (examExist)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
-
-        //public   Task<bool> CourseIdExist(int courseId)
-        //{
-        //    bool courseExist = await _questionRepo.CourseIdExist(courseId);
-        //    if (courseExist)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
     }
 }

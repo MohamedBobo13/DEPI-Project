@@ -47,15 +47,17 @@ namespace OnlineEducationPlatform.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult SaveCreate(AnswerAddVm answerVm)
+        [HttpPost]
+        public IActionResult Create(AnswerAddVm answerAddVm)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                _answerManager.Add(answerVm);
-                return RedirectToAction(nameof(Index));
+                return View(answerAddVm);
             }
-            return View(answerVm);
+            _answerManager.Add(answerAddVm);
+            return RedirectToAction("Index");
         }
+
         public IActionResult Edit(int id)
         {
             var answer = _answerManager.GetById(id);

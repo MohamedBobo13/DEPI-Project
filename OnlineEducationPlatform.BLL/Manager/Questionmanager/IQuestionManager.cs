@@ -24,14 +24,7 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
 
         void Delete(int id);
 
-        //Task<bool> IdForExam(int questionId);
+        bool IdExist(int questionId);
 
-        //Task<bool> IdForQuiz(int questionId);
-
-        //Task<bool> QuizIdExist(int quizId);
-
-        //Task<bool> ExamIdExist(int examId);
-
-        //Task<bool> CourseIdExist(int courseId);
     }
 }
