@@ -1,0 +1,1329 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Amr mvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\instructor\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\instructor\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\examresult\\getalldeleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\examresult\\getalldeleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\examresult\\confirmharddelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\examresult\\confirmharddelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\quizresult\\confirmharddelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\quizresult\\confirmharddelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\controllers\\examresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\controllers\\examresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\examresultmanager\\examresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\examresultmanager\\examresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\examresultmanager\\iexamresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\examresultmanager\\iexamresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\quizresultmanager\\iquizresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\quizresultmanager\\iquizresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\controllers\\quizresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\controllers\\quizresultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\repo\\exam result repo\\iexamresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\exam result repo\\iexamresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\repo\\exam result repo\\examresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\exam result repo\\examresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\repo\\quizresultrepo\\quizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\quizresultrepo\\quizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\repo\\quizresultrepo\\iquizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\quizresultrepo\\iquizresultrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\quizresultmanager\\quizresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\quizresultmanager\\quizresultmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\examresult\\getexamresultbystudentid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\examresult\\getexamresultbystudentid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\examresult\\getexamresultsbyexamid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\examresult\\getexamresultsbyexamid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\quizresult\\getalldeleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\quizresult\\getalldeleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\quizresult\\getquizresultbystudentid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\quizresult\\getquizresultbystudentid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\examresult\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\examresult\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\quizresult\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\quizresult\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\quizresult\\getquizresultsbyquizid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\quizresult\\getquizresultsbyquizid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\giobalclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\giobalclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\examresult\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\examresult\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\quizresult\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\quizresult\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\examresult\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\examresult\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\examresult\\confirmsoftdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\examresult\\confirmsoftdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\quizresult\\confirmsoftdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\quizresult\\confirmsoftdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\student\\confirmsoftdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\student\\confirmsoftdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\viewmodels\\examresultvm\\examresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\examresultvm\\examresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\quizresult\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\quizresult\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\viewmodels\\quizresultsvm\\quizresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\quizresultsvm\\quizresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\repo\\iexamrepo\\examrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\iexamrepo\\examrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\enrollment\\confirmharddelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\enrollment\\confirmharddelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\enrollment\\confirmsoftdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\enrollment\\confirmsoftdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\enrollment\\getalldeleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\enrollment\\getalldeleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\enrollmentmanager\\ienrollmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\enrollmentmanager\\ienrollmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\repo\\enrollmentrepo\\enrollmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\enrollmentrepo\\enrollmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\repo\\enrollmentrepo\\ienrollmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\enrollmentrepo\\ienrollmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\enrollmentmanager\\enrollmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\enrollmentmanager\\enrollmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\enrollment\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\enrollment\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\enrollment\\getenrollmentsbystudentid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\enrollment\\getenrollmentsbystudentid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\enrollment\\getenrollmentsbycourseid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\enrollment\\getenrollmentsbycourseid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\enrollment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\enrollment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\viewmodels\\quizresultsvm\\updatequizresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\quizresultsvm\\updatequizresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\student\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\student\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\enrollment\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\enrollment\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\viewmodels\\enrollmentvm\\enrollmentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\enrollmentvm\\enrollmentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\controllers\\answercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\controllers\\answercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\instructor\\confirmsoftdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\instructor\\confirmsoftdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\instructormanager\\iinstructormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\instructormanager\\iinstructormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\instructormanager\\instructormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\instructormanager\\instructormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\studentmanager\\stuentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\studentmanager\\stuentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\studentmanager\\istudentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\studentmanager\\istudentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\viewmodels\\studentvm\\studentreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\studentvm\\studentreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\repo\\instructorrepo\\iinstructorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\instructorrepo\\iinstructorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\viewmodels\\instructorvm\\instructorreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\instructorvm\\instructorreadvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\repo\\instructorrepo\\instructorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\instructorrepo\\instructorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\repo\\studentrepo\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\studentrepo\\studentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\repo\\studentrepo\\istudentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\studentrepo\\istudentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\automapper\\studentautomapper\\studentmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\automapper\\studentautomapper\\studentmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\answer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\amr mvc\\onlineeducationplatform.dal\\data\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\data\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\viewmodels\\enrollmentvm\\updateenrollmentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\enrollmentvm\\updateenrollmentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\answer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\onlineeducationplatform.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\onlineeducationplatform.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\amr mvc\\onlineeducationplatform\\views\\answer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\viewmodels\\amswervm\\answeraddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\viewmodels\\amswervm\\answeraddvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\answermanager\\ianswermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answermanager\\ianswermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|d:\\amr mvc\\onlineeducationplatform.bll\\manager\\answermanager\\answermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0448BF17-8B59-4962-B255-6EF45F038433}|OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj|solutionrelative:onlineeducationplatform.bll\\manager\\answermanager\\answermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IQuizResultManager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\IQuizResultManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\IQuizResultManager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\IQuizResultManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\IQuizResultManager.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAEwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:33:09.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "examresultmanager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\ExamResultmanager\\examresultmanager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\ExamResultmanager\\examresultmanager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\ExamResultmanager\\examresultmanager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\ExamResultmanager\\examresultmanager.cs",
+              "ViewState": "AQIAAHUCAAAAAAAAAADwv3wCAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:56:03.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IExamResultmanager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\ExamResultmanager\\IExamResultmanager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\ExamResultmanager\\IExamResultmanager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\ExamResultmanager\\IExamResultmanager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\ExamResultmanager\\IExamResultmanager.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA9wBwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:55:49.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfirmHardDelete.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\ConfirmHardDelete.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\QuizResult\\ConfirmHardDelete.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\ConfirmHardDelete.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\QuizResult\\ConfirmHardDelete.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T16:23:14.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllDeleted.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\GetAllDeleted.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\ExamResult\\GetAllDeleted.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\GetAllDeleted.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\ExamResult\\GetAllDeleted.cshtml",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAwwIoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T19:14:58.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Instructor\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Instructor\\GetAll.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Instructor\\GetAll.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Instructor\\GetAll.cshtml",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAIkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T04:48:27.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfirmHardDelete.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\ConfirmHardDelete.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\ExamResult\\ConfirmHardDelete.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\ConfirmHardDelete.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\ExamResult\\ConfirmHardDelete.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T19:26:01.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuizResultController.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\QuizResultController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Controllers\\QuizResultController.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\QuizResultController.cs",
+              "RelativeToolTip": "OnlineEducationPlatform\\Controllers\\QuizResultController.cs",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAYwLQAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:13:11.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Controllers\\InstructorController.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "OnlineEducationPlatform\\Controllers\\InstructorController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA3wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:28:31.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExamResultController.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\ExamResultController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Controllers\\ExamResultController.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\ExamResultController.cs",
+              "RelativeToolTip": "OnlineEducationPlatform\\Controllers\\ExamResultController.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAewMYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:46:17.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IExamResultRepo.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\Exam Result Repo\\IExamResultRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\Exam Result Repo\\IExamResultRepo.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\Exam Result Repo\\IExamResultRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\Exam Result Repo\\IExamResultRepo.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwC4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:17:51.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExamResultRepo.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\Exam Result Repo\\ExamResultRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\Exam Result Repo\\ExamResultRepo.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\Exam Result Repo\\ExamResultRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\Exam Result Repo\\ExamResultRepo.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAswIEAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T18:17:50.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuizResultRepo.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\QuizResultRepo.cs",
+              "ViewState": "AQIAANAAAAAAAAAAAAA1wNgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:34:51.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IQuizResultRepo.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\IQuizResultRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\IQuizResultRepo.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\IQuizResultRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\QuizresultRepo\\IQuizResultRepo.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAApwC0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:34:25.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuizResultManager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\QuizResultManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\QuizResultManager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\QuizResultManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\quizresultmanager\\QuizResultManager.cs",
+              "ViewState": "AQIAAHUCAAAAAAAAAAAmwHwCAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:33:34.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetExamResultByStudentId.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\GetExamResultByStudentId.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\ExamResult\\GetExamResultByStudentId.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\GetExamResultByStudentId.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\ExamResult\\GetExamResultByStudentId.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T19:10:15.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetExamResultsByExamId.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\GetExamResultsByExamId.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\ExamResult\\GetExamResultsByExamId.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\GetExamResultsByExamId.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\ExamResult\\GetExamResultsByExamId.cshtml",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAJAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T19:02:39.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetQuizResultByStudentId.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\GetQuizResultByStudentId.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\QuizResult\\GetQuizResultByStudentId.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\GetQuizResultByStudentId.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\QuizResult\\GetQuizResultByStudentId.cshtml",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAAALMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:58:05.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetAllDeleted.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\GetAllDeleted.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\QuizResult\\GetAllDeleted.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\GetAllDeleted.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\QuizResult\\GetAllDeleted.cshtml",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAAAK8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T16:11:18.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAmwDQAAACIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T20:59:11.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\ExamResult\\GetAll.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\GetAll.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\ExamResult\\GetAll.cshtml",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAiwJsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T17:51:22.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\QuizResult\\GetAll.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\GetAll.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\QuizResult\\GetAll.cshtml",
+              "ViewState": "AQIAANsAAAAAAAAAAAAAAOQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:12:20.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetQuizResultsByQuizId.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\GetQuizResultsByQuizId.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\QuizResult\\GetQuizResultsByQuizId.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\GetQuizResultsByQuizId.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\QuizResult\\GetQuizResultsByQuizId.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:50:05.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "OnlineEducationPlatform\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwBkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T03:54:08.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GiobalClass.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\GiobalClass.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\GiobalClass.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\GiobalClass.cs",
+              "RelativeToolTip": "OnlineEducationPlatform\\GiobalClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T19:01:26.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\ExamResult\\Edit.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\Edit.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\ExamResult\\Edit.cshtml",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAwwHIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T18:39:31.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\Add.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\ExamResult\\Add.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\Add.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\ExamResult\\Add.cshtml",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAwwHYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T18:04:38.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:13:53.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T20:59:14.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\QuizResult\\Edit.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\Edit.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\QuizResult\\Edit.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:41:49.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OnlineEducationPlatform\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T22:43:15.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "confirmsoftdelete.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Student\\confirmsoftdelete.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Student\\confirmsoftdelete.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Student\\confirmsoftdelete.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Student\\confirmsoftdelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:14:21.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "confirmsoftdelete.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\confirmsoftdelete.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\ExamResult\\confirmsoftdelete.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\ExamResult\\confirmsoftdelete.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\ExamResult\\confirmsoftdelete.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T18:23:45.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "confirmsoftdelete.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\confirmsoftdelete.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\QuizResult\\confirmsoftdelete.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\confirmsoftdelete.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\QuizResult\\confirmsoftdelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:29:29.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EnrollmentController.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\EnrollmentController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Controllers\\EnrollmentController.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\EnrollmentController.cs",
+              "RelativeToolTip": "OnlineEducationPlatform\\Controllers\\EnrollmentController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAgwMUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:28:07.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\Add.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\QuizResult\\Add.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\QuizResult\\Add.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\QuizResult\\Add.cshtml",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAAAHsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:12:23.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ExamResultVm.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\ExamResultVm\\ExamResultVm.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\ViewModels\\ExamResultVm\\ExamResultVm.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\ExamResultVm\\ExamResultVm.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\ViewModels\\ExamResultVm\\ExamResultVm.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T17:52:38.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "QuizResultVm.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\QuizResultsVm\\QuizResultVm.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\ViewModels\\QuizResultsVm\\QuizResultVm.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\QuizResultsVm\\QuizResultVm.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\ViewModels\\QuizResultsVm\\QuizResultVm.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAswBAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:13:32.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "examrepo.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\Iexamrepo\\examrepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\Iexamrepo\\examrepo.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\Iexamrepo\\examrepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\Iexamrepo\\examrepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T16:31:36.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetAllDeleted.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\GetAllDeleted.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Enrollment\\GetAllDeleted.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\GetAllDeleted.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Enrollment\\GetAllDeleted.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T22:16:18.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "confirmsoftdelete.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\confirmsoftdelete.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Enrollment\\confirmsoftdelete.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\confirmsoftdelete.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Enrollment\\confirmsoftdelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:15:44.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IenrollmentManager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\IenrollmentManager.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwBgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:32:46.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ConfirmHardDelete.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\ConfirmHardDelete.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Enrollment\\ConfirmHardDelete.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\ConfirmHardDelete.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Enrollment\\ConfirmHardDelete.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T23:17:01.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EnrollmentRepo.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\EnrollmentRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\EnrollmentRepo.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\EnrollmentRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\EnrollmentRepo.cs",
+              "ViewState": "AQIAAMgAAAAAAAAAAAAuwMsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:34:09.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IEnrollmentRepo.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\IEnrollmentRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\IEnrollmentRepo.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\IEnrollmentRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\EnrollmentRepo\\IEnrollmentRepo.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAiwCAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:33:56.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EnrollmentManager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\EnrollmentManager\\EnrollmentManager.cs",
+              "ViewState": "AQIAACoCAAAAAAAAAAAAADICAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:33:21.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Enrollment\\GetAll.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\GetAll.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Enrollment\\GetAll.cshtml",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAAANgAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T22:09:08.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GetEnrollmentsByStudentId.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\GetEnrollmentsByStudentId.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Enrollment\\GetEnrollmentsByStudentId.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\GetEnrollmentsByStudentId.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Enrollment\\GetEnrollmentsByStudentId.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T13:32:20.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetEnrollmentsByCourseId.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\GetEnrollmentsByCourseId.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Enrollment\\GetEnrollmentsByCourseId.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\GetEnrollmentsByCourseId.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Enrollment\\GetEnrollmentsByCourseId.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:50:11.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Enrollment\\Edit.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\Edit.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Enrollment\\Edit.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAIIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T20:27:01.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "updatequizresultVm.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\QuizResultsVm\\updatequizresultVm.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\ViewModels\\QuizResultsVm\\updatequizresultVm.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\QuizResultsVm\\updatequizresultVm.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\ViewModels\\QuizResultsVm\\updatequizresultVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:13:31.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "GetAll.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Student\\GetAll.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Student\\GetAll.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Student\\GetAll.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Student\\GetAll.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:15:57.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "EnrollmentVm.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\EnrollmentVm\\EnrollmentVm.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\ViewModels\\EnrollmentVm\\EnrollmentVm.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\EnrollmentVm\\EnrollmentVm.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\ViewModels\\EnrollmentVm\\EnrollmentVm.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T20:01:26.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\Add.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Enrollment\\Add.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Enrollment\\Add.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Enrollment\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T20:57:32.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AnswerController.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\AnswerController.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Controllers\\AnswerController.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Controllers\\AnswerController.cs",
+              "RelativeToolTip": "OnlineEducationPlatform\\Controllers\\AnswerController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAwwFMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T19:52:16.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "confirmsoftdelete.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Instructor\\confirmsoftdelete.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Instructor\\confirmsoftdelete.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Instructor\\confirmsoftdelete.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Instructor\\confirmsoftdelete.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAFEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T04:58:26.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Stuentmanager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\StudentManager\\Stuentmanager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\StudentManager\\Stuentmanager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\StudentManager\\Stuentmanager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\StudentManager\\Stuentmanager.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAWwC4AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:11:07.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IInstructorManager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\InstructorManager\\IInstructorManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\InstructorManager\\IInstructorManager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\InstructorManager\\IInstructorManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\InstructorManager\\IInstructorManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwBUAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:49:11.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "instructorManager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\InstructorManager\\instructorManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\InstructorManager\\instructorManager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\InstructorManager\\instructorManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\InstructorManager\\instructorManager.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAMwGYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:54:38.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Istudentmanager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\StudentManager\\Istudentmanager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\StudentManager\\Istudentmanager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\StudentManager\\Istudentmanager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\StudentManager\\Istudentmanager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T03:55:10.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "studentreadVm.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\StudentVm\\studentreadVm.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\ViewModels\\StudentVm\\studentreadVm.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\StudentVm\\studentreadVm.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\ViewModels\\StudentVm\\studentreadVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:00:04.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "InstructorReadVm.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\InstructorVm\\InstructorReadVm.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\ViewModels\\InstructorVm\\InstructorReadVm.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\InstructorVm\\InstructorReadVm.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\ViewModels\\InstructorVm\\InstructorReadVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T05:10:48.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IInstructorRepo.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\InstructorRepo\\IInstructorRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\InstructorRepo\\IInstructorRepo.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\InstructorRepo\\IInstructorRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\InstructorRepo\\IInstructorRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:55:48.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IStudentRepo.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\StudentRepo\\IStudentRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\StudentRepo\\IStudentRepo.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\StudentRepo\\IStudentRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\StudentRepo\\IStudentRepo.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA6wBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:06:53.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "InstructorRepo.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\InstructorRepo\\InstructorRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\InstructorRepo\\InstructorRepo.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\InstructorRepo\\InstructorRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\InstructorRepo\\InstructorRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:55:48.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "StudentRepo.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\StudentRepo\\StudentRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\StudentRepo\\StudentRepo.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Repo\\StudentRepo\\StudentRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\StudentRepo\\StudentRepo.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAswDgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:06:58.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Data\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Data\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwBYAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:33:51.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "StudentMappingProfile.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\AutoMapper\\StudentAutoMapper\\StudentMappingProfile.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\AutoMapper\\StudentAutoMapper\\StudentMappingProfile.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\AutoMapper\\StudentAutoMapper\\StudentMappingProfile.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\AutoMapper\\StudentAutoMapper\\StudentMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T03:56:19.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T20:21:30.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Data\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Data\\Models\\Enrollment.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.DAL\\Data\\Models\\Enrollment.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Data\\Models\\Enrollment.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T20:06:01.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "updateenrollmentVm.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\EnrollmentVm\\updateenrollmentVm.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\ViewModels\\EnrollmentVm\\updateenrollmentVm.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\EnrollmentVm\\updateenrollmentVm.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\ViewModels\\EnrollmentVm\\updateenrollmentVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T20:02:23.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Answer\\Details.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Answer\\Details.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Answer\\Details.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T23:30:32.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "OnlineEducationPlatform.BLL",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\OnlineEducationPlatform.BLL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-21T22:13:14.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "AnswerManager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\AnswerManager.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T20:00:17.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Answer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Answer\\Delete.cshtml",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform\\Views\\Answer\\Delete.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T20:57:25.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "IAnswerManager.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\Manager\\Answermanager\\IAnswerManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T20:00:09.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "AnswerAddVm.cs",
+              "DocumentMoniker": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerAddVm.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerAddVm.cs",
+              "ToolTip": "D:\\Amr mvc\\OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerAddVm.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.BLL\\ViewModels\\AmswerVm\\AnswerAddVm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T20:21:51.09Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

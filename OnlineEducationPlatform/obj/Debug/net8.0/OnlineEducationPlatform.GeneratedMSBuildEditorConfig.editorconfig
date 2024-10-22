@@ -1,0 +1,179 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OnlineEducationPlatform
+build_property.RootNamespace = OnlineEducationPlatform
+build_property.ProjectDir = D:\Amr mvc\OnlineEducationPlatform\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Amr mvc\OnlineEducationPlatform
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Answer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2VyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Answer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2VyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Answer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2VyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Answer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2VyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Answer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Enrollment/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Enrollment/ConfirmHardDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxDb25maXJtSGFyZERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Enrollment/confirmsoftdelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxjb25maXJtc29mdGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Enrollment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Enrollment/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxHZXRBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Enrollment/GetAllDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxHZXRBbGxEZWxldGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Enrollment/GetEnrollmentsByCourseId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxHZXRFbnJvbGxtZW50c0J5Q291cnNlSWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Enrollment/GetEnrollmentsByStudentId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5yb2xsbWVudFxHZXRFbnJvbGxtZW50c0J5U3R1ZGVudElkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/ExamResult/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVJlc3VsdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/ExamResult/ConfirmHardDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVJlc3VsdFxDb25maXJtSGFyZERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/ExamResult/confirmsoftdelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVJlc3VsdFxjb25maXJtc29mdGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/ExamResult/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVJlc3VsdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/ExamResult/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVJlc3VsdFxHZXRBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/ExamResult/GetAllDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVJlc3VsdFxHZXRBbGxEZWxldGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/ExamResult/GetExamResultByStudentId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVJlc3VsdFxHZXRFeGFtUmVzdWx0QnlTdHVkZW50SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/ExamResult/GetExamResultsByExamId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVJlc3VsdFxHZXRFeGFtUmVzdWx0c0J5RXhhbUlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Instructor/confirmsoftdelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3Rvclxjb25maXJtc29mdGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Instructor/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxHZXRBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/QuizResult/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelJlc3VsdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/QuizResult/ConfirmHardDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelJlc3VsdFxDb25maXJtSGFyZERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/QuizResult/confirmsoftdelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelJlc3VsdFxjb25maXJtc29mdGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/QuizResult/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelJlc3VsdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/QuizResult/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelJlc3VsdFxHZXRBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/QuizResult/GetAllDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelJlc3VsdFxHZXRBbGxEZWxldGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/QuizResult/GetQuizResultByStudentId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelJlc3VsdFxHZXRRdWl6UmVzdWx0QnlTdHVkZW50SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/QuizResult/GetQuizResultsByQuizId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelJlc3VsdFxHZXRRdWl6UmVzdWx0c0J5UXVpeklkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Student/confirmsoftdelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxjb25maXJtc29mdGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Student/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxHZXRBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-apojpqz5zw

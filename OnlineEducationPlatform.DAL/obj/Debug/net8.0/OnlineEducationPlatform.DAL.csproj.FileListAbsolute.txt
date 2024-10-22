@@ -1,0 +1,43 @@
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.deps.json
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.AssemblyInfoInputs.cache
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.AssemblyInfo.cs
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.csproj.CoreCompileInputs.cache
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\refint\OnlineEducationPlatform.DAL.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\ref\OnlineEducationPlatform.DAL.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.csproj.AssemblyReference.cache
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.runtimeconfig.json
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.genruntimeconfig.cache
+D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.csproj.AssemblyReference.cache
+D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.AssemblyInfoInputs.cache
+D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.AssemblyInfo.cs
+D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.csproj.CoreCompileInputs.cache
+D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.sourcelink.json
+D:\bobo mvc\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.deps.json
+D:\bobo mvc\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.runtimeconfig.json
+D:\bobo mvc\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\bobo mvc\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\refint\OnlineEducationPlatform.DAL.dll
+D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.genruntimeconfig.cache
+D:\bobo mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\ref\OnlineEducationPlatform.DAL.dll
+D:\Amr mvc\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.deps.json
+D:\Amr mvc\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.runtimeconfig.json
+D:\Amr mvc\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\Amr mvc\OnlineEducationPlatform.DAL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.csproj.AssemblyReference.cache
+D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.AssemblyInfoInputs.cache
+D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.AssemblyInfo.cs
+D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.csproj.CoreCompileInputs.cache
+D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\refint\OnlineEducationPlatform.DAL.dll
+D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.genruntimeconfig.cache
+D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\ref\OnlineEducationPlatform.DAL.dll
