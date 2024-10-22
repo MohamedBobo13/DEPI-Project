@@ -44,3 +44,4 @@ D:\Amr mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.
 D:\Amr mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll
 D:\Amr mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
 D:\Amr mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll
+D:\Amr mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.sourcelink.json

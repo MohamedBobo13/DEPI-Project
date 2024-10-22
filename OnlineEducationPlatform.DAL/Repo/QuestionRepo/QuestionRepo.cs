@@ -21,16 +21,25 @@ namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
         {
             return  _context.Question.AsNoTracking();
         }
+        public IQueryable<Question> GetExam()
+        {
+            return _context.Question.Where(q => q.ExamId != null);
+        }
+
+        public IQueryable<Question> GetQuiz()
+        {
+            return _context.Question.Where(q => q.QuizId != null);
+        }
 
         public IQueryable<Question> GetCourseExam(int courseId)
         {
-            return  _context.Question.Where(q => q.QuizId == null && q.CourseId == courseId);
+            return  _context.Question.Where(q => q.ExamId != null && q.CourseId == courseId);
             
         }
 
         public IQueryable<Question> GetCourseQuiz(int courseId)
         {
-            return  _context.Question.Where(q => q.ExamId == null && q.CourseId == courseId);
+            return _context.Question.Where(q => q.QuizId != null && q.CourseId == courseId);
         }
 
         public Question GetById(int id)
@@ -58,55 +67,7 @@ namespace OnlineEducationPlatform.DAL.Repo.QuestionRepo
             return _context.Question.Any(q => q.Id == questionId); 
         }
 
-        //public async Task<bool> IdForExam(int questionId)
-        //{
-        //    bool idforExam = await _context.Question.Where(q=>q.QuizId == null).AnyAsync(q=>q.Id == questionId);
-        //    if(idforExam)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
-
-        //public async Task<bool> IdForQuiz(int questionId)
-        //{
-        //    bool idforQuiz = await _context.Question.Where(q => q.ExamId == null).AnyAsync(q => q.Id == questionId);
-        //    if (idforQuiz)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
-
-        //public async Task<bool> QuizIdExist(int quizId)
-        //{
-        //    var quizExist = await _context.Quiz.AnyAsync(q => q.Id == quizId);
-        //    if (quizExist)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
-
-        //public async Task<bool> ExamIdExist(int examId)
-        //{
-        //    var examExist = await _context.Exam.AnyAsync(e => e.Id == examId);
-        //    if (examExist)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
-
-        //public async Task<bool> CourseIdExist(int courseId)
-        //{
-        //    var courseExist = await _context.Course.AnyAsync(c => c.Id == courseId);
-        //    if (courseExist)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
+       
 
         public void SaveChange()
         {

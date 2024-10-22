@@ -58,6 +58,9 @@ namespace OnlineEducationPlatform.DAL.Repo.QuizRepo
             return await _context.Quiz
                 .AnyAsync(e => e.Id == id);
         }
-
+        public bool IdExist(int quizId)
+        {
+            return _context.Answer.Any(q => q.Id == quizId);
+        }
     }
 }

@@ -45,24 +45,11 @@ namespace OnlineEducationPlatform.DAL.Repo.AnswerRepo
             _context.Update(answer);
             _context.SaveChanges();
         }
-        //public async Task<bool> IdExist(int answerId)
-        //{
-        //    var answerIdExist = await _context.Answer.AnyAsync(a => a.Id == answerId);
-        //    if (answerIdExist)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
-        //public async Task<bool> QuestionIdExist(int questionId)
-        //{
-        //    var questionExist = await _context.Question.AnyAsync(q=>q.Id == questionId);
-        //    if (questionExist)
-        //    {
-        //        return true;
-        //    }
-        //    return false;
-        //}
+        public bool IdExist(int answerId)
+        {
+            return _context.Answer.Any(q => q.Id == answerId);
+        }
+        
         public void SaveChange()
         {
              _context.SaveChanges();

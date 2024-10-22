@@ -1,0 +1,42 @@
+﻿@model List<QuestionCourseQuizReadVm>
+
+<h2>Quiz Questions</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Content</th>
+            <th>Marks</th>
+            <th>Question Type</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="4">No quiz questions available.</td>
+            </tr>
+        }
+        else
+        {
+            foreach (var question in Model)
+            {
+                <tr>
+                    <td>@question.Content</td>
+                    <td>@question.Marks</td>
+                    <td>@question.QuestionType</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@question.Id" class="btn btn-info">Details</a> |
+                        <a asp-action="EditQuiz" asp-route-id="@question.Id" class="btn btn-warning">Edit</a> |
+                        <a asp-action="DeleteQuiz" asp-route-id="@question.Id" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="CreateQuiz" class="btn btn-success">Add New Question</a>
+</div>

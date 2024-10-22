@@ -7,6 +7,10 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
     public interface IQuestionManager
     {
         List<QuestionReadVm> GetAll();
+        
+        List<QuestionCourseExamReadVm> GetExam();
+
+        List<QuestionCourseQuizReadVm> GetQuiz();
 
         List<QuestionCourseExamReadVm> GetCourseExam(int courseId);
 

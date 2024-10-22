@@ -15,5 +15,6 @@ namespace OnlineEducationPlatform.BLL.Manager.ExamManager
         Task<ExamAddVm> AddAsync(ExamAddVm examAddDto);
         Task <ExamUpdateVm> Update(ExamUpdateVm examUpdateDto);
         Task DeleteAsync(int id);
+        bool IdExist(int examId);
     }
 }

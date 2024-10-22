@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using OnlineEducationPlatform.BLL.Dto.QuestionDto;
 using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
@@ -19,17 +20,33 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
         }
         public List<QuestionReadVm> GetAll()
         {
-            var questions =  _questionRepo.GetAll().Select(a=>new QuestionReadVm
+            var questions =  _questionRepo.GetAll().AsNoTracking().ToList();
+            return _mapper.Map<List<QuestionReadVm>>(questions);
+        }
+
+        public List<QuestionCourseExamReadVm> GetExam()
+        {
+            var questionsCourseExam = _questionRepo.GetExam().ToList();
+            if (questionsCourseExam == null)
             {
-                Id = a.Id,
-                Content = a.Content,
-            }).ToList();
-            return questions;
+                return null;
+            }
+            return _mapper.Map<List<QuestionCourseExamReadVm>>(questionsCourseExam);
+        }
+
+        public List<QuestionCourseQuizReadVm> GetQuiz()
+        {
+            var questions = _questionRepo.GetQuiz().ToList();
+            if (questions == null)
+            {
+                return null;
+            }
+            return _mapper.Map<List<QuestionCourseQuizReadVm>>(questions);
         }
 
         public List<QuestionCourseExamReadVm> GetCourseExam(int courseId)
         {
-            var questionsCourseExam =  _questionRepo.GetCourseExam(courseId);
+            var questionsCourseExam =  _questionRepo.GetCourseExam(courseId).ToList();
             if (questionsCourseExam == null)
             {
                 return null;
@@ -39,12 +56,12 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
 
         public List<QuestionCourseQuizReadVm> GetCourseQuiz(int courseId)
         {
-            var questionsCourseQuiz =  _questionRepo.GetCourseQuiz(courseId);
-            if (questionsCourseQuiz == null)
+            var questions = _questionRepo.GetCourseQuiz(courseId).ToList();
+            if (questions == null)
             {
                 return null;
             }
-            return _mapper.Map<List<QuestionCourseQuizReadVm>>(questionsCourseQuiz);
+            return _mapper.Map<List<QuestionCourseQuizReadVm>>(questions);
         }
 
 
@@ -97,7 +114,6 @@ namespace OnlineEducationPlatform.BLL.Manager.Questionmanager
         {
             return _questionRepo.IdExist(questionId); 
         }
-
 
         
     }

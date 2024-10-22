@@ -74,5 +74,9 @@ namespace OnlineEducationPlatform.DAL.Repo.StudentRepo
             }
             return false;
         }
+        public bool IdExist(int studentId)
+        {
+            return _context.Answer.Any(q => q.Id == studentId);
+        }
     }
 }

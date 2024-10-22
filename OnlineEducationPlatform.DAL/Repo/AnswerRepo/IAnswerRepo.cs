@@ -15,8 +15,7 @@ namespace OnlineEducationPlatform.DAL.Repo.AnswerRepo
         void Delete(Answer answer);
         void Update(Answer answer);
         void Add(Answer answer);
-        //Task<bool> IdExist(int answerId);
-        //Task<bool> QuestionIdExist(int questionId);
+        bool IdExist(int answerId);
         void SaveChange();
     }
 }

@@ -1,4 +1,5 @@
-﻿using OnlineEducationPlatform.BLL.ViewModels.AmswerVm;
+﻿using OnlineEducationPlatform.BLL.Dtos;
+using OnlineEducationPlatform.BLL.ViewModels.AmswerVm;
 
 namespace OnlineEducationPlatform.BLL.Manager.Answermanager
 {
@@ -14,5 +15,6 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
 
         void Delete(int id);
 
+        bool IdExist(int answerId);
     }
 }

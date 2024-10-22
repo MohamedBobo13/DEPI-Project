@@ -41,3 +41,4 @@ D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\refint\OnlineEducationPl
 D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
 D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.genruntimeconfig.cache
 D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\ref\OnlineEducationPlatform.DAL.dll
+D:\Amr mvc\OnlineEducationPlatform.DAL\obj\Debug\net8.0\OnlineEducationPlatform.DAL.sourcelink.json

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.BLL.Manager.Questionmanager;
 using OnlineEducationPlatform.BLL.ViewModels.AmswerVm;
 using OnlineEducationPlatform.DAL.Data.Models;
@@ -66,6 +67,10 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
             {
                  _answerRepo.Delete(AnswerModel);
             }
+        }
+        public bool IdExist(int answerId)
+        {
+            return _answerRepo.IdExist(answerId);
         }
     }
 }

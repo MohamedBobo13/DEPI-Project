@@ -454,3 +454,4 @@ D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\refint\OnlineEducationPlatfo
 D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.pdb
 D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.genruntimeconfig.cache
 D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\ref\OnlineEducationPlatform.dll
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.sourcelink.json

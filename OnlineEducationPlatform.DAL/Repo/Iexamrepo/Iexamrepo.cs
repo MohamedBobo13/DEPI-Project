@@ -17,6 +17,6 @@ namespace OnlineEducationPlatform.DAL.Repo.Iexamrepo
         Task<bool> Delete(int id);
         Task<bool> CompleteAsync();
         Task<bool> examExistsAsyncbyid(int id);
-        
+        bool IdExist(int examId);
     }
 }

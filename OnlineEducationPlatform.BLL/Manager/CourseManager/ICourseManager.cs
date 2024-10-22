@@ -15,6 +15,6 @@ namespace OnlineEducationPlatform.BLL.Manager
         Task<CourseReadVm> GetByIdAsync(int id);
         Task<CourseUpdateVm> UpdateAsync(CourseUpdateVm courseUpdateVm);
         Task<bool> DeleteAsync(int id);
-        
+        bool IdExist(int courseId);
     }
 }

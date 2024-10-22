@@ -16,6 +16,7 @@ namespace OnlineEducationPlatform.BLL.AutoMapper.AnswerResultAutoMapper
             CreateMap<AnswerResult, AnswerResultAddVm>().ReverseMap();
             CreateMap<AnswerResult, AnswerResultReadVm>().ReverseMap();
             CreateMap<AnswerResult, AnswerResultUpdateVm>().ReverseMap();
+            CreateMap<AnswerResultReadVm, AnswerResultUpdateVm>().ReverseMap();
         }
     }
 }
