@@ -18,6 +18,6 @@ namespace OnlineEducationPlatform.DAL.Repo.StudentRepo
         Task<ApplicationUser> GetStudentByIdAsync(string studentId);
         Task<ApplicationUser> GetStudentByIdAsyncsoftornot(string studentId);
         Task<bool> RemoveAsync(ApplicationUser student);
-      
+        bool IdExist(int studentId);
     }
 }

@@ -60,6 +60,10 @@ namespace OnlineEducationPlatform.DAL.Repo.Iexamrepo
             return await _context.Exam
                 .AnyAsync(e => e.Id == id);
         }
+        public bool IdExist(int examId)
+        {
+            return _context.Answer.Any(q => q.Id == examId);
+        }
 
     }
 }

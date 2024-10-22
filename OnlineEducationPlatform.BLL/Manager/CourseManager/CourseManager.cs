@@ -82,7 +82,10 @@ namespace OnlineEducationPlatform.BLL.Manager
             }
             return null;
         }
+        public bool IdExist(int courseId)
+        {
+            return _courseRepo.IdExist(courseId);
+        }
 
-       
     }
 }

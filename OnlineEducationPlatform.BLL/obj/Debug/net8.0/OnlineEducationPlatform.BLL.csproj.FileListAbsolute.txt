@@ -29,17 +29,17 @@ D:\bobo mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform
 D:\bobo mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll
 D:\bobo mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
 D:\bobo mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll
-D:\Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.deps.json
-D:\Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
-D:\Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
-D:\Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
-D:\Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
 D:\Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.AssemblyReference.cache
 D:\Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.GeneratedMSBuildEditorConfig.editorconfig
 D:\Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfoInputs.cache
 D:\Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfo.cs
 D:\Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.CoreCompileInputs.cache
 D:\Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.sourcelink.json
+D:\Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.deps.json
+D:\Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+D:\Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+D:\Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\Project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
 D:\Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEd.3B35E1B4.Up2Date
 D:\Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.dll
 D:\Project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll

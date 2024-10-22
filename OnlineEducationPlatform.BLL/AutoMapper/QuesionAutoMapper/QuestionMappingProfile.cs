@@ -21,6 +21,10 @@ namespace OnlineEducationPlatform.BLL.AutoMapper.QuesionAutoMapper
             CreateMap<Question, QuestionCourseQuizReadVm>().ReverseMap();
             CreateMap<Question, QuestionExamAddVm>().ReverseMap();
             CreateMap<Question, QuestionCourseExamReadVm>().ReverseMap();
+            CreateMap<QuestionReadVm, QuestionQuizUpdateVm>().ReverseMap();
+            CreateMap<QuestionReadVm, QuestionExamUpdateVm>().ReverseMap();
+
+
         }
     }
 }

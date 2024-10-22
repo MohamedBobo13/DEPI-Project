@@ -13,7 +13,7 @@ namespace OnlineEducationPlatform.DAL.Data.Models
 
         public string AnswerText { get; set; }
 
-        public bool IsDeleted { get; set; } = false;
+        public bool IsDeleted { get; set; }=  false;
 
         public bool IsCorrect { get; set; }
 

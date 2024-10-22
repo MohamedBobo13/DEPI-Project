@@ -302,6 +302,15 @@ D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\refint\OnlineEducationPlatf
 D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.pdb
 D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.genruntimeconfig.cache
 D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\ref\OnlineEducationPlatform.dll
+D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.AssemblyReference.cache
+D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfoInputs.cache
+D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfo.cs
+D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.CoreCompileInputs.cache
+D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cache
+D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cs
+D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.sourcelink.json
 D:\Project\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.Development.json
 D:\Project\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.json
 D:\Project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.staticwebassets.runtime.json
@@ -546,15 +555,6 @@ D:\Project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.
 D:\Project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
 D:\Project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
 D:\Project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
-D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.AssemblyReference.cache
-D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.GeneratedMSBuildEditorConfig.editorconfig
-D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfoInputs.cache
-D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfo.cs
-D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.CoreCompileInputs.cache
-D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.MvcApplicationPartsAssemblyInfo.cache
-D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cache
-D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cs
-D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.sourcelink.json
 D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.build.json
 D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.development.json
 D:\Project\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.OnlineEducationPlatform.Microsoft.AspNetCore.StaticWebAssets.props

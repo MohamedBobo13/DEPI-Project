@@ -15,7 +15,6 @@ using OnlineEducationPlatform.BLL.AutoMapper.VideoAutoMapper;
 using OnlineEducationPlatform.BLL.AutoMapper;
 using OnlineEducationPlatform.DAL.Data.DBHelper;
 using OnlineEducationPlatform.BLL.Manager.Answermanager;
-using OnlineEducationPlatform.BLL.Manager.Answerresultmanager;
 using OnlineEducationPlatform.BLL.Manager.EnrollmentManager;
 using OnlineEducationPlatform.BLL.Manager.ExamManager;
 using OnlineEducationPlatform.BLL.Manager.ExamResultmanager;

@@ -15,5 +15,6 @@ namespace OnlineEducationPlatform.BLL.Dtos
         public QuestionType QuestionType { get; set; }
         public int QuizId { get; set; }
         public int ExamId { get; set; }
+        public int CourseId { get; set; }
     }
 }

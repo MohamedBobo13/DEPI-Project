@@ -15,6 +15,7 @@ namespace OnlineEducationPlatform.DAL.Repositories
         Task<Course> GetByIdAsync(int id);
         Task UpdateAsync(Course course);
         Task<bool> DeleteAsync(int id);
+        bool IdExist(int courseId);
         Task SaveChangesAsync();
     }
 }

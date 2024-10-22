@@ -108,6 +108,12 @@ namespace OnlineEducationPlatform.BLL.Manager.StudentManager
             }
             return response;
         }
+
+        public bool IdExist(int studentId)
+        {
+            return _studentrepo.IdExist(studentId);
+        }
+
         public async Task<ServiceResponse<bool>> softdeleteStudent(string studentId)
         {
 

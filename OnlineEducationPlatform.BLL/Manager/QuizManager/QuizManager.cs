@@ -120,5 +120,10 @@ namespace OnlineEducationPlatform.BLL.Manager.QuizManager
             }
             await _quizRepo.Delete(quiz.Id);
         }
+
+        public bool IdExist(int quizId)
+        {
+            return _quizRepo.IdExist(quizId);
+        }
     }
 }

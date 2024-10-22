@@ -14,5 +14,6 @@ namespace OnlineEducationPlatform.BLL.Manager.QuizManager
         Task<QuizAddVm> AddAsync(QuizAddVm quizAddDto);
         Task <QuizUpdateVm>UpdateAsync(QuizUpdateVm quizUpdateDto);
         Task DeleteAsync(int id);
+        bool IdExist(int quizId);
     }
 }

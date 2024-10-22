@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Select Course for Quiz Questions";
+}
+
+<h2>Select Course to View Quiz Questions</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="courseId">Enter Course ID:</label>
+        <input type="number" id="courseId" name="courseId" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="View Quiz Questions" class="btn btn-secondary" formaction="@Url.Action("CourseQuiz")" />
+    </div>
+</form>

@@ -9,7 +9,8 @@ namespace OnlineEducationPlatform.BLL.Dtos
 {
     public class AnswerUpdateVm
     {
-        [Required(ErrorMessage = "ID is required.")]
+        [Required(ErrorMessage = "Answer ID is required.")]
+        [AnswerIdExists]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Answer text is required.")]

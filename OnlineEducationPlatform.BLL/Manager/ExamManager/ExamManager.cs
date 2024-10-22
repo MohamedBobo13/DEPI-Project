@@ -123,5 +123,10 @@ namespace OnlineEducationPlatform.BLL.Manager.ExamManager
             }
             await _examrepo.Delete(exam.Id);
         }
+
+        public bool IdExist(int examId)
+        {
+            return _examrepo.IdExist(examId);
+        }
     }
 }
