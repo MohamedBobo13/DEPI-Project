@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using OnlineEducationPlatform.BLL.ViewModels.ExamReadVm;
 using OnlineEducationPlatform.BLL.ViewModels.ExamVm;
 using OnlineEducationPlatform.DAL.Data.Models;
 using System;

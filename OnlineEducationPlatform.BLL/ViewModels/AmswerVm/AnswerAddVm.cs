@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace OnlineEducationPlatform.BLL.Dtos
+namespace OnlineEducationPlatform.BLL.ViewModels.AmswerVm
 {
     public class AnswerAddVm
     {
@@ -22,4 +22,3 @@ namespace OnlineEducationPlatform.BLL.Dtos
     }
 
 }
-*/

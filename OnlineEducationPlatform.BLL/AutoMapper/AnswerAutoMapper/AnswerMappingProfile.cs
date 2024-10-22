@@ -1,5 +1,5 @@
-﻿/*using AutoMapper;
-using OnlineEducationPlatform.BLL.Dtos;
+﻿using AutoMapper;
+using OnlineEducationPlatform.BLL.ViewModels.AmswerVm;
 using OnlineEducationPlatform.DAL.Data.Models;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.AutoMapper.AnswerAutoMapper
 {
-	public class AnswerMappingProfile : Profile
+    public class AnswerMappingProfile : Profile
     {
         public AnswerMappingProfile()
         {
@@ -19,4 +19,3 @@ namespace OnlineEducationPlatform.BLL.AutoMapper.AnswerAutoMapper
         }
     }
 }
-*/

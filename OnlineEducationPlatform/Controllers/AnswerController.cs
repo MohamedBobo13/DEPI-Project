@@ -1,6 +1,4 @@
-﻿/*using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ApplicationModels;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using OnlineEducationPlatform.BLL.Manager.Answermanager;
 using OnlineEducationPlatform.BLL.Manager.Questionmanager;
 using OnlineEducationPlatform.BLL.ViewModels.AmswerVm;
@@ -110,4 +108,3 @@ namespace OnlineEducationPlatform.Controllers
 
     }
 }
-*/

@@ -1,5 +1,4 @@
-﻿using OnlineEducationPlatform.BLL.QuizVm;
-using OnlineEducationPlatform.BLL.ViewModels.QuizVm;
+﻿using OnlineEducationPlatform.BLL.ViewModels.QuizViewModel;
 
 namespace OnlineEducationPlatform.BLL.Manager.QuizManager
 {

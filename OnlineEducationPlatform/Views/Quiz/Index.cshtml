@@ -1,33 +1,35 @@
-﻿@using OnlineEducationPlatform.BLL.ViewModels.QuizVm
-@Model List<QuizReadVm>
+﻿@model IEnumerable<OnlineEducationPlatform.BLL.QuizVm.QuizViewModel>
 
-<div class="container table-container">
-    <h2 class="text-center mb-4">Quiz List</h2>
+@{
+    ViewData["Title"] = "Quizzes";
+}
 
-    <table class="table table-striped table-hover">
-        <thead>
+<h1>Quizzes</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Quiz</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var quiz in Model)
+        {
             <tr>
-                <th>Id</th>
-                <th>Title</th>
-                <th>CourseId</th>
-                <th>TotalQuestions</th>
+                <td>@quiz.Id</td>
+                <td>@quiz.Title</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@quiz.Id">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@quiz.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@quiz.Id">Delete</a>
+                </td>
             </tr>
-        </thead>
-        <tbody>
-                @foreach (var quiz in Model)
-            {
-                <tr>
-                    <td>@quiz.Id</td>
-                    <td>@quiz.Title</td>
-                    <td>@quiz.CourseId</td>
-                    <td>@quiz.TotalQuestions</td>
-
-                </tr>
-            }
-        </tbody>
-    </table>
-
-    <div class="text-end">
-        <a class="btn btn-primary btn-create" asp-action="Create">Create New Quiz</a>
-    </div>
-</div>
+        }
+    </tbody>
+</table>

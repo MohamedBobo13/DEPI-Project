@@ -1,0 +1,17 @@
+﻿@model OnlineEducationPlatform.BLL.ViewModels.QuizViewModel
+
+@{
+    ViewData["Title"] = "Quiz Details";
+}
+
+<h1>Quiz Details</h1>
+
+<div>
+    <h4>@Model.Title</h4>
+    <p>@Model.Description</p>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</p>

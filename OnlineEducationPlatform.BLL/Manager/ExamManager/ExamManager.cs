@@ -1,13 +1,7 @@
 ﻿using AutoMapper;
-using OnlineEducationPlatform.BLL.ViewModels.ExamReadVm;
 using OnlineEducationPlatform.BLL.ViewModels.ExamVm;
 using OnlineEducationPlatform.DAL.Data.Models;
 using OnlineEducationPlatform.DAL.Repo.ExamRepo;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Manager.ExamManager
 {

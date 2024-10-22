@@ -1,10 +1,5 @@
-﻿using OnlineEducationPlatform.BLL.ViewModels.ExamReadVm;
-using OnlineEducationPlatform.BLL.ViewModels.ExamVm;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OnlineEducationPlatform.BLL.ViewModels.ExamVm;
+
 
 namespace OnlineEducationPlatform.BLL.Manager.ExamManager
 {
