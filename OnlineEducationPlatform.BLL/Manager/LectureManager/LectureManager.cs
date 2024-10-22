@@ -72,7 +72,6 @@ namespace OnlineEducationPlatform.BLL.Manager
             {
                 lecture.Id = lectureUpdateDto.Id;
                 lecture.Order = lectureUpdateDto.Order;
-                lecture.CourseId = lectureUpdateDto.CourseId;
                 lecture.Title = lectureUpdateDto.Title;
 
                 await _lectureRepo.UpdateAsync(lecture);

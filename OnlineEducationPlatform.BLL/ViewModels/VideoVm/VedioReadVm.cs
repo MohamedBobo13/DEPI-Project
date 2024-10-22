@@ -10,7 +10,7 @@ namespace OnlineEducationPlatform.BLL.Dto.VideoDto
 {
     public class VedioReadVm
     {
-        //public int Id { get; set; }
+        public int Id { get; set; }
         public string Url { get; set; }
         public string Title { get; set; }
         //[ForeignKey("Lecture")]

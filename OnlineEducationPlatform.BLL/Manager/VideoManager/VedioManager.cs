@@ -72,7 +72,6 @@ namespace OnlineEducationPlatform.BLL.Manager
             {
                 video.Id = vedioUpdateDto.Id;
                 video.Url = vedioUpdateDto.Url;
-                video.LectureId = vedioUpdateDto.LectureId;
                 video.Title = vedioUpdateDto.Title;
 
                 await _vedioRepo.UpdateAsync(video);
