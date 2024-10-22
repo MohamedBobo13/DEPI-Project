@@ -1,13 +1,7 @@
 ﻿using AutoMapper;
-using OnlineEducationPlatform.BLL.ViewModels.VideoDto;
-using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
 using OnlineEducationPlatform.DAL.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using OnlineEducationPlatform.BLL.Dto.VideoDto;
 
 namespace OnlineEducationPlatform.BLL.Manager
 {
@@ -72,7 +66,7 @@ namespace OnlineEducationPlatform.BLL.Manager
             {
                 video.Id = vedioUpdateDto.Id;
                 video.Url = vedioUpdateDto.Url;
-                video.LectureId = vedioUpdateDto.LectureId;
+               
                 video.Title = vedioUpdateDto.Title;
 
                 await _vedioRepo.UpdateAsync(video);

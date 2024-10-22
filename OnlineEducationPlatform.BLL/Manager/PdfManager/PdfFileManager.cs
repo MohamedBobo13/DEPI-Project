@@ -71,7 +71,7 @@ namespace OnlineEducationPlatform.BLL.Manager
             {
                 pdf.Id = pdfFileUpdateDto.Id;
                 pdf.Url = pdfFileUpdateDto.Url;
-                pdf.LectureId = pdfFileUpdateDto.LectureId;
+                
                 pdf.Title = pdfFileUpdateDto.Title;
 
                 await _pdfFileRepo.UpdateAsync(pdf);

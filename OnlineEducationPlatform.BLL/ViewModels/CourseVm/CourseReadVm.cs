@@ -6,18 +6,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.ViewModels.CourseDto
+namespace OnlineEducationPlatform.BLL.Dto.CourseDto
 {
     public class CourseReadVm
     {
-        //public int Id { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime CreatedDate { get; set; }
         public int TotalHours { get; set; }
         //[ForeignKey("Instructor")]
         //public string InstructorId { get; set; }
-        //public Instructor Instructor { get; set; }
+        //public Instructor Instructor { get; set; }=new Instructor();
         //public ICollection<Lecture> Lectures { get; set; } = new HashSet<Lecture>();
         //public ICollection<Enrollment> Enrollments { get; set; } = new HashSet<Enrollment>();
         //public ICollection<Quiz> Quizzes { get; set; } = new HashSet<Quiz>();

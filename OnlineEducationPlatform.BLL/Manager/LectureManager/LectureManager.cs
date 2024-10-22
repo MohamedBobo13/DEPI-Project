@@ -1,13 +1,7 @@
 ﻿using AutoMapper;
-using OnlineEducationPlatform.BLL.ViewModels.LectureDto;
-using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
 using OnlineEducationPlatform.DAL.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using OnlineEducationPlatform.BLL.Dto.LectureDto;
 
 namespace OnlineEducationPlatform.BLL.Manager
 {
@@ -72,7 +66,7 @@ namespace OnlineEducationPlatform.BLL.Manager
             {
                 lecture.Id = lectureUpdateDto.Id;
                 lecture.Order = lectureUpdateDto.Order;
-                lecture.CourseId = lectureUpdateDto.CourseId;
+               
                 lecture.Title = lectureUpdateDto.Title;
 
                 await _lectureRepo.UpdateAsync(lecture);

@@ -6,15 +6,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.ViewModels.LectureDto
+namespace OnlineEducationPlatform.BLL.Dto.LectureDto
 {
     public class LectureUpdateVm
     {
         public int Id { get; set; }
         public string Title { get; set; }
         public int Order { get; set; }
-        [ForeignKey("Course")]
-        public int CourseId { get; set; }
+        //[ForeignKey("Course")]
+        //public int CourseId { get; set; }
         //public Course Course { get; set; }
         //public ICollection<Quiz> Quizzes { get; set; } = new HashSet<Quiz>();
         // public ICollection<PdfFile> PdfFiles { get; set; } = new HashSet<PdfFile>();

@@ -1,11 +1,6 @@
 ﻿using AutoMapper;
-using OnlineEducationPlatform.BLL.ViewModels.LectureDto;
+using OnlineEducationPlatform.BLL.Dto.LectureDto;
 using OnlineEducationPlatform.DAL.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.AutoMapper.LectureAutoMapper
 {

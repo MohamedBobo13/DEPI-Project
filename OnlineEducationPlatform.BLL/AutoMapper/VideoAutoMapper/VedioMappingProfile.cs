@@ -1,11 +1,6 @@
 ﻿using AutoMapper;
-using OnlineEducationPlatform.BLL.ViewModels.VideoDto;
+using OnlineEducationPlatform.BLL.Dto.VideoDto;
 using OnlineEducationPlatform.DAL.Data.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.AutoMapper.VideoAutoMapper
 {

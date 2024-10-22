@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.ViewModels.LectureDto
+namespace OnlineEducationPlatform.BLL.Dto.LectureDto
 {
     public class LectureReadVm
     {
-        //public int Id { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public int Order { get; set; }
         //[ForeignKey("Course")]

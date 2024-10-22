@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.ViewModels.CourseDto
+namespace OnlineEducationPlatform.BLL.Dto.CourseDto
 {
     public class CourseUpdateVm
     {

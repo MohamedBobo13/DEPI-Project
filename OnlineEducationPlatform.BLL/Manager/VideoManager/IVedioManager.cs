@@ -1,10 +1,4 @@
-﻿using OnlineEducationPlatform.BLL.ViewModels.VideoDto;
-using OnlineEducationPlatform.BLL.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OnlineEducationPlatform.BLL.Dto.VideoDto;
 
 namespace OnlineEducationPlatform.BLL.Manager
 {

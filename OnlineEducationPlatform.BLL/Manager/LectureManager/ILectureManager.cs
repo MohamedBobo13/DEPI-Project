@@ -1,10 +1,4 @@
-﻿using OnlineEducationPlatform.BLL.ViewModels.LectureDto;
-using OnlineEducationPlatform.BLL.Dtos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OnlineEducationPlatform.BLL.Dto.LectureDto;
 
 namespace OnlineEducationPlatform.BLL.Manager
 {

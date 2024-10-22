@@ -1,13 +1,7 @@
 ﻿using AutoMapper;
-using OnlineEducationPlatform.BLL.ViewModels.CourseDto;
-using OnlineEducationPlatform.BLL.Dtos;
 using OnlineEducationPlatform.DAL.Data.Models;
 using OnlineEducationPlatform.DAL.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using OnlineEducationPlatform.BLL.Dto.CourseDto;
 
 namespace OnlineEducationPlatform.BLL.Manager
 {

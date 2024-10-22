@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineEducationPlatform.BLL.ViewModels.VideoDto
+namespace OnlineEducationPlatform.BLL.Dto.VideoDto
 {
     public class VedioAddVm
     {
