@@ -79,7 +79,7 @@ namespace OnlineEducationPlatform.BLL.Manager.ExamManager
            
             if (existingexam == true)
             {
-                exam.Id = examUpdateDto.Id;
+               
                 exam.DurationMinutes = examUpdateDto.DurationMinutes;
                 exam.CourseId = examUpdateDto.CourseId;
                 exam.Title = examUpdateDto.Title;

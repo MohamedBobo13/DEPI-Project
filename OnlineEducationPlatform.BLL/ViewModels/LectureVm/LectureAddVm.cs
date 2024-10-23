@@ -1,4 +1,5 @@
-﻿using OnlineEducationPlatform.DAL.Data.Models;
+﻿using OnlineEducationPlatform.BLL.Validation.CourseValidation;
+using OnlineEducationPlatform.DAL.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -14,6 +15,7 @@ namespace OnlineEducationPlatform.BLL.Dto.LectureDto
         public string Title { get; set; }
         public int Order { get; set; }
         [ForeignKey("Course")]
+        [CourseIdExists]
         public int CourseId { get; set; }
         //public Course Course { get; set; }
         //public ICollection<Quiz> Quizzes { get; set; } = new HashSet<Quiz>();

@@ -73,5 +73,9 @@ namespace OnlineEducationPlatform.BLL.Manager
             }
             return null;
         }
+        public bool IdExist(int lectureid)
+        {
+            return _lectureRepo.IdExist(lectureid);
+        }
     }
 }

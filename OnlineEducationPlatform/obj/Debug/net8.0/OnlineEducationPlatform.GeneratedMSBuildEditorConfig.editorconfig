@@ -154,6 +154,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVJlc3VsdFxHZXRFeGFtUmVzdWx0c0J5RXhhbUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Amr mvc/OnlineEducationPlatform/Views/Exam/confirmsoftdelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxjb25maXJtc29mdGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Exam/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Exam/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Exam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Amr mvc/OnlineEducationPlatform/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -292,6 +308,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Amr mvc/OnlineEducationPlatform/Views/QuizResult/GetQuizResultsByQuizId.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelJlc3VsdFxHZXRRdWl6UmVzdWx0c0J5UXVpeklkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Quiz/confirmsoftdelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxjb25maXJtc29mdGRlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Quiz/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Quiz/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Quiz/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Quiz/GetById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxHZXRCeUlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amr mvc/OnlineEducationPlatform/Views/Quiz/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVpelxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Amr mvc/OnlineEducationPlatform/Views/Shared/Error.cshtml]

@@ -1,4 +1,5 @@
-﻿using OnlineEducationPlatform.DAL.Data.Models;
+﻿using OnlineEducationPlatform.BLL.Validation.InstructorValidation;
+using OnlineEducationPlatform.DAL.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -16,6 +17,7 @@ namespace OnlineEducationPlatform.BLL.Dto.CourseDto
         public DateTime CreatedDate { get; set; }
         public int TotalHours { get; set; }
         [ForeignKey("Instructor")]
+        [instructorIdExists]
         public string InstructorId { get; set; }
         //public Instructor Instructor { get; set; }
         //public ICollection<Lecture> Lectures { get; set; } = new HashSet<Lecture>();

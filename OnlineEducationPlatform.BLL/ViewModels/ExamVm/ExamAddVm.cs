@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OnlineEducationPlatform.BLL.Validation.CourseValidation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ namespace OnlineEducationPlatform.BLL.ViewModels.ExamDto
 {
     public class ExamAddVm
     {
+        [CourseIdExists]
         public int CourseId { get; set; }
         public string Title { get; set; }
         public int TotalMarks { get; set; }

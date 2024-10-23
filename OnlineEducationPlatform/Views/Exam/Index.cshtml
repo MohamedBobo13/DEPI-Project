@@ -1,0 +1,48 @@
+﻿@using OnlineEducationPlatform.BLL.ViewModels
+@model IEnumerable<ExamReadVm>
+@{
+    ViewData["Title"] = "Exams";
+}
+
+<h1>Quizzes</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Exam</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>CourseId</th>
+
+           
+            <th>Title</th>
+            <th>TotalMarks</th>
+            <th>TotalQuestions</th>
+            <th>DurationMinutes</th>
+            <th>Passing Marks</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var exam in Model)
+        {
+            <tr>
+                <td>@exam.Id</td>
+                <td>@exam.CourseId</td>
+
+                <td>@exam.Title</td>
+                <td>@exam.TotalMarks</td>
+                <td>@exam.TotalQuestions</td>
+                <td>@exam.DurationMinutes</td>
+                <td>@exam.PassingMarks</td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@exam.Id">Edit</a> |
+                    <a asp-action="ConfirmSoftDelete" asp-route-id="@exam.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>

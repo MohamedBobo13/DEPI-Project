@@ -1,4 +1,5 @@
-﻿using OnlineEducationPlatform.DAL.Data.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using OnlineEducationPlatform.DAL.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,7 @@ namespace OnlineEducationPlatform.DAL.Repo.InstructorRepo
         Task<ApplicationUser> GetInstructorByIdAsyncsoftornot(string InstructorId);
         Task<bool> RemoveAsync(ApplicationUser Instructor);
         Task<ApplicationUser> GetinstructorById(string InstructorId);
-
+        public bool IdExist(string instrucorId);
+        
     }
 }

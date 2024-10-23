@@ -75,9 +75,8 @@ namespace OnlineEducationPlatform.BLL.Manager.QuizManager
 
             if (existingquiz == true)
             {
-                quiz.Id = quizUpdateDto.Id;
-                quiz.LectureId = quizUpdateDto.LectureId;
-                quiz.CourseId = quizUpdateDto.CourseId;
+               
+              
                 quiz.Title =    quizUpdateDto.Title;
 
                

@@ -58,5 +58,10 @@ namespace OnlineEducationPlatform.DAL.Repositories
         {
             await _context.SaveChangesAsync();
         }
+        public bool IdExist(int lectureid)
+        {
+            return _context.Lecture.Any(q => q.Id == lectureid);
+        }
+
     }
 }

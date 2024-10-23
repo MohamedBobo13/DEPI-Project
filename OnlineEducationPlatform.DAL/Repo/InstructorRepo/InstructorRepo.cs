@@ -72,5 +72,9 @@ namespace OnlineEducationPlatform.DAL.Repo.InstructorRepo
             }
             return false;
         }
+        public bool IdExist(string instructorid)
+        {
+            return _context.Instructor.Any(q => q.Id == instructorid);
+        }
     }
 }

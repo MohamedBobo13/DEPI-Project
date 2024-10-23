@@ -1,4 +1,5 @@
-﻿using OnlineEducationPlatform.DAL.Data.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using OnlineEducationPlatform.DAL.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +16,8 @@ namespace OnlineEducationPlatform.DAL.Repositories
         Task UpdateAsync(Lecture lecture);
         Task<bool> DeleteAsync(int id);
         Task SaveChangesAsync();
+        public bool IdExist(int Lectureid);
+        
+
     }
 }
