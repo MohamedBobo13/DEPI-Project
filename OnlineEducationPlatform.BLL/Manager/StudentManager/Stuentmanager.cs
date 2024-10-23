@@ -197,7 +197,7 @@ namespace OnlineEducationPlatform.BLL.Manager.StudentManager
                
             };
         }
-        public bool IdExist(int studentId)
+        public bool IdExist(string studentId)
         {
             return _studentrepo.IdExist(studentId);
         }

@@ -61,7 +61,7 @@ namespace OnlineEducationPlatform.DAL.Repositories
         }
         public bool IdExist(int courseId)
         {
-            return _context.Answer.Any(q => q.Id == courseId);
+            return _context.Course.Any(q => q.Id == courseId);
         }
 
     }

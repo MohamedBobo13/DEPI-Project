@@ -17,6 +17,6 @@ namespace OnlineEducationPlatform.BLL.Manager.StudentManager
         Task<ServiceResponse<studentreadVm>> Getstudentbyid(string studentid);
         Task<ServiceResponse<bool>> softdeleteStudent(string studentId);
         Task<studentreadVm> GetstudenttByStudentId(string studentId);
-        bool IdExist(int studentId);
+        bool IdExist(string studentId);
     }
 }

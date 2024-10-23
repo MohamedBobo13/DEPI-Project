@@ -13,7 +13,7 @@ namespace OnlineEducationPlatform.BLL.Validation.StudentValidation
     {
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            if (value is int studentId)
+            if (value is string studentId)
             {
                 var studentRepo = validationContext.GetService(typeof(IStudentRepo)) as IStudentRepo;
 
