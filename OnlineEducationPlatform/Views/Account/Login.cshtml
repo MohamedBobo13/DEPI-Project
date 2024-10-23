@@ -1,5 +1,5 @@
 ﻿@model LoginVm
-<div class="container mt-5">
+<div class="container mt-5 align-content-center" style="width:1000px">
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card">
@@ -19,16 +19,12 @@
                             <input type="password" asp-for="Password" class="form-control" placeholder="Enter your password" />
                             <span asp-validation-for="Password" class="text-danger"></span>
                         </div>
-                        <button type="submit" class="btn btn-primary w-100">Login</button>
+                        <div class="align-content-center">
+                            <button type="submit" class="btn btn-primary w-100">Login</button>
+                        </div>
+                       
                     </form>
-
-                    <!-- Forgot Password link -->
-                    <div class="text-center mt-3">
-                        <form asp-action="SendPasswordResetCode" method="post" class="text-center mt-3">
-                            <button type="submit" class="btn btn-link text-primary">Forget Password? </button>
-                        </form>
-
-                    </div>
+                    
                 </div>
             </div>
         </div>

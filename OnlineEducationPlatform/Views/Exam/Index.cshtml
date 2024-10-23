@@ -3,20 +3,16 @@
 @{
     ViewData["Title"] = "Exams";
 }
+<div class="container mt-5 align-content-center" style="width:1000px">
+<h1>Exams</h1>
 
-<h1>Quizzes</h1>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Create New Exam</a>
-</p>
 
-<table class="table">
+<table class="table table-hover table-bordered">
     <thead>
-        <tr>
+        
             <th>Id</th>
             <th>CourseId</th>
-
-           
             <th>Title</th>
             <th>TotalMarks</th>
             <th>TotalQuestions</th>
@@ -24,7 +20,7 @@
             <th>Passing Marks</th>
 
 
-        </tr>
+        
     </thead>
     <tbody>
         @foreach (var exam in Model)
@@ -45,4 +41,8 @@
                 </td>
             </tr>
         }
+            <p>
+                <a asp-action="Create" class="btn btn-primary">Create New Exam</a>
+            </p>
     </tbody>
+    </div>

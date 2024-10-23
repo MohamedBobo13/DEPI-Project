@@ -4,12 +4,11 @@
 @{
     ViewData["Title"] = "Quizzes";
 }
+<div class="container mt-5 align-content-center" style="width:1000px">
 
 <h1>Quizzes</h1>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Create New Quiz</a>
-</p>
+
 
 <table class="table">
     <thead>
@@ -40,5 +39,10 @@
                 </td>
             </tr>
         }
+            <p>
+                <a asp-action="Create" class="btn btn-primary">Create New Quiz</a>
+            </p>
+
     </tbody>
 </table>
+</div>

@@ -1,5 +1,5 @@
 ﻿@model List<QuestionCourseExamReadVm>
-
+<div class="container mt-5 align-content-center" style="width:1000px">
 <h2>Exam Questions</h2>
 
 <table class="table">
@@ -27,8 +27,10 @@
         }
     </tbody>
 </table>
+
 <div>
     <a asp-action="CreateExam" class="btn btn-success">Add New Question</a>
     <a asp-action="SelectCourseForExam" class="btn btn-secondary">Back to Select Course</a>
+</div>
 </div>
 

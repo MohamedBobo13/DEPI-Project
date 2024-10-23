@@ -45,3 +45,19 @@ D:\Amr mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPl
 D:\Amr mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
 D:\Amr mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll
 D:\Amr mvc\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.sourcelink.json
+D:\project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.deps.json
+D:\project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+D:\project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+D:\project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\project\OnlineEducationPlatform.BLL\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.AssemblyReference.cache
+D:\project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfoInputs.cache
+D:\project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.AssemblyInfo.cs
+D:\project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.csproj.CoreCompileInputs.cache
+D:\project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.sourcelink.json
+D:\project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEd.3B35E1B4.Up2Date
+D:\project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+D:\project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\refint\OnlineEducationPlatform.BLL.dll
+D:\project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+D:\project\OnlineEducationPlatform.BLL\obj\Debug\net8.0\ref\OnlineEducationPlatform.BLL.dll

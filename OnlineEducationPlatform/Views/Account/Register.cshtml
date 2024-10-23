@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Register";
 }
-
+<div class="container mt-5 align-content-center" style="width:1000px">
 <h1>Register</h1>
 
 <h4>Student Registration</h4>
@@ -39,9 +39,9 @@
                 </div>
             </div>
 
-           
 
-            
+
+
 
             <div class="row">
                 <div class="col-md-6 form-group">
@@ -50,7 +50,7 @@
                     <span asp-validation-for="PhoneNumber" class="text-danger"></span>
                 </div>
             </div>
-
+            <br />
             <div class="form-group">
                 <input type="submit" value="Register" class="btn btn-primary" />
             </div>
@@ -61,10 +61,10 @@
 <div>
     Already have an account? <a asp-controller="Account" asp-action="Login">Login here</a>
 </div>
+</div>
 
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
-

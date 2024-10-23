@@ -2,7 +2,6 @@
 using OnlineEducationPlatform.BLL.ViewModels.EnrollmentDto;
 using OnlineEducationPlatform.BLL.Manager.EnrollmentManager;
 using OnlineEducationPlatform.DAL.Data.Models;
-using OnlineEducationPlatform.DAL.Migrations;
 using System;
 
 namespace OnlineEducationPlatform.Controllers

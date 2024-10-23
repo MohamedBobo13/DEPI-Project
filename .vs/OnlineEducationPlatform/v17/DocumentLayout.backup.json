@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\",
+  "WorkspaceRootPath": "D:\\project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|d:\\depi-project-mvc\\onlineeducationplatform\\onlineeducationplatform.dal\\migrations\\20241020085157_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\migrations\\20241020085157_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\exam\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\exam\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\depi-project-mvc\\onlineeducationplatform\\onlineeducationplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\quiz\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +30,79 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241020085157_init.cs",
-              "DocumentMoniker": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Migrations\\20241020085157_init.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Migrations\\20241020085157_init.cs",
-              "ToolTip": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform.DAL\\Migrations\\20241020085157_init.cs*",
-              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Migrations\\20241020085157_init.cs*",
-              "ViewState": "AgIAAGAAAAAAAAAAAADgv18AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T08:51:58.094Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\Program.cs",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Program.cs",
-              "ToolTip": "D:\\DEPI-Project-MVC\\OnlineEducationPlatform\\OnlineEducationPlatform\\Program.cs",
-              "RelativeToolTip": "OnlineEducationPlatform\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T08:51:33.256Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\project\\OnlineEducationPlatform\\Views\\Quiz\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Quiz\\Index.cshtml",
+              "ToolTip": "D:\\project\\OnlineEducationPlatform\\Views\\Quiz\\Index.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Quiz\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T23:50:03.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\project\\OnlineEducationPlatform\\Views\\Exam\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Exam\\Index.cshtml",
+              "ToolTip": "D:\\project\\OnlineEducationPlatform\\Views\\Exam\\Index.cshtml*",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Exam\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T23:48:54.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_MyLayout.cshtml",
+              "DocumentMoniker": "D:\\project\\OnlineEducationPlatform\\Views\\Shared\\_MyLayout.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Shared\\_MyLayout.cshtml",
+              "ToolTip": "D:\\project\\OnlineEducationPlatform\\Views\\Shared\\_MyLayout.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Shared\\_MyLayout.cshtml",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAuwIgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T21:26:52.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "scripts.js",
+              "DocumentMoniker": "D:\\project\\OnlineEducationPlatform\\wwwroot\\js\\scripts.js",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\wwwroot\\js\\scripts.js",
+              "ToolTip": "D:\\project\\OnlineEducationPlatform\\wwwroot\\js\\scripts.js",
+              "RelativeToolTip": "OnlineEducationPlatform\\wwwroot\\js\\scripts.js",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-23T21:25:40.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\project\\OnlineEducationPlatform\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\wwwroot\\css\\styles.css",
+              "ToolTip": "D:\\project\\OnlineEducationPlatform\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "OnlineEducationPlatform\\wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAPYtAAAAAAAAAAAuwA4uAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T21:25:30.062Z",
               "EditorCaption": ""
             }
           ]

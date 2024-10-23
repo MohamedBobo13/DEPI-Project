@@ -12,8 +12,8 @@ using OnlineEducationPlatform.DAL.Data.DBHelper;
 namespace OnlineEducationPlatform.DAL.Migrations
 {
     [DbContext(typeof(EducationPlatformContext))]
-    [Migration("20241023004714_addroles")]
-    partial class addroles
+    [Migration("20241023210043_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -667,6 +667,13 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("LectureId");
 
                     b.ToTable("Video");
+                });
+
+            modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Admin", b =>
+                {
+                    b.HasBaseType("OnlineEducationPlatform.DAL.Data.Models.ApplicationUser");
+
+                    b.HasDiscriminator().HasValue("Admin");
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Instructor", b =>
