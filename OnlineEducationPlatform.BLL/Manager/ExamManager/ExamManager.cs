@@ -1,13 +1,7 @@
 ﻿using AutoMapper;
-using OnlineEducationPlatform.BLL.ViewModels.ExamReadVm;
 using OnlineEducationPlatform.BLL.ViewModels.ExamVm;
 using OnlineEducationPlatform.DAL.Data.Models;
 using OnlineEducationPlatform.DAL.Repo.ExamRepo;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OnlineEducationPlatform.BLL.Manager.ExamManager
 {
@@ -42,11 +36,7 @@ namespace OnlineEducationPlatform.BLL.Manager.ExamManager
         public async Task<ExamAddVm> AddAsync(ExamAddVm examAddDto)
 
         {
-
-
             var exam = _mapper.Map<Exam>(examAddDto);
-
-
 
             await _examrepo.Add(exam);
             var saveresult = await _examrepo.CompleteAsync();
@@ -54,8 +44,6 @@ namespace OnlineEducationPlatform.BLL.Manager.ExamManager
             {
                 return new ExamAddVm
                 {
-
-                   
                     CourseId = exam.CourseId,
                     Title = exam.Title,
                     TotalMarks = exam.TotalMarks,
@@ -70,7 +58,7 @@ namespace OnlineEducationPlatform.BLL.Manager.ExamManager
         }
 
 
-        public async Task<ExamUpdateVm> Update(ExamUpdateVm examUpdateDto)
+        public async Task<ExamUpdateVm> UpdateAsync(ExamUpdateVm examUpdateDto)
         {
             var exam = await _examrepo.GetById(examUpdateDto.Id);
             var existingexam = await _examrepo.examExistsAsyncbyid(examUpdateDto.Id);

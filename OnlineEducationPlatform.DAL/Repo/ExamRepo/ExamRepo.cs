@@ -47,9 +47,7 @@ namespace OnlineEducationPlatform.DAL.Repo.ExamRepo
         public async Task Updateasync(Exam exam)
         {
             _context.Exam.Update(exam);
-       //     await _context.SaveChangesAsync();
-            //   await _context.SaveChangesAsync();
-            //    await SaveChange();
+            await _context.SaveChangesAsync();
         }
         public async Task<bool> CompleteAsync()
         {

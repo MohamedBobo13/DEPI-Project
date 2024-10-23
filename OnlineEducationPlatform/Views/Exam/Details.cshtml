@@ -1,0 +1,20 @@
+﻿@model OnlineEducationPlatform.BLL.ViewModels.ExamVm.ExamReadVm
+
+@{
+    ViewData["Title"] = "Exam Details";
+}
+
+<h1>Exam Details</h1>
+
+<div>
+    <h4>@Model.Title</h4>
+    <p>@Model.TotalQuestions</p>
+    <p>@Model.TotalMarks</p>
+    <p>@Model.PassingMarks</p>
+    <p>@Model.DurationMinutes</p>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</p>

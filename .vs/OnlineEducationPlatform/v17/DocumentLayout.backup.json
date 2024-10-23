@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\nour_\\source\\repos\\MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|c:\\users\\nour_\\source\\repos\\mvc\\onlineeducationplatform\\views\\quiz\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\quiz\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|c:\\users\\nour_\\source\\repos\\mvc\\onlineeducationplatform.dal\\repo\\answerrepo\\answerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\answerrepo\\answerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|c:\\users\\nour_\\source\\repos\\mvc\\onlineeducationplatform.dal\\repo\\answerrepo\\ianswerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F45744F-5743-4BE2-BC82-D7F6BC4D0353}|OnlineEducationPlatform.DAL\\OnlineEducationPlatform.DAL.csproj|solutionrelative:onlineeducationplatform.dal\\repo\\answerrepo\\ianswerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform\\Views\\Quiz\\Create.cshtml",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Quiz\\Create.cshtml",
-              "ToolTip": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform\\Views\\Quiz\\Create.cshtml",
-              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Quiz\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T21:42:34.509Z",
+              "Title": "AnswerRepo.cs",
+              "DocumentMoniker": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\AnswerRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\AnswerRepo.cs",
+              "ToolTip": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\AnswerRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\AnswerRepo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:03:06.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAnswerRepo.cs",
+              "DocumentMoniker": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\IAnswerRepo.cs",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\IAnswerRepo.cs",
+              "ToolTip": "C:\\Users\\nour_\\source\\repos\\MVC\\OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\IAnswerRepo.cs",
+              "RelativeToolTip": "OnlineEducationPlatform.DAL\\Repo\\AnswerRepo\\IAnswerRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:02:57.339Z",
               "EditorCaption": ""
             }
           ]

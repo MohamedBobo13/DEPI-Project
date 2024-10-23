@@ -46,8 +46,7 @@ namespace OnlineEducationPlatform.DAL.Repo.QuizRepo
         public async Task Update(Quiz quiz)
         {
             _context.Quiz.Update(quiz);
-            //await _context.SaveChangesAsync();
-            //    await SaveChange();
+            await _context.SaveChangesAsync();
         }
         public async Task<bool> CompleteAsync()
         {
@@ -57,6 +56,10 @@ namespace OnlineEducationPlatform.DAL.Repo.QuizRepo
         {
             return await _context.Quiz
                 .AnyAsync(e => e.Id == id);
+        }
+        public bool IdExist(int quizId)
+        {
+            return _context.Answer.Any(q => q.Id == quizId);
         }
 
     }

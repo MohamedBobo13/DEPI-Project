@@ -1,9 +1,8 @@
-﻿/*using AutoMapper;
-using OnlineEducationPlatform.BLL.Dtos;
+﻿using AutoMapper;
 using OnlineEducationPlatform.BLL.Manager.Questionmanager;
+using OnlineEducationPlatform.BLL.ViewModels.AmswerVm;
 using OnlineEducationPlatform.DAL.Data.Models;
 using OnlineEducationPlatform.DAL.Repo.AnswerRepo;
-using OnlineEducationPlatform.DAL.Repositories;
 
 namespace OnlineEducationPlatform.BLL.Manager.Answermanager
 {
@@ -68,4 +67,4 @@ namespace OnlineEducationPlatform.BLL.Manager.Answermanager
             }
         }
     }
-}*/
+}

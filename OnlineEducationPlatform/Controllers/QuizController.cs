@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OnlineEducationPlatform.BLL.Manager.QuizManager;
-using OnlineEducationPlatform.BLL.QuizVm;
-using OnlineEducationPlatform.BLL.ViewModels.QuizVm;
-using OnlineEducationPlatform.DAL.Data.Models;
-using OnlineEducationPlatform.DAL.Repo.QuizRepo;
+using OnlineEducationPlatform.BLL.ViewModels.ExamVm;
+using OnlineEducationPlatform.BLL.ViewModels.QuizViewModel;
 namespace OnlineEducationPlatform.Controllers
 {
     public class QuizController : Controller
@@ -13,14 +11,14 @@ namespace OnlineEducationPlatform.Controllers
         {
             _quizManager = quizManager;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var quiz = _quizManager.GetAllAsync();
+            var quiz = await _quizManager.GetAllAsync();
             return View(quiz);
         }
-        public IActionResult Details(int id)
+        public async Task<IActionResult> Details(int id)
         {
-            var quiz = _quizManager.GetByIdAsync(id);
+            var quiz = await _quizManager.GetByIdAsync(id);
 
             if (quiz == null)
             {
@@ -29,21 +27,28 @@ namespace OnlineEducationPlatform.Controllers
 
             return View(quiz);
         }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [HttpPost]
-        public IActionResult Create(QuizAddVm quizAddVm)
+        public async Task<IActionResult> Create(QuizAddVm quizAddVm)
         {
-            if (!ModelState.IsValid)
+            if (quizAddVm.CourseId <= 0)
             {
+                ModelState.AddModelError("CourseId", "Invalid Course ID.");
                 return View(quizAddVm);
             }
-            _quizManager.AddAsync(quizAddVm);
+            await _quizManager.AddAsync(quizAddVm);
             return RedirectToAction("Index");
         }
-        public IActionResult Edit(int id)
+        public async Task<IActionResult> Edit(int id)
         {
-            var answer = _quizManager.GetByIdAsync(id);
+            var answer = await _quizManager.GetByIdAsync(id);
             if (answer == null)
             {
                 return NotFound();
@@ -53,18 +58,18 @@ namespace OnlineEducationPlatform.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(QuizUpdateVm quizVm)
+        public async Task<IActionResult> Edit(QuizUpdateVm quizVm)
         {
             if (ModelState.IsValid)
             {
-                _quizManager.UpdateAsync(quizVm);
+                await _quizManager.UpdateAsync(quizVm);
                 return RedirectToAction(nameof(Index));
             }
             return View(quizVm);
         }
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var answer = _quizManager.GetByIdAsync(id);
+            var answer = await _quizManager.GetByIdAsync(id);
             if (answer == null)
             {
                 return NotFound();
@@ -75,9 +80,9 @@ namespace OnlineEducationPlatform.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            _quizManager.DeleteAsync(id);
+            await _quizManager.DeleteAsync(id);
 
             return RedirectToAction("Index");
         }

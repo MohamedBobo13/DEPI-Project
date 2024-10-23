@@ -18,7 +18,8 @@ namespace OnlineEducationPlatform.DAL.Repo.QuizRepo
         Task<bool> Delete(int id);
         Task<bool> CompleteAsync();
         Task<bool> quizExistsAsyncbyid(int id);
-      
+        bool IdExist(int quizId);
+
     }
 
 }
