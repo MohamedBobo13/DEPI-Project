@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\shared\\_mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\question\\courseexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\question\\courseexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\question\\coursequiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\question\\coursequiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\answerresult\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answerresult\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\question\\createexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\question\\createexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\answer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\answerresult\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answerresult\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\answer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\answer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\answer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\question\\createquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\question\\createquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,93 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "OnlineEducationPlatform\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CreateQuiz.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CreateQuiz.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Question\\CreateQuiz.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CreateQuiz.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Question\\CreateQuiz.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwC4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T17:34:56.023Z",
+              "WhenOpened": "2024-10-23T11:49:27.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_MyLayout.cshtml",
-              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Shared\\_MyLayout.cshtml",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Shared\\_MyLayout.cshtml",
-              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Shared\\_MyLayout.cshtml",
-              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Shared\\_MyLayout.cshtml",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAwwFsAAAAPAAAAAAAAAA==",
+              "Title": "CourseExam.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CourseExam.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Question\\CourseExam.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CourseExam.cshtml*",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Question\\CourseExam.cshtml*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T17:30:57.355Z",
+              "WhenOpened": "2024-10-23T11:45:52.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\AnswerResult\\Create.cshtml",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\AnswerResult\\Create.cshtml",
-              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\AnswerResult\\Create.cshtml",
-              "RelativeToolTip": "OnlineEducationPlatform\\Views\\AnswerResult\\Create.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAACgAAAAjAAAAAAAAAA==",
+              "Title": "CreateExam.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CreateExam.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Question\\CreateExam.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CreateExam.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Question\\CreateExam.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwC4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T17:21:01.031Z",
+              "WhenOpened": "2024-10-23T11:44:20.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Create.cshtml",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Answer\\Create.cshtml",
-              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Create.cshtml",
-              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Create.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAgwBwAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CourseQuiz.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CourseQuiz.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Question\\CourseQuiz.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CourseQuiz.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Question\\CourseQuiz.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwCgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T17:12:44.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Index.cshtml",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Answer\\Index.cshtml",
-              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Index.cshtml",
-              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T17:12:02.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\AnswerResult\\Edit.cshtml",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\AnswerResult\\Edit.cshtml",
-              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\AnswerResult\\Edit.cshtml",
-              "RelativeToolTip": "OnlineEducationPlatform\\Views\\AnswerResult\\Edit.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwCUAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T17:07:48.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
-              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
-              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
-              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Answer\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T17:07:39.485Z",
+              "WhenOpened": "2024-10-23T11:44:10.762Z",
               "EditorCaption": ""
             }
           ]

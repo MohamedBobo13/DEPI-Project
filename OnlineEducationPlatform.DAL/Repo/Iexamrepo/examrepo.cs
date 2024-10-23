@@ -62,7 +62,7 @@ namespace OnlineEducationPlatform.DAL.Repo.Iexamrepo
         }
         public bool IdExist(int examId)
         {
-            return _context.Answer.Any(q => q.Id == examId);
+            return _context.Exam.Any(q => q.Id == examId);
         }
 
     }

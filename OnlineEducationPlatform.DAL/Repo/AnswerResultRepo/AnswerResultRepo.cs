@@ -38,7 +38,7 @@ namespace OnlineEducationPlatform.DAL.Repo.AnswerResultRepo
 		}
 		public bool IdExist(int answerResultId)
 		{
-			return _context.Answer.Any(q => q.Id == answerResultId);
+			return _context.AnswerResult.Any(q => q.Id == answerResultId);
 		}
 		public async Task SaveChangeAsync()
 		{
