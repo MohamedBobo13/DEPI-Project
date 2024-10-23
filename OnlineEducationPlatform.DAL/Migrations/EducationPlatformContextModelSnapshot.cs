@@ -47,6 +47,26 @@ namespace OnlineEducationPlatform.DAL.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "1",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = "2",
+                            Name = "Instructor",
+                            NormalizedName = "INSTRUCTOR"
+                        },
+                        new
+                        {
+                            Id = "3",
+                            Name = "Student",
+                            NormalizedName = "STUDENT"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -352,7 +372,7 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.Property<int>("CourseId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("EnrollmentDate")
+                    b.Property<DateTime?>("EnrollmentDate")
                         .HasColumnType("datetime2");
 
                     b.Property<bool>("IsDeleted")
@@ -644,6 +664,13 @@ namespace OnlineEducationPlatform.DAL.Migrations
                     b.HasIndex("LectureId");
 
                     b.ToTable("Video");
+                });
+
+            modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Admin", b =>
+                {
+                    b.HasBaseType("OnlineEducationPlatform.DAL.Data.Models.ApplicationUser");
+
+                    b.HasDiscriminator().HasValue("Admin");
                 });
 
             modelBuilder.Entity("OnlineEducationPlatform.DAL.Data.Models.Instructor", b =>

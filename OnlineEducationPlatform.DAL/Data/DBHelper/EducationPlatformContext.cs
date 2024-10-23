@@ -7,6 +7,7 @@ using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace OnlineEducationPlatform.DAL.Data.DBHelper
 {
@@ -59,9 +60,14 @@ namespace OnlineEducationPlatform.DAL.Data.DBHelper
             modelBuilder.Entity<ExamResult>()
  .HasIndex(e => new { e.StudentId, e.ExamId })
  .IsUnique();
-          
 
-            
+
+            modelBuilder.Entity<IdentityRole>().HasData(
+        new IdentityRole {Id = "1", Name = "Admin", NormalizedName = "ADMIN" },
+        new IdentityRole { Id = "2", Name = "Instructor", NormalizedName = "INSTRUCTOR" },
+        new IdentityRole { Id = "3", Name = "Student", NormalizedName = "STUDENT" }
+
+        );
 
 
 
@@ -82,6 +88,9 @@ namespace OnlineEducationPlatform.DAL.Data.DBHelper
         public DbSet<ApplicationUser> User { get; set; }
         public DbSet<Student> Student { get; set; }
         public DbSet<Instructor> Instructor { get; set; }
+        public DbSet<Admin> Admin { get; set; }
+
+
 
 
 

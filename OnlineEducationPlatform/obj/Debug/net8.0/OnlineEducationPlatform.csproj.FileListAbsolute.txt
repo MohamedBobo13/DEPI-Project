@@ -455,3 +455,11 @@ D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.pdb
 D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.genruntimeconfig.cache
 D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\ref\OnlineEducationPlatform.dll
 D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.sourcelink.json
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNet.Identity.Owin.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.Cookies.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.OAuth.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Owin.dll

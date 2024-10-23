@@ -33,6 +33,9 @@ using OnlineEducationPlatform.DAL.Repo.QuestionRepo;
 using OnlineEducationPlatform.DAL.Repo.QuizRepo;
 using OnlineEducationPlatform.DAL.Repo.StudentRepo;
 using OnlineEducationPlatform.DAL.Repositories;
+using OnlineEducationPlatform.BLL.Manager.Account_Manager;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Identity;
 
 namespace OnlineEducationPlatform
 {
@@ -67,54 +70,27 @@ namespace OnlineEducationPlatform
 			builder.Services.AddAutoMapper(map => map.AddProfile(new QuizMappingProfile()));
 			builder.Services.AddAutoMapper(map => map.AddProfile(new ExamMappingProfile()));
 
-		
-			builder.Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
-			builder.Services.AddScoped<IenrollmentManager, EnrollmentManager>();
-
-			builder.Services.AddScoped<IQuizResultRepo, QuizResultRepo>();
-			builder.Services.AddScoped<IQuizResultManager, QuizResultManager>();
-
-			builder.Services.AddScoped<IExamResultRepo, ExamResultRepo>();
-			builder.Services.AddScoped<IExamResultmanager, examresultmanager>();
-
-			builder.Services.AddScoped<IStudentRepo, StudentRepo>();
-			builder.Services.AddScoped<Istudentmanager, Stuentmanager>();
-			builder.Services.AddScoped<IInstructorRepo, InstructorRepo>();
-			builder.Services.AddScoped<IInstructorManager, instructorManager>();
-
-			builder.Services.AddScoped<IQuizRepo, QuizRepo>();
-			builder.Services.AddScoped<IQuizManager, QuizManager>();
-			//builder.Services.AddScoped<IQuizManager, QuizManager>();
-			builder.Services.AddScoped<Iexamrepo, examrepo>();
-			builder.Services.AddScoped<IExamManager, ExamManager>();
+            RegisterServices(builder.Services);
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+              .AddEntityFrameworkStores<EducationPlatformContext>()
+              .AddDefaultTokenProviders();
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30); // Adjusted session timeout to 30 minutes
+                options.Cookie.HttpOnly = true; // Ensure the session cookie is HTTP-only
+            });
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Account/Login"; // Redirect to login if not authenticated
+                options.AccessDeniedPath = "/Account/AccessDenied"; // Redirect to access denied page if unauthorized
+                options.ExpireTimeSpan = TimeSpan.FromDays(7); // Cookie expires after 7 days
+                options.SlidingExpiration = true; // Extend cookie expiration on activity
+                options.Cookie.HttpOnly = true; // Ensure cookie cannot be accessed by JavaScript
+            });
 
 
 
-
-		
-
-			builder.Services.AddScoped<IAnswerRepo, AnswerRepo>();
-			builder.Services.AddScoped<IAnswerManager, AnswerManager>();
-
-			builder.Services.AddScoped<IAnswerResultRepo, AnswerResultRepo>();
-			builder.Services.AddScoped<IAnswerResultManager, AnswerResultManager>();
-
-			builder.Services.AddScoped<IQuestionRepo, QuestionRepo>();
-			builder.Services.AddScoped<IQuestionManager, QuestionManager>();
-			
-			builder.Services.AddScoped<ILectureRepo, LectureRepo>();
-			builder.Services.AddScoped<ILectureManager, LectureManager>();
-			builder.Services.AddScoped<IPdfFileRepo, PdfFileRepo>();
-			builder.Services.AddScoped<IPdfFileManager, PdfFileManager>();
-			builder.Services.AddScoped<IVedioRepo, VedioRepo>();
-			builder.Services.AddScoped<IVedioManager, VedioManager>();
-			builder.Services.AddScoped<ICourseRepo, CourseRepo>();
-			builder.Services.AddScoped<ICourseManager, CourseManager>();
-
-
-
-
-			var app = builder.Build();
+            var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -129,14 +105,65 @@ namespace OnlineEducationPlatform
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseAuthentication(); // Use Cookie-based authentication
 
             app.UseAuthorization();
+            app.UseSession();
 
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
+        }
+        private static void RegisterServices(IServiceCollection Services)
+		{
+           Services.AddScoped<IEnrollmentRepo, EnrollmentRepo>();
+                Services.AddScoped<IenrollmentManager, EnrollmentManager>();
+
+                Services.AddScoped<IQuizResultRepo, QuizResultRepo>();
+            Services.AddScoped<IQuizResultManager, QuizResultManager>();
+
+            Services.AddScoped<IExamResultRepo, ExamResultRepo>();
+           Services.AddScoped<IExamResultmanager, examresultmanager>();
+
+            Services.AddScoped<IStudentRepo, StudentRepo>();
+                Services.AddScoped<Istudentmanager, Stuentmanager>();
+            Services.AddScoped<IInstructorRepo, InstructorRepo>();
+                 Services.AddScoped<IInstructorManager, instructorManager>();
+
+           Services.AddScoped<IQuizRepo, QuizRepo>();
+           Services.AddScoped<IQuizManager, QuizManager>();
+            //builder.Services.AddScoped<IQuizManager, QuizManager>();
+          Services.AddScoped<Iexamrepo, examrepo>();
+           Services.AddScoped<IExamManager, ExamManager>();
+
+
+
+
+
+
+            Services.AddScoped<IAnswerRepo, AnswerRepo>();
+            Services.AddScoped<IAnswerManager, AnswerManager>();
+
+            Services.AddScoped<IAnswerResultRepo, AnswerResultRepo>();
+            Services.AddScoped<IAnswerResultManager, AnswerResultManager>();
+
+                Services.AddScoped<IQuestionRepo, QuestionRepo>();
+            Services.AddScoped<IQuestionManager, QuestionManager>();
+
+            Services.AddScoped<ILectureRepo, LectureRepo>();
+            Services.AddScoped<ILectureManager, LectureManager>();
+            Services.AddScoped<IPdfFileRepo, PdfFileRepo>();
+            Services.AddScoped<IPdfFileManager, PdfFileManager>();
+            Services.AddScoped<IVedioRepo, VedioRepo>();
+          Services.AddScoped<IVedioManager, VedioManager>();
+              Services.AddScoped<ICourseRepo, CourseRepo>();
+            Services.AddScoped<ICourseManager, CourseManager>();
+            Services.AddScoped<IAccountManager, AccountManager>();
+
+
+
         }
     }
 }
