@@ -1,0 +1,787 @@
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.Development.json
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.json
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.staticwebassets.runtime.json
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.exe
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.deps.json
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.runtimeconfig.json
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.pdb
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.AssemblyReference.cache
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfoInputs.cache
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfo.cs
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.CoreCompileInputs.cache
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.MvcApplicationPartsAssemblyInfo.cache
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cache
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cs
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.build.json
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.development.json
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.OnlineEducationPlatform.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.build.OnlineEducationPlatform.props
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.OnlineEducationPlatform.props
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.OnlineEducationPlatform.props
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.pack.json
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\bundle\OnlineEducationPlatform.styles.css
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\projectbundle\OnlineEducationPlatform.bundle.scp.css
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEd.9AC05970.Up2Date
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\refint\OnlineEducationPlatform.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.pdb
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.genruntimeconfig.cache
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\obj\Debug\net8.0\ref\OnlineEducationPlatform.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Azure.Core.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Azure.Identity.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Humanizer.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.CodeDom.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Memory.Data.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\DEPI-Project-MVC\OnlineEducationPlatform\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.AssemblyReference.cache
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.GeneratedMSBuildEditorConfig.editorconfig
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfoInputs.cache
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfo.cs
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.CoreCompileInputs.cache
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.MvcApplicationPartsAssemblyInfo.cache
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cache
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cs
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.sourcelink.json
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.Development.json
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.json
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.staticwebassets.runtime.json
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.exe
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.deps.json
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.runtimeconfig.json
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.pdb
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\AutoMapper.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Azure.Core.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Azure.Identity.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Humanizer.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.CodeDom.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Memory.Data.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+D:\bobo mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.build.json
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.development.json
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.OnlineEducationPlatform.Microsoft.AspNetCore.StaticWebAssets.props
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.build.OnlineEducationPlatform.props
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.OnlineEducationPlatform.props
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.OnlineEducationPlatform.props
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.pack.json
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\bundle\OnlineEducationPlatform.styles.css
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\projectbundle\OnlineEducationPlatform.bundle.scp.css
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEd.9AC05970.Up2Date
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.dll
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\refint\OnlineEducationPlatform.dll
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.pdb
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.genruntimeconfig.cache
+D:\bobo mvc\OnlineEducationPlatform\obj\Debug\net8.0\ref\OnlineEducationPlatform.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.Development.json
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.json
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.staticwebassets.runtime.json
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.exe
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.deps.json
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.runtimeconfig.json
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.pdb
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\AutoMapper.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Azure.Core.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Azure.Identity.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Humanizer.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.CodeDom.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.AssemblyReference.cache
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.GeneratedMSBuildEditorConfig.editorconfig
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfoInputs.cache
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfo.cs
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.CoreCompileInputs.cache
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.MvcApplicationPartsAssemblyInfo.cache
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cache
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cs
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.build.json
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.development.json
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.OnlineEducationPlatform.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.build.OnlineEducationPlatform.props
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.OnlineEducationPlatform.props
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.OnlineEducationPlatform.props
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\bundle\OnlineEducationPlatform.styles.css
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\projectbundle\OnlineEducationPlatform.bundle.scp.css
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEd.9AC05970.Up2Date
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.dll
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\refint\OnlineEducationPlatform.dll
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.pdb
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.genruntimeconfig.cache
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\ref\OnlineEducationPlatform.dll
+D:\Amr mvc\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.sourcelink.json
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNet.Identity.Owin.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.Cookies.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.OAuth.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Amr mvc\OnlineEducationPlatform\bin\Debug\net8.0\Owin.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.Development.json
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.json
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.staticwebassets.runtime.json
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.exe
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.deps.json
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.runtimeconfig.json
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.pdb
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\AutoMapper.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Azure.Core.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Azure.Identity.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Humanizer.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNet.Identity.Owin.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.Cookies.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.OAuth.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\Owin.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.CodeDom.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Memory.Data.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+D:\project\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.AssemblyReference.cache
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfoInputs.cache
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfo.cs
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.CoreCompileInputs.cache
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.MvcApplicationPartsAssemblyInfo.cache
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cache
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cs
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.sourcelink.json
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.build.json
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.development.json
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.OnlineEducationPlatform.Microsoft.AspNetCore.StaticWebAssets.props
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.build.OnlineEducationPlatform.props
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.OnlineEducationPlatform.props
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.OnlineEducationPlatform.props
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.pack.json
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\bundle\OnlineEducationPlatform.styles.css
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\projectbundle\OnlineEducationPlatform.bundle.scp.css
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEd.9AC05970.Up2Date
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.dll
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\refint\OnlineEducationPlatform.dll
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.pdb
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.genruntimeconfig.cache
+D:\project\OnlineEducationPlatform\obj\Debug\net8.0\ref\OnlineEducationPlatform.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.Development.json
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\appsettings.json
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.staticwebassets.runtime.json
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.exe
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.deps.json
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.runtimeconfig.json
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.pdb
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\AutoMapper.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Azure.Core.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Azure.Identity.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Humanizer.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNet.Identity.Core.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNet.Identity.Owin.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.Cookies.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Owin.Security.OAuth.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\Owin.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.CodeDom.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Memory.Data.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.dll
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.BLL.pdb
+D:\final project depi\OnlineEducationPlatform\bin\Debug\net8.0\OnlineEducationPlatform.DAL.pdb
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.AssemblyReference.cache
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.GeneratedMSBuildEditorConfig.editorconfig
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfoInputs.cache
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.AssemblyInfo.cs
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.csproj.CoreCompileInputs.cache
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.MvcApplicationPartsAssemblyInfo.cache
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cache
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.RazorAssemblyInfo.cs
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.sourcelink.json
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.build.json
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.development.json
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.OnlineEducationPlatform.Microsoft.AspNetCore.StaticWebAssets.props
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.build.OnlineEducationPlatform.props
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.OnlineEducationPlatform.props
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.OnlineEducationPlatform.props
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\staticwebassets.pack.json
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\bundle\OnlineEducationPlatform.styles.css
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\scopedcss\projectbundle\OnlineEducationPlatform.bundle.scp.css
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEd.9AC05970.Up2Date
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.dll
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\refint\OnlineEducationPlatform.dll
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.pdb
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\OnlineEducationPlatform.genruntimeconfig.cache
+D:\final project depi\OnlineEducationPlatform\obj\Debug\net8.0\ref\OnlineEducationPlatform.dll

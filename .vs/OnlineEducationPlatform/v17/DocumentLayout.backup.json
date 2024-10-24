@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\question\\courseexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\question\\courseexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\question\\coursequiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\question\\coursequiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\question\\createexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\question\\createexam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|d:\\project\\onlineeducationplatform\\views\\question\\createquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{112F55FA-9D7E-4B94-9991-01A14828BED5}|OnlineEducationPlatform\\OnlineEducationPlatform.csproj|solutionrelative:onlineeducationplatform\\views\\question\\createquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateQuiz.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CreateQuiz.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Question\\CreateQuiz.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CreateQuiz.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Question\\CreateQuiz.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwC4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:49:27.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseExam.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CourseExam.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Question\\CourseExam.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CourseExam.cshtml*",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Question\\CourseExam.cshtml*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:45:52.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateExam.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CreateExam.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Question\\CreateExam.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CreateExam.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Question\\CreateExam.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwC4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:44:20.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseQuiz.cshtml",
+              "DocumentMoniker": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CourseQuiz.cshtml",
+              "RelativeDocumentMoniker": "OnlineEducationPlatform\\Views\\Question\\CourseQuiz.cshtml",
+              "ToolTip": "D:\\Project\\OnlineEducationPlatform\\Views\\Question\\CourseQuiz.cshtml",
+              "RelativeToolTip": "OnlineEducationPlatform\\Views\\Question\\CourseQuiz.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwCgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T11:44:10.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
